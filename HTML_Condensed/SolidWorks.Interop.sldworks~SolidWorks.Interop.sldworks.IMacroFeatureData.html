@@ -1,0 +1,611 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IMacroFeatureData Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IMacroFeatureData"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IMacroFeatureData Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IMacroFeatureData Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AccessSelections</summary><p>Gains access to the selections associated with this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AccessSelections( 
+&amp;   System.Object^
+TopDoc
+,
+&amp;   System.Object^
+Component
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EmbedMacroFile</summary><p>Sets whether to embed the macro file in the model with the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool EmbedMacroFile();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBaseName</summary><p>Gets the name of the base feature for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetBaseName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayDimensionCount</summary><p>Gets the number of display dimensions for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDisplayDimensionCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayDimensions</summary><p>Gets the display dimensions for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDisplayDimensions();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDoubleByName</summary><p>Gets a double value by parameter name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetDoubleByName( 
+&amp;   System.String^
+ParamName
+,
+&amp;   [Out] System.double
+ParamValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEdgeIdType</summary><p>Gets the ID type of the specified edge for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetEdgeIdType( 
+&amp;   Edge^
+Edge
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEdgeUserId</summary><p>Gets the user-defined IDs for the specified edge for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetEdgeUserId( 
+&amp;   Edge^
+Edge
+,
+&amp;   [Out] System.int
+Id1
+,
+&amp;   [Out] System.int
+Id2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEditBodiesCount</summary><p>Gets the number of bodies to be modified by this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetEditBodiesCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEditTargetTransform</summary><p>Gets the transform of the component where the macro feature resides if</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MathTransform^ GetEditTargetTransform();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEntitiesNeedUserId</summary><p>Gets a list of faces and edges that need be assigned user IDs for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetEntitiesNeedUserId( 
+&amp;   System.Object^
+Body
+,
+&amp;   [Out] System.Object^
+Faces
+,
+&amp;   [Out] System.Object^
+Edges
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEntitiesNeedUserIdCount</summary><p>Gets the number of faces and edges that need to be assigned user IDs for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetEntitiesNeedUserIdCount( 
+&amp;   Body2^
+Body
+,
+&amp;   [Out] System.int
+FaceCount
+,
+&amp;   [Out] System.int
+EdgeCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFaceIdType</summary><p>Gets the ID type from the face for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFaceIdType( 
+&amp;   Face2^
+Face
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFaceUserId</summary><p>Gets the user-defined IDs for the specified face.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetFaceUserId( 
+&amp;   Face2^
+Face
+,
+&amp;   [Out] System.int
+Id1
+,
+&amp;   [Out] System.int
+Id2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetIconFileCount</summary><p>Gets the number of the files for the icons for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetIconFileCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetIntegerByName</summary><p>Gets an integer value by parameter name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetIntegerByName( 
+&amp;   System.String^
+ParamName
+,
+&amp;   [Out] System.int
+ParamValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetModuleCount</summary><p>Gets the number of modules for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetModuleCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetModuleNames</summary><p>Gets the names of the modules in the macro for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetModuleNames();</pre></details><details style="margin: 0.5rem 0;"><summary>GetParameterCount</summary><p>Gets the number of user-defined parameters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetParameterCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetParameters</summary><p>Gets the user-defined parameters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetParameters( 
+&amp;   [Out] System.Object^
+ParamNames
+,
+&amp;   [Out] System.Object^
+ParamTypes
+,
+&amp;   [Out] System.Object^
+ParamValues
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetParentsCount</summary><p>Gets the number of parent features for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetParentsCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetProcedureCount</summary><p>Gets the number of procedures in the specified module in the macro for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetProcedureCount( 
+&amp;   System.String^
+ModuleName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetProcedureNames</summary><p>Gets the names of the procedures in the specified module for the macro for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetProcedureNames( 
+&amp;   System.String^
+ModuleName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetProgId</summary><p>Gets the version-independent program ID that is valid for this COM feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetProgId();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPropertyManagerHandleModuleCount</summary><p>Gets the number of modules in the macro from the PropertyManager handle for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetPropertyManagerHandleModuleCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPropertyManagerHandleModuleNames</summary><p>Gets the names of the modules in the macro from the PropertyManager handle for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPropertyManagerHandleModuleNames();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPropertyManagerHandleProcedureCount</summary><p>Gets the number of procedures in the specified module in the macro from the PropertyManager handle for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetPropertyManagerHandleProcedureCount( 
+&amp;   System.String^
+ModuleName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPropertyManagerHandleProcedureNames</summary><p>Gets the names of the procedures in the specified module in the macro from the PropertyManager handle for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPropertyManagerHandleProcedureNames( 
+&amp;   System.String^
+ModuleName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectionCount</summary><p>Gets the number of selected objects for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSelectionCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelections</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetSelections( 
+&amp;   [Out] System.Object^
+Objects
+,
+&amp;   [Out] System.Object^
+ObjectTypes
+,
+&amp;   [Out] System.Object^
+SelMarks
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelections2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetSelections2( 
+&amp;   [Out] System.Object^
+Objects
+,
+&amp;   [Out] System.Object^
+ObjectTypes
+,
+&amp;   [Out] System.Object^
+SelMarks
+,
+&amp;   [Out] System.Object^
+DrViews
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelections3</summary><p>Gets the selected objects for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetSelections3( 
+&amp;   [Out] System.Object^
+Objects
+,
+&amp;   [Out] System.Object^
+ObjectTypes
+,
+&amp;   [Out] System.Object^
+SelMarks
+,
+&amp;   [Out] System.Object^
+DrViews
+,
+&amp;   [Out] System.Object^
+ComponentXForms
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetStringByName</summary><p>Gets a string value by the name of the parameter for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetStringByName( 
+&amp;   System.String^
+ParamName
+,
+&amp;   [Out] System.String^
+ParamValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAccessSelections</summary><p>Gains access to the selections associated with this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IAccessSelections( 
+&amp;   ModelDoc2^
+TopDoc
+,
+&amp;   Component2^
+Component
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddDisplayDimensions</summary><p>Adds the specified display dimensions to this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IAddDisplayDimensions( 
+&amp;   System.int
+DimCount
+,
+&amp;   System.int%
+DimTypes
+,
+&amp;   System.double%
+DimValues
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDisplayDimensions</summary><p>Gets the display dimensions for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetDisplayDimensions( 
+&amp;   System.int
+DimCount
+,
+&amp;   [Out] DisplayDimension^
+Dims
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEditBodies</summary><p>Gets the bodies to be modified by this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetEditBodies( 
+&amp;   System.int
+BodiesCount
+,
+&amp;   [Out] Body2^
+PBodies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEntitiesNeedUserId</summary><p>Gets a list of faces and edges that need be assigned user IDs for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetEntitiesNeedUserId( 
+&amp;   Body2^
+Body
+,
+&amp;   System.int
+FaceCount
+,
+&amp;   [Out] Face2^
+Faces
+,
+&amp;   System.int
+EdgeCount
+,
+&amp;   [Out] Edge^
+Edges
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetIconFiles</summary><p>Gets the file names for the icons for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetIconFiles( 
+&amp;   System.int
+IconCount
+,
+&amp;   [Out] System.String^
+IconFiles
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetModuleNames</summary><p>Gets the names of the modules in the macro for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetModuleNames( 
+&amp;   System.int
+ModuleCount
+,
+&amp;   [Out] System.String^
+ModuleNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetParameters</summary><p>Gets the user-defined parameters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetParameters( 
+&amp;   System.int
+ParamCount
+,
+&amp;   [Out] System.String^
+ParamNames
+,
+&amp;   [Out] System.int
+ParamTypes
+,
+&amp;   [Out] System.String^
+ParamValues
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetParents</summary><p>Gets the parent features of this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetParents( 
+&amp;   System.int
+ParentCount
+,
+&amp;   [Out] Feature^
+PFeatures
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProcedureNames</summary><p>Gets the names of the procedures in the specified module in the macro for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetProcedureNames( 
+&amp;   System.String^
+ModuleName
+,
+&amp;   System.int
+ProcedureCount
+,
+&amp;   [Out] System.String^
+ProcedureNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPropertyManagerHandleModuleNames</summary><p>Gets the names of the modules in the macro from the PropertyManager handle for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetPropertyManagerHandleModuleNames( 
+&amp;   System.int
+ModuleCount
+,
+&amp;   [Out] System.String^
+ModuleNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPropertyManagerHandleProcedureNames</summary><p>Gets the names of the procedures in the specified module in the macro from the PropertyManager handle for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetPropertyManagerHandleProcedureNames( 
+&amp;   System.String^
+ModuleName
+,
+&amp;   System.int
+ProcedureCount
+,
+&amp;   [Out] System.String^
+ProcedureNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelections</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetSelections( 
+&amp;   System.int
+SelCount
+,
+&amp;   [Out] System.Object^
+Objects
+,
+&amp;   [Out] System.int
+ObjectTypes
+,
+&amp;   [Out] System.int
+SelMarks
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelections2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetSelections2( 
+&amp;   System.int
+SelCount
+,
+&amp;   [Out] System.Object^
+Objects
+,
+&amp;   [Out] System.int
+ObjectTypes
+,
+&amp;   [Out] System.int
+SelMarks
+,
+&amp;   [Out] View^
+DrViews
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelections3</summary><p>Gets the selected objects for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetSelections3( 
+&amp;   System.int
+SelCount
+,
+&amp;   [Out] System.Object^
+Objects
+,
+&amp;   [Out] System.int
+ObjectTypes
+,
+&amp;   [Out] System.int
+SelMarks
+,
+&amp;   [Out] View^
+DrViews
+,
+&amp;   [Out] MathTransform^
+ComponentXForms
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsCOMFeature</summary><p>Gets whether the feature is a COM feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsCOMFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>ISetEditBodies</summary><p>Sets the bodies to be modified by this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetEditBodies( 
+&amp;   System.int
+BodiesCount
+,
+&amp;   Body2^%
+PBodies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetIconFiles</summary><p>Sets the file names for the icons for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetIconFiles( 
+&amp;   System.int
+IconCount
+,
+&amp;   System.String^%
+IconFiles
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetParameters</summary><p>Sets the user-defined parameters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetParameters( 
+&amp;   System.int
+ParamCount
+,
+&amp;   System.String^%
+ParamNames
+,
+&amp;   System.int%
+ParamTypes
+,
+&amp;   System.String^%
+ParamValues
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetParents</summary><p>Sets the parent features for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetParents( 
+&amp;   System.int
+ParentCount
+,
+&amp;   Feature^%
+PFeatures
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetSelections</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetSelections( 
+&amp;   System.int
+SelCount
+,
+&amp;   System.Object^%
+Objects
+,
+&amp;   System.int%
+SelMarks
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetSelections2</summary><p>Sets the selected objects for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetSelections2( 
+&amp;   System.int
+SelCount
+,
+&amp;   System.Object^%
+Objects
+,
+&amp;   System.int%
+SelMarks
+,
+&amp;   View^%
+DrViews
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReleaseSelectionAccess</summary><p>Releases access to the selections associated with this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ReleaseSelectionAccess();</pre></details><details style="margin: 0.5rem 0;"><summary>SetDoubleByName</summary><p>Sets a double value by parameter name for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetDoubleByName( 
+&amp;   System.String^
+ParamName
+,
+&amp;   System.double
+ParamValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetEdgeUserId</summary><p>Sets the user-defined IDs for the specified edge for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetEdgeUserId( 
+&amp;   Edge^
+Edge
+,
+&amp;   System.int
+Id1
+,
+&amp;   System.int
+Id2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetFaceUserId</summary><p>Sets user-defined IDs for the face for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetFaceUserId( 
+&amp;   Face2^
+Face
+,
+&amp;   System.int
+Id1
+,
+&amp;   System.int
+Id2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetIntegerByName</summary><p>Sets an integer value by parameter name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetIntegerByName( 
+&amp;   System.String^
+ParamName
+,
+&amp;   System.int
+ParamValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetParameters</summary><p>Sets the user-defined parameters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetParameters( 
+&amp;   System.Object^
+ParamNames
+,
+&amp;   System.Object^
+ParamTypes
+,
+&amp;   System.Object^
+ParamValues
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetProgId</summary><p>Sets the version-independent program ID that is valid for this COM feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetProgId( 
+&amp;   System.String^
+ProgId
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSelections</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetSelections( 
+&amp;   System.Object^
+Objects
+,
+&amp;   System.Object^
+SelMarks
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSelections2</summary><p>Sets the selected objects for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetSelections2( 
+&amp;   System.Object^
+Objects
+,
+&amp;   System.Object^
+SelMarks
+,
+&amp;   System.Object^
+DrViews
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetStringByName</summary><p>Sets a string value by parameter name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetStringByName( 
+&amp;   System.String^
+ParamName
+,
+&amp;   System.String^
+ParamValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CurrentConfiguration</summary><p>Gets the macro feature configuration being rebuilt.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property Configuration^ CurrentConfiguration {
+   Configuration^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EditBodies</summary><p>Gets or sets the bodies to be modified by this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ EditBodies {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EditBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property Body2^ EditBody {
+   Body2^ get();
+   void set ( &amp;   Body2^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EnableMultiBodyConsume</summary><p>Gets or sets whether to replace the original edit body with multiple solid bodies created during regeneration of a multibody macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool EnableMultiBodyConsume {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureTransform</summary><p>Gets and sets the macro feature transform.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property MathTransform^ FeatureTransform {
+   MathTransform^ get();
+   void set ( &amp;   MathTransform^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IconFiles</summary><p>Gets or sets the file names for the icons for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ IconFiles {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MacroFileEmbedded</summary><p>Gets whether the macro file is embedded ini the model with the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool MacroFileEmbedded {
+   System.bool get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MacroFileName</summary><p>Gets or sets the path and file name for the macro for the macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ MacroFileName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ModuleName</summary><p>Gets or sets the name of a module in the macro for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ ModuleName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Parents</summary><p>Gets or sets the parent features for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ Parents {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>PatternTransform</summary><p>Gets the pattern transform.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property MathTransform^ PatternTransform {
+   MathTransform^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ProcedureName</summary><p>Gets or sets a name of the procedure in the macro for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ ProcedureName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>PropertyManagerHandleMacroFileName</summary><p>Gets or sets the path and file name for the macro file from or to the PropertyManager handle for this macro feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ PropertyManagerHandleMacroFileName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>PropertyManagerHandleModuleName</summary><p>Gets or sets the name of the module in the macro file from or to the PropertyManager handle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ PropertyManagerHandleModuleName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>PropertyManagerHandleProcedureName</summary><p>Gets or sets the name of the procedure in the macro file from or to the PropertyManager handle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ PropertyManagerHandleProcedureName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Provider</summary><p>Gets or sets the error message to display in the What's Wrong dialog when a non-embedded macro feature fails to rebuild due to missing files.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ Provider {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SecurityHandleMacroFileName</summary><p>Gets or sets the name of the procedure in the macro file from or to the security handle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ SecurityHandleMacroFileName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SecurityHandleModuleName</summary><p>Gets and sets the name of the module in the macro file from or to the security handle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ SecurityHandleModuleName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SecurityHandleProcedureName</summary><p>Gets or sets the name of the procedure in the macro file from or to the security handle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ SecurityHandleProcedureName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to the data that defines a macro feature. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IMacroFeatureData </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html">IMacroFeatureData</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IMacroFeatureData </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IMacroFeatureData </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData.html">MacroFeatureData</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Create_Macro_Feature_Subfeature_Example_VB.htm">Create Macro Feature Subfeature (VBA)</a>
+<br/><a href="Cut_Body_in_Half_using_Macro_Feature_Example_VB.htm">Cut Body in Half Using Macro Feature (VBA)</a>
+<br/><a href="Assign_Tracking_ID_Using_Macro_Feature_VB.htm">Assign Tracking ID Using Macro Feature (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection"><table style="BORDER-SPACING: 0px" x-use-null-cells="">
+<tbody>
+<tr style="x-cell-content-align: top" valign="top">
+<td style="PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #dbdbdb">
+<p class="apiTableColHeading"><strong>Macro features can...</strong></p></td>
+<td style="PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #dbdbdb">
+<p class="apiTableColHeading"><strong>For the </strong><a href="sldworksapiprogguide.chm::/Macro_Features/Rebuild_Function.htm"><strong>rebuild function</strong></a><strong> only, the macro associated with a macro feature cannot:</strong></p></td></tr>
+<tr style="x-cell-content-align: top" valign="top">
+<td style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND-COLOR: transparent">
+<ul style="LIST-STYLE-TYPE: disc" type="disc">
+<li class="kadov-p-CapiBulletLeftJustified">
+<p class="apiBulletLeftJustified">be inserted into a part, assembly, or drawing document</p>
+<li class="kadov-p-CapiBulletLeftJustified">
+<p class="apiBulletLeftJustified">create multiple bodies</p>
+<li class="kadov-p-CapiBulletLeftJustified">
+<p class="apiBulletLeftJustified">edit multiple existing bodies</p></li></li></li></ul></td>
+<td style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 10px; BACKGROUND-COLOR: transparent">
+<ul style="LIST-STYLE-TYPE: disc" type="disc">
+<li class="kadov-p-CapiBulletLeftJustified">
+<p class="apiBulletLeftJustified">insert a feature from a macro feature in the same model</p>
+<li class="kadov-p-CapiBulletLeftJustified">
+<p class="apiBulletLeftJustified">edit definitions of other features if these features are in the same model as the macro feature</p>
+<li class="kadov-p-CapiBulletLeftJustified">
+<p class="apiBulletLeftJustified">rebuild, roll back, or roll forward the FeatureManager design tree</p></li></li></li></ul>
+<p><span style="FONT-WEIGHT: bold">NOTE:</span> These limitations are intended to prevent nested-feature regeneration in the model that contains the macro feature. </p></td></tr></tbody></table>
+<p> </p>
+<p>When the feature is creating multiple bodies, then the return value from the rebuild function should contain the array of bodies that are the result of the operation. <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~EditBodies.html">IMacroFeatureData::EditBodies</a> is not expected to contain a body when the rebuild function returns to SOLIDWORKS.</p>
+<p>When the feature is modifying a body and the result is multiple bodies, then IMacroFeatureData::EditBodies should contain all of the resulting bodies.</p>
+<p>Whether creating multiple bodies or modifying a body that results in multiple bodies, call <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~EnableMultiBodyConsume.html">IMacroFeatureData::EnableMultiBodyConsume</a> from the <a href="sldworksapiprogguide.chm::/Macro_Features/Rebuild_Function.htm">rebuild</a> function to specify whether multiple bodies replace or append the original edit body in the FeatureManager design tree Solid Bodies folder.</p>
+<p>If your application allows the user to decide which bodies to keep, your application must determine what it means to select the bodies and subsequently store the selected bodies with the feature.</p>
+<p>To edit a macro feature in a drawing, do not use <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~AccessSelections.html">IMacroFeatureData::AccessSelections</a>, <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IAccessSelections.html">IMacroFeatureData::IAccessSelections</a>,  or <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~ReleaseSelectionAccess.html">IMacroFeatureData::ReleaseSelectionAccess</a> because the concept of a rollback bar does not exist. You can still use <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html">IFeature::ModifyDefinition</a> or <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html">IFeature::IModifyDefinition2</a> to update an IMacroFeatureData object. </p>
+<p>If the user decides to cancel the changes made to the IMacroFeatureData object, then discard the IMacroFeatureData object. This action is equivalent to using IMacroFeatureData::ReleaseSelectionAccess.</p>
+<p>See <a href="sldworksapiprogguide.chm::/Macro_Features/Overview_of_Macro_Features.htm">Overview of Macro Features</a> for more information.</p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html">IFeature::GetDefinition</a></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#MacroFeatureData">MacroFeatureData</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html">IMacroFeatureData Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~IInsertMacroFeature3.html">IFeatureManager::IInsertMacroFeature3 Method</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMacroFeature3.html">IFeatureManager::InsertMacroFeature3 Method</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

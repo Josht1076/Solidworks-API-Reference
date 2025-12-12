@@ -1,0 +1,272 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IDragOperator Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IDragOperator"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IDragOperator Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IDragOperator Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AddComponent</summary><p>Adds a component to the list of components to drag.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddComponent( 
+&amp;   System.Object^
+PDisp
+,
+&amp;   System.bool
+AppendFlag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddDynamicClearance</summary><p>Adds a dynamic clearance detector.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddDynamicClearance( 
+&amp;   System.Object^
+Comp1
+,
+&amp;   System.Object^
+Comp2
+,
+&amp;   System.double
+Value
+,
+&amp;   System.bool
+AppendFlag
+,
+&amp;   System.bool
+ShowDim
+)</pre></details><details style="margin: 0.5rem 0;"><summary>BeginDrag</summary><p>Initiates the drag operation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool BeginDrag();</pre></details><details style="margin: 0.5rem 0;"><summary>CollisionDetection</summary><p>Sets the collision detection parameters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CollisionDetection( 
+&amp;   System.Object^
+EntityArray
+,
+&amp;   System.bool
+PartOnly
+,
+&amp;   System.bool
+StopAt
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Drag</summary><p>Sets the transform matrix for this drag operation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Drag( 
+&amp;   System.Object^
+PXform
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DragAsUI</summary><p>Sets the transform matrix for this drag operation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DragAsUI( 
+&amp;   MathTransform^
+PXform
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EndDrag</summary><p>Terminates the drag operation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool EndDrag();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDragPoint</summary><p>Gets the drag point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetDragPoint( 
+&amp;   [Out] System.Object^
+Point
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddComponent</summary><p>Adds a component to the list of components to drag.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IAddComponent( 
+&amp;   Component2^
+PComp
+,
+&amp;   System.bool
+AppendFlag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddDynamicClearance</summary><p>Adds a dynamic clearance detector.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IAddDynamicClearance( 
+&amp;   Component2^
+Comp1
+,
+&amp;   Component2^
+Comp2
+,
+&amp;   System.double
+Value
+,
+&amp;   System.bool
+AppendFlag
+,
+&amp;   System.bool
+ShowDim
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICollisionDetection</summary><p>Sets the collision detection parameters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ICollisionDetection( 
+&amp;   System.int
+Count
+,
+&amp;   Component2^%
+ComponentArray
+,
+&amp;   System.bool
+PartOnly
+,
+&amp;   System.bool
+StopAt
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDrag</summary><p>Sets the transform matrix for this drag operation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IDrag( 
+&amp;   MathTransform^
+PXform
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDragPoint</summary><p>Gets the drag point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IGetDragPoint( 
+&amp;   [Out] System.double
+Point
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetDragPoint</summary><p>Sets the drag point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetDragPoint( 
+&amp;   System.double%
+Point
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDragPoint</summary><p>Sets the drag point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetDragPoint( 
+&amp;   System.Object^
+Point
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ApplyToThisConfiguration</summary><p>Gets or sets the configurations to which to apply the movement of the components.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ApplyToThisConfiguration {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Clearance</summary><p>Gets the clearance distance between the components.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double Clearance {
+   System.double get(System.int
+NIndex
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CollisionDetectionEnabled</summary><p>Gets or sets the collision detection setting.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool CollisionDetectionEnabled {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DragCorrected</summary><p>Gets whether or not the drag operation was corrected.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool DragCorrected {
+   System.bool get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DragMode</summary><p>Gets or sets the drag mode for this drag operation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.short DragMode {
+   System.short get();
+   void set ( &amp;   System.short
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DynamicClearanceEnabled</summary><p>Gets or sets the dynamic clearance setting.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool DynamicClearanceEnabled {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>GraphicsRedrawEnabled</summary><p>Gets or sets whether or not to update the graphics display after moving components.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool GraphicsRedrawEnabled {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>HearClashes</summary><p>Gets or sets whether sound is associated with entity clashes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool HearClashes {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>HighlightClashes</summary><p>Gets or sets whether to highlight clashes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool HighlightClashes {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IgnoreComplexSurfaces</summary><p>Gets or sets whether complex surfaces are ignored.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool IgnoreComplexSurfaces {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IsDragByRay</summary><p>Gets or sets the drag-by-ray setting.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool IsDragByRay {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IsDragSpecific</summary><p>Gets or sets the drag-specific setting.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool IsDragSpecific {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IsRelaxationEval</summary><p>Gets or sets the relaxation evaluation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool IsRelaxationEval {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SmartMating</summary><p>Gets or sets SmartMates.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool SmartMating {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>TransformType</summary><p>Gets or sets the type of transformation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.short TransformType {
+   System.short get();
+   void set ( &amp;   System.short
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>UseAbsoluteTransform</summary><p>Gets or sets whether the transforms to use with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool UseAbsoluteTransform {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to settings for the <strong>Move Components</strong> command in the SOLIDWORKS user-interface. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IDragOperator </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html">IDragOperator</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IDragOperator </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IDragOperator </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~DragOperator.html">DragOperator</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Rotate_Assembly_Component_on_Axis_Example_CSharp.htm">Rotate Assembly Component on Axis Using IDragOperator::Drag (C#)</a>
+<br/><a href="Rotate_Assembly_Component_on_Axis_Example_VBNET.htm">Rotate Assembly Component on Axis Using IDragOperator::Drag (VB.NET)</a>
+<br/><a href="Rotate_Assembly_Component_on_Axis_Example_VB.htm">Rotate Assembly Component on Axis Using IDragOperator::Drag (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~GetDragOperator.html">IAssemblyDoc::GetDragOperator</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IGetDragOperator.html">IAssemblyDoc::IGetDragOperator</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#DragOperator">DragOperator</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html">IDragOperator Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

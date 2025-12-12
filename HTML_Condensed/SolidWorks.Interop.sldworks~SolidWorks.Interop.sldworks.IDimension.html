@@ -1,0 +1,347 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IDimension Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IDimension"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IDimension Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IDimension Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>GetArcEndCondition</summary><p>Gets the end conditions for linear dimensions that end on an arc.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetArcEndCondition( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureOwner</summary><p>Gets the feature for this dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ GetFeatureOwner();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNameForSelection</summary><p>Gets the name of the selected dimension needed by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetNameForSelection();</pre></details><details style="margin: 0.5rem 0;"><summary>GetReferencePointsCount</summary><p>Gets the number of reference points for this dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetReferencePointsCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSystemChamferValues</summary><p>Gets the chamfer dimension values in system units.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetSystemChamferValues( 
+&amp;   [Out] System.double
+Length
+,
+&amp;   [Out] System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSystemValue2</summary><p>IDimension::GetSystemValue3</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetSystemValue2( 
+&amp;   System.String^
+ConfigName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSystemValue3</summary><p>Gets the value of the current dimension in system units in the named configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSystemValue3( 
+&amp;   System.int
+WhichConfigurations
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetToleranceFitValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetToleranceFitValues();</pre></details><details style="margin: 0.5rem 0;"><summary>GetToleranceFontInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetToleranceFontInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetToleranceType</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetToleranceType();</pre></details><details style="margin: 0.5rem 0;"><summary>GetToleranceValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetToleranceValues();</pre></details><details style="margin: 0.5rem 0;"><summary>GetType</summary><p>Gets the type of dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetType();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserValueIn</summary><p>Gets the value of this dimension in the units of the specified document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetUserValueIn( 
+&amp;   System.Object^
+Doc
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetValue2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetValue2( 
+&amp;   System.String^
+ConfigName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetValue3</summary><p>Gets the values of the dimensions in the specified configurations.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetValue3( 
+&amp;   System.int
+WhichConfigurations
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetReferencePoints</summary><p>Gets the reference points for this dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MathPoint^ IGetReferencePoints( 
+&amp;   System.int
+PointsCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSystemValue3</summary><p>Gets the value of the current dimension in system units in the named configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSystemValue3( 
+&amp;   System.int
+WhichConfigurations
+,
+&amp;   System.int
+Config_count
+,
+&amp;   System.String^%
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetToleranceFontInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetToleranceFontInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetToleranceValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetToleranceValues();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetUserValueIn</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetUserValueIn( 
+&amp;   ModelDoc^
+Doc
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetUserValueIn2</summary><p>Gets the value of this dimension in the units of the specified document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetUserValueIn2( 
+&amp;   ModelDoc2^
+Doc
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetValue3</summary><p>Gets the values of the dimensions in the specified configurations.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetValue3( 
+&amp;   System.int
+WhichConfigurations
+,
+&amp;   System.int
+Config_count
+,
+&amp;   System.String^%
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsAppliedToAllConfigurations</summary><p>Gets whether a dimension is currently applied to all configurations of the model or to just the current configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsAppliedToAllConfigurations();</pre></details><details style="margin: 0.5rem 0;"><summary>IsDesignTableDimension</summary><p>Gets whether this dimension is driven by a design table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsDesignTableDimension();</pre></details><details style="margin: 0.5rem 0;"><summary>ISetReferencePoints</summary><p>Sets the reference points for this dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetReferencePoints( 
+&amp;   System.int
+PointsCount
+,
+&amp;   MathPoint^%
+RefPoints
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetSystemValue3</summary><p>Sets the value of this dimension in system units (meters) in the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ISetSystemValue3( 
+&amp;   System.double
+NewValue
+,
+&amp;   System.int
+WhichConfigurations
+,
+&amp;   System.int
+Config_count
+,
+&amp;   System.String^%
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetUserValueIn</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetUserValueIn( 
+&amp;   ModelDoc^
+Doc
+,
+&amp;   System.double
+NewValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetUserValueIn2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ISetUserValueIn2( 
+&amp;   ModelDoc^
+Doc
+,
+&amp;   System.double
+NewValue
+,
+&amp;   System.int
+WhichConfigurations
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetUserValueIn3</summary><p>Sets the value of this dimension in the units of the specified document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ISetUserValueIn3( 
+&amp;   ModelDoc2^
+Doc
+,
+&amp;   System.double
+NewValue
+,
+&amp;   System.int
+WhichConfigurations
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetValue3</summary><p>Sets the values of the dimensions in the specified configurations.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ISetValue3( 
+&amp;   System.double
+NewValue
+,
+&amp;   System.int
+WhichConfigurations
+,
+&amp;   System.int
+Config_count
+,
+&amp;   System.String^%
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsReference</summary><p>Gets whether the dimension is a reference dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsReference();</pre></details><details style="margin: 0.5rem 0;"><summary>SetArcEndCondition</summary><p>Sets the end conditions for linear dimensions that end on an arc.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetArcEndCondition( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Condition
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSystemValue2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetSystemValue2( 
+&amp;   System.double
+NewValue
+,
+&amp;   System.int
+WhichConfigurations
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSystemValue3</summary><p>Sets the value of this dimension in system units (meters) in the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetSystemValue3( 
+&amp;   System.double
+NewValue
+,
+&amp;   System.int
+WhichConfigurations
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetToleranceFitValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetToleranceFitValues( 
+&amp;   System.String^
+NewLValue
+,
+&amp;   System.String^
+NewUValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetToleranceFontInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetToleranceFontInfo( 
+&amp;   System.int
+UseFontScale
+,
+&amp;   System.double
+TolScale
+,
+&amp;   System.double
+TolHeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetToleranceType</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetToleranceType( 
+&amp;   System.int
+NewType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetToleranceValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetToleranceValues( 
+&amp;   System.double
+TolMin
+,
+&amp;   System.double
+TolMax
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetUserValueIn</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetUserValueIn( 
+&amp;   System.Object^
+Doc
+,
+&amp;   System.double
+NewValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetUserValueIn2</summary><p>Sets the value of this dimension in the units of the specified document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetUserValueIn2( 
+&amp;   System.Object^
+Doc
+,
+&amp;   System.double
+NewValue
+,
+&amp;   System.int
+WhichConfigurations
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetValue2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetValue2( 
+&amp;   System.double
+NewValue
+,
+&amp;   System.int
+WhichConfigurations
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetValue3</summary><p>Sets the values of the dimensions in the specified configurations.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetValue3( 
+&amp;   System.double
+NewValue
+,
+&amp;   System.int
+WhichConfigurations
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DimensionLineDirection</summary><p>Gets or sets the direction of this dimension line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property MathVector^ DimensionLineDirection {
+   MathVector^ get();
+   void set ( &amp;   MathVector^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DrivenState</summary><p>Gets or sets the driven state of a dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int DrivenState {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ExtensionLineDirection</summary><p>Gets or sets the direction of the extension line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property MathVector^ ExtensionLineDirection {
+   MathVector^ get();
+   void set ( &amp;   MathVector^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FullName</summary><p>Gets the full name of a dimension including the feature and the model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ FullName {
+   System.String^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Name</summary><p>Gets or sets the name of a dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ Name {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ReadOnly</summary><p>Gets or sets the read-only state of a dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ReadOnly {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ReferencePoints</summary><p>Gets or sets the reference points for this dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ ReferencePoints {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SystemValue</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double SystemValue {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Tolerance</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property DimensionTolerance^ Tolerance {
+   DimensionTolerance^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Value</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double Value {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows you to get and set dimension values and tolerances. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IDimension </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html">IDimension</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IDimension </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IDimension </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Dimension.html">Dimension</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Set_Dimensions_to_Mid-Tolerance_Example_VB.htm">Set Dimensions to Mid-tolerance (VBA)</a>
+<br/><a href="Get_and_Set_Sensor_Example_CSharp.htm">Get and Set Sensor (C#)</a>
+<br/><a href="Get_and_Set_Sensor_Example_VBNET.htm">Get and Set Sensor (VB.NET)</a>
+<br/><a href="Get_and_Set_Sensor_Example_VB.htm">Get and Set Sensor (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetDimension2.html">IDisplayDimension::GetDimension2</a><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetDimension.html"></a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~Parameter.html">IFeature::Parameter</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IParameter.html">IFeature::IParameter</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Parameter.html">IModelDoc2::Parameter</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IParameter.html">IModelDoc2::IParameter</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#Dimension">Dimension</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html">IDimension Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html">IDisplayDimension Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance.html">IDimensionTolerance Interface</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

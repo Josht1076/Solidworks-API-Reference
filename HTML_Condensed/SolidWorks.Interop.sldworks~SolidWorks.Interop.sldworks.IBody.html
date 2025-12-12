@@ -1,0 +1,777 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IBody Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IBody"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IBody Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html">Members</a>   
+                    </td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IBody Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AddProfileArc</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddProfileArc( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Axis
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.Object^
+StartPoint
+,
+&amp;   System.Object^
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddProfileBspline</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddProfileBspline( 
+&amp;   System.Object^
+Props
+,
+&amp;   System.Object^
+Knots
+,
+&amp;   System.Object^
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddProfileLine</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddProfileLine( 
+&amp;   System.Object^
+RootPoint
+,
+&amp;   System.Object^
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddPropertyExtension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddPropertyExtension( 
+&amp;   System.Object^
+PropertyExtension
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddVertexPoint</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddVertexPoint( 
+&amp;   System.Object^
+Point
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Check</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Check();</pre></details><details style="margin: 0.5rem 0;"><summary>Copy</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Copy();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBaseFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateBaseFeature( 
+&amp;   System.Object^
+BodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBlendSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBlendSurface( 
+&amp;   System.Object^
+Surface1
+,
+&amp;   System.double
+Range1
+,
+&amp;   System.Object^
+Surface2
+,
+&amp;   System.double
+Range2
+,
+&amp;   System.Object^
+StartVec
+,
+&amp;   System.Object^
+EndVec
+,
+&amp;   System.int
+HaveHelpVec
+,
+&amp;   System.Object^
+HelpVec
+,
+&amp;   System.int
+HaveHelpBox
+,
+&amp;   System.Object^
+HelpBox
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBodyFromFaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBodyFromFaces( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBodyFromSurfaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateBodyFromSurfaces();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBoundedSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateBoundedSurface( 
+&amp;   System.bool
+UOpt
+,
+&amp;   System.bool
+VOpt
+,
+&amp;   System.Object^
+UvParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBsplineSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBsplineSurface( 
+&amp;   System.Object^
+Props
+,
+&amp;   System.Object^
+UKnots
+,
+&amp;   System.Object^
+VKnots
+,
+&amp;   System.Object^
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateExtrusionSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateExtrusionSurface( 
+&amp;   System.Object^
+ProfileCurve
+,
+&amp;   System.Object^
+AxisDirection
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateNewSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateNewSurface();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateOffsetSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateOffsetSurface( 
+&amp;   System.Object^
+SurfaceIn
+,
+&amp;   System.double
+Distance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreatePlanarSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreatePlanarSurface( 
+&amp;   System.Object^
+VRootPoint
+,
+&amp;   System.Object^
+VNormal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateRevolutionSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateRevolutionSurface( 
+&amp;   System.Object^
+ProfileCurve
+,
+&amp;   System.Object^
+AxisPoint
+,
+&amp;   System.Object^
+AxisDirection
+,
+&amp;   System.Object^
+ProfileEndPtParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTempBodyFromSurfaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateTempBodyFromSurfaces();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTrimmedSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateTrimmedSurface();</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteBlends</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteBlends( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteBlends2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteBlends2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+,
+&amp;   System.bool
+DoLocalCheck
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteFaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteFaces( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteFaces2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int DeleteFaces2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Display</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Display( 
+&amp;   System.Object^
+Part
+,
+&amp;   System.int
+Color
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DisplayWireFrameXOR</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void DisplayWireFrameXOR( 
+&amp;   System.Object^
+Part
+,
+&amp;   System.int
+Color
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DraftBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DraftBody( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+,
+&amp;   System.Object^
+EdgeList
+,
+&amp;   System.double
+DraftAngle
+,
+&amp;   System.Object^
+Dir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnumFaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumFaces^ EnumFaces();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBodyBox</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBodyBox();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEdgeCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetEdgeCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetExcessBodyArray</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetExcessBodyArray();</pre></details><details style="margin: 0.5rem 0;"><summary>GetExtremePoint</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetExtremePoint( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   [Out] System.double
+Outx
+,
+&amp;   [Out] System.double
+Outy
+,
+&amp;   [Out] System.double
+Outz
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFaceCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFaceCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstFace();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstSelectedFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstSelectedFace();</pre></details><details style="margin: 0.5rem 0;"><summary>GetIgesErrorCode</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetIgesErrorCode( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetIgesErrorCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetIgesErrorCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetIntersectionEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetIntersectionEdges( 
+&amp;   System.Object^
+ToolBodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMassProperties</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMassProperties( 
+&amp;   System.double
+Density
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialIdName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialIdName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialUserName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialUserName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNextSelectedFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNextSelectedFace();</pre></details><details style="margin: 0.5rem 0;"><summary>GetProcessedBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetProcessedBody();</pre></details><details style="margin: 0.5rem 0;"><summary>GetProcessedBodyWithSelFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetProcessedBodyWithSelFace();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPropertyExtension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPropertyExtension( 
+&amp;   System.int
+ID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedFaceCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSelectedFaceCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSheetBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSheetBody( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessellation</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessellation( 
+&amp;   System.Object^
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetType</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetType();</pre></details><details style="margin: 0.5rem 0;"><summary>Hide</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Hide( 
+&amp;   System.Object^
+Part
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileArc</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileArc( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Axis
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.Object^
+StartPoint
+,
+&amp;   System.Object^
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileArcDLL</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileArcDLL( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double%
+Axis
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.double%
+StartPoint
+,
+&amp;   System.double%
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileBspline</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileBspline( 
+&amp;   System.Object^
+Props
+,
+&amp;   System.Object^
+Knots
+,
+&amp;   System.Object^
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileBsplineDLL</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileBsplineDLL( 
+&amp;   System.int%
+Properties
+,
+&amp;   System.double%
+KnotArray
+,
+&amp;   System.double%
+ControlPointCoordArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileLine</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileLine( 
+&amp;   System.Object^
+RootPoint
+,
+&amp;   System.Object^
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileLineDLL</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileLineDLL( 
+&amp;   System.double%
+RootPoint
+,
+&amp;   System.double%
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddVertexPoint</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Vertex^ IAddVertexPoint( 
+&amp;   System.double%
+Point
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICombineVolumes</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICombineVolumes( 
+&amp;   Body^
+ToolBody
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICopy</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICopy();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBaseFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ICreateBaseFeature( 
+&amp;   Body^
+BodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBlendSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateBlendSurface( 
+&amp;   Surface^
+Surface1
+,
+&amp;   System.double
+Range1
+,
+&amp;   Surface^
+Surface2
+,
+&amp;   System.double
+Range2
+,
+&amp;   System.double%
+StartVec
+,
+&amp;   System.double%
+EndVec
+,
+&amp;   System.int
+HaveHelpVec
+,
+&amp;   System.double%
+HelpVec
+,
+&amp;   System.int
+HaveHelpBox
+,
+&amp;   System.double%
+HelpBox
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodyFromFaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateBodyFromFaces( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBoundedSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICreateBoundedSurface( 
+&amp;   System.bool
+UOpt
+,
+&amp;   System.bool
+VOpt
+,
+&amp;   System.double%
+UvParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBsplineSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateBsplineSurface( 
+&amp;   System.Object^
+Props
+,
+&amp;   System.Object^
+UKnots
+,
+&amp;   System.Object^
+VKnots
+,
+&amp;   System.Object^
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBsplineSurfaceDLL</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateBsplineSurfaceDLL( 
+&amp;   System.int%
+Properties
+,
+&amp;   System.double%
+UKnotArray
+,
+&amp;   System.double%
+VKnotArray
+,
+&amp;   System.double%
+ControlPointCoordArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateExtrusionSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateExtrusionSurface( 
+&amp;   Curve^
+ProfileCurve
+,
+&amp;   System.Object^
+AxisDirection
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateExtrusionSurfaceDLL</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateExtrusionSurfaceDLL( 
+&amp;   Curve^
+ProfileCurve
+,
+&amp;   System.double%
+AxisDirection
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateNewSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateNewSurface();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateOffsetSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateOffsetSurface( 
+&amp;   Surface^
+SurfaceIn
+,
+&amp;   System.double
+Distance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreatePlanarSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreatePlanarSurface( 
+&amp;   System.Object^
+VRootPoint
+,
+&amp;   System.Object^
+VNormal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreatePlanarSurfaceDLL</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreatePlanarSurfaceDLL( 
+&amp;   System.double%
+RootPoint
+,
+&amp;   System.double%
+Normal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreatePsplineSurfaceDLL</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreatePsplineSurfaceDLL( 
+&amp;   System.int
+Dim
+,
+&amp;   System.int
+UOrder
+,
+&amp;   System.int
+VOrder
+,
+&amp;   System.int
+Ncol
+,
+&amp;   System.int
+Nrow
+,
+&amp;   System.double%
+Coeffs
+,
+&amp;   System.int
+Basis
+,
+&amp;   System.double%
+Xform
+,
+&amp;   System.double
+ScaleFactor
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateRevolutionSurface</summary><p>IBody2::ICreateRevolutionSurface</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateRevolutionSurface( 
+&amp;   Curve^
+ProfileCurve
+,
+&amp;   System.Object^
+AxisPoint
+,
+&amp;   System.Object^
+AxisDirection
+,
+&amp;   System.Object^
+ProfileEndPtParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateRevolutionSurfaceDLL</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateRevolutionSurfaceDLL( 
+&amp;   Curve^
+ProfileCurve
+,
+&amp;   System.double%
+AxisPoint
+,
+&amp;   System.double%
+AxisDirection
+,
+&amp;   System.double%
+ProfileEndPtParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateTempBodyFromSurfaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateTempBodyFromSurfaces();</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteBlends</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IDeleteBlends( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face^%
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteBlends2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IDeleteBlends2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face^%
+FaceList
+,
+&amp;   System.bool
+DoLocalCheck
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteFaces2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IDeleteFaces2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face^%
+FaceList
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteFaces3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IDeleteFaces3( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face^%
+FaceList
+,
+&amp;   System.int
+Option
+,
+&amp;   System.bool
+DoLocalCheck
+,
+&amp;   System.bool%
+LocalCheckResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDisplay</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IDisplay( 
+&amp;   PartDoc^
+Part
+,
+&amp;   System.int
+Color
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDisplayWireFrameXOR</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IDisplayWireFrameXOR( 
+&amp;   PartDoc^
+Part
+,
+&amp;   System.int
+Color
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDraftBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IDraftBody( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face^%
+FaceList
+,
+&amp;   Edge^%
+EdgeList
+,
+&amp;   System.double
+DraftAngle
+,
+&amp;   System.double%
+Dir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBodyBox</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetBodyBox( 
+&amp;   System.double%
+BoxCorners
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetExcessBodyArray</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.IntPtr IGetExcessBodyArray();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetExcessBodyCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetExcessBodyCount();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face^ IGetFirstFace();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstSelectedFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face^ IGetFirstSelectedFace();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetIntersectionEdgeCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetIntersectionEdgeCount( 
+&amp;   Body^
+ToolBodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetIntersectionEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.IntPtr IGetIntersectionEdges( 
+&amp;   Body^
+ToolBodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMassProperties</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetMassProperties( 
+&amp;   System.double
+Density
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetNextSelectedFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face^ IGetNextSelectedFace();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProcessedBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ IGetProcessedBody();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProcessedBodyWithSelFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ IGetProcessedBodyWithSelFace();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSheetBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ IGetSheetBody( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessellation</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Tessellation^ IGetTessellation( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face^%
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IHide</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IHide( 
+&amp;   PartDoc^
+Part
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMatchedBoolean</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies^ IMatchedBoolean( 
+&amp;   System.int
+OperationType
+,
+&amp;   Body^
+ToolBody
+,
+&amp;   System.int
+NumOfMatchingFaces
+,
+&amp;   Face^%
+FaceList1
+,
+&amp;   Face^%
+FaceList2
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IOperations</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IOperations( 
+&amp;   System.int
+OperationType
+,
+&amp;   Body^
+ToolBody
+,
+&amp;   System.int
+NumMaxSections
+,
+&amp;   Body^%
+ResultingBodies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IOperations2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies^ IOperations2( 
+&amp;   System.int
+OperationType
+,
+&amp;   Body^
+ToolBody
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IRemoveFacesFromSheet</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IRemoveFacesFromSheet( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.IntPtr
+FacesToRemove
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISave</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISave( 
+&amp;   System.Object^
+StreamIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISectionBySheet</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ISectionBySheet( 
+&amp;   Body^
+Sheet
+,
+&amp;   System.int
+NumMaxSections
+,
+&amp;   Body^%
+SectionedBodies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetCurrentSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetCurrentSurface( 
+&amp;   Surface^
+SurfaceIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetXform</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetXform( 
+&amp;   System.double%
+XformIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MatchedBoolean</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ MatchedBoolean( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.Object^
+ToolBody
+,
+&amp;   System.int
+NumOfMatchingFaces
+,
+&amp;   System.Object^
+FaceList1
+,
+&amp;   System.Object^
+FaceList2
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Operations</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Operations( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.Object^
+ToolBody
+,
+&amp;   System.int
+NumMaxSections
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Operations2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Operations2( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.Object^
+ToolBody
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveFacesFromSheet</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RemoveFacesFromSheet( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FacesToRemove
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveRedundantTopology</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveRedundantTopology();</pre></details><details style="margin: 0.5rem 0;"><summary>ResetPropertyExtension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ResetPropertyExtension();</pre></details><details style="margin: 0.5rem 0;"><summary>Save</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Save( 
+&amp;   System.Object^
+StreamIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCurrentSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetCurrentSurface( 
+&amp;   System.Object^
+SurfaceIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetIgesInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetIgesInfo( 
+&amp;   System.String^
+SystemName
+,
+&amp;   System.double
+Granularity
+,
+&amp;   System.bool
+AttemptKnitting
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialIdName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetMaterialIdName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialUserName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetMaterialUserName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetXform</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetXform( 
+&amp;   System.Object^
+XformIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMaterialPropertyValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IMaterialPropertyValues {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MaterialPropertyValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ MaterialPropertyValues {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Visible</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool Visible {
+   System.bool get();
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+<font color="#ff0000">Obsolete. Superseded by <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html">IBody2</a>.</font>
+<br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IBody </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html">IBody</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IBody </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IBody </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Body.html">Body</a>.</div>
+<a name="exampleBookmark"></a>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html">IBody Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

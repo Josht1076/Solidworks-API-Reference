@@ -1,0 +1,351 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IEdge Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IEdge"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IEdge Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IEdge Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>CreateWireBody</summary><p>Creates a wire body from this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ CreateWireBody();</pre></details><details style="margin: 0.5rem 0;"><summary>Display</summary><p>Highlights this edge with the specified color.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Display( 
+&amp;   System.int
+Width
+,
+&amp;   System.double
+Red
+,
+&amp;   System.double
+Green
+,
+&amp;   System.double
+Blue
+,
+&amp;   System.bool
+HighlightState
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EdgeInFaceSense</summary><p>Checks whether the edge and the loop lying on the specified face have the same direction (sense).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool EdgeInFaceSense( 
+&amp;   System.Object^
+Facedisp
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnumCoEdges</summary><p>Lists the coedges that reference this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumCoEdges^ EnumCoEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>Evaluate</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Evaluate( 
+&amp;   System.double
+Parameter
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Evaluate2</summary><p>Evaluates the edge for the specified U parameter.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Evaluate2( 
+&amp;   System.double
+Parameter
+,
+&amp;   System.int
+NumberOfDerivatives
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBody</summary><p>Gets the body for this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ GetBody();</pre></details><details style="margin: 0.5rem 0;"><summary>GetClosestPointOn</summary><p>Uses the X,Y,Z input point and returns the closest point on the edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetClosestPointOn( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCoEdges</summary><p>Gets the coedges that reference this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCoEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCurve</summary><p>Gets the underlying curve for this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCurveParams</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCurveParams();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCurveParams2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCurveParams2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCurveParams3</summary><p>Gets a data object containing the curve parameters for this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CurveParamData^ GetCurveParams3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEndVertex</summary><p>Gets the ending vertex for this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEndVertex();</pre></details><details style="margin: 0.5rem 0;"><summary>GetID</summary><p>Gets the edge ID of this edge in an imported body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetID();</pre></details><details style="margin: 0.5rem 0;"><summary>GetParameter</summary><p>Gets the parameterization of the edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetParameter( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetStartVertex</summary><p>Gets the starting vertex for this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetStartVertex();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTangentEdges</summary><p>Gets all of the edges tangent to this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTangentEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTangentEdgesCount</summary><p>Gets the number of edges tangent to this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTangentEdgesCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTrackingIDs</summary><p>tracking IDs assigned to this edge</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTrackingIDs( 
+&amp;   System.int
+TrackingCookie
+,
+&amp;   [Out] System.Object^
+TrackingIDs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTrackingIDsCount</summary><p>Gets the number of tracking IDs on this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTrackingIDsCount( 
+&amp;   System.int
+TrackingCookie
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTwoAdjacentFaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTwoAdjacentFaces();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTwoAdjacentFaces2</summary><p>Gets the two faces adjacent to an edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTwoAdjacentFaces2();</pre></details><details style="margin: 0.5rem 0;"><summary>Highlight</summary><p>Add highlights or removes highlights from this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Highlight( 
+&amp;   System.bool
+State
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IEdgeInFaceSense</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IEdgeInFaceSense( 
+&amp;   Face^
+Facedisp
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IEdgeInFaceSense2</summary><p>Checks whether the edge and the loop lying on the specified face have the same direction (sense).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IEdgeInFaceSense2( 
+&amp;   Face2^
+Facedisp
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IEvaluate</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IEvaluate( 
+&amp;   System.double
+Parameter
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IEvaluate2</summary><p>Evaluates the edge for the specified U parameter.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IEvaluate2( 
+&amp;   System.double
+Parameter
+,
+&amp;   System.int
+NumberOfDerivatives
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetClosestPointOn</summary><p>Uses the X,Y,Z input point and returns the closest point on the edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetClosestPointOn( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetCurve</summary><p>Gets the underlying curve for this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IGetCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetCurveParams</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetCurveParams();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetCurveParams2</summary><p>Returns the curve parameters for this edge, including the edge and curve direction (sense).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetCurveParams2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEndVertex</summary><p>Gets the ending vertex for this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Vertex^ IGetEndVertex();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetParameter</summary><p>Gets the parameterization of the edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetParameter( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetStartVertex</summary><p>Gets the starting vertex for this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Vertex^ IGetStartVertex();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTangentEdges</summary><p>Gets all of the edges tangent to this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Edge^ IGetTangentEdges( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTrackingIDs</summary><p>tracking IDs assigned to this edge</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetTrackingIDs( 
+&amp;   System.int
+TrackingCookie
+,
+&amp;   System.int
+Count
+,
+&amp;   [Out] System.int
+TrackingIDs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTwoAdjacentFaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetTwoAdjacentFaces( 
+&amp;   [Out] Face^
+Face1
+,
+&amp;   [Out] Face^
+Face2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTwoAdjacentFaces2</summary><p>Gets the two faces adjacent to an edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetTwoAdjacentFaces2( 
+&amp;   [Out] Face2^
+Face1
+,
+&amp;   [Out] Face2^
+Face2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsParamReversed</summary><p>Gets whether the edge and its underlying curve have the same parameterization or if the direction is reversed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsParamReversed();</pre></details><details style="margin: 0.5rem 0;"><summary>IsTolerant</summary><p>Gets whether an edge is tolerant and its tolerance value.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsTolerant( 
+&amp;   [Out] System.double
+Tolerance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveId</summary><p>Removes the edge ID assigned to this edge of an imported body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RemoveId();</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveRedundantTopology</summary><p>Removes redundant topology from the edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveRedundantTopology();</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveTrackingID</summary><p>tracking ID assigned to this edge</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int RemoveTrackingID( 
+&amp;   System.int
+TrackingCookie
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetId</summary><p>Sets the edge ID of this edge of an imported body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetId( 
+&amp;   System.int
+IdIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetTrackingID</summary><p>Assigns a tracking ID to this edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetTrackingID( 
+&amp;   System.int
+TrackingCookie
+,
+&amp;   System.int
+TrackingID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Check</summary><p>Gets whether the edge is a valid, and, if not, returns the faults.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property FaultEntity^ Check {
+   FaultEntity^ get();
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to its defining coedge, and adjacent faces, and its underlying curve and vertices as well as edge data. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IEdge </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html">IEdge</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IEdge </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IEdge </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Edge.html">Edge</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Get_Edge_Curve_Parameterization_Example_CSharp.htm">Get Edge Curve Parameterization (C#)</a>
+<br/><a href="Get_Edge_Curve_Parameterization_Example_VBNET.htm">Get Edge Curve Parameterization (VB.NET)</a>
+<br/><a href="Get_Edge_Curve_Parameterization_Example_VB.htm">Get Edge Curve Parameterization (VBA)</a>
+<br/><a href="Get_Faces_Affected_by_Feature_Example_VB.htm">Get Faces Affected by Feature (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~SelectionEntity.html">IAdvancedHoleElementData::SelectionEntity</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData~EntitiesToMate.html">IAngleMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData~ReferenceEntity.html">IAngleMateFeatureData::ReferenceEntity</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetEdges.html">IBody2::GetEdges</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetEdges.html">IBody2::IGetEdges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetIntersectionEdges.html">IBody2::GetIntersectionEdges</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetIntersectionEdges.html">IBody2::IGetIntersectionEdges</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~D1Curves.html">IBoundaryBossFeatureData::D1Curves</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~D2Curves.html">IBoundaryBossFeatureData::D2Curves</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~GetDirectionVector.html">IBoundaryBossFeatureData::GetDirectionVector</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~Group1PathLink1.html">IChainPatternFeatureData::Group1PathLink1</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~Group1PathLink2.html">IChainPatternFeatureData::Group1PathLink2</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~Group2PathLink1.html">IChainPatternFeatureData::Group2PathLink1</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~Group2PathLink2.html">IChainPatternFeatureData::Group2PathLink2</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~Path.html">IChainPatternFeatureData::Path</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~Edges.html">IChamferFeatureData2::Edges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~IGetEdges.html">IChamferFeatureData2::IGetEdges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~GetEdge.html">ICoEdge::GetEdge</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~IGetEdge.html">ICoEdge::IGetEdge</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData~EntitiesToMate.html">ICoincidentMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData~EntitiesToMate.html">IConcentricMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData~Edge.html">ICosmeticThreadFeatureData::Edge</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetEntities.html">ICosmeticWeldBeadFeatureData::GetEntities</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetEntitiesWeldFrom.html">ICosmeticWeldBeadFeatureData::GetEntitiesWeldFrom</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetEntitiesWeldPath.html">ICosmeticWeldBeadFeatureData::GetEntitiesWeldPath</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetEntitiesWeldTo.html">ICosmeticWeldBeadFeatureData::GetEntitiesWeldTo</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetReferenceEdges.html">ICosmeticWeldBeadFeatureData::GetReferenceEdges</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D1Direction.html">ICurveDrivenPatternFeatureData::D1Direction</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D2Direction.html">ICurveDrivenPatternFeatureData::D2Direction</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData~EntitiesToMate.html">IDistanceMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2~IGetPartingLines.html">IDraftFeatureData2::IGetPartingLines</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2~PartingLines.html">IDraftFeatureData2::PartingLines</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetTangentEdges.html">IEdge::GetTangentEdges</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetTangentEdges.html">IEdge::IGetTangentEdges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumEdges~Next.html">IEnumEdges::Next</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~DivergeDirection.html">IExplodeStep::DivergeDirection</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetEdges.html">IFace2::GetEdges</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetEdges.html">IFace2::IGetEdges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetSilhoutteEdgesVB.html">IFace2::GetSilhoutteEdgesVB</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetSilhoutteEdges.html">IFace2::IGetSilhoutteEdges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ImprintCurve.html">IFace2::ImprintCurve</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IImprintCurve.html">Face2::IImprintCurve</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet~GetFacetEdges.html">IFacet::GetFacetEdges</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData~EntitiesToMate.html">IGearMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHingeMateFeatureData~EntitiesToMate.html">IHingeMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData~MateEntity1.html">ILinearCouplerMateFeatureData::MateEntity1</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData~MateEntity2.html">ILinearCouplerMateFeatureData::MateEntity2</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D1Axis.html">ILinearPatternFeatureData::D1Axis</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D1EndReference.html">ILinearPatternFeatureData::D1EndReference</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D1EndSeedReference.html">ILinearPatternFeatureData::D1EndSeedReference</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D2Axis.html">ILinearPatternFeatureData::D2Axis</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D2EndReference.html">ILinearPatternFeatureData::D2EndReference</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D2EndSeedReference.html">ILinearPatternFeatureData::D2EndSeedReference</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCurvePatternFeatureData~D1Direction.html">ILocalCurvePatternFeatureData::D1Direction</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCurvePatternFeatureData~D2Direction.html">ILocalCurvePatternFeatureData::D2Direction</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1Axis.html">ILocalLinearPatternFeatureData::D1Axis</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1EndReference.html">ILocalLinearPatternFeatureData::D1EndReference</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1EndSeedReference.html">ILocalLinearPatternFeatureData::D1EndSeedReference</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D2Axis.html">ILocalLinearPatternFeatureData::D2Axis</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D2EndReference.html">ILocalLinearPatternFeatureData::D2EndReference</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D2EndSeedReference.html">ILocalLinearPatternFeatureData::D2EndSeedReference</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~RotationAxis.html">ILocalLinearPatternFeatureData::RotationAxis</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~GetEdges.html">ILoop2::GetEdges</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IGetEdges.html">ILoop2::IGetEdges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~GetEntitiesNeedUserId.html">IMacroFeatureData::GetEntitiesNeedUserId</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IGetEntitiesNeedUserId.html">IMacroFeatureData::IGetEntitiesNeedUserId</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~AlignmentReferences.html">IMirrorComponentFeatureData::AlignmentReferences</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ImprintingFaces.html">IModeler::ImprintingFaces</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IImprintingFaces.html">IModeler::IImprintingFaces</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep~GetExplodeDirection.html">IPartExplodeStep::GetExplodeDirection</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartingLineFeatureData~IGetPartingLines.html">IPartingLineFeatureData::IGetPartingLines</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartingLineFeatureData~PartingLines.html">IPartingLineFeatureData::PartingLines</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData~GetPathSegments.html">IPrimaryMemberPathSegmentFeatureData::GetPathSegments</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData~DirectionReference.html">IPrimaryMemberPointLengthFeatureData::DirectionReference</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData~EntitiesToMate.html">IRackPinionMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferenceCurve~GetFirstSegment.html">IReferenceCurve::GetFirstSegment</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferenceCurve~IGetFirstSegment.html">IReferenceCurve::IGetFirstSegment</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferenceCurve~GetNextSegment.html">IReferenceCurve::GetNextSegment</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferenceCurve~IGetNextSegment.html">IReferenceCurve::IGetNextSegment</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferenceCurve~GetSegments.html">IReferenceCurve::GetSegments</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferenceCurve~IGetSegments.html">IReferenceCurve::IGetSegments</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IShutOffSurfaceFeatureData~IGetEdges.html">IShutOffSurfaceFeatureData::IGetEdges</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShutOffSurfaceFeatureData~Edges.html">IShutOffSurfaceFeatureData::Edges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~GetSetbackVertexDistance.html">ISimpleFilletFeatureData2::GetSetbackVertextDistance</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IGetSetbackVertexDistance.html">ISimpleFilletFeatureData2::IGetSetbackVertextDistance</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IGetEdges.html">ISimpleFilletFeatureData2::IGetEdges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~Edges.html">ISimpleFilletFeatureData2::Edges</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~HoldLines.html">ISimpleFilletFeatureData2::HoldLines</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetContourEdges.html">ISketch::GetContourEdges</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetContourEdges.html">ISketch::IGetContourEdges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchContour~GetEdges.html">ISketchContour::GetEdges</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchContour~IGetEdges.html">ISketchContour::IGetEdges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRegion~GetEdges.html">ISketchRegion::GetEdges</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRegion~IGetEdges.html">ISketchRegion::IGetEdges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~ReferenceLine.html">ISMGussetFeatureData::ReferenceLine</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~CutDirection.html">ISMNormalCutFeatureData2::CutDirection</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileAlignmentObject.html">IStructureSystemMemberProfile::ProfileAlignmentObject</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceExtendFeatureData~IGetPropagatingEdges.html">ISurfaceExtendFeatureData::IGetPropagatingEdges</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceExtendFeatureData~PropagatingEdges.html">ISurfaceExtendFeatureData::PropagatingEdges</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData~FixPointVertex.html">ISurfaceFlattenFeatureData::FixPointVertex</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData~GuideEdges.html">ISurfaceFlattenFeatureData::GuideEdges</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData~MapEdges.html">ISurfaceFlattenFeatureData::MapEdges</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData~TearEdges.html">ISurfaceFlattenFeatureData::TearEdges</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~EndDirectionVector.html">ISweepFeatureData::EndDirectionVector</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GetPathAlignmentDirectionVector.html">ISweepFeatureData::GetPathAlignmentDirectionVector</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GuideCurves.html">ISweepFeatureData::GuideCurves</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Path.html">ISweepFeatureData::Path</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Profile.html">ISweepFeatureData::Profile</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~StartDirectionVector.html">ISweepFeatureData::StartDirectionVector</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~Path.html">ISweptFlangeFeatureData::Path</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~Profile.html">ISweptFlangeFeatureData::Profile</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISymmetricMateFeatureData~EntitiesToMate.html">ISymmetricMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~SelectionTabEdge.html">ITabAndSlotGroupData::SelectionTabEdge</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~GetEdgeFins.html">ITessellation::GetEdgeFins</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~IGetEdgeFins.html">ITessellation::IGetEdgeFins</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~GetFinEdge.html">ITessellation::GetFinEdge</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~IGetFinEdge.html">ITessellation::IGetFinEdge</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~Edge.html">IThreadFeatureData::Edge</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~GetEndConditionReference.html">IThreadFeatureData::GetEndConditionReference</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~StartEntity.html">IThreadFeatureData::StartEntity</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetControlPointRadiusAtIndex.html">IVariableFilletFeatureData2::GetControlPointRadiusAtIndex</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetFilletEdgeAtIndex.html">IVariableFilletFeatureData2::GetFilletEdgeAtIndex</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~IGetFilletEdgeAtIndex.html">IVariableFilletFeatureData2::IGetFilletEdgeAtIndex</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetSetbackVertexDistance.html">IVariableFilletFeatureData2::GetSetbackVertexDistance</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~IGetSetbackVertexDistance.html">IVariableFilletFeatureData2::IGetSetbackVertexDistance</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetPolylines6.html">IView::GetPolylines6</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolylines6.html">IView::IGetPolylines6</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentBeadFeatureData~GetVirtualEdges.html">IWeldmentBeadFeatureData::GetVirtualEdges</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentBeadFeatureData~IGetVirtualEdges.html">IWeldmentBeadFeatureData::IGetVirtualEdges</a></p>
+<p> </p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#Edge">Edge</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html">IEdge Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

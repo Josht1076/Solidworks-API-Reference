@@ -1,0 +1,285 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IFace Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IFace"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IFace Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html">Members</a>   
+                    </td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IFace Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AddPropertyExtension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddPropertyExtension( 
+&amp;   System.Object^
+PropertyExtension
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSheetBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSheetBody();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSheetBodyByFaceExtension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSheetBodyByFaceExtension( 
+&amp;   System.Object^
+BoxLowIn
+,
+&amp;   System.Object^
+BoxHighIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnumEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumEdges^ EnumEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>EnumLoops</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumLoops^ EnumLoops();</pre></details><details style="margin: 0.5rem 0;"><summary>FaceInSurfaceSense</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool FaceInSurfaceSense();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArea</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetArea();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBody();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBox</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBox();</pre></details><details style="margin: 0.5rem 0;"><summary>GetClosestPointOn</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetClosestPointOn( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEdgeCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetEdgeCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFaceId</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFaceId();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureId</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFeatureId();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstLoop</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstLoop();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLoopCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLoopCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNextFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNextFace();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPatternSeedFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPatternSeedFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPropertyExtension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPropertyExtension( 
+&amp;   System.int
+ID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetShellType</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetShellType();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSilhoutteEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSilhoutteEdges( 
+&amp;   System.double%
+Root
+,
+&amp;   System.double%
+Normal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSilhoutteEdgesVB</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSilhoutteEdgesVB( 
+&amp;   System.double
+Xroot
+,
+&amp;   System.double
+Yroot
+,
+&amp;   System.double
+Zroot
+,
+&amp;   System.double
+Xnormal
+,
+&amp;   System.double
+Ynormal
+,
+&amp;   System.double
+Znormal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSurface();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessNorms</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessNorms();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriangleCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTessTriangleCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriangles</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessTriangles( 
+&amp;   System.bool
+NoConversion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriStripEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessTriStripEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriStripNorms</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessTriStripNorms();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriStrips</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessTriStrips( 
+&amp;   System.bool
+NoConversion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriStripSize</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTessTriStripSize();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTrimCurves</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTrimCurves( 
+&amp;   System.bool
+WantCubic
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTrimCurves2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTrimCurves2( 
+&amp;   System.bool
+WantCubic
+,
+&amp;   System.bool
+WantNRational
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTrimCurveTopology</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTrimCurveTopology();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTrimCurveTopologyCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTrimCurveTopologyCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTrimCurveTopologyTypes</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTrimCurveTopologyTypes();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUVBounds</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetUVBounds();</pre></details><details style="margin: 0.5rem 0;"><summary>Highlight</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Highlight( 
+&amp;   System.bool
+State
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSheetBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateSheetBody();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSheetBodyByFaceExtension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateSheetBodyByFaceExtension( 
+&amp;   System.double%
+BoxLowIn
+,
+&amp;   System.double%
+BoxHighIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ IGetBody();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBox</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetBox();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetClosestPointOn</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetClosestPointOn( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.IntPtr IGetEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFacetData</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetFacetData( 
+&amp;   System.int
+FacetMesh
+,
+&amp;   System.int%
+NFacets
+,
+&amp;   System.int%
+NStrips
+,
+&amp;   System.IntPtr
+StripVertexNums
+,
+&amp;   System.IntPtr
+VertexCoords
+,
+&amp;   System.IntPtr
+NormalCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IGetFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstLoop</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Loop^ IGetFirstLoop();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetNextFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face^ IGetNextFace();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPatternSeedFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IGetPatternSeedFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSilhoutteEdgeCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetSilhoutteEdgeCount( 
+&amp;   System.double%
+Root
+,
+&amp;   System.double%
+Normal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSilhoutteEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.IntPtr IGetSilhoutteEdges( 
+&amp;   System.double%
+Root
+,
+&amp;   System.double%
+Normal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ IGetSurface();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessNorms</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.float IGetTessNorms();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessTriangles</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.float IGetTessTriangles( 
+&amp;   System.bool
+NoConversion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessTriStripEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetTessTriStripEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessTriStripEdgeSize</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetTessTriStripEdgeSize();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessTriStripNorms</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.float IGetTessTriStripNorms();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessTriStrips</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.float IGetTessTriStrips( 
+&amp;   System.bool
+NoConversion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTrimCurve</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetTrimCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTrimCurveSize</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetTrimCurveSize( 
+&amp;   System.bool
+WantCubic
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTrimCurveSize2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetTrimCurveSize2( 
+&amp;   System.int
+WantCubic
+,
+&amp;   System.int
+WantNRational
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTrimCurveTopology</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.IntPtr IGetTrimCurveTopology();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTrimCurveTopologyTypes</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetTrimCurveTopologyTypes();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetUVBounds</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetUVBounds();</pre></details><details style="margin: 0.5rem 0;"><summary>IHighlight</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IHighlight( 
+&amp;   System.bool
+State
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IIsSame</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IIsSame( 
+&amp;   Face^
+FaceIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IRemoveInnerLoops</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face^ IRemoveInnerLoops( 
+&amp;   System.int
+NumOfLoops
+,
+&amp;   Loop^%
+InnerLoopsIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsSame</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsSame( 
+&amp;   System.Object^
+FaceIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveFaceId</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RemoveFaceId( 
+&amp;   System.int
+IdIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveInnerLoops</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ RemoveInnerLoops( 
+&amp;   System.int
+NumOfLoops
+,
+&amp;   System.Object^
+InnerLoopsIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveMaterialProperty</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveMaterialProperty();</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveRedundantTopology</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveRedundantTopology();</pre></details><details style="margin: 0.5rem 0;"><summary>ResetPropertyExtension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ResetPropertyExtension();</pre></details><details style="margin: 0.5rem 0;"><summary>SetFaceId</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetFaceId( 
+&amp;   System.int
+IdIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMaterialPropertyValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IMaterialPropertyValues {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>INormal</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double INormal {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MaterialIdName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ MaterialIdName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MaterialPropertyValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ MaterialPropertyValues {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MaterialUserName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ MaterialUserName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Normal</summary><p>This property is a get-only property.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ Normal {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+<font color="#ff0000">Obsolete. Superseded by</font> <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html">IFace2</a>. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IFace </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html">IFace</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IFace </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IFace </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Face.html">Face</a>.</div>
+<a name="exampleBookmark"></a>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html">IFace Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

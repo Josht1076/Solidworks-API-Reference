@@ -1,0 +1,1196 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IView Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IView"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IView Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IView Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AlignDrawingView</summary><p>Specifies the alignment of this auxiliary drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AlignDrawingView( 
+&amp;   System.int
+AlignViewType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AlignWithView</summary><p>Sets view alignment.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AlignWithView( 
+&amp;   System.int
+AlignType
+,
+&amp;   View^
+BaseView
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AutoInsertCenterMarks</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AutoInsertCenterMarks( 
+&amp;   System.int
+InsertType
+,
+&amp;   System.int
+InsertOption
+,
+&amp;   System.bool
+LinearSlotCenter
+,
+&amp;   System.bool
+ArcSlotCenter
+,
+&amp;   System.bool
+UseDocumentDefaults
+,
+&amp;   System.double
+Size
+,
+&amp;   System.bool
+ExtendedLines
+,
+&amp;   System.bool
+CenterLineFont
+,
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AutoInsertCenterMarks2</summary><p>Automatically inserts the specified center marks in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AutoInsertCenterMarks2( 
+&amp;   System.int
+InsertType
+,
+&amp;   System.int
+InsertOption
+,
+&amp;   System.bool
+LinearSlotCenter
+,
+&amp;   System.bool
+ArcSlotCenter
+,
+&amp;   System.bool
+UseDocumentDefaults
+,
+&amp;   System.double
+Size
+,
+&amp;   System.double
+Gap
+,
+&amp;   System.bool
+ExtendedLines
+,
+&amp;   System.bool
+CenterLineFont
+,
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Crop</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Crop();</pre></details><details style="margin: 0.5rem 0;"><summary>Crop2</summary><p>Crops this view using the selected closed sketch profile.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Crop2( 
+&amp;   System.bool
+JaggedOutline
+,
+&amp;   System.bool
+NoOutline
+,
+&amp;   System.int
+ShapeIntensity
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnumHiddenComponents</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumComponents^ EnumHiddenComponents();</pre></details><details style="margin: 0.5rem 0;"><summary>EnumHiddenComponents2</summary><p>Gets the hidden components enumeration in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumComponents2^ EnumHiddenComponents2();</pre></details><details style="margin: 0.5rem 0;"><summary>EnumSectionLines</summary><p>IView::EnumSectionLines2</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumDrSections^ EnumSectionLines();</pre></details><details style="margin: 0.5rem 0;"><summary>EnumSectionLines2</summary><p>Gets the section lines enumeration in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumDrSections^ EnumSectionLines2( 
+&amp;   System.bool
+IgnoreSuppressed
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetAlignment</summary><p>Gets the alignment information of this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetAlignment();</pre></details><details style="margin: 0.5rem 0;"><summary>GetAnnotationCount</summary><p>Gets the number of annotations in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetAnnotationCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetAnnotations</summary><p>Gets the annotations in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetAnnotations();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArcCount</summary><p>Gets the number of arcs in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetArcCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArcs</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetArcs();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArcs2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetArcs2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArcs3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetArcs3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArcs4</summary><p>Gets all of the information for all of the arcs added by a user in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetArcs4();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBaseView</summary><p>Gets the base (parent) view used to create this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBaseView();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBendLineCount</summary><p>Gets the number of bendlines in a</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetBendLineCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBendLines</summary><p>Gets the bendlines in a</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBendLines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBendNoteAttributeString</summary><p>Gets the internal string that is used to format the text of the specified bend note attribute in this drawing view of a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetBendNoteAttributeString( 
+&amp;   System.int
+Attribute
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBendNoteTextFormat</summary><p>Gets the text format of all bend notes in this drawing view of a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetBendNoteTextFormat();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBodiesCount</summary><p>Gets the number of bodies of a multibody part in the drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetBodiesCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBomTable</summary><p>Gets the BOM table found in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBomTable();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBreakLineCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetBreakLineCount( 
+&amp;   [Out] System.int
+Size
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBreakLineCount2</summary><p>Gets the number of breaks lines and breaks in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetBreakLineCount2( 
+&amp;   [Out] System.int
+Size
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBreakLineInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBreakLineInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBreakLineInfo2</summary><p>Gets information for all of the break lines in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBreakLineInfo2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBreakLines</summary><p>Gets the all of the breaks in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBreakLines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBreakOutSectionCount</summary><p>Gets the number of broken-out sections in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetBreakOutSectionCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBreakOutSections</summary><p>Gets all of the broken-out sections in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBreakOutSections();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCenterLineCount</summary><p>Gets the number of centerlines on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetCenterLineCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCenterLines</summary><p>Gets all of the centerline annotations on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCenterLines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCenterLineSketch</summary><p>Gets the sketch that contains all of the centerline information for this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Sketch^ GetCenterLineSketch();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCenterMarkCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetCenterMarkCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCenterMarkCount2</summary><p>Gets the number of center marks that are features in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetCenterMarkCount2( 
+&amp;   [Out] System.int
+Size
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCenterMarkInfo</summary><p>Gets information about each center mark that is a feature in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCenterMarkInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCenterMarks</summary><p>Gets all of the center marks that are features in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCenterMarks();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCorresponding</summary><p>Gets the object in this drawing view that corresponds to the specified part or assembly object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCorresponding( 
+&amp;   System.Object^
+InputObject
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCorrespondingEntity</summary><p>Gets the entity in this drawing view that corresponds to the specified part or assembly entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCorrespondingEntity( 
+&amp;   System.Object^
+Entity
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCThreadCount</summary><p>Gets the number of cosmetic threads in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetCThreadCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCThreadQuality</summary><p>Gets the cosmetic thread display quality in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetCThreadQuality();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCThreads</summary><p>Gets all of the cosmetic threads on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCThreads();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDatumOriginCount</summary><p>Gets the number of datum origins on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDatumOriginCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDatumOrigins</summary><p>Gets all of the datum origins on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDatumOrigins();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDatumPoints</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDatumPoints();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDatumPoints2</summary><p>Gets all of the information about all the datum points in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDatumPoints2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDatumPointsCount</summary><p>Gets the number of datum points in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDatumPointsCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDatumTagCount</summary><p>Gets the number of datum tags on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDatumTagCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDatumTags</summary><p>Gets all of the datum tags on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDatumTags();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDatumTargetSymCount</summary><p>Gets the number of datum target symbols on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDatumTargetSymCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDatumTargetSyms</summary><p>Gets all of the datum target symbols on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDatumTargetSyms();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDependentViewCount</summary><p>Gets the number of all, or only the specified, dependent views (i.e., alternate position, detail, section, etc.) in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDependentViewCount( 
+&amp;   System.bool
+AllViews
+,
+&amp;   System.int
+SpecificViewType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDependentViews</summary><p>Gets either all, or only the specified, dependent views in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDependentViews( 
+&amp;   System.bool
+AllViews
+,
+&amp;   System.int
+SpecificViewType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDesignTableExtent</summary><p>Gets the size and location of the design table associated with this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDesignTableExtent();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDetail</summary><p>Gets the detail circle for this detail view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDetail();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDetailCircleCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDetailCircleCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDetailCircleCount2</summary><p>Gets the number of detail circles in the drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDetailCircleCount2( 
+&amp;   [Out] System.int
+Size
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDetailCircleInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDetailCircleInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDetailCircleInfo2</summary><p>Gets all of the information about each detail circle in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDetailCircleInfo2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDetailCircles</summary><p>Gets the detail circles in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDetailCircles();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDetailCircleStrings</summary><p>Gets an array of strings; each string represents the text label for a detail circle in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDetailCircleStrings();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDimensionCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionCount2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDimensionCount2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionCount3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDimensionCount3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionCount4</summary><p>Gets the number of display dimensions in the current</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDimensionCount4();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionDisplayInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayInfo2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionDisplayInfo2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayInfo3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionDisplayInfo3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayInfo4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionDisplayInfo4();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayInfo5</summary><p>Gets the display dimension information for the current drawing sheet or the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionDisplayInfo5();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayInfoSize</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDimensionDisplayInfoSize();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayInfoSize2</summary><p>Gets the number of  the dimension lines n the current drawing sheet or the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDimensionDisplayInfoSize2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayString</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionDisplayString();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayString2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionDisplayString2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayString3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionDisplayString3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayString4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionDisplayString4();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionDisplayString5</summary><p>Gets all of the dimension text in the current drawing sheet or the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionDisplayString5( 
+&amp;   [Out] System.int
+DimensionSize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionIds</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionIds();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionIds2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionIds2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionIds3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionIds3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionIds4</summary><p>Gets the dimension names from the current drawing sheet or the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionIds4();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionInfo2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionInfo2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionInfo3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionInfo3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionInfo4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionInfo4();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionInfo5</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionInfo5();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionInfo6</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionInfo6();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionInfo7</summary><p>Gets all of the dimension information in the current drawing sheet or the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionInfo7();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionString</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionString();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionString2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionString2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionString3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionString3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimensionString4</summary><p>Gets the strings containing the text associated with each dimension in the current drawing sheet or the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDimensionString4();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayData</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDisplayData();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayData2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDisplayData2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayData3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDisplayData3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayData4</summary><p>object for this drawing view containing only those model items that are visible in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDisplayData4();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayDimensionCount</summary><p>Gets the number of display dimensions in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDisplayDimensionCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayDimensions</summary><p>Gets all of the display dimension on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDisplayDimensions();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayEdgesInShadedMode</summary><p>Gets whether to display the edges in this when the drawing view is in shaded mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetDisplayEdgesInShadedMode();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayMode</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDisplayMode();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayMode2</summary><p>Gets the current display mode of the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDisplayMode2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayTangentEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetDisplayTangentEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayTangentEdges2</summary><p>Gets the current tangent edge display mode of the drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDisplayTangentEdges2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDowelSymbolCount</summary><p>Gets the number of dowel symbols in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDowelSymbolCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDowelSymbols</summary><p>Gets all of the dowel symbols on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDowelSymbols();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEllipseCount</summary><p>Gets the number of ellipses in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetEllipseCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEllipses</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEllipses();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEllipses2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEllipses2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEllipses3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEllipses3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEllipses4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEllipses4();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEllipses5</summary><p>Gets all of the ellipses added by a user in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEllipses5();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFaceHatchCount</summary><p>Gets the number of face hatches in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFaceHatchCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFaceHatches</summary><p>Gets the face hatches in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFaceHatches();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFacettedHlrDisplay</summary><p>Gets whether HLR/HLV (Hidden Lines Removed/Hidden Lines Visible) edges should be displayed faceted in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetFacettedHlrDisplay();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstAnnotation</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstAnnotation();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstAnnotation2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstAnnotation2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstAnnotation3</summary><p>Gets the first annotation in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Annotation^ GetFirstAnnotation3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstBlockInstance</summary><p>Obsolete. Not superseded.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BlockInstance^ GetFirstBlockInstance();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstCenterLine</summary><p>Gets the first centerline in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Centerline^ GetFirstCenterLine();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstCenterMark</summary><p>Gets the first center mark in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CenterMark^ GetFirstCenterMark();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstCenterOfMass</summary><p>Gets the first center of mass in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstCenterOfMass();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstCThread</summary><p>Gets the first cosmetic thread in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstCThread();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstCustomSymbol</summary><p>Obsolete. Not superseded.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstCustomSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstDatumOrigin</summary><p>Gets the first datum origin in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DatumOrigin^ GetFirstDatumOrigin();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstDatumTag</summary><p>Gets the first datum tag in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstDatumTag();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstDatumTargetSym</summary><p>Gets the first datum target symbol in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstDatumTargetSym();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstDisplayDimension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstDisplayDimension();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstDisplayDimension2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstDisplayDimension2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstDisplayDimension3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstDisplayDimension3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstDisplayDimension4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ GetFirstDisplayDimension4();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstDisplayDimension5</summary><p>Gets the first display dimension in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ GetFirstDisplayDimension5();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstDowelSymbol</summary><p>Gets the first dowel symbol in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstDowelSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstGTOL</summary><p>Gets the first geometric tolerance in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstGTOL();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstMultiJogLeader</summary><p>Gets the first multi-jog leader in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstMultiJogLeader();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstNote</summary><p>Gets the first note in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstNote();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstRevisionCloud</summary><p>Gets the first revision cloud annotation in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstRevisionCloud();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstSFSymbol</summary><p>Gets the first surface-finish symbols in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstSFSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstTableAnnotation</summary><p>Gets the first table annotation in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TableAnnotation^ GetFirstTableAnnotation();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstWeldBead</summary><p>Gets the first weld bead annotation in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">WeldBead^ GetFirstWeldBead();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstWeldSymbol</summary><p>Gets the first weld symbol in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstWeldSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>GetGTolCount</summary><p>Gets the number of geometric tolerances in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetGTolCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetGTols</summary><p>Gets all of the geometric tolerances on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetGTols();</pre></details><details style="margin: 0.5rem 0;"><summary>GetHiddenComponents</summary><p>Gets the hidden components in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetHiddenComponents();</pre></details><details style="margin: 0.5rem 0;"><summary>GetKeepLinkedToBOM</summary><p>Gets whether this drawing view is linked to a BOM or weldment cut-list table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetKeepLinkedToBOM();</pre></details><details style="margin: 0.5rem 0;"><summary>GetKeepLinkedToBOMName</summary><p>Gets the name of the BOM or weldment cut-list table feature to which this drawing view is linked.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetKeepLinkedToBOMName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLineCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineCount2</summary><p>Gets the number of lines in this view with an option to include or exclude crosshatch lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLineCount2( 
+&amp;   System.short
+CrossHatchOption
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLines</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLines2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLines2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLines3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLines3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLines4</summary><p>Gets all of the lines in the view with an option to include or exclude crosshatch lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLines4( 
+&amp;   System.short
+CrossHatchOption
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMirrorViewOrientation</summary><p>Gets whether this view is mirrored.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetMirrorViewOrientation( 
+&amp;   [Out] System.bool
+BIsMirrorView
+,
+&amp;   [Out] System.int
+LMirrorViewOrientation
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMultiJogLeaderCount</summary><p>Gets the number of multi-jog leaders on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetMultiJogLeaderCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMultiJogLeaders</summary><p>Gets all of the multi-jog leaders in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMultiJogLeaders();</pre></details><details style="margin: 0.5rem 0;"><summary>GetName2</summary><p>Gets the name of this drawing view displayed in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetName2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNextView</summary><p>Gets the next drawing view in the drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNextView();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNoteCount</summary><p>Gets the number notes in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetNoteCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNotes</summary><p>Gets the notes in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNotes();</pre></details><details style="margin: 0.5rem 0;"><summary>GetOrientationName</summary><p>Gets the predefined name of this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetOrientationName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetOutline</summary><p>Gets the bounding box for a view (sheet or drawing) in meters on the drawing page.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetOutline();</pre></details><details style="margin: 0.5rem 0;"><summary>GetParabolaCount</summary><p>Gets the number of parabolas in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetParabolaCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetParabolas</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetParabolas();</pre></details><details style="margin: 0.5rem 0;"><summary>GetParabolas2</summary><p>Gets all of the information about all of the parabolas in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetParabolas2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolyLineCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetPolyLineCount( 
+&amp;   [Out] System.int
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolyLineCount2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetPolyLineCount2( 
+&amp;   [Out] System.int
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolyLineCount3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetPolyLineCount3( 
+&amp;   [Out] System.int
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolyLineCount4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetPolyLineCount4( 
+&amp;   [Out] System.int
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolyLineCount5</summary><p>Gets the number of polylines in this view with an option to include or exclude crosshatch lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetPolyLineCount5( 
+&amp;   System.short
+CrossHatchOption
+,
+&amp;   [Out] System.int
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolylines</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPolylines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolylines2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPolylines2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolylines3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPolylines3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolylines4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPolylines4();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolylines5</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPolylines5( 
+&amp;   System.short
+CrossHatchOption
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolylines6</summary><p>IView::GetPolylines7</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPolylines6( 
+&amp;   System.short
+CrossHatchOption
+,
+&amp;   [Out] System.Object^
+Polylines
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolylines7</summary><p>Gets all of the polylines in the view with an option to include or exclude crosshatch lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPolylines7( 
+&amp;   System.short
+CrossHatchOption
+,
+&amp;   [Out] System.Object^
+Polylines
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolyLinesAndCurves</summary><p>Gets the arcs, ellipses, splines, and polylines in the view with an option to include or exclude crosshatch lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPolyLinesAndCurves( 
+&amp;   System.short
+CrossHatchOption
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolyLinesAndCurvesCount</summary><p>Gets the number of lines, including arcs, ellipses, splines, and polylines, in the view with the option to include or exclude cross hatch</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetPolyLinesAndCurvesCount( 
+&amp;   System.short
+CrossHatchOption
+,
+&amp;   [Out] System.int
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetProjectionArrow</summary><p>Gets the projection arrow for this projected view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetProjectionArrow();</pre></details><details style="margin: 0.5rem 0;"><summary>GetProjectionLineCount</summary><p>Gets the number of projection lines (arrows) in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetProjectionLineCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetProjectionLines</summary><p>Gets the projection lines (arrows) in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetProjectionLines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetReferencedModelName</summary><p>Gets the name of the model that is referenced in the drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetReferencedModelName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetRelatedTangentEdgeCount</summary><p>Gets the number of visible tangent edges for the specified bendline in a</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetRelatedTangentEdgeCount( 
+&amp;   System.Object^
+BendLine
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetRelatedTangentEdges</summary><p>Gets the visible tangent edges for the specified bendline in a</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetRelatedTangentEdges( 
+&amp;   System.Object^
+BendLine
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetRevisionCloudCount</summary><p>Gets the number of revision cloud annotations in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetRevisionCloudCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetRevisionClouds</summary><p>Gets all of the revision cloud annotations in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetRevisionClouds();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSection</summary><p>Gets the section for this section view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSection();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSectionLineCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSectionLineCount( 
+&amp;   [Out] System.int
+Size
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSectionLineCount2</summary><p>Gets the number of section lines in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSectionLineCount2( 
+&amp;   [Out] System.int
+Size
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSectionLineInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSectionLineInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSectionLineInfo2</summary><p>Gets all of the information about the section lines in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSectionLineInfo2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSectionLines</summary><p>Gets the section lines in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSectionLines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSectionLineStrings</summary><p>Gets an array of strings; each string represents the text label for a section line in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSectionLineStrings();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSFSymbolCount</summary><p>Gets the number of surface finish symbols on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSFSymbolCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSFSymbols</summary><p>Gets all of the surface finish symbols in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSFSymbols();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketch</summary><p>Gets the sketch used by this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketch();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchPictureCount</summary><p>Gets the number of sketch pictures imported to this view when a drawing is created from a part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSketchPictureCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchPictures</summary><p>Gets all of the sketch pictures imported to this view when a drawing is created from a part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchPictures();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSMBoundaryBoxDisplayData</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSMBoundaryBoxDisplayData();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSMBoundaryBoxDisplayData2</summary><p>Gets the boundary-box sketch display data of a flat-pattern drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSMBoundaryBoxDisplayData2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSolidHatchCount</summary><p>Gets the number of visible solid-fill hatches in a detail, break, or crop view and the size of the array for their boundary data.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSolidHatchCount( 
+&amp;   [Out] System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSolidHatchInfo</summary><p>Gets the boundary data for all visible solid-fill hatches in a detail, break, or crop view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSolidHatchInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplineCount</summary><p>Gets the number of splines in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSplineCount( 
+&amp;   [Out] System.int
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplines</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSplines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplines2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSplines2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplines3</summary><p>Gets all of the splines added by a user in the drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSplines3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTableAnnotationCount</summary><p>Gets the number of table annotations in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTableAnnotationCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTableAnnotations</summary><p>Gets all of the table annotations on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTableAnnotations();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTemporaryAxes</summary><p>Gets the information of the temporary axes displayed in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTemporaryAxes();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTemporaryAxesCount</summary><p>Gets the number of temporary axes in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTemporaryAxesCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUniqueName</summary><p>Gets the unique name of this section view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetUniqueName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUseParentDisplayMode</summary><p>Gets whether the view is using its parent settings or if it is using its own local settings.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetUseParentDisplayMode();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserPoints</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetUserPoints();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserPoints2</summary><p>Gets all of the information about all of the user points in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetUserPoints2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserPointsCount</summary><p>Gets the number of user points in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetUserPointsCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetViewXform</summary><p>Gets the transform from model space origin to drawing space origin.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetViewXform();</pre></details><details style="margin: 0.5rem 0;"><summary>GetVisible</summary><p>Gets the visibility of this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetVisible();</pre></details><details style="margin: 0.5rem 0;"><summary>GetVisibleComponentCount</summary><p>Gets the number of visible components in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetVisibleComponentCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetVisibleComponents</summary><p>Gets the visible components in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetVisibleComponents();</pre></details><details style="margin: 0.5rem 0;"><summary>GetVisibleDrawingComponents</summary><p>Gets all of the unobscured drawing components in this drawing view of an assembly drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetVisibleDrawingComponents();</pre></details><details style="margin: 0.5rem 0;"><summary>GetVisibleEntities</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetVisibleEntities( 
+&amp;   Component2^
+LpViewComponent
+,
+&amp;   System.int
+EntityType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetVisibleEntities2</summary><p>Gets the visible entities of the specified type for the specified component in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetVisibleEntities2( 
+&amp;   Component2^
+LpViewComponent
+,
+&amp;   System.int
+EntityType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetVisibleEntityCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetVisibleEntityCount( 
+&amp;   Component2^
+LpViewComponent
+,
+&amp;   System.int
+EntityType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetVisibleEntityCount2</summary><p>Gets the number of visible entities of the specified type for the specified component in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetVisibleEntityCount2( 
+&amp;   Component2^
+LpViewComponent
+,
+&amp;   System.int
+EntityType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetWeldBeadCount</summary><p>Gets the number of weld beads on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetWeldBeadCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetWeldBeads</summary><p>Gets all of the weld beads on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetWeldBeads();</pre></details><details style="margin: 0.5rem 0;"><summary>GetWeldSymbolCount</summary><p>Gets the number of weld symbols on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetWeldSymbolCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetWeldSymbols</summary><p>Gets all of the weld symbols on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetWeldSymbols();</pre></details><details style="margin: 0.5rem 0;"><summary>GetWitnessEntitiesCount</summary><p>Gets the number of virtual sharp witness lines in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetWitnessEntitiesCount( 
+&amp;   [Out] System.int
+Size
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetWitnessGeomInfo</summary><p>Gets the geometry data for all of the virtual sharp witness lines in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetWitnessGeomInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetXform</summary><p>Gets the matrix used for displaying this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetXform();</pre></details><details style="margin: 0.5rem 0;"><summary>HasDesignTable</summary><p>Gets whether this drawing view has a design table associated with it.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool HasDesignTable();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetAnnotations</summary><p>Gets the annotations in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Annotation^ IGetAnnotations( 
+&amp;   System.int
+NumAnnotations
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetArcs</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetArcs();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetArcs2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetArcs2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetArcs3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetArcs3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetArcs4</summary><p>Gets all of the information for all of the arcs added by a user in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetArcs4();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBaseView</summary><p>Gets the base (parent) view used to create this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ IGetBaseView();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBendLines</summary><p>Gets the bendlines in a</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ IGetBendLines( 
+&amp;   System.int
+NumberOfBendLine
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBodies</summary><p>Gets the bodies of a multibody part in the drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IGetBodies( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBomTable</summary><p>Gets the BOM table found in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BomTable^ IGetBomTable();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBreakLineInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetBreakLineInfo( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBreakLineInfo2</summary><p>Gets information for all of the break lines in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetBreakLineInfo2( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBreakLines</summary><p>Gets the all of the breaks in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BreakLine^ IGetBreakLines( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBreakOutSections</summary><p>Gets all of the broken-out sections in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IGetBreakOutSections( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetCenterLines</summary><p>Gets all of the centerlines on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Centerline^ IGetCenterLines( 
+&amp;   System.int
+NumCenterLine
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetCenterMarkInfo</summary><p>Gets information about each center mark that is a feature in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetCenterMarkInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetCenterMarks</summary><p>Gets all of the center marks that are features in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CenterMark^ IGetCenterMarks( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetCThreads</summary><p>Gets all of the cosmetic threads on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CThread^ IGetCThreads( 
+&amp;   System.int
+NumCThread
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDatumOrigins</summary><p>Gets all of the datum origins on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DatumOrigin^ IGetDatumOrigins( 
+&amp;   System.int
+NumDatumOrigin
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDatumPoints</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDatumPoints();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDatumPoints2</summary><p>Gets all of the information about all the datum points in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDatumPoints2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDatumTags</summary><p>Gets all the datum tags on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DatumTag^ IGetDatumTags( 
+&amp;   System.int
+NumDatumTag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDatumTargetSyms</summary><p>Gets all of the datum target symbols on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DatumTargetSym^ IGetDatumTargetSyms( 
+&amp;   System.int
+NumDatumTargetSym
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDependentViews</summary><p>Gets either all, or only the specified, dependent views in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ IGetDependentViews( 
+&amp;   System.bool
+AllViews
+,
+&amp;   System.int
+SpecificViewType
+,
+&amp;   System.int
+DependentViewCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDesignTableExtent</summary><p>Gets the size and location of the design table associated with this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDesignTableExtent();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDetail</summary><p>Gets the detail circle for this detail view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DetailCircle^ IGetDetail();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDetailCircleInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDetailCircleInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDetailCircleInfo2</summary><p>Gets all of the information about each detail circle in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDetailCircleInfo2( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDetailCircles</summary><p>Gets the detail circles in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DetailCircle^ IGetDetailCircles( 
+&amp;   System.int
+NumDetailCircles
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDetailCircleStrings</summary><p>Gets an array of strings; each string represents the text label for a detail circle in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDetailCircleStrings();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionDisplayInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDimensionDisplayInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionDisplayInfo2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDimensionDisplayInfo2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionDisplayInfo3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDimensionDisplayInfo3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionDisplayInfo4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDimensionDisplayInfo4( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionDisplayInfo5</summary><p>Gets the display dimension information for the current drawing sheet or the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDimensionDisplayInfo5( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionDisplayString</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionDisplayString();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionDisplayString2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionDisplayString2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionDisplayString3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionDisplayString3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionDisplayString4</summary><p>Gets all of the dimension text in the current drawing sheet or the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionDisplayString4();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionIds</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionIds();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionIds2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionIds2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionIds3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionIds3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionIds4</summary><p>Gets the dimension names from the current drawing sheet or the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionIds4();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDimensionInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionInfo2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDimensionInfo2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionInfo3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDimensionInfo3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionInfo4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDimensionInfo4();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionInfo5</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDimensionInfo5();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionInfo6</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetDimensionInfo6();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionString</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionString();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionString2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionString2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionString3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionString3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDimensionString4</summary><p>Gets the strings containing the text associated with each dimension in the current drawing sheet or the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDimensionString4();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDisplayData</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayData^ IGetDisplayData();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDisplayData2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayData^ IGetDisplayData2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDisplayData3</summary><p>object for this drawing view containing only those model items that are visible in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayData^ IGetDisplayData3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDisplayDimensions</summary><p>Gets all of the display dimensions on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ IGetDisplayDimensions( 
+&amp;   System.int
+NumDisplayDim
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDowelSymbols</summary><p>Gets all of the dowel symbols on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DowelSymbol^ IGetDowelSymbols( 
+&amp;   System.int
+NumDowelSymbol
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEllipses</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetEllipses();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEllipses2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetEllipses2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEllipses3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetEllipses3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEllipses4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetEllipses4();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEllipses5</summary><p>Gets all of the ellipses added by a user in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetEllipses5();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFaceHatches</summary><p>Gets the face hatches in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">FaceHatch^ IGetFaceHatches( 
+&amp;   System.int
+NumFacesHatches
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstAnnotation</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Annotation^ IGetFirstAnnotation();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstAnnotation2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Annotation^ IGetFirstAnnotation2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstCenterOfMass</summary><p>Gets the first center of mass in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CenterOfMass^ IGetFirstCenterOfMass();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstCThread</summary><p>Gets the first cosmetic thread in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CThread^ IGetFirstCThread();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstCustomSymbol</summary><p>Obsolete. Not superseded.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CustomSymbol^ IGetFirstCustomSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstDatumTag</summary><p>Gets the first datum tag in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DatumTag^ IGetFirstDatumTag();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstDatumTargetSym</summary><p>Gets the first datum target symbol in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DatumTargetSym^ IGetFirstDatumTargetSym();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstDisplayDimension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ IGetFirstDisplayDimension();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstDisplayDimension2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ IGetFirstDisplayDimension2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstDisplayDimension3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ IGetFirstDisplayDimension3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstDowelSymbol</summary><p>Gets the first dowel symbol in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DowelSymbol^ IGetFirstDowelSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstGTOL</summary><p>Gets the first geometric tolerance in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Gtol^ IGetFirstGTOL();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstMultiJogLeader</summary><p>Gets the first multi-jog leader in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MultiJogLeader^ IGetFirstMultiJogLeader();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstNote</summary><p>Gets the first note in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Note^ IGetFirstNote();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstRevisionCloud</summary><p>Gets the first revision cloud annotation in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">RevisionCloud^ IGetFirstRevisionCloud();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstSFSymbol</summary><p>Gets the first surface-finish symbols in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SFSymbol^ IGetFirstSFSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstWeldSymbol</summary><p>Gets the first weld symbol in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">WeldSymbol^ IGetFirstWeldSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetGTols</summary><p>Gets all of the geometric tolerances on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Gtol^ IGetGTols( 
+&amp;   System.int
+NumGTol
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetLines</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetLines();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetLines2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetLines2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetLines3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetLines3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetLines4</summary><p>Gets all of the lines in the view with an option to include or exclude crosshatch lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetLines4( 
+&amp;   System.short
+CrossHatchOption
+,
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMultiJogLeaders</summary><p>Gets all of the multi-jog leaders in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MultiJogLeader^ IGetMultiJogLeaders( 
+&amp;   System.int
+NumMultiJogLeader
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetNextView</summary><p>Gets the next drawing view in the drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ IGetNextView();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetNotes</summary><p>Gets the notes in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Note^ IGetNotes( 
+&amp;   System.int
+NumberOfNotes
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetOutline</summary><p>Gets the bounding box for a view (sheet or drawing) in meters on the drawing page.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetOutline();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetParabolas</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetParabolas();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetParabolas2</summary><p>Gets all of the information about all of the parabolas in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetParabolas2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPolylines</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetPolylines();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPolylines2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetPolylines2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPolylines3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetPolylines3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPolylines4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetPolylines4();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPolylines5</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetPolylines5( 
+&amp;   System.short
+CrossHatchOption
+,
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPolylines6</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Edge^ IGetPolylines6( 
+&amp;   System.short
+CrossHatchOption
+,
+&amp;   System.int
+ArraySize
+,
+&amp;   [Out] System.double
+Polylines
+,
+&amp;   System.int
+EdgeArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPolylines7</summary><p>Gets all of the polylines in the view with an option to include or exclude crosshatch lines</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ IGetPolylines7( 
+&amp;   System.short
+CrossHatchOption
+,
+&amp;   System.int
+ArraySize
+,
+&amp;   [Out] System.double
+Polylines
+,
+&amp;   System.int
+EdgeArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPolyLinesAndCurves</summary><p>Gets the arcs, ellipses, splines, and polylines in the view with an option to include or exclude crosshatch lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetPolyLinesAndCurves( 
+&amp;   System.short
+CrossHatchOption
+,
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProjectionArrow</summary><p>Gets the projection arrow for this projected view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ProjectionArrow^ IGetProjectionArrow();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProjectionLines</summary><p>Gets the projection lines (arrows) in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ProjectionArrow^ IGetProjectionLines( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetRelatedTangentEdges</summary><p>Gets the visible tangent edges for the specified bendline in a</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Edge^ IGetRelatedTangentEdges( 
+&amp;   SketchSegment^
+BendLine
+,
+&amp;   System.int
+NumOfTangentEdges
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetRevisionClouds</summary><p>Gets all of the revision cloud annotations in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">RevisionCloud^ IGetRevisionClouds( 
+&amp;   System.int
+NumRevClouds
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSection</summary><p>Gets the section for this section view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DrSection^ IGetSection();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSectionLineInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSectionLineInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSectionLineInfo2</summary><p>Gets all of the information about the section lines in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSectionLineInfo2( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSectionLines</summary><p>Gets the section lines in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DrSection^ IGetSectionLines();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSectionLineStrings</summary><p>Gets an array of strings; each string represents the text label for a section line in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetSectionLineStrings();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSFSymbols</summary><p>Gets all of the surface finish symbols in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SFSymbol^ IGetSFSymbols( 
+&amp;   System.int
+NumSFSymbol
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSketch</summary><p>Gets the sketch used by this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Sketch^ IGetSketch();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSketchPictures</summary><p>Gets all of the sketch pictures imported to this view when a drawing is created from a part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchPicture^ IGetSketchPictures( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSMBoundaryBoxDisplayData</summary><p>Gets the boundary-box sketch display data of a flat-pattern drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayData^ IGetSMBoundaryBoxDisplayData();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSolidHatchInfo</summary><p>Gets the boundary data for all visible solid-fill hatches in a detail, break, or crop view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSolidHatchInfo( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSplines</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSplines();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSplines2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSplines2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSplines3</summary><p>Gets all of the splines added by a user in the drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSplines3();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTableAnnotations</summary><p>Gets all of the table annotations in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TableAnnotation^ IGetTableAnnotations( 
+&amp;   System.int
+NumTableAnnotation
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTemporaryAxes</summary><p>Gets the information of the temporary axes displayed in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetTemporaryAxes( 
+&amp;   System.int
+TempAxesCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetUserPoints</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetUserPoints();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetUserPoints2</summary><p>Gets all of the information about all of the user points in this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetUserPoints2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetViewXform</summary><p>Gets the transform from model space origin to drawing space origin.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetViewXform();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetVisibleComponents</summary><p>Gets the visible components in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ IGetVisibleComponents( 
+&amp;   System.int
+ViewComponentCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetVisibleEntities</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Entity^ IGetVisibleEntities( 
+&amp;   Component2^
+LpViewComponent
+,
+&amp;   System.int
+EntityType
+,
+&amp;   System.int
+ViewEntityCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetVisibleEntities2</summary><p>Gets the visible entities of the specified type for the specified component in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Entity^ IGetVisibleEntities2( 
+&amp;   Component2^
+LpViewComponent
+,
+&amp;   System.int
+EntityType
+,
+&amp;   System.int
+ViewEntityCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetWeldBeads</summary><p>Gets all of the weld beads on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">WeldBead^ IGetWeldBeads( 
+&amp;   System.int
+NumWeldBead
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetWeldSymbols</summary><p>Gets all of the weld symbols on this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">WeldSymbol^ IGetWeldSymbols( 
+&amp;   System.int
+NumWeldSymbol
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetWitnessGeomInfo</summary><p>Gets the geometry data for all of the virtual sharp witness lines in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetWitnessGeomInfo( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetXform</summary><p>Gets the matrix used for displaying this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetXform();</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertBomTable</summary><p>Inserts a Bill of Materials (BOM) table for this drawing view using Microsoft Excel.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BomTable^ IInsertBomTable( 
+&amp;   System.String^
+Template
+,
+&amp;   System.double
+Xloc
+,
+&amp;   System.double
+Yloc
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ImportAnnotations</summary><p>Imports the specified annotations into this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ImportAnnotations( 
+&amp;   System.bool
+IncludeDesignAnnotations
+,
+&amp;   System.bool
+IncludeCosmeticThreads
+,
+&amp;   System.bool
+IncludeDimXpertAnnotations
+,
+&amp;   System.bool
+IncludeHiddenFeatureItems
+,
+&amp;   System.bool
+Include3DViewAnnotations
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertAlternateView</summary><p>Alternate Position View</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ InsertAlternateView( 
+&amp;   System.String^
+ConfigurationName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBendTable</summary><p>Inserts a bend table for this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BendTableAnnotation^ InsertBendTable( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.String^
+StartValue
+,
+&amp;   System.String^
+TableTemplate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBomTable</summary><p>Inserts a Bill of Materials (BOM) table for this drawing view using Microsoft Excel.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertBomTable( 
+&amp;   System.String^
+Template
+,
+&amp;   System.double
+Xloc
+,
+&amp;   System.double
+Yloc
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBomTable2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BomTableAnnotation^ InsertBomTable2( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.int
+BomType
+,
+&amp;   System.String^
+Configuration
+,
+&amp;   System.String^
+TableTemplate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBomTable3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BomTableAnnotation^ InsertBomTable3( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.int
+BomType
+,
+&amp;   System.String^
+Configuration
+,
+&amp;   System.String^
+TableTemplate
+,
+&amp;   System.bool
+Hidden
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBomTable4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BomTableAnnotation^ InsertBomTable4( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.int
+BomType
+,
+&amp;   System.String^
+Configuration
+,
+&amp;   System.String^
+TableTemplate
+,
+&amp;   System.bool
+Hidden
+,
+&amp;   System.int
+IndentedNumberingType
+,
+&amp;   System.bool
+DetailedCutList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBomTable5</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertBomTable5( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.int
+BomType
+,
+&amp;   System.String^
+Configuration
+,
+&amp;   System.String^
+TableTemplate
+,
+&amp;   System.bool
+Hidden
+,
+&amp;   System.int
+IndentedNumberingType
+,
+&amp;   System.bool
+DetailedCutList
+,
+&amp;   System.bool
+DissolvePartLevelRows
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBomTable6</summary><p>Inserts a bill of materials (BOM) table for this drawing view using SOLIDWORKS table functionality.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertBomTable6( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.int
+BomType
+,
+&amp;   System.String^
+Configuration
+,
+&amp;   System.String^
+TableTemplate
+,
+&amp;   System.bool
+Hidden
+,
+&amp;   System.int
+IndentedNumberingType
+,
+&amp;   System.bool
+DetailedCutList
+,
+&amp;   System.bool
+DissolvePartLevelRows
+,
+&amp;   System.bool
+DisplayAsOneItem
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBreak</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BreakLine^ InsertBreak( 
+&amp;   System.int
+Orientation
+,
+&amp;   System.double
+Position1
+,
+&amp;   System.double
+Position2
+,
+&amp;   System.int
+Style
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBreak2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BreakLine^ InsertBreak2( 
+&amp;   System.int
+Orientation
+,
+&amp;   System.double
+Position1
+,
+&amp;   System.double
+Position2
+,
+&amp;   System.int
+Style
+,
+&amp;   System.int
+ShapeIntensity
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBreak3</summary><p>Inserts the specified type of break at the specified location in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertBreak3( 
+&amp;   System.int
+Orientation
+,
+&amp;   System.double
+Position1
+,
+&amp;   System.double
+Position2
+,
+&amp;   System.int
+Style
+,
+&amp;   System.int
+ShapeIntensity
+,
+&amp;   System.bool
+BreakSketchBlocks
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCutListPropertyNote</summary><p>Inserts a note that contains all of the cut list item properties of a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertCutListPropertyNote( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertHoleTable</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">HoleTableAnnotation^ InsertHoleTable( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.String^
+TableTemplate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertHoleTable2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">HoleTableAnnotation^ InsertHoleTable2( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.String^
+StartValue
+,
+&amp;   System.String^
+TableTemplate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertHoleTable3</summary><p>Inserts a hole table in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertHoleTable3( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.String^
+StartValue
+,
+&amp;   System.String^
+Template
+,
+&amp;   System.int
+TagOrder
+,
+&amp;   System.int
+TagType
+,
+&amp;   System.Object^
+ManualTags
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertPunchTable</summary><p>Inserts a punch table in the flat pattern drawing view of a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">PunchTableAnnotation^ InsertPunchTable( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.String^
+StartValue
+,
+&amp;   System.String^
+TableTemplate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertViewAsBlock</summary><p>Creates a sketch block from this view and aligns the specified manipulator point with the specified sketch block position on the drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertViewAsBlock( 
+&amp;   MathPoint^
+InsertionPoint
+,
+&amp;   MathPoint^
+Position
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWeldmentTable</summary><p>Inserts a weldment cut-list table into this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">WeldmentCutListAnnotation^ InsertWeldmentTable( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.String^
+Configuration
+,
+&amp;   System.String^
+TableTemplate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWeldTable</summary><p>Inserts a weld table into this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertWeldTable( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.bool
+IncludeAnnotations
+,
+&amp;   System.bool
+CombineSameType
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.String^
+Configuration
+,
+&amp;   System.String^
+TableTemplate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsBroken</summary><p>Gets whether the drawing view is displayed with a break.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsBroken();</pre></details><details style="margin: 0.5rem 0;"><summary>IsCropped</summary><p>Get whether this drawing view is cropped.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsCropped();</pre></details><details style="margin: 0.5rem 0;"><summary>ISelectEntity</summary><p>Selects an entity in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISelectEntity( 
+&amp;   Entity^
+Entity
+,
+&amp;   System.bool
+AppendFlag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetBodies</summary><p>Sets the bodies of a multibody part to include in the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetBodies( 
+&amp;   System.int
+Count
+,
+&amp;   Body2^%
+BodyArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetXform</summary><p>Sets the matrix used for display of this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetXform( 
+&amp;   System.double%
+Transform
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsExploded</summary><p>Gets whether the drawing view is currently showing the assembly as exploded or collasped.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsExploded();</pre></details><details style="margin: 0.5rem 0;"><summary>IsFlatPatternView</summary><p>Gets whether a drawing view is a flat-pattern drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsFlatPatternView();</pre></details><details style="margin: 0.5rem 0;"><summary>IsLightweight</summary><p>Gets whether the drawing view is lightweight.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsLightweight();</pre></details><details style="margin: 0.5rem 0;"><summary>IsModelBreakState</summary><p>Gets whether this drawing view is a Model Break View.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsModelBreakState();</pre></details><details style="margin: 0.5rem 0;"><summary>IsModelLoaded</summary><p>Gets whether the model is loaded in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsModelLoaded();</pre></details><details style="margin: 0.5rem 0;"><summary>IsModelOutOfDate</summary><p>Gets whether the model in this drawing view is up-to-date with the current model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsModelOutOfDate();</pre></details><details style="margin: 0.5rem 0;"><summary>IsPerspectiveView</summary><p>Gets whether this drawing view is showing a perspective view of the model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsPerspectiveView();</pre></details><details style="margin: 0.5rem 0;"><summary>LoadModel</summary><p>Loads the model if the model has not already been loaded for this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int LoadModel();</pre></details><details style="margin: 0.5rem 0;"><summary>MergeBendTags</summary><p>Merges or unmerges bend tags in drawings of sheet metal parts.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MergeBendTags( 
+&amp;   System.bool
+Merge
+,
+&amp;   System.Object^
+BendNotes
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveAlignment</summary><p>Removes the alignment from this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RemoveAlignment();</pre></details><details style="margin: 0.5rem 0;"><summary>ReplaceViewWithBlock</summary><p>Converts this view into a sketch block with the specified manipulator location.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReplaceViewWithBlock( 
+&amp;   MathPoint^
+InsertionPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReplaceViewWithSketch</summary><p>Converts this view into a sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReplaceViewWithSketch();</pre></details><details style="margin: 0.5rem 0;"><summary>ResetSketchVisibility</summary><p>Resets the visibility of the sketches in the drawing view so that the drawing view reflects the model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ResetSketchVisibility();</pre></details><details style="margin: 0.5rem 0;"><summary>SelectEntity</summary><p>Selects an entity in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SelectEntity( 
+&amp;   System.Object^
+Entity
+,
+&amp;   System.bool
+AppendFlag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetBendNoteTextFormat</summary><p>Sets the text format of all bend notes in this drawing view of a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetBendNoteTextFormat( 
+&amp;   System.String^
+Format
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDisplayMode</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetDisplayMode( 
+&amp;   System.int
+DisplayIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDisplayMode2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetDisplayMode2( 
+&amp;   System.int
+Mode
+,
+&amp;   System.bool
+Facetted
+,
+&amp;   System.bool
+Edges
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDisplayMode3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetDisplayMode3( 
+&amp;   System.bool
+UseParent
+,
+&amp;   System.int
+Mode
+,
+&amp;   System.bool
+Facetted
+,
+&amp;   System.bool
+Edges
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDisplayMode4</summary><p>Sets the display mode of this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetDisplayMode4( 
+&amp;   System.bool
+UseParent
+,
+&amp;   System.int
+Mode
+,
+&amp;   System.bool
+Faceted
+,
+&amp;   System.bool
+Edges
+,
+&amp;   System.bool
+CThreadHighQuality
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDisplayTangentEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetDisplayTangentEdges( 
+&amp;   System.bool
+DisplayIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDisplayTangentEdges2</summary><p>Sets the tangent edge display mode of the drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetDisplayTangentEdges2( 
+&amp;   System.int
+DisplayIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetKeepLinkedToBOM</summary><p>Sets whether this drawing view is linked to the specified BOM or weldment cut-list table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetKeepLinkedToBOM( 
+&amp;   System.bool
+Linked
+,
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetLightweightToResolved</summary><p>Changes the drawing view from lightweight to resolved.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetLightweightToResolved();</pre></details><details style="margin: 0.5rem 0;"><summary>SetMirrorViewOrientation</summary><p>Sets whether to mirror this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetMirrorViewOrientation( 
+&amp;   System.bool
+BSetIsMirrorView
+,
+&amp;   System.int
+BMirrorVieworientation
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetName2</summary><p>Sets the name of this drawing view, as displayed in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetName2( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetResolvedToLightweight</summary><p>Changes the drawing view from resolved to lightweight.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetResolvedToLightweight();</pre></details><details style="margin: 0.5rem 0;"><summary>SetVisible</summary><p>Sets the visibility of this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetVisible( 
+&amp;   System.bool
+Visible
+,
+&amp;   System.bool
+DependentsToo
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetXform</summary><p>Sets the matrix used for display of this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetXform( 
+&amp;   System.Object^
+Transform
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowExploded</summary><p>Shows an exploded assembly in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ShowExploded( 
+&amp;   System.bool
+ShowIt
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowModelBreakState</summary><p>Sets whether to display the specified Model Break View.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ShowModelBreakState( 
+&amp;   System.bool
+ShowIt
+,
+&amp;   System.String^
+BreakName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>UpdateViewDisplayGeometry</summary><p>Updates the displayed geometry for a drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void UpdateViewDisplayGeometry();</pre></details><details style="margin: 0.5rem 0;"><summary>UseDefaultAlignment</summary><p>Restores the default alignment for this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void UseDefaultAlignment();</pre></details><details style="margin: 0.5rem 0;"><summary>Angle</summary><p>Gets or sets the rotation angle of the view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double Angle {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Bodies</summary><p>Gets or sets the bodies of a multibody part to show in the drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ Bodies {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>BreakLineGap</summary><p>Gets or sets the width of the gap for a break line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double BreakLineGap {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CropViewJaggedOutline</summary><p>Gets or sets whether to use a jagged outline in this cropped drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool CropViewJaggedOutline {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CropViewJaggedShapeIntensity</summary><p>Gets or sets the shape intensity of the jagged outline in this cropped drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int CropViewJaggedShapeIntensity {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CropViewNoOutline</summary><p>Gets or sets whether to show an outline in this cropped drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool CropViewNoOutline {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DisableAutoUpdate</summary><p>Gets or sets whether to disable the automatic update of this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool DisableAutoUpdate {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DisplayState</summary><p>Gets or sets the name of the display state for this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ DisplayState {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EmphasizeOutline</summary><p>Gets or sets whether the outlines of section views are emphasized in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool EmphasizeOutline {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FlipView</summary><p>Gets or sets whether to flip a flat-pattern view of a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool FlipView {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FocusLocked</summary><p>Gets or sets whether or not focus is locked on this view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool FocusLocked {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>HiddenEdges</summary><p>Gets the hidden edges in the drawing view or sets the hidden edges in the drawing view to be visible.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ HiddenEdges {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IPosition</summary><p>he X and Y location of the model view's geometric center, relative to the drawing sheet origin.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IPosition {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IScaleRatio</summary><p>Gets or sets the scale of the drawing view, returning the results in ratio format (n:n).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IScaleRatio {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>LinkParentConfiguration</summary><p>Gets or sets whether to link a projected or auxiliary view with the parent configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool LinkParentConfiguration {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ModelToViewTransform</summary><p>Gets the math transform to go from model to drawing view space.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property MathTransform^ ModelToViewTransform {
+   MathTransform^ get();
+   void set ( &amp;   MathTransform^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Name</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ Name {
+   System.String^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Position</summary><p>he X and Y location of the model view's geometric center, relative to the drawing sheet origin.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ Position {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>PositionLocked</summary><p>Gets or sets whether this drawing view's position is locked.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool PositionLocked {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ProjectedDimensions</summary><p>Gets or sets whether dimensions in this view are true or projected.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ProjectedDimensions {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ReferencedConfiguration</summary><p>Gets or sets the configuration referenced by this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ ReferencedConfiguration {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ReferencedConfigurationID</summary><p>Gets the persistent reference ID of the configuration referenced in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int ReferencedConfigurationID {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ReferencedDocument</summary><p>Gets the document referenced by this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property ModelDoc2^ ReferencedDocument {
+   ModelDoc2^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>RootDrawingComponent</summary><p>Gets the root component for this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property DrawingComponent^ RootDrawingComponent {
+   DrawingComponent^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ScaleDecimal</summary><p>Gets or sets the scale of the drawing view, returning the results in decimal format.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double ScaleDecimal {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ScaleHatchPattern</summary><p>Gets or sets whether to scale the hatch pattern to the drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ScaleHatchPattern {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ScaleRatio</summary><p>Gets or sets the scale of the drawing view, returning the results in ratio format (n:n).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ ScaleRatio {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Sheet</summary><p>Gets the sheet on which this drawing view exists.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property Sheet^ Sheet {
+   Sheet^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ShowSheetMetalBendNotes</summary><p>Gets or sets whether to show sheet metal bend notes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ShowSheetMetalBendNotes {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SuppressState</summary><p>Gets or sets the view suppress state.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int SuppressState {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Type</summary><p>Gets the drawing view type.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int Type {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>UseParentScale</summary><p>Gets or sets the drawing view's scale to match the parent drawing view's scale.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool UseParentScale {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>UseSheetScale</summary><p>Gets or sets whether the scale of the drawing view is the same as the scale of the drawing sheet on which this view is located.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int UseSheetScale {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Represents drawing views found in a drawing document. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IView </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html">IView</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IView </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IView </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~View.html">View</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Insert_Spline_in_Drawing_Example_CPlusPlus_COM.htm">Insert Spline in Drawing (C++)</a>
+<br/><a href="Set_View_Display_Mode_Example_CPlusPlus_COM.htm">Set View Display Mode (C++)</a>
+<br/><a href="Autodimension_Selected_Drawing_View_Example_VB.htm">Autodimension Selected Drawing View (VBA)</a>
+<br/><a href="Get_Base_Views_Example_VB.htm">Get Base Views (VBA)</a>
+<br/><a href="Get_Drawing_View_Names_and_Types_Example_VB.htm">Get Drawing View Names and Types (VBA)</a>
+<br/><a href="Insert_Alternate_Position_View_Example_VB.htm">Insert Alternate Position View (VBA)</a>
+<br/><a href="Reposition_Drawing_Views_to_Avoid_Overlap_Example_VB.htm">Reposition Drawing Views to Avoid Overlap (VBA)</a>
+<br/><a href="Get_Notes_from_New_or_Existing_Title_Block_Example_CSharp.htm">Get Notes from New or Existing Title Block (C#)</a>
+<br/><a href="Get_Notes_from_New_or_Existing_Title_Block_Example_VBNET.htm">Get Notes from New or Existing Title Block (VB.NET)</a>
+<br/><a href="Get_Notes_from_New_or_Existing_Title_Block_Example_VB.htm">Get Notes from New or Existing Title Block (VBA)</a>
+<br/><a href="Insert_Weldment_Cut_List_Table_Example_VB.htm">Insert Weldment Cut List Table (VBA)</a>
+<br/><a href="Insert_Weldment_Cut_List_Table_Example_VBNET.htm">Insert Weldment Cut List Table (VB.NET)</a>
+<br/><a href="Insert_Weldment_Cut_List_Table_Example_CSharp.htm">Insert Weldment Cut List Table (C#)</a>
+<br/><a href="Insert_Weld_Table_Example_VB.htm">Insert Weld Table (VBA)</a>
+<br/><a href="Insert_Weld_Table_Example_VBNET.htm">Insert Weld Table (VB.NET)</a>
+<br/><a href="Insert_Weld_Table_Example_CSharp.htm">Insert Weld Table (C#)</a>
+<br/><a href="Get_Break_Line_Data_Example_VB.htm">Get Break Line Data (VBA)</a>
+<br/><a href="Get_Break_Line_Data_Example_VBNET.htm">Get Break Line Data (VB.NET)</a>
+<br/><a href="Get_Break_Line_Data_Example_CSharp.htm">Get Break Line Data (C#)</a>
+<br/><a href="Insert_Hole_Table_Example_VB.htm">Insert Hole Table (VBA)</a>
+<br/><a href="Insert_Hole_Table_Example_VBNET.htm">Insert Hole Table (VB.NET)</a>
+<br/><a href="Insert_Hole_Table_Example_CSharp.htm">Insert Hole Table (C#)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection"><p>A drawing document can consist of one or more drawing sheets. Each drawing sheet typically contains one or more drawing views. Each drawing view is an oriented snapshot of a particular SOLIDWORKS model and a particular configuration of the model. </p>
+<p>The IView object lets you determine the particular model and configuration being viewed and to get information about all the objects in a drawing sheet or drawing view, as well as the drawing view bounds, and transforms.</p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBreakLine~GetView.html">IBreakLine::GetView</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~GetDetailView.html">IDetailCircle::GetDetailView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDetailCircle~GetView.html">IDetailCircle::GetView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~View.html">IDrawingComponent::View</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~ActiveDrawingView.html">IDrawingDoc::ActiveDrawingView</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~IActiveDrawingView.html">IDrawingDoc::IActiveDrawingView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~CreateAuxiliaryViewAt2.html">IDrawingDoc::CreateAuxiliaryViewAt2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~ICreateAuxiliaryViewAt2.html">IDrawingDoc::ICreateAuxiliaryViewAt2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~CreateDetailViewAt3.html">IDrawingDoc::CreateDetailViewAt3</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~ICreateDetailViewAt3.html">IDrawingDoc::ICreateDetailViewAt3</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~CreateDrawViewFromModelView3.html">IDrawingDoc::CreateDrawViewFromModelView3</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~CreateRelativeView.html">IDrawingDoc::CreateRelativeView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~CreateSectionViewAt4.html">IDrawingDoc::CreateSectionViewAt4</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~ICreateSectionViewAt4.html">IDrawingDoc::ICreateSectionViewAt4</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~CreateUnfoldedViewAt3.html">IDrawingDoc::CreateUnfoldedViewAt3</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~CreateViewport3.html">IDrawingDoc::CreateViewport3</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~DropDrawingViewFromPalette.html">IDrawingDoc::DropDrawingViewFromPalette</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~GetFirstView.html">IDrawingDoc::GetFirstView</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~IGetFirstView.html">IDrawingDoc::IGetFirstView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~GetSectionView.html">IDrSection::GetSectionView</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~IGetSectionView.html">IDrSection::IGetSectionView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~GetView.html">IDrSection::GetView</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~IGetView.html">IDrSection::IGetView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~GetSelections3.html">IMacroFeatureData::GetSelections3</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IGetSelections3.html">IMacroFeatureData::IGetSelections3</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IProjectionArrow~GetProjectedView.html">IProjectionArrow::GetProjectedView</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IProjectionArrow~IGetProjectedView.html">IProjectionArrow::IGetProjectedView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IProjectionArrow~GetView.html">IProjectionArrow::GetView</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IProjectionArrow~IGetView.html">IProjectionArrow::IGetView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData~View.html">ISelectData::View</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectsDrawingView2.html">ISelectionMgr::GetSelectedObjectsDrawingView2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet~GetViews.html">ISheet::GetViews</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISilhouetteEdge~GetView.html">ISilhouetteEdge::GetView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetBaseView.html">IView::GetBaseView and IView::IGetBaseView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDependentViews.html">IView::GetDependentViews</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDependentViews.html">IView::IGetDependentViews</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetNextView.html">IView::GetNextView</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetNextView.html">IView::IGetNextView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~InsertAlternateView.html">IView::InsertAlternateView</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#View">View</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html">IView Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html">IDrawingDoc Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html">IDrSection Interface</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

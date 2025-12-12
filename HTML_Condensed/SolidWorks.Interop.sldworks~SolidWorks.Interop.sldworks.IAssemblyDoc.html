@@ -1,0 +1,1577 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IAssemblyDoc Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IAssemblyDoc"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IAssemblyDoc Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IAssemblyDoc Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>ActivateGroundPlane</summary><p>Activates the ground plane for the specified configurations.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ActivateGroundPlane( 
+&amp;   System.int
+Config_opt
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddComponent</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddComponent( 
+&amp;   System.String^
+CompName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddComponent2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddComponent2( 
+&amp;   System.String^
+CompName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddComponent4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ AddComponent4( 
+&amp;   System.String^
+CompName
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddComponent5</summary><p>Adds the specified component for the specified configuration options to this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ AddComponent5( 
+&amp;   System.String^
+CompName
+,
+&amp;   System.int
+ConfigOption
+,
+&amp;   System.String^
+NewConfigName
+,
+&amp;   System.bool
+UseConfigForPartReferences
+,
+&amp;   System.String^
+ExistingConfigName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddComponentConfiguration</summary><p>Adds a new configuration for the last selected assembly component.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Configuration^ AddComponentConfiguration( 
+&amp;   System.String^
+Name
+,
+&amp;   System.String^
+Comment
+,
+&amp;   System.String^
+AlternateName
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddComponents</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddComponents( 
+&amp;   System.Object^
+Names
+,
+&amp;   System.Object^
+Transforms
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddComponents3</summary><p>Adds multiple components to the assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddComponents3( 
+&amp;   System.Object^
+Names
+,
+&amp;   System.Object^
+Transforms
+,
+&amp;   System.Object^
+CoordinateSystemNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddConcentricMateWithTolerance</summary><p>Adds a misaligned concentric mate to this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Mate2^ AddConcentricMateWithTolerance( 
+&amp;   System.int
+AlignFromEnum
+,
+&amp;   System.int
+ConcentricPositionType
+,
+&amp;   System.bool
+ConcentricToleranceCheck
+,
+&amp;   System.double
+ConcentricToleranceValue
+,
+&amp;   [Out] System.int
+ErrorStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddDistanceMate</summary><p>Adds a distance mate to this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Mate2^ AddDistanceMate( 
+&amp;   System.int
+AlignFromEnum
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.double
+DistanceAbsUpperLimit
+,
+&amp;   System.double
+DistanceAbsLowerLimit
+,
+&amp;   System.int
+FirstArcCondition
+,
+&amp;   System.int
+SecondArcCondition
+,
+&amp;   [Out] System.int
+ErrorStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMate</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void AddMate( 
+&amp;   System.int
+MateType
+,
+&amp;   System.int
+Align
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+Dist
+,
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMate2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Mate2^ AddMate2( 
+&amp;   System.int
+MateTypeFromEnum
+,
+&amp;   System.int
+AlignFromEnum
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.double
+DistanceAbsUpperLimit
+,
+&amp;   System.double
+DistanceAbsLowerLimit
+,
+&amp;   System.double
+GearRatioNumerator
+,
+&amp;   System.double
+GearRatioDenominator
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+AngleAbsUpperLimit
+,
+&amp;   System.double
+AngleAbsLowerLimit
+,
+&amp;   [Out] System.int
+ErrorStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMate3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Mate2^ AddMate3( 
+&amp;   System.int
+MateTypeFromEnum
+,
+&amp;   System.int
+AlignFromEnum
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.double
+DistanceAbsUpperLimit
+,
+&amp;   System.double
+DistanceAbsLowerLimit
+,
+&amp;   System.double
+GearRatioNumerator
+,
+&amp;   System.double
+GearRatioDenominator
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+AngleAbsUpperLimit
+,
+&amp;   System.double
+AngleAbsLowerLimit
+,
+&amp;   System.bool
+ForPositioningOnly
+,
+&amp;   [Out] System.int
+ErrorStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMate4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Mate2^ AddMate4( 
+&amp;   System.int
+MateTypeFromEnum
+,
+&amp;   System.int
+AlignFromEnum
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.double
+DistanceAbsUpperLimit
+,
+&amp;   System.double
+DistanceAbsLowerLimit
+,
+&amp;   System.double
+GearRatioNumerator
+,
+&amp;   System.double
+GearRatioDenominator
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+AngleAbsUpperLimit
+,
+&amp;   System.double
+AngleAbsLowerLimit
+,
+&amp;   System.bool
+ForPositioningOnly
+,
+&amp;   System.bool
+LockRotation
+,
+&amp;   [Out] System.int
+ErrorStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMate5</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Mate2^ AddMate5( 
+&amp;   System.int
+MateTypeFromEnum
+,
+&amp;   System.int
+AlignFromEnum
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.double
+DistanceAbsUpperLimit
+,
+&amp;   System.double
+DistanceAbsLowerLimit
+,
+&amp;   System.double
+GearRatioNumerator
+,
+&amp;   System.double
+GearRatioDenominator
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+AngleAbsUpperLimit
+,
+&amp;   System.double
+AngleAbsLowerLimit
+,
+&amp;   System.bool
+ForPositioningOnly
+,
+&amp;   System.bool
+LockRotation
+,
+&amp;   System.int
+WidthMateOption
+,
+&amp;   [Out] System.int
+ErrorStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddPipePenetration</summary><p>Penetrates the adjacent fitting or pipe with the pipe that ends at the selected sketch point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddPipePenetration();</pre></details><details style="margin: 0.5rem 0;"><summary>AddPipingFitting</summary><p>Adds a pipe fitting to the current piping assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddPipingFitting( 
+&amp;   System.String^
+PathName
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.short
+AlignmentIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddPLMComponent</summary><p>Adds the specified component from a 3DEXPERIENCE collaborative space to the specified location in this assembly in</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddPLMComponent( 
+&amp;   System.String^
+PLMID
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddSmartComponent</summary><p>Adds the specified component at the specified coordinates as a Smart Component to this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ AddSmartComponent( 
+&amp;   System.String^
+CompName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddToFeatureScope</summary><p>Adds a component to the scope of the currently selected assembly feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddToFeatureScope( 
+&amp;   System.String^
+CompName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AssemblyPartToggle</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void AssemblyPartToggle();</pre></details><details style="margin: 0.5rem 0;"><summary>AutoAngleAxis</summary><p>Automatically detect the axis for an angle mate.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void AutoAngleAxis( 
+&amp;   System.Object^
+Mate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AutoExplode</summary><p>Automatically generates an exploded view of the current assembly configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AutoExplode();</pre></details><details style="margin: 0.5rem 0;"><summary>CollectAllSupportiveMates</summary><p>Gets all mates supportive of a mate controller in this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CollectAllSupportiveMates();</pre></details><details style="margin: 0.5rem 0;"><summary>CompConfigProperties</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void CompConfigProperties( 
+&amp;   System.bool
+M_suppressed
+,
+&amp;   System.bool
+M_show_component
+,
+&amp;   System.bool
+M_fdetail
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CompConfigProperties2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CompConfigProperties2( 
+&amp;   System.int
+Suppression
+,
+&amp;   System.bool
+Visibility
+,
+&amp;   System.bool
+FeatureDetails
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CompConfigProperties3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CompConfigProperties3( 
+&amp;   System.int
+Suppression
+,
+&amp;   System.int
+Solving
+,
+&amp;   System.bool
+Visibility
+,
+&amp;   System.bool
+FeatureDetails
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CompConfigProperties4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CompConfigProperties4( 
+&amp;   System.int
+Suppression
+,
+&amp;   System.int
+Solving
+,
+&amp;   System.bool
+Visibility
+,
+&amp;   System.bool
+UseNamedRefConfig
+,
+&amp;   System.String^
+RefConfigName
+,
+&amp;   System.bool
+ExcludeFromBOM
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CompConfigProperties5</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CompConfigProperties5( 
+&amp;   System.int
+Suppression
+,
+&amp;   System.int
+Solving
+,
+&amp;   System.bool
+Visibility
+,
+&amp;   System.bool
+UseNamedRefConfig
+,
+&amp;   System.String^
+RefConfigName
+,
+&amp;   System.bool
+ExcludeFromBOM
+,
+&amp;   System.bool
+IsEnvelope
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CompConfigProperties6</summary><p>Sets the properties for the selected</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CompConfigProperties6( 
+&amp;   System.int
+Suppression
+,
+&amp;   System.int
+Solving
+,
+&amp;   System.bool
+Visibility
+,
+&amp;   System.bool
+UseNamedRefConfig
+,
+&amp;   System.String^
+RefConfigName
+,
+&amp;   System.bool
+ExcludeFromBOM
+,
+&amp;   System.bool
+IsEnvelope
+,
+&amp;   System.int
+SaveAssemblyAsPartOption
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ComponentReload</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ComponentReload();</pre></details><details style="margin: 0.5rem 0;"><summary>ComponentReload2</summary><p>Reloads and/or sets the read-only state of the specified component.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ComponentReload2( 
+&amp;   System.Object^
+Component
+,
+&amp;   System.bool
+ReadOnly
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CopyWithMates</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CopyWithMates( 
+&amp;   System.Object^
+ComponentsToCopy
+,
+&amp;   System.Object^
+Repeat
+,
+&amp;   System.Object^
+NewEnityToMateTo
+,
+&amp;   System.Object^
+Values
+,
+&amp;   System.Object^
+FlipAlignment
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CopyWithMates2</summary><p>Copies one or more components with mates in this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CopyWithMates2( 
+&amp;   System.Object^
+ComponentsToCopy
+,
+&amp;   System.Object^
+Repeat
+,
+&amp;   System.Object^
+NewEnityToMateTo
+,
+&amp;   System.Object^
+Values
+,
+&amp;   System.Object^
+FlipAlignment
+,
+&amp;   System.Object^
+FlipDimension
+,
+&amp;   System.Object^
+LockRotation
+,
+&amp;   System.Object^
+Orientation
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateExplodedView</summary><p>Creates an explode view of the active assembly configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateExplodedView();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateMate</summary><p>Creates a mate with the specified feature data object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateMate( 
+&amp;   System.Object^
+MateData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateMateData</summary><p>Creates a mate feature data object for the specified mate type.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateMateData( 
+&amp;   System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSmartComponent</summary><p>Creates a Smart Component.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateSmartComponent( 
+&amp;   Component2^
+ComponentIn
+,
+&amp;   System.Object^
+RelatedComponents
+,
+&amp;   System.Object^
+RelatedFeatures
+,
+&amp;   System.bool
+AutoSizeDiameter
+,
+&amp;   Entity^
+LpMateReference
+,
+&amp;   System.Object^
+BoundingValues
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSpeedPak</summary><p>Creates the specified type of SpeedPak for the active configurations of the selected subassemblies in this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateSpeedPak( 
+&amp;   System.int
+SpeedPakType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteSelections</summary><p>Delete either the selected components of a subassembly or the subassembly of the selected component.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteSelections( 
+&amp;   System.int
+DeleteOptions
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DissolveComponentPattern</summary><p>Dissolves the selected component patterns.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DissolveComponentPattern();</pre></details><details style="margin: 0.5rem 0;"><summary>DissolveSubAssembly</summary><p>Dissolves the selected subassembly in this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DissolveSubAssembly();</pre></details><details style="margin: 0.5rem 0;"><summary>EditAssembly</summary><p>Switches back to the assembly document for editing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditAssembly();</pre></details><details style="margin: 0.5rem 0;"><summary>EditConcentricMate</summary><p>Edits a misaligned concentric mate.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditConcentricMate( 
+&amp;   System.int
+AlignFromEnum
+,
+&amp;   System.int
+ConcentricPositionType
+,
+&amp;   System.bool
+ConcentricToleranceCheck
+,
+&amp;   System.double
+ConcentricToleranceValue
+,
+&amp;   [Out] System.int
+ErrorStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditDistanceMate</summary><p>Edits a distance mate.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditDistanceMate( 
+&amp;   System.int
+AlignFromEnum
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.double
+DistanceAbsUpperLimit
+,
+&amp;   System.double
+DistanceAbsLowerLimit
+,
+&amp;   System.int
+FirstArcCondition
+,
+&amp;   System.int
+SecondArcCondition
+,
+&amp;   [Out] System.int
+ErrorStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditMate</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditMate( 
+&amp;   System.int
+MateType
+,
+&amp;   System.int
+Align
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+Dist
+,
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditMate2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditMate2( 
+&amp;   System.int
+MateTypeFromEnum
+,
+&amp;   System.int
+AlignFromEnum
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.double
+DistanceAbsUpperLimit
+,
+&amp;   System.double
+DistanceAbsLowerLimit
+,
+&amp;   System.double
+GearRatioNumerator
+,
+&amp;   System.double
+GearRatioDenominator
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+AngleAbsUpperLimit
+,
+&amp;   System.double
+AngleAbsLowerLimit
+,
+&amp;   [Out] System.int
+ErrorStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditMate3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditMate3( 
+&amp;   System.int
+MateTypeFromEnum
+,
+&amp;   System.int
+AlignFromEnum
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.double
+DistanceAbsUpperLimit
+,
+&amp;   System.double
+DistanceAbsLowerLimit
+,
+&amp;   System.double
+GearRatioNumerator
+,
+&amp;   System.double
+GearRatioDenominator
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+AngleAbsUpperLimit
+,
+&amp;   System.double
+AngleAbsLowerLimit
+,
+&amp;   System.bool
+ForPositioningOnly
+,
+&amp;   System.bool
+LockRotation
+,
+&amp;   System.int
+WidthMateOption
+,
+&amp;   [Out] System.int
+ErrorStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditMate4</summary><p>Obsolete. See the Remarks in each standard, advanced, and mechanical mate's feature data interface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditMate4( 
+&amp;   System.int
+MateTypeFromEnum
+,
+&amp;   System.int
+AlignFromEnum
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.double
+DistanceAbsUpperLimit
+,
+&amp;   System.double
+DistanceAbsLowerLimit
+,
+&amp;   System.double
+GearRatioNumerator
+,
+&amp;   System.double
+GearRatioDenominator
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+AngleAbsUpperLimit
+,
+&amp;   System.double
+AngleAbsLowerLimit
+,
+&amp;   System.bool
+ForPositioningOnly
+,
+&amp;   System.bool
+LockRotation
+,
+&amp;   System.int
+WidthMateOption
+,
+&amp;   System.bool
+RepairMatesWithSameMissingEntity
+,
+&amp;   [Out] System.int
+ErrorStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditPart</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditPart();</pre></details><details style="margin: 0.5rem 0;"><summary>EditPart2</summary><p>Edits the selected part within the context of an assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int EditPart2( 
+&amp;   System.bool
+Silent
+,
+&amp;   System.bool
+AllowReadOnly
+,
+&amp;   System.int%
+Information
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditRebuild</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditRebuild();</pre></details><details style="margin: 0.5rem 0;"><summary>ExitIsolate</summary><p>isolating the selected components</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ExitIsolate();</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureByName</summary><p>object for the named feature in the assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ FeatureByName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusion</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureExtrusion();</pre></details><details style="margin: 0.5rem 0;"><summary>FileDeriveComponentPart</summary><p>Creates a new part document from the currently selected assembly component.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FileDeriveComponentPart();</pre></details><details style="margin: 0.5rem 0;"><summary>FixComponent</summary><p>Fixes the selected component; i.e., makes it immovable.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FixComponent();</pre></details><details style="margin: 0.5rem 0;"><summary>ForceRebuild</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ForceRebuild();</pre></details><details style="margin: 0.5rem 0;"><summary>ForceRebuild2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ForceRebuild2( 
+&amp;   System.bool
+TopOnly
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ForceUpdateElectricalData</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ForceUpdateElectricalData( 
+&amp;   System.int
+Stream
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ForceUpdateElectricalData2</summary><p>Forces an update of electrical data.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ForceUpdateElectricalData2( 
+&amp;   System.int
+Stream
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetActiveGroundPlane</summary><p>Gets the active ground plane for the specified configurations.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetActiveGroundPlane( 
+&amp;   System.int
+Config_opt
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetAdvancedSelection</summary><p>Gets the advanced component selection criteria object for this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">AdvancedSelectionCriteria^ GetAdvancedSelection();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBox</summary><p>Gets the bounding box.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBox( 
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetComponentByID</summary><p>Gets a top-level assembly component using its component ID.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetComponentByID( 
+&amp;   System.int
+ID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetComponentByName</summary><p>Gets the specified top-level assembly component.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ GetComponentByName( 
+&amp;   System.String^
+CompName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetComponentCount</summary><p>Gets the number of components in the active configuration of this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetComponentCount( 
+&amp;   System.bool
+ToplevelOnly
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetComponents</summary><p>Gets all of the components in the active configuration of this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetComponents( 
+&amp;   System.bool
+ToplevelOnly
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDragOperator</summary><p>Gets the drag operator for dynamic drag operations in this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDragOperator();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDroppedAtEntity</summary><p>Gets a pointer to the entity where a file is dropped into this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDroppedAtEntity();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEditTarget</summary><p>Gets the model document that is currently being edited.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEditTarget();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEditTargetComponent</summary><p>Gets the component that is currently being edited.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ GetEditTargetComponent();</pre></details><details style="margin: 0.5rem 0;"><summary>GetExplodedViewConfigurationName</summary><p>Gets the name of the configuration for the specified exploded view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetExplodedViewConfigurationName( 
+&amp;   System.String^
+ExplodedViewName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetExplodedViewCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetExplodedViewCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetExplodedViewCount2</summary><p>Gets the number of exploded views in the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetExplodedViewCount2( 
+&amp;   System.String^
+ConfigurationName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetExplodedViewNames</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetExplodedViewNames();</pre></details><details style="margin: 0.5rem 0;"><summary>GetExplodedViewNames2</summary><p>Gets the names of the exploded views in the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetExplodedViewNames2( 
+&amp;   System.String^
+ConfigurationName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureScope</summary><p>Gets the components affected by this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFeatureScope( 
+&amp;   Feature^
+FeatureIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureScopeCount</summary><p>Gets the number of components affected by this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFeatureScopeCount( 
+&amp;   Feature^
+FeatureIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstMember</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstMember();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLargeDesignReviewState</summary><p>Gets the Large Design Review state of this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLargeDesignReviewState();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLightWeightComponentCount</summary><p>Gets the number of lightweight components in the assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLightWeightComponentCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPhysicalSimulationComponents</summary><p>Obsolete. Not superseded.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetPhysicalSimulationComponents( 
+&amp;   System.double
+InDuration
+,
+&amp;   [Out] System.int
+OutCount
+,
+&amp;   [Out] System.Object^
+OutComponents
+,
+&amp;   [Out] System.Object^
+OutTransforms
+,
+&amp;   [Out] System.Object^
+OutStepStartTimes
+,
+&amp;   [Out] System.Object^
+OutStepDurations
+,
+&amp;   [Out] System.double
+OutTotalPhysSimDuration
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetRouteManager</summary><p>Gets the SOLIDWORKS Routing API.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetRouteManager();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedMember</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectedMember();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSimulation</summary><p>Obsolete. Not superseded.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Simulation^ GetSimulation();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUnloadedComponentNames</summary><p>Gets the unloaded components' paths, referenced configuration names, reasons why they are unloaded, document types, and names.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetUnloadedComponentNames( 
+&amp;   [Out] System.Object^
+UnloadedComponentPathNames
+,
+&amp;   [Out] System.Object^
+UnloadedComponentReferencedConfigurationNames
+,
+&amp;   [Out] System.Object^
+ReasonForUnloadingComponents
+,
+&amp;   [Out] System.Object^
+DocTypes
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetVisibleComponentsInView</summary><p>Gets a list of visible components in this assembly to save as solid bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetVisibleComponentsInView();</pre></details><details style="margin: 0.5rem 0;"><summary>GetVisibleComponentsInViewCount</summary><p>Gets the number of visible components in this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetVisibleComponentsInViewCount();</pre></details><details style="margin: 0.5rem 0;"><summary>HasUnloadedComponents</summary><p>Gets whether this assembly has hidden or suppressed unloaded components.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool HasUnloadedComponents();</pre></details><details style="margin: 0.5rem 0;"><summary>HideComponent</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void HideComponent();</pre></details><details style="margin: 0.5rem 0;"><summary>IAddComponent2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component^ IAddComponent2( 
+&amp;   System.String^
+CompName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddComponent3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ IAddComponent3( 
+&amp;   System.String^
+CompName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddComponents</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component^ IAddComponents( 
+&amp;   System.int%
+Count
+,
+&amp;   System.String^%
+Names
+,
+&amp;   System.double%
+Transforms
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddComponents2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ IAddComponents2( 
+&amp;   System.int%
+Count
+,
+&amp;   System.String^%
+Names
+,
+&amp;   System.double%
+Transforms
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddComponents3</summary><p>Adds multiple components to the assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ IAddComponents3( 
+&amp;   System.int
+Count
+,
+&amp;   System.String^%
+Names
+,
+&amp;   System.double%
+Transforms
+,
+&amp;   System.int
+CoordinateSystemNameCount
+,
+&amp;   System.String^%
+CoordinateSystemNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IComponentReload2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IComponentReload2( 
+&amp;   Component^
+Component
+,
+&amp;   System.bool
+ReadOnly
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IComponentReload3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IComponentReload3( 
+&amp;   Component2^
+Component
+,
+&amp;   System.bool
+ReadOnly
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IFeatureByName</summary><p>object for the named feature in the assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IFeatureByName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBox</summary><p>Gets the bounding box.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetBox( 
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetComponents</summary><p>Gets all of the components in the active configuration of this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ IGetComponents( 
+&amp;   System.bool
+ToplevelOnly
+,
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDragOperator</summary><p>Gets the drag operator for dynamic drag operations in this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DragOperator^ IGetDragOperator();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEditTarget</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc^ IGetEditTarget();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEditTarget2</summary><p>Gets the model document that is currently being edited.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc2^ IGetEditTarget2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetExplodedViewNames</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetExplodedViewNames( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFeatureScope</summary><p>Gets the components affected by this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ IGetFeatureScope( 
+&amp;   Feature^
+FeatureIn
+,
+&amp;   System.int
+NumComponents
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstMember</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Member^ IGetFirstMember();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectedMember</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Member^ IGetSelectedMember();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetVisibleComponentsInView</summary><p>Gets a list of visible components in this assembly to save as solid bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ IGetVisibleComponentsInView( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMirrorComponents</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ IMirrorComponents( 
+&amp;   System.Object^
+Plane
+,
+&amp;   System.int
+InstanceCount
+,
+&amp;   Component2^%
+ComponentsToInstance
+,
+&amp;   System.int
+MirrorCount
+,
+&amp;   Component2^%
+ComponentsToMirror
+,
+&amp;   System.int
+NameCount
+,
+&amp;   System.String^%
+MirroredComponentFilenames
+,
+&amp;   System.bool
+RecreateMates
+,
+&amp;   System.int
+ComponentModifier
+,
+&amp;   System.String^
+ComponentNameModifier
+,
+&amp;   System.String^
+MirroredFileLocation
+,
+&amp;   System.bool
+CopyCustomProperties
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCavity</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertCavity();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCavity2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertCavity2( 
+&amp;   System.double
+ScaleFactor
+,
+&amp;   System.int
+ScaleType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCavity3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertCavity3( 
+&amp;   System.double
+ScaleFactor
+,
+&amp;   System.int
+ScaleType
+,
+&amp;   System.int
+KeepPieceIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCavity4</summary><p>Inserts a cavity to the active part using a selected component.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertCavity4( 
+&amp;   System.double
+ScaleFactor_x
+,
+&amp;   System.double
+ScaleFactor_y
+,
+&amp;   System.double
+ScaleFactor_z
+,
+&amp;   System.bool
+IsUniform
+,
+&amp;   System.int
+ScaleType
+,
+&amp;   System.int
+KeepPieceIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertDerivedPattern</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertDerivedPattern();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertEnvelope</summary><p>Adds an envelope in the specified configuration name in this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ InsertEnvelope( 
+&amp;   System.String^
+CompName
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertImportedComponent</summary><p>Inserts a third-party native CAD part or assembly into the current configuration of this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int InsertImportedComponent( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   [Out] System.Object^
+CompInserted
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertJoin</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertJoin();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertJoin2</summary><p>Constructs a feature from merged selected components.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertJoin2( 
+&amp;   System.bool
+HideParts
+,
+&amp;   System.bool
+ForceContact
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertLoadReference</summary><p>Creates a mate load reference to the specified or selected mate.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MateLoadReference^ InsertLoadReference( 
+&amp;   Mate2^
+Mate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertNewAssembly</summary><p>Creates a new virtual sub-assembly and optionally saves it to the specified file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int InsertNewAssembly( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertNewPart</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertNewPart();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertNewPart2</summary><p>Inserts a new part on the specified face or plane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int InsertNewPart2( 
+&amp;   System.String^
+FilePathIn
+,
+&amp;   System.Object^
+Face_or_Plane_to_select
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertNewVirtualAssembly</summary><p>Creates a new assembly from this assembly and saves it internally as a virtual component.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int InsertNewVirtualAssembly( 
+&amp;   [Out] Component2^
+InsertedComponent
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertNewVirtualPart</summary><p>Creates a new part in the context of an assembly and saves the part internally in the assembly file as a virtual component.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int InsertNewVirtualPart( 
+&amp;   System.Object^
+FaceOrPlaneToSelect
+,
+&amp;   [Out] Component2^
+InsertedComponent
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWeld</summary><p>Obsolete. Do not use. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertWeld( 
+&amp;   System.String^
+Type
+,
+&amp;   System.String^
+Shape
+,
+&amp;   System.double
+TopDelta
+,
+&amp;   System.double
+BottomDelta
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.String^
+Part
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWeld2</summary><p>Obsolete. Do not use. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertWeld2( 
+&amp;   System.String^
+Type
+,
+&amp;   System.String^
+Shape
+,
+&amp;   System.double
+TopDelta
+,
+&amp;   System.double
+BottomDelta
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.String^
+Part
+,
+&amp;   System.Object^
+TopFaces
+,
+&amp;   System.Object^
+StopFace
+,
+&amp;   System.Object^
+ContactFaces
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IReorderComponents</summary><p>Moves components to a different location in the FeatureManager tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IReorderComponents( 
+&amp;   System.int
+Count
+,
+&amp;   Component2^%
+Source
+,
+&amp;   System.Object^
+Target
+,
+&amp;   System.int
+Where
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IReorganizeComponents</summary><p>Reorganizes an assembly's structure by moving the selected components to the selected assembly or sub-assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IReorganizeComponents( 
+&amp;   System.int
+Count
+,
+&amp;   Component2^%
+Source
+,
+&amp;   System.Object^
+Target
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsComponentTreeValid</summary><p>Checks the validity of the component tree for this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsComponentTreeValid();</pre></details><details style="margin: 0.5rem 0;"><summary>ISetComponentState</summary><p>Sets the suppression state for the specified components.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetComponentState( 
+&amp;   System.int
+SuppressionState
+,
+&amp;   System.int
+NumComps
+,
+&amp;   Component2^%
+CompArr
+,
+&amp;   System.int
+ConfigOption
+,
+&amp;   System.String^
+WhichConfig
+,
+&amp;   System.bool
+SaveClosedDocs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetComponentVisibility</summary><p>Hides or shows the selected component in the specified configurations in this assembly document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetComponentVisibility( 
+&amp;   System.bool
+Visibility
+,
+&amp;   System.int
+Config_opt
+,
+&amp;   System.int
+Config_count
+,
+&amp;   System.String^%
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Isolate</summary><p>Isolates the selected components.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Isolate();</pre></details><details style="margin: 0.5rem 0;"><summary>IsRouteAssembly</summary><p>Gets whether the assembly document is a routing assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsRouteAssembly();</pre></details><details style="margin: 0.5rem 0;"><summary>IToolsCheckInterference2</summary><p>IAssemblyDoc::IToolsCheckInterference3</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IToolsCheckInterference2( 
+&amp;   System.int
+NumComponents
+,
+&amp;   Component^%
+LpComponents
+,
+&amp;   System.bool
+CoincidentInterference
+,
+&amp;   [Out] System.Object^
+PComp
+,
+&amp;   [Out] System.Object^
+PFace
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IToolsCheckInterference3</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IToolsCheckInterference3( 
+&amp;   System.int
+NumComponents
+,
+&amp;   Component2^%
+LpComponents
+,
+&amp;   System.bool
+CoincidentInterference
+,
+&amp;   [Out] System.Object^
+PComp
+,
+&amp;   [Out] System.Object^
+PFace
+)</pre></details><details style="margin: 0.5rem 0;"><summary>LightweightAllResolved</summary><p>Sets to lightweight all resolved child components of the selected components.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool LightweightAllResolved();</pre></details><details style="margin: 0.5rem 0;"><summary>MakeAssemblyFromSelectedComponents</summary><p>Creates a new assembly comprised of the selected components of this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MakeAssemblyFromSelectedComponents( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeIndependent</summary><p>Makes the selected component independent.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MakeIndependent( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeLightWeight</summary><p>Sets the selected components to lightweight.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void MakeLightWeight();</pre></details><details style="margin: 0.5rem 0;"><summary>MirrorComponents</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ MirrorComponents( 
+&amp;   System.Object^
+Plane
+,
+&amp;   System.Object^
+ComponentsToInstance
+,
+&amp;   System.Object^
+ComponentsToMirror
+,
+&amp;   System.Object^
+MirroredComponentFilenames
+,
+&amp;   System.bool
+RecreateMates
+,
+&amp;   System.int
+ComponentModifier
+,
+&amp;   System.String^
+ComponentNameModifier
+,
+&amp;   System.String^
+MirroredFileLocation
+,
+&amp;   System.bool
+CopyCustomProperties
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MirrorComponents2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ MirrorComponents2( 
+&amp;   System.Object^
+MirrorPlane
+,
+&amp;   System.Object^
+ComponentsToInstance
+,
+&amp;   System.Object^
+ComponentOrientations
+,
+&amp;   System.bool
+OrientAboutCenterOfMass
+,
+&amp;   System.Object^
+ComponentsToMirror
+,
+&amp;   System.bool
+CreateDerivedConfigurations
+,
+&amp;   System.Object^
+MirroredComponentFilenames
+,
+&amp;   System.int
+NameModifierType
+,
+&amp;   System.String^
+NameModifier
+,
+&amp;   System.String^
+MirroredComponentFileLocation
+,
+&amp;   System.int
+ImportOptions
+,
+&amp;   System.bool
+BreakLinks
+,
+&amp;   System.bool
+PreserveZAxis
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MirrorComponents3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ MirrorComponents3( 
+&amp;   System.Object^
+MirrorPlane
+,
+&amp;   System.Object^
+ComponentsToInstance
+,
+&amp;   System.Object^
+ComponentOrientations
+,
+&amp;   System.bool
+OrientAboutCenterOfMass
+,
+&amp;   System.Object^
+ComponentsToMirror
+,
+&amp;   System.bool
+CreateDerivedConfigurations
+,
+&amp;   System.Object^
+MirroredComponentFilenames
+,
+&amp;   System.int
+NameModifierType
+,
+&amp;   System.String^
+NameModifier
+,
+&amp;   System.String^
+MirroredComponentFileLocation
+,
+&amp;   System.int
+ImportOptions
+,
+&amp;   System.bool
+BreakLinks
+,
+&amp;   System.bool
+PreserveZAxis
+,
+&amp;   System.bool
+SyncFlexibleSubAssemblies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>OpenCompFile</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void OpenCompFile();</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveFromFeatureScope</summary><p>Removes a component from the scope of the currently selected assembly feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveFromFeatureScope( 
+&amp;   System.String^
+CompName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReorderComponents</summary><p>Moves components to a different location in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReorderComponents( 
+&amp;   System.Object^
+Source
+,
+&amp;   System.Object^
+Target
+,
+&amp;   System.int
+Where
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReorganizeComponents</summary><p>Reorganizes an assembly's structure by moving the selected components to the selected assembly or sub-assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReorganizeComponents( 
+&amp;   System.Object^
+Source
+,
+&amp;   System.Object^
+Target
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReplaceComponents</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReplaceComponents( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.bool
+ReplaceAllInstance
+,
+&amp;   System.bool
+ReAttachMates
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReplaceComponents2</summary><p>Replaces one or more selected components with another model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReplaceComponents2( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.bool
+ReplaceAllInstance
+,
+&amp;   System.int
+UseConfigChoice
+,
+&amp;   System.bool
+ReAttachMates
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReplacePLMComponents</summary><p>SOLIDWORKS Connected</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReplacePLMComponents( 
+&amp;   System.String^
+PLMID
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.bool
+ReplaceAllInstance
+,
+&amp;   System.int
+UseConfigChoice
+,
+&amp;   System.bool
+ReAttachMates
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ResolveAllLightweight</summary><p>Resolves all lightweight child components of the selected components</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ResolveAllLightweight();</pre></details><details style="margin: 0.5rem 0;"><summary>ResolveAllLightWeightComponents</summary><p>Resolves the lightweight components in this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ResolveAllLightWeightComponents( 
+&amp;   System.bool
+WarnUser
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ResolveOutOfDateLightWeightComponents</summary><p>Resolves the selected out-of-date lightweight component, and any out-of-date lightweight sub-components, in the assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ResolveOutOfDateLightWeightComponents();</pre></details><details style="margin: 0.5rem 0;"><summary>RotateComponent</summary><p>Displays the Rotate Component PropertyManager page.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RotateComponent();</pre></details><details style="margin: 0.5rem 0;"><summary>RotateComponentAxis</summary><p>Rotates the component axis by a fixed amount.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RotateComponentAxis();</pre></details><details style="margin: 0.5rem 0;"><summary>SaveIsolate</summary><p>Saves the display characteristics of the</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SaveIsolate( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SelectComponentsBySize</summary><p>Selects assembly components by percent of assembly size.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SelectComponentsBySize( 
+&amp;   System.double
+Percent
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SelectiveOpen</summary><p>Selectively opens the components of an assembly that is opened in Large Design Review mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SelectiveOpen( 
+&amp;   System.bool
+SelectedComponents
+,
+&amp;   System.bool
+OpenLightWeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetComponentState</summary><p>Sets the suppression state for the specified components.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetComponentState( 
+&amp;   System.int
+SuppressionState
+,
+&amp;   System.Object^
+CompArr
+,
+&amp;   System.int
+ConfigOption
+,
+&amp;   System.String^
+WhichConfig
+,
+&amp;   System.bool
+SaveClosedDocs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetComponentSuppression</summary><p>Suppresses, resolves, or sets to lightweight selected components of this assembly in the active configuration only.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetComponentSuppression( 
+&amp;   System.int
+State
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetComponentTransparent</summary><p>Enables or disables transparency on the selected components.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetComponentTransparent( 
+&amp;   System.bool
+State
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetComponentVisibility</summary><p>Hides or shows the selected component in the specified configurations in this assembly document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetComponentVisibility( 
+&amp;   System.bool
+Visibility
+,
+&amp;   System.int
+Config_opt
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDroppedFileConfigName</summary><p>Sets the configuration name for the recently dropped file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetDroppedFileConfigName( 
+&amp;   System.String^
+ConfigName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDroppedFileFeatureName</summary><p>Sets the name of the feature for the recently dropped file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetDroppedFileFeatureName( 
+&amp;   System.String^
+FeatureName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDroppedFileName</summary><p>Sets the new file name for a recently dropped file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetDroppedFileName( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetIsolateVisibility</summary><p>Sets the display characteristics of all of the components not selected to</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetIsolateVisibility( 
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSpeedPakConfigurations</summary><p>Sets the configurations in the selected subassemblies to which to apply SpeedPak in this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetSpeedPakConfigurations( 
+&amp;   System.int
+Config_opt
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSpeedPakToParent</summary><p>Switches the selected subassemblies from the SpeedPak configuration to the parent configuration of the SpeedPak configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetSpeedPakToParent();</pre></details><details style="margin: 0.5rem 0;"><summary>ShowExploded</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ShowExploded( 
+&amp;   System.bool
+ShowIt
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowExploded2</summary><p>Displays the specified exploded view for the current assembly configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ShowExploded2( 
+&amp;   System.bool
+ShowIt
+,
+&amp;   System.String^
+ExplodeViewName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>TemporaryFixGroup</summary><p>Temporarily fix or group selected components during such operations as drag, move, rotate, etc.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void TemporaryFixGroup();</pre></details><details style="margin: 0.5rem 0;"><summary>TemporaryFixGroupExit</summary><p>Changes components that were temporarily fixed or grouped back to floating or ungrouped after such operations as drag, move, rotate, etc.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void TemporaryFixGroupExit();</pre></details><details style="margin: 0.5rem 0;"><summary>ToolsCheckInterference</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ToolsCheckInterference();</pre></details><details style="margin: 0.5rem 0;"><summary>ToolsCheckInterference2</summary><p>Checks for interference between parts in this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ToolsCheckInterference2( 
+&amp;   System.int
+NumComponents
+,
+&amp;   System.Object^
+LpComponents
+,
+&amp;   System.bool
+CoincidentInterference
+,
+&amp;   [Out] System.Object^
+PComp
+,
+&amp;   [Out] System.Object^
+PFace
+)</pre></details><details style="margin: 0.5rem 0;"><summary>TranslateComponent</summary><p>Displays the Move Component PropertyManager page.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void TranslateComponent();</pre></details><details style="margin: 0.5rem 0;"><summary>UnfixComponent</summary><p>Floats the selected component; i.e., makes it movable.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void UnfixComponent();</pre></details><details style="margin: 0.5rem 0;"><summary>UngroupComponents</summary><p>Ungroups the grouped components in the selected folder in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool UngroupComponents();</pre></details><details style="margin: 0.5rem 0;"><summary>UpdateBox</summary><p>Updates the bounding box for this assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void UpdateBox();</pre></details><details style="margin: 0.5rem 0;"><summary>UpdateFeatureScope</summary><p>Updates the feature scope and rebuilds the currently selected assembly feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void UpdateFeatureScope();</pre></details><details style="margin: 0.5rem 0;"><summary>UpdateSpeedPak</summary><p>Updates out-of-date SpeedPak configurations for the selected subassemblies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool UpdateSpeedPak();</pre></details><details style="margin: 0.5rem 0;"><summary>UpdateToolboxComponent</summary><p>Updates SOLIDWORKS Toolbox components in the specified assembly level using the current information in Toolbox settings.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int UpdateToolboxComponent( 
+&amp;   System.int
+AssemblyLevelToUpdate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>UseSpeedPak</summary><p>Sets whether to switch the selected subassemblies whose active configuration is the parent configuration of a SpeedPak configuration to the SpeedPak configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool UseSpeedPak();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewCollapseAssembly</summary><p>Collapses the selected exploded view on the Configuration tab of the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewCollapseAssembly();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewExplodeAssembly</summary><p>Explodes the selected exploded view on the Configuration tab of the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewExplodeAssembly();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewFeatureManagerByDependencies</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewFeatureManagerByDependencies();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewFeatureManagerByFeatures</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewFeatureManagerByFeatures();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewFeatureManagerFeatureDetail</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewFeatureManagerFeatureDetail( 
+&amp;   System.bool
+Detail
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ClearanceVerificationManager</summary><p>Gets the clearance verification manager.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ ClearanceVerificationManager {
+   System.Object^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EnableAssemblyRebuild</summary><p>Gets or sets whether to suspend the rebuild of the assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool EnableAssemblyRebuild {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EnablePresentation</summary><p>Gets or sets whether the assembly is in presentation mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool EnablePresentation {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>InterferenceDetectionManager</summary><p>Gets the Interference Detection manager, which allows you to run interference detection on an assembly to determine whether components interfere with each other.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property InterferenceDetectionMgr^ InterferenceDetectionManager {
+   InterferenceDetectionMgr^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IsSupportedMatesAvailable</summary><p>Gets whether this assembly contains mates that are supportive of a mate controller.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool IsSupportedMatesAvailable {
+   System.bool get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>LargeDesignReviewTransparencyLevel</summary><p>Gets or sets the transparency level of unmodified components in the graphics area of this assembly opened in Large Design Review mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double LargeDesignReviewTransparencyLevel {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>LargeDesignReviewTransparencyLevelDynamic</summary><p>Gets or sets whether to dynamically modify the transparency level of unmodified components in the graphics area when the transparency level slider is moved on the Filter Modified Components PropertyManager page.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool LargeDesignReviewTransparencyLevelDynamic {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>LargeDesignReviewTransparencyLevelEnabled</summary><p>Gets or sets whether transparency levels are activated for unmodified components in the graphics area for this assembly opened in Large Design Review mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool LargeDesignReviewTransparencyLevelEnabled {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to functions that perform assembly operations; for example, adding new components, adding mate conditions, hiding, and exploding components. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IAssemblyDoc </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html">IAssemblyDoc</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IAssemblyDoc </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IAssemblyDoc </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc.html">AssemblyDoc</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Run_Interference_Detection_Example_CSharp.htm">Run Interference Detection (C#)</a>
+<br/><a href="Run_Interference_Detection_Example_VBNET.htm">Run Interference Detection (VB.NET)</a>
+<br/><a href="Run_Interference_Detection_Example_VB.htm">Run Interference Detection (VBA)</a>
+<br/><a href="Insert_and_Save_Virtual_Assembly_Example_CSharp.htm">Insert and Save Virtual Assembly (C#)</a>
+<br/><a href="Insert_and_Save_Virtual_Assembly_Example_VBNET.htm">Insert and Save Virtual Assembly (VB.NET)</a>
+<br/><a href="Insert_and_Save_Virtual_Assembly_Example_VB.htm">Insert and Save Virtual Assembly (VBA)</a>
+<br/><a href="Add_Components_Example_CSharp.htm">Add Components (C#)</a>
+<br/><a href="Add_Components_Example_VBNET.htm">Add Components (VB.NET)</a>
+<br/><a href="Add_Components_Example_VB.htm">Add Components (VBA)</a>
+<br/><a href="Add_Component_and_Mate_Example_CPlusPlus_COM.htm">Add Component and Mate (C++)</a>
+<br/><a href="Add_Component_and_Mate_Example_VB.htm">Add Component and Mate (VBA)</a>
+<br/><a href="Insert_MidSurface_in_Component_Example_CSharp.htm">Insert MidSurface in Assembly (C#)</a>
+<br/><a href="Insert_MidSurface_in_Component_Example_VBNET.htm">Insert MidSurface in Component (VB.NET)</a>
+<br/><a href="Insert_MidSurface_in_Component_Example_VB.htm">Insert MidSurface in Component (VBA)</a>
+<br/><a href="Create_Auto_Route_Example_VB.htm">Create Auto Route (VBA)</a>
+<br/><a href="Create_Auto_Route_Example_VBNET.htm">Create Auto Route (VB.NET)</a>
+<br/><a href="Create_Auto_Route_Example_CSharp.htm">Create Auto Route (C#)</a>
+<br/><a href="Add_Component_and_Mate_Example_VBNET.htm">Add Component and Mate (VB.NET)</a>
+<br/><a href="Add_Component_and_Mate_Example_CSharp.htm">Add Component and Mate Example (C#)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection"><p>The SOLIDWORKS API includes functions that are common to all document types; for example, determining the file name associated with a document is a common operation. To expose common document-level functions, the SOLIDWORKS API uses the <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html">IModelDoc2</a> object. </p>
+<p>Events are implemented with delegates in the Microsoft .NET Framework. See the <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks_namespace.html">Overview</a> topic for a list of delegates for this interface.</p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~GetAssembly.html">ICollisionDetectionManager::GetAssembly</a></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#AssemblyDoc">AssemblyDoc</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html">IAssemblyDoc Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

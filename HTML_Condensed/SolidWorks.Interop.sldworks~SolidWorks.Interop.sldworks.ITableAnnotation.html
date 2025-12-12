@@ -1,0 +1,693 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>ITableAnnotation Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.ITableAnnotation"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">ITableAnnotation Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : ITableAnnotation Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>DeleteColumn</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteColumn( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteColumn2</summary><p>Deletes the specified column in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteColumn2( 
+&amp;   System.int
+Index
+,
+&amp;   System.bool
+IncludeHidden
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteRow</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteRow( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteRow2</summary><p>Deletes the specified row from this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteRow2( 
+&amp;   System.int
+Index
+,
+&amp;   System.bool
+IncludeHidden
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EvaluateCellEquation</summary><p>Solves the specified equation in the specified cell of this BOM table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int EvaluateCellEquation( 
+&amp;   System.int
+Row
+,
+&amp;   System.int
+Column
+,
+&amp;   System.bool
+IncludeHidden
+,
+&amp;   System.String^
+Equation
+,
+&amp;   [Out] System.String^
+SolvedValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetAnnotation</summary><p>Gets the annotation for this table annotation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Annotation^ GetAnnotation();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCellEquation</summary><p>Gets the equation and its solved value for the specified row and column of this BOM table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetCellEquation( 
+&amp;   System.int
+Row
+,
+&amp;   System.int
+Column
+,
+&amp;   System.bool
+IncludeHidden
+,
+&amp;   [Out] System.String^
+SolvedValue
+,
+&amp;   [Out] System.int
+Status
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCellRange</summary><p>Gets the selected table cells' row and column index ranges.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetCellRange( 
+&amp;   [Out] System.int
+FirstRow
+,
+&amp;   [Out] System.int
+LastRow
+,
+&amp;   [Out] System.int
+FirstColumn
+,
+&amp;   [Out] System.int
+LastColumn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCellTextFormat</summary><p>Gets the text format for the specified cell in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TextFormat^ GetCellTextFormat( 
+&amp;   System.int
+Row
+,
+&amp;   System.int
+Column
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCellTextOrientation</summary><p>Gets the text orientation in the specified cell of this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetCellTextOrientation( 
+&amp;   System.int
+Row
+,
+&amp;   System.int
+Column
+,
+&amp;   System.bool
+IncludeHidden
+,
+&amp;   System.bool
+AllCells
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCellUseDocTextFormat</summary><p>Gets whether this cell uses the document setting for its text format.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetCellUseDocTextFormat( 
+&amp;   System.int
+Row
+,
+&amp;   System.int
+Column
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetColumnTitle</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetColumnTitle( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetColumnTitle2</summary><p>Gets the title of the specified column.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetColumnTitle2( 
+&amp;   System.int
+Index
+,
+&amp;   System.bool
+IncludeHidden
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetColumnType</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetColumnType( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetColumnType2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetColumnType2( 
+&amp;   System.int
+Index
+,
+&amp;   System.bool
+IncludeHidden
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetColumnType3</summary><p>Gets the type and property data for the specified BOM table column.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetColumnType3( 
+&amp;   System.int
+Index
+,
+&amp;   System.bool
+IncludeHidden
+,
+&amp;   [Out] System.Object^
+PropertyData
+,
+&amp;   [Out] System.int
+Status
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetColumnWidth</summary><p>Gets the width of the specified column of this table annotation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetColumnWidth( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetHeaderCount</summary><p>Gets the number of rows or columns in the header of this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetHeaderCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetHeaderStyle</summary><p>Gets the header style of this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetHeaderStyle();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLockColumnWidth</summary><p>Gets whether the width of the specified column is locked in this table annotation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetLockColumnWidth( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLockRowHeight</summary><p>Gets whether the height of the specified row is locked in this table annotation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetLockRowHeight( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetNext</summary><p>Gets the next table annotation in this drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TableAnnotation^ GetNext();</pre></details><details style="margin: 0.5rem 0;"><summary>GetRowHeight</summary><p>Gets the height of the specified row of this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetRowHeight( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetRowVerticalGap</summary><p>Gets the gap between the text and the top or bottom of the specified row of this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetRowVerticalGap( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplitInformation</summary><p>Gets information about any splits in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSplitInformation( 
+&amp;   [Out] System.int
+Index
+,
+&amp;   [Out] System.int
+Count
+,
+&amp;   [Out] System.int
+RangeStart
+,
+&amp;   [Out] System.int
+RangeEnd
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTextFormat</summary><p>Gets the text format for this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TextFormat^ GetTextFormat();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUseDocTextFormat</summary><p>Gets whether this table uses the document setting for text formatting.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetUseDocTextFormat();</pre></details><details style="margin: 0.5rem 0;"><summary>HorizontalAutoSplit</summary><p>Starts the automatic horizontal splitting of this table using the specified options.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ HorizontalAutoSplit( 
+&amp;   System.int
+MaxNumberOfRows
+,
+&amp;   System.int
+Apply
+,
+&amp;   System.int
+PlacementOfNewSplitTables
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertColumn</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertColumn( 
+&amp;   System.int
+Where
+,
+&amp;   System.int
+Index
+,
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertColumn2</summary><p>Inserts a column into this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertColumn2( 
+&amp;   System.int
+Where
+,
+&amp;   System.int
+Index
+,
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+WidthStyle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRow</summary><p>Inserts a row into this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertRow( 
+&amp;   System.int
+Where
+,
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsCellMerged</summary><p>Gets whether the specified cell is merged with other cells.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsCellMerged( 
+&amp;   System.int
+Row
+,
+&amp;   System.int
+Column
+,
+&amp;   [Out] System.int
+WithRow
+,
+&amp;   [Out] System.int
+WithColumn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsCellTextEditable</summary><p>Gets whether the text in this cell can be edited.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsCellTextEditable( 
+&amp;   System.int
+Row
+,
+&amp;   System.int
+Column
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Merge</summary><p>Merges the display of this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Merge( 
+&amp;   System.int
+Where
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MergeCells</summary><p>Merges the cells in the specified range.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MergeCells( 
+&amp;   System.int
+RowStart
+,
+&amp;   System.int
+ColumnStart
+,
+&amp;   System.int
+RowEnd
+,
+&amp;   System.int
+ColumnEnd
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MoveColumn</summary><p>Moves a column in this table annotation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MoveColumn( 
+&amp;   System.int
+Source
+,
+&amp;   System.int
+Where
+,
+&amp;   System.int
+Destination
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MoveRow</summary><p>Moves a row in this table either up one row or down one row.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MoveRow( 
+&amp;   System.int
+Source
+,
+&amp;   System.int
+Where
+,
+&amp;   System.int
+Destination
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SaveAsPDF</summary><p>Saves this table to a PDF file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SaveAsPDF( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SaveAsTemplate</summary><p>Saves the format of this table as a template file, which you can then use to create other tables of the same type and that look the same.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SaveAsTemplate( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SaveAsText</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SaveAsText( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.String^
+Separator
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SaveAsText2</summary><p>Saves this table to a text data file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SaveAsText2( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.String^
+Separator
+,
+&amp;   System.bool
+IncludeHidden
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCellEquation</summary><p>Sets the specified equation for the specified row and column of this BOM table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetCellEquation( 
+&amp;   System.int
+Row
+,
+&amp;   System.int
+Column
+,
+&amp;   System.bool
+IncludeHidden
+,
+&amp;   System.String^
+Equation
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCellRange</summary><p>Sets the current range of cells.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetCellRange( 
+&amp;   System.int
+FirstRow
+,
+&amp;   System.int
+LastRow
+,
+&amp;   System.int
+FirstColumn
+,
+&amp;   System.int
+LastColumn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCellTextFormat</summary><p>Sets the text format for the text in the specified cell.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetCellTextFormat( 
+&amp;   System.int
+Row
+,
+&amp;   System.int
+Column
+,
+&amp;   System.bool
+UseDoc
+,
+&amp;   TextFormat^
+TextFormat
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCellTextOrientation</summary><p>Sets the text orientation in the specified table cell.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetCellTextOrientation( 
+&amp;   System.int
+Row
+,
+&amp;   System.int
+Column
+,
+&amp;   System.bool
+IncludeHidden
+,
+&amp;   System.bool
+AllCells
+,
+&amp;   System.int
+Orientation
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetColumnTitle</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetColumnTitle( 
+&amp;   System.int
+Index
+,
+&amp;   System.String^
+Title
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetColumnTitle2</summary><p>Sets the title of the specified column.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetColumnTitle2( 
+&amp;   System.int
+Index
+,
+&amp;   System.String^
+Title
+,
+&amp;   System.bool
+IncludeHidden
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetColumnType</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetColumnType( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetColumnType2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetColumnType2( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Type
+,
+&amp;   System.bool
+IncludeHidden
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetColumnType3</summary><p>Sets the type and property data for the specified BOM table column.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetColumnType3( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+ColumnType
+,
+&amp;   System.bool
+IncludeHidden
+,
+&amp;   System.Object^
+PropertyData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetColumnWidth</summary><p>Sets the width of the specified column in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double SetColumnWidth( 
+&amp;   System.int
+Index
+,
+&amp;   System.double
+Width
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetHeader</summary><p>Sets the header for this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetHeader( 
+&amp;   System.int
+Style
+,
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetLockColumnWidth</summary><p>Sets whether to lock the width of the specified column in this table annotation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetLockColumnWidth( 
+&amp;   System.int
+Index
+,
+&amp;   System.bool
+LockColumnWidth
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetLockRowHeight</summary><p>Sets whether to lock the height of the specified row in this table annotation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetLockRowHeight( 
+&amp;   System.int
+Index
+,
+&amp;   System.bool
+LockRowHeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetRowHeight</summary><p>Sets the height of the specified row in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double SetRowHeight( 
+&amp;   System.int
+Index
+,
+&amp;   System.double
+Height
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetRowVerticalGap</summary><p>Sets the gap between the text and the top or bottom of the specified row of this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetRowVerticalGap( 
+&amp;   System.int
+Index
+,
+&amp;   System.double
+Gap
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetTextFormat</summary><p>Sets the text format for this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetTextFormat( 
+&amp;   System.bool
+UseDoc
+,
+&amp;   TextFormat^
+TextFormat
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Split</summary><p>Splits the table at the specified location.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TableAnnotation^ Split( 
+&amp;   System.int
+Where
+,
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>UnmergeCells</summary><p>Splits the specified previously merged cell in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool UnmergeCells( 
+&amp;   System.int
+Row
+,
+&amp;   System.int
+Column
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Anchored</summary><p>Gets or sets whether this table is attached to its anchor.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool Anchored {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>AnchorType</summary><p>Gets or sets the anchor point for this table annotation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int AnchorType {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>BorderLineWeight</summary><p>Gets or sets the line weight of the border lines to the specified SOLIDWORKS-supplied weight for this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int BorderLineWeight {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>BorderLineWeightCustom</summary><p>Gets or sets the line weight of the border lines to the specified custom weight for this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double BorderLineWeightCustom {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CellTextHorizontalJustification</summary><p>Gets or sets the horizontal justification for the text in the specified cell.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int CellTextHorizontalJustification {
+   System.int get(System.int
+Row
+, System.int
+Column
+);
+   void set (System.int
+Row
+, System.int
+Column
+, System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CellTextVerticalJustification</summary><p>Gets or sets the vertical justification for the text in the specified cell.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int CellTextVerticalJustification {
+   System.int get(System.int
+Row
+, System.int
+Column
+);
+   void set (System.int
+Row
+, System.int
+Column
+, System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ColumnCount</summary><p>Gets the number of columns in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int ColumnCount {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ColumnHidden</summary><p>Hides or shows the specified column in this table annotation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ColumnHidden {
+   System.bool get(System.int
+Index
+);
+   void set (System.int
+Index
+, System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DisplayedText</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ DisplayedText {
+   System.String^ get(System.int
+Row
+, System.int
+Column
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DisplayedText2</summary><p>Gets the actual text displayed in the specified cell in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ DisplayedText2 {
+   System.String^ get(System.int
+Row
+, System.int
+Column
+, System.bool
+IncludeHidden
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>GeneralTableFeature</summary><p>Gets the general table feature for this general table annotation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property GeneralTableFeature^ GeneralTableFeature {
+   GeneralTableFeature^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>GridLineWeight</summary><p>Gets or sets the line weight of the inner lines to the SOLIDWORKS-supplied weight for this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int GridLineWeight {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>GridLineWeightCustom</summary><p>Gets or sets the line weight of the inner lines to the specified custom weight for this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double GridLineWeightCustom {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>RowCount</summary><p>Gets the number of rows in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int RowCount {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>RowHidden</summary><p>Gets or sets whether the specified row is hidden in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool RowHidden {
+   System.bool get(System.int
+Index
+);
+   void set (System.int
+Index
+, System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>StopAutoSplitting</summary><p>Stops the automatic horizontal splitting of this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool StopAutoSplitting {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Text</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ Text {
+   System.String^ get(System.int
+Row
+, System.int
+Column
+);
+   void set (System.int
+Row
+, System.int
+Column
+, System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Text2</summary><p>Gets or sets the parametrized string of text for the specified cell of this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ Text2 {
+   System.String^ get(System.int
+Row
+, System.int
+Column
+, System.bool
+IncludeHidden
+);
+   void set (System.int
+Row
+, System.int
+Column
+, System.bool
+IncludeHidden
+, System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>TextHorizontalJustification</summary><p>Gets or sets the horizontal justification setting for the text in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int TextHorizontalJustification {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>TextVerticalJustification</summary><p>Gets or sets the vertical justification for the text in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int TextVerticalJustification {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Title</summary><p>Gets or sets the title for this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ Title {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>TitleVisible</summary><p>Gets or sets whether the title of the table is visible.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool TitleVisible {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>TotalColumnCount</summary><p>Gets the total number of visible and hidden columns in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int TotalColumnCount {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>TotalRowCount</summary><p>Gets the total number of visible and hidden rows in this table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int TotalRowCount {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Type</summary><p>Gets the type of table.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int Type {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>UpperCase</summary><p>Gets or sets whether text in the table is all upper case.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int UpperCase {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Provides access to table annotations. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface ITableAnnotation </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html">ITableAnnotation</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface ITableAnnotation </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class ITableAnnotation </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation.html">TableAnnotation</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Hide_or_Show_First_Column_in_Hole_Table_Example_VBNET.htm">Hide or Show First Column in Hole Table (VB.NET)</a>
+<br/><a href="Hide_or_Show_First_Column_in_Hole_Table_Example_VB.htm">Hide or Show First Column in Hole Table (VBA)</a>
+<br/><a href="Hide_or_Show_First_Column_in_Hole_Table_Example_CSharp.htm">Hide or Show First Column in Hole Table (C#)</a>
+<br/><a href="Select_Table_Cells_Example_CSharp.htm">Select Table Cells (C#)</a>
+<br/><a href="Select_Table_Cells_Example_VBNET.htm">Select Table Cells (VB.NET)</a>
+<br/><a href="Select_Table_Cells_Example_VB.htm">Select Table Cells (VBA)</a>
+<br/><a href="Get_General_Table_Feature_Example_CSharp.htm">Get General Table Feature (C#)</a>
+<br/><a href="Get_General_Table_Feature_Example_VBNET.htm">Get General Table Feature (VB.NET)</a>
+<br/><a href="Get_General_Table_Feature_Example_VB.htm">Get General Table Feature (VBA)</a>
+<br/><a href="Get_Components_in_Each_BOM_Table_Row_Example_CSharp.htm">Get Components in Each BOM Table Row (C#)</a>
+<br/><a href="Get_Components_in_Each_BOM_Table_Row_Example_VBNET.htm">Get Components in Each BOM Table Row (VB.NET)</a>
+<br/><a href="Get_Components_in_Each_BOM_Table_Row_VB.htm">Get Components in Each BOM Table Row (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection">See <a href="ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableAnnotationType_e.html">swTableAnnotationType_e</a> for the types of tables derived from ITableAnnotation.</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertTableAnnotation2.html">IDrawingDoc::InsertTableAnnotation2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGeneralTableFeature~GetTableAnnotations.html">IGeneralTableFeature::GetTableAnnotations</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGeneralTableFeature~IGetTableAnnotations.html">IGeneralTableFeature::IGetTableAnnotations</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetGeneralTableAnnotation.html">IModelDocExtension::GetGeneralTableAnnotation</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertGeneralTableAnnotation.html">IModelDocExtension::InsertGeneralTableAnnotation</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertTitleBlockTable.html">IModelDocExtension::InsertTitleBlockTable</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetNext.html">ITableAnnotation::GetNext</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~HorizontalAutoSplit.html">ITableAnnotation::HorizontalAutoSplit</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~Split.html">ITableAnnotation::Split</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstTableAnnotation.html">IView::GetFirstTableAnnotation</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetTableAnnotations.html">IView::GetTableAnnotations</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetTableAnnotations.html">IView::IGetTableAnnotations</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#TableAnnotation">TableAnnotation</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html">ITableAnnotation Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

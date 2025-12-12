@@ -1,0 +1,544 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>ICurve Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.ICurve"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">ICurve Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : ICurve Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>ApplyTransform</summary><p>Applies the transform to a curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ApplyTransform( 
+&amp;   MathTransform^
+Xform
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ConvertArcToBcurve</summary><p>Gets the b-spline value representation of the arc.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ ConvertArcToBcurve( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Axis
+,
+&amp;   System.Object^
+Start
+,
+&amp;   System.Object^
+End
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ConvertLineToBcurve</summary><p>Converts the specified line into a b-spline curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ ConvertLineToBcurve( 
+&amp;   System.Object^
+StartPoint
+,
+&amp;   System.Object^
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Copy</summary><p>Gets a copy of this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Copy();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTrimmedCurve</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateTrimmedCurve( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTrimmedCurve2</summary><p>Creates a trimmed curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ CreateTrimmedCurve2( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateWireBody</summary><p>Creates a wire body from this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ CreateWireBody();</pre></details><details style="margin: 0.5rem 0;"><summary>Evaluate</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Evaluate( 
+&amp;   System.double
+Parameter
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Evaluate2</summary><p>Evaluates the curve at the specified parameter of the curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Evaluate2( 
+&amp;   System.double
+Parameter
+,
+&amp;   System.int
+NumberOfDerivatives
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ExtentCurve</summary><p>Extends a b-spline curve by the specified length.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ ExtentCurve( 
+&amp;   System.bool
+AtStart
+,
+&amp;   System.double
+Length
+,
+&amp;   System.bool
+LinearExt
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FindMinimumRadius</summary><p>Finds the minimum radius of curvature of the selected curve and its position and u-v parameters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool FindMinimumRadius( 
+&amp;   System.Object^
+Bound
+,
+&amp;   [Out] System.int
+NumOfRadius
+,
+&amp;   [Out] System.Object^
+Radius
+,
+&amp;   [Out] System.Object^
+Location
+,
+&amp;   [Out] System.Object^
+Parameter
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBaseCurve</summary><p>Gets the base curve for this trimmed curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ GetBaseCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBCurveParams</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBCurveParams( 
+&amp;   System.bool
+WantCubicIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBCurveParams3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBCurveParams3( 
+&amp;   System.bool
+WantCubicIn
+,
+&amp;   System.bool
+WantNRational
+,
+&amp;   System.bool
+ForceNonPeriodic
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBCurveParams4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBCurveParams4( 
+&amp;   System.bool
+WantCubicIn
+,
+&amp;   System.bool
+WantNRational
+,
+&amp;   System.bool
+ForceNonPeriodic
+,
+&amp;   System.bool
+IsClosed
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBCurveParams5</summary><p>Gets a data object containing the parameters of a Bézier curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SplineParamData^ GetBCurveParams5( 
+&amp;   System.bool
+WantCubicIn
+,
+&amp;   System.bool
+WantNRational
+,
+&amp;   System.bool
+ForceNonPeriodic
+,
+&amp;   System.bool
+IsClosed
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetClosestPointOn</summary><p>Determines the closest point on the curve using the x,y,z input point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetClosestPointOn( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEllipseParams</summary><p>Gets the parameters for this elliptical curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEllipseParams();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEndParams</summary><p>Gets the end conditions of this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetEndParams( 
+&amp;   [Out] System.double
+Start
+,
+&amp;   [Out] System.double
+End
+,
+&amp;   [Out] System.bool
+IsClosed
+,
+&amp;   [Out] System.bool
+IsPeriodic
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLength</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetLength( 
+&amp;   System.double
+StartParam
+,
+&amp;   System.double
+EndParam
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLength2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetLength2( 
+&amp;   System.double
+StartParam
+,
+&amp;   System.double
+EndParam
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLength3</summary><p>Gets the length of a curve between the specified parameters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetLength3( 
+&amp;   System.double
+StartParam
+,
+&amp;   System.double
+EndParam
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPCurveParams</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPCurveParams();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPCurveParams2</summary><p>Gets the piecewise polynomial parameterization data for this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SplineParamData^ GetPCurveParams2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplinePts</summary><p>Gets the spline points for this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSplinePts( 
+&amp;   System.Object^
+ParamsArrayIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessPts</summary><p>Gets a set of points that represent the tessellation of this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessPts( 
+&amp;   System.double
+ChordTolerance
+,
+&amp;   System.double
+LengthTolerance
+,
+&amp;   System.Object^
+StartPoint
+,
+&amp;   System.Object^
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IConvertArcToBcurveSize</summary><p>Gets the b-curve size for the arc's conversion given the coordinates of the two end points of a line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IConvertArcToBcurveSize( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double%
+Axis
+,
+&amp;   System.double%
+Start
+,
+&amp;   System.double%
+End
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IConvertLineToBcurveSize</summary><p>Converts the specified line into a b-spline curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IConvertLineToBcurveSize( 
+&amp;   System.double%
+StartPoint
+,
+&amp;   System.double%
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IConvertPcurveToBcurveSize</summary><p>Creates a b-curve from piecewise data.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IConvertPcurveToBcurveSize( 
+&amp;   System.int
+Dim
+,
+&amp;   System.int
+Order
+,
+&amp;   System.int
+Nsegs
+,
+&amp;   System.double%
+Coeffs
+,
+&amp;   System.int
+Basis
+,
+&amp;   System.double%
+Xform
+,
+&amp;   System.double
+ScaleFactor
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICopy</summary><p>Gets a copy of this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ ICopy();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateTrimmedCurve</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ ICreateTrimmedCurve( 
+&amp;   System.double%
+Start
+,
+&amp;   System.double%
+End
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Identity</summary><p>Gets the type of curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Identity();</pre></details><details style="margin: 0.5rem 0;"><summary>IEvaluate</summary><p>Evaluates the curve at the specified parameter of the curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IEvaluate( 
+&amp;   System.double
+Parameter
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IEvaluate2</summary><p>Evaluates the curve at the specified parameter of the curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IEvaluate2( 
+&amp;   System.double
+Parameter
+,
+&amp;   System.int
+NumberOfDerivatives
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IFindMinimumRadius</summary><p>Finds the minimum radius of curvature of the selected curve and its position and u-v parameters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IFindMinimumRadius( 
+&amp;   System.double%
+Bound
+,
+&amp;   [Out] System.int
+NumOfRadius
+,
+&amp;   [Out] System.Object^
+Radius
+,
+&amp;   [Out] System.Object^
+Location
+,
+&amp;   [Out] System.Object^
+Parameter
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBCurveParams</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetBCurveParams();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBCurveParams3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetBCurveParams3( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBCurveParamsSize</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetBCurveParamsSize( 
+&amp;   System.bool
+WantCubicIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBCurveParamsSize2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetBCurveParamsSize2( 
+&amp;   System.bool
+WantCubic
+,
+&amp;   System.bool
+WantNRational
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBCurveParamsSize3</summary><p>Gets the b-curve size.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetBCurveParamsSize3( 
+&amp;   System.bool
+WantCubicIn
+,
+&amp;   System.bool
+WantNRational
+,
+&amp;   System.bool
+ForceNonPeriodic
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetClosestPointOn</summary><p>Determines the closest point on the curve using the x,y,z input point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetClosestPointOn( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEllipseParams</summary><p>Gets the parameters for this elliptical curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetEllipseParams( 
+&amp;   System.double%
+ParamArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPCurveParams</summary><p>Converts a curve to a piecewise rational cubic polynomial form.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetPCurveParams();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPCurveParamsSize</summary><p>Gets the p-curve size.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetPCurveParamsSize();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSplinePts</summary><p>Gets the spline points for this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSplinePts();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSplinePtsSize</summary><p>Gets the size of the array required by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetSplinePtsSize( 
+&amp;   System.int%
+PropArray
+,
+&amp;   System.double%
+KnotsArray
+,
+&amp;   System.double%
+CntrlPntCoordArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessPts</summary><p>Gets a set of points that represent the tessellation of this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetTessPts( 
+&amp;   System.double
+ChordTolerance
+,
+&amp;   System.double
+LengthTolerance
+,
+&amp;   System.double%
+StartPoint
+,
+&amp;   System.double%
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessPtsSize</summary><p>Gets the size of the array required by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetTessPtsSize( 
+&amp;   System.double
+ChordTolerance
+,
+&amp;   System.double
+LengthTolerance
+,
+&amp;   System.double%
+StartPoint
+,
+&amp;   System.double%
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IIntersectCurve</summary><p>Gets a set of points that represent the intersection of two trimmed curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IIntersectCurve( 
+&amp;   Curve^
+OtherCurve
+,
+&amp;   System.double%
+ThisStartPoint
+,
+&amp;   System.double%
+ThisEndPoint
+,
+&amp;   System.double%
+OtherStartPoint
+,
+&amp;   System.double%
+OtherEndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IIntersectCurveSize</summary><p>Gets the size of the array required by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IIntersectCurveSize( 
+&amp;   Curve^
+OtherCurve
+,
+&amp;   System.double%
+ThisStartPoint
+,
+&amp;   System.double%
+ThisEndPoint
+,
+&amp;   System.double%
+OtherStartPoint
+,
+&amp;   System.double%
+OtherEndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IJoinCurves</summary><p>Joins the specified curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IJoinCurves( 
+&amp;   System.int
+NCurves
+,
+&amp;   Curve^%
+Curves
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IntersectCurve</summary><p>Gets a set of points that represent the intersection of two trimmed curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ IntersectCurve( 
+&amp;   System.Object^
+OtherCurve
+,
+&amp;   System.Object^
+ThisStartPoint
+,
+&amp;   System.Object^
+ThisEndPoint
+,
+&amp;   System.Object^
+OtherStartPoint
+,
+&amp;   System.Object^
+OtherEndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IReverseCurve</summary><p>Gets the reversed copy of this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IReverseCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>IsBcurve</summary><p>Gets whether the curve is a b-spline curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsBcurve();</pre></details><details style="margin: 0.5rem 0;"><summary>IsCircle</summary><p>Gets whether the curve is a circle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsCircle();</pre></details><details style="margin: 0.5rem 0;"><summary>IsEllipse</summary><p>Gets whether the curve is an ellipse.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsEllipse();</pre></details><details style="margin: 0.5rem 0;"><summary>IsLine</summary><p>Gets whether the curve is a line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsLine();</pre></details><details style="margin: 0.5rem 0;"><summary>IsTrimmedCurve</summary><p>Gets whether the curve is trimmed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsTrimmedCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>JoinCurves</summary><p>Joins the specified curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ JoinCurves( 
+&amp;   System.Object^
+Curves
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeBsplineCurve</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ MakeBsplineCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>MakeBsplineCurve2</summary><p>Creates a b-spline curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ MakeBsplineCurve2();</pre></details><details style="margin: 0.5rem 0;"><summary>ReverseCurve</summary><p>Gets the reversed copy of this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ ReverseCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>ReverseEvaluate</summary><p>Gets the U parameter for the given XYZ location on this curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double ReverseEvaluate( 
+&amp;   System.double
+PositionX
+,
+&amp;   System.double
+PositionY
+,
+&amp;   System.double
+PositionZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SimplifyBCurve</summary><p>Simplifies a b-curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ SimplifyBCurve( 
+&amp;   System.double
+TolIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CircleParams</summary><p>Gets the parameters of a curve that is a circle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ CircleParams {
+   System.Object^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ICircleParams</summary><p>Gets the parameters of a curve that is a circle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double ICircleParams {
+   System.double get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ILineParams</summary><p>Gets the parameters of a curve that is a line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double ILineParams {
+   System.double get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>LineParams</summary><p>Gets the parameters of a curve that is a line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ LineParams {
+   System.Object^ get();
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to a curve and its parameters in their native form or in terms of b-curve data. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface ICurve </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html">ICurve</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface ICurve </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class ICurve </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Curve.html">Curve</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Get_P-Spline_Parameterization_Data_Example_CSharp.htm">Get P-Spline Parameterization Data (C#)</a>
+<br/><a href="Get_P-Spline_Parameterization_Data_Example_VBNET.htm">Get P-Spline Parameterization Data (VB.NET)</a>
+<br/><a href="Get_P-Spline_Parameterization_Data_Example_VB.htm">Get P-Spline Parameterization Data (VBA)</a>
+<br/><a href="Get_BCurve_Spline_Points_Example_CSharp.htm">Get BCurve Spline Points (C#)</a>
+<br/><a href="Get_BCurve_Spline_Points_Example_VBNET.htm">Get BCurve Spline Points (VB.NET)</a>
+<br/><a href="Get_BCurve_Spline_Points_Example_VB.htm">Get BCurve Spline Points (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddProfileArc.html">IBody2::AddProfileArc</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileArc.html">IBody2::IAddProfileArc</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddProfileBspline.html">IBody2::AddProfileBspline</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileBspline.html">IBody2::IAddProfileBspline</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddProfileBsplineByPts.html">IBody2::AddProfileBsplineByPts</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileBsplineByPts.html">IBody2::IAddProfileBsplineByPts</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddProfileLine.html">IBody2::AddProfileLine</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileLine.html">IBody2::IAddProfileLine</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileArcDLL.html">IBody2::IAddProfileArcDLL</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileBsplineDLL.html">IBody2::IAddProfileBsplineDLL</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileLineDLL.html">IBody2::IAddProfileLineDLL</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~GetCurve.html">ICoEdge::GetCurve</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~IGetEdge.html">ICoEdge::IGetCurve</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData~EntitiesToMate.html">ICoincidentMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~Copy.html">ICurve::Copy</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~ICopy.html">ICurve::ICopy</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~CreateTrimmedCurve2.html">ICurve::CreateTrimmedCurve2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~ExtentCurve.html">ICurve::ExtentCurve</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetBaseCurve.html">ICurve::GetBaseCurve</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~JoinCurves.html">ICurve::JoinCurves</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IJoinCurves.html">ICurve::IJoinCurves</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~MakeBsplineCurve.html">ICurve::MakeBsplineCurve</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~ReverseCurve.html">ICurve::ReverseCurve</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IReverseCurve.html">ICurve::IReverseCurve</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~SimplifyBCurve.html">ICurve::SimplifyBCurve</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D1Direction.html">ICurveDrivenPatternFeatureData::D1Direction</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D2Direction.html">ICurveDrivenPatternFeatureData::D2Direction</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetCurve.html">IEdge::GetCurve</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetCurve.html">IEdge::IGetCurve</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCurvePatternFeatureData~D1Direction.html">ILocalCurvePatternFeatureData::D1Direction</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCurvePatternFeatureData~D2Direction.html">ILocalCurvePatternFeatureData::D2Direction</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateArc.html">IModeler::CreateArc</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateArc.html">IModeler::ICreateArc</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBsplineCurve.html">IModeler::CreateBsplineCurve</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBsplineCurve.html">IModeler::ICreateBsplineCurve</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateEllipse.html">IModeler::CreateEllipse</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateEllipse.html">IModeler::ICreateEllipse</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateLine.html">IModeler::CreateLine</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateLine.html">IModeler::ICreateLine</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreatePCurve.html">IModeler::CreatePCurve</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreatePCurve.html">IModeler::ICreatePCurve</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~MergeCurves.html">IModeler::MergeCurves</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IMergeCurves.html">IModeler::IMergeCurves</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ProjectCurveOnSurface.html">IModeler::ProjectCurveOnSurface</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~ReferencePoint.html">ISketchPatternFeatureData::ReferencePoint</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~GetCurve.html">ISketchSegment::GetCurve</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~IGetCurve.html">ISketchSegment::IGetCurve</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~CutDirection.html">ISMNormalCutFeatureData2::CutDirection</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~CreateNewCurve.html">ISurface::CreateNewCurve</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~ICreateNewCurve.html">ISurface::ICreateNewCurve</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetProfileCurve.html">ISurface::GetProfileCurve</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetProfileCurve.html">ISurface::IGetProfileCurve</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IntersectSurface.html">ISurface::IntersectSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IIntersectSurface.html">ISurface::IIntersectSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~MakeIsoCurve.html">ISurface::MakeIsoCurve</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IMakeIsoCurve.html">ISurface::IMakeIsoCurve</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~MakeIsoCurves.html">ISurface::MakeIsoCurves</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IMakeIsoCurves.html">ISurface::IMakeIsoCurves</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GuideCurves.html">ISweepFeatureData::GuideCurves</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Path.html">ISweepFeatureData::Path</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Profile.html">ISweepFeatureData::Profile</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~ReferencePoint.html">ITablePatternFeatureData::ReferencePoint</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#Curve">Curve</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html">ICurve Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

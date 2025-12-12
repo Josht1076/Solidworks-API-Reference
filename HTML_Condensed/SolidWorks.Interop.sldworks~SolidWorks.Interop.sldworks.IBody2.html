@@ -1,0 +1,1537 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IBody2 Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IBody2"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IBody2 Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IBody2 Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AddConstantFillets</summary><p>Creates constant radius fillets on the specified edges on this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddConstantFillets( 
+&amp;   System.double
+Radius
+,
+&amp;   System.Object^
+EdgesToFillet
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddProfileArc</summary><p>Creates an arc profile curve and returns a pointer to that curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddProfileArc( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Axis
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.Object^
+StartPoint
+,
+&amp;   System.Object^
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddProfileBspline</summary><p>Creates an B-spline profile curve and returns a pointer to that curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddProfileBspline( 
+&amp;   System.Object^
+Props
+,
+&amp;   System.Object^
+Knots
+,
+&amp;   System.Object^
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddProfileBsplineByPts</summary><p>Adds a profile B-spline.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddProfileBsplineByPts( 
+&amp;   System.int
+NumPoints
+,
+&amp;   System.Object^
+PointArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddProfileLine</summary><p>Creates a line profile curve and returns a pointer to that curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddProfileLine( 
+&amp;   System.Object^
+RootPoint
+,
+&amp;   System.Object^
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddPropertyExtension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddPropertyExtension( 
+&amp;   System.Object^
+PropertyExtension
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddPropertyExtension2</summary><p>Adds a property extension to this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddPropertyExtension2( 
+&amp;   System.Object^
+PropertyExtension
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddVertexPoint</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddVertexPoint( 
+&amp;   System.Object^
+Point
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ApplyTransform</summary><p>Applies a transform to this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ApplyTransform( 
+&amp;   MathTransform^
+Xform
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Check</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Check();</pre></details><details style="margin: 0.5rem 0;"><summary>Check2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Check2();</pre></details><details style="margin: 0.5rem 0;"><summary>ConvertToMeshBody</summary><p>Converts a solid body to a mesh BREP (boundary representation) body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ ConvertToMeshBody( 
+&amp;   System.bool
+GroupFacetsIntoFaces
+,
+&amp;   System.bool
+KeepOriginalBody
+,
+&amp;   System.bool
+HideOriginalBody
+,
+&amp;   System.double
+MeshRefinement
+,
+&amp;   System.bool
+AdvancedMeshRefinement
+,
+&amp;   System.double
+MaximumDistance
+,
+&amp;   System.double
+MaximumAngle
+,
+&amp;   System.bool
+DefineMaxElementSize
+,
+&amp;   System.double
+ElementSize
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Copy</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Copy();</pre></details><details style="margin: 0.5rem 0;"><summary>Copy2</summary><p>Gets a copy of this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Copy2( 
+&amp;   System.bool
+PreserveFaceIDs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBaseFeature</summary><p>Creates a base feature for the imported body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateBaseFeature( 
+&amp;   System.Object^
+BodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBlendSurface</summary><p>Creates a constant radius rolling-ball blend surface (also known as a pipe surface) between two side surfaces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBlendSurface( 
+&amp;   System.Object^
+Surface1
+,
+&amp;   System.double
+Range1
+,
+&amp;   System.Object^
+Surface2
+,
+&amp;   System.double
+Range2
+,
+&amp;   System.Object^
+StartVec
+,
+&amp;   System.Object^
+EndVec
+,
+&amp;   System.int
+HaveHelpVec
+,
+&amp;   System.Object^
+HelpVec
+,
+&amp;   System.int
+HaveHelpBox
+,
+&amp;   System.Object^
+HelpBox
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBodyFromFaces</summary><p>Creates a temporary body from the faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBodyFromFaces( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBodyFromSurfaces</summary><p>Creates a body from a list of trimmed surfaces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateBodyFromSurfaces();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBoundedSurface</summary><p>Creates a bounded surface from an independent base surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateBoundedSurface( 
+&amp;   System.bool
+UOpt
+,
+&amp;   System.bool
+VOpt
+,
+&amp;   System.Object^
+UvParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBsplineSurface</summary><p>Creates a new B-spline surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBsplineSurface( 
+&amp;   System.Object^
+Props
+,
+&amp;   System.Object^
+UKnots
+,
+&amp;   System.Object^
+VKnots
+,
+&amp;   System.Object^
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateExtrusionSurface</summary><p>Creates a new surface of extrusion (infinitely long tabulated cylinder).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateExtrusionSurface( 
+&amp;   System.Object^
+ProfileCurve
+,
+&amp;   System.Object^
+AxisDirection
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateNewSurface</summary><p>Creates a handle for a new surface to serve as geometry for a face to be added to the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateNewSurface();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateOffsetSurface</summary><p>Creates a new surface offset from an existing surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateOffsetSurface( 
+&amp;   System.Object^
+SurfaceIn
+,
+&amp;   System.double
+Distance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreatePlanarSurface</summary><p>Creates a new infinite planar surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreatePlanarSurface( 
+&amp;   System.Object^
+VRootPoint
+,
+&amp;   System.Object^
+VNormal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreatePlanarTrimSurfaceDLL</summary><p>Creates a planar trim surface for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreatePlanarTrimSurfaceDLL( 
+&amp;   System.Object^
+Points
+,
+&amp;   System.Object^
+Normal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateRevolutionSurface</summary><p>Creates a new surface of revolution.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateRevolutionSurface( 
+&amp;   System.Object^
+ProfileCurve
+,
+&amp;   System.Object^
+AxisPoint
+,
+&amp;   System.Object^
+AxisDirection
+,
+&amp;   System.Object^
+ProfileEndPtParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateRuledSurface</summary><p>Creates a ruled surface from the specified curves and apex point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateRuledSurface( 
+&amp;   System.Object^
+Curve1
+,
+&amp;   System.Object^
+Curve2
+,
+&amp;   System.Object^
+ApexPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTempBodyFromSurfaces</summary><p>Creates a temporary body from a list of existing trimmed surfaces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateTempBodyFromSurfaces();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTrimmedSurface</summary><p>Creates a trimmed surface from a base surface and a list of existing trimming curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateTrimmedSurface();</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteBlends</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteBlends( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteBlends2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteBlends2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+,
+&amp;   System.bool
+DoLocalCheck
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteBlends3</summary><p>Removes a set of fillet faces from a temporary body and heals the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteBlends3( 
+&amp;   System.Object^
+FaceList
+,
+&amp;   System.bool
+DoLocalCheck
+,
+&amp;   System.bool
+UsePlanarCap
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteFaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteFaces( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteFaces2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int DeleteFaces2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteFaces3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteFaces3( 
+&amp;   System.Object^
+FaceList
+,
+&amp;   System.int
+Option
+,
+&amp;   System.bool
+DoLocalCheck
+,
+&amp;   [Out] System.bool
+LocalCheckResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteFaces4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteFaces4( 
+&amp;   System.Object^
+FaceList
+,
+&amp;   System.int
+Option
+,
+&amp;   System.bool
+DoLocalCheck
+,
+&amp;   [Out] System.Object^
+BodyList
+,
+&amp;   [Out] System.bool
+LocalCheckResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteFaces5</summary><p>Deletes a set of faces from a temporary body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteFaces5( 
+&amp;   System.Object^
+FaceList
+,
+&amp;   System.int
+HealAction
+,
+&amp;   System.int
+LoopProcessOption
+,
+&amp;   System.bool
+DoLocalCheck
+,
+&amp;   [Out] System.Object^
+BodyList
+,
+&amp;   [Out] System.bool
+LocalCheckResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteFacesMakeSheetBodies</summary><p>Creates sheet bodies from deleted faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ DeleteFacesMakeSheetBodies( 
+&amp;   System.Object^
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeSelect</summary><p>Deselects this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeSelect();</pre></details><details style="margin: 0.5rem 0;"><summary>Diagnose</summary><p>object for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DiagnoseResult^ Diagnose();</pre></details><details style="margin: 0.5rem 0;"><summary>Display</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Display( 
+&amp;   System.Object^
+Part
+,
+&amp;   System.int
+Color
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Display2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Display2( 
+&amp;   PartDoc^
+Part
+,
+&amp;   System.int
+Color
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Display3</summary><p>Displays this temporary body in the context of the specified part or component.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Display3( 
+&amp;   System.Object^
+Component
+,
+&amp;   System.int
+Color
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DisplayWireFrameXOR</summary><p>Displays a temporary body in the given part's context in XOR mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void DisplayWireFrameXOR( 
+&amp;   System.Object^
+Part
+,
+&amp;   System.int
+Color
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DraftBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DraftBody( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+,
+&amp;   System.Object^
+EdgeList
+,
+&amp;   System.double
+DraftAngle
+,
+&amp;   System.Object^
+Dir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DraftBody2</summary><p>Adds drafts to the specified faces on a temporary body. This method modifies the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DraftBody2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+,
+&amp;   System.Object^
+EdgeList
+,
+&amp;   System.Object^
+BasePoint
+,
+&amp;   System.double
+DraftAngle
+,
+&amp;   System.Object^
+Dir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnumFaces</summary><p>Returns an enumerated list of the faces in a body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumFaces2^ EnumFaces();</pre></details><details style="margin: 0.5rem 0;"><summary>ExtendSurface</summary><p>Creates a new temporary body by extending the selected edges.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ExtendSurface( 
+&amp;   System.Object^
+EdgesToExtend
+,
+&amp;   System.bool
+ExtendLinear
+,
+&amp;   System.int
+EndCondition
+,
+&amp;   System.double
+Dist
+,
+&amp;   Vertex^
+PUpToVtx
+,
+&amp;   Face^
+PUpToFace
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FindAttribute</summary><p>Finds an attribute on a body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Attribute^ FindAttribute( 
+&amp;   AttributeDef^
+AttributeDef
+,
+&amp;   System.int
+WhichOne
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBodyBox</summary><p>Gets the bounding box for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBodyBox();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCoincidenceTransform</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetCoincidenceTransform( 
+&amp;   System.Object^
+BodyDispIn
+,
+&amp;   [Out] MathTransform^
+Xform
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCoincidenceTransform2</summary><p>Calculates the transformation matrix, which would make the input body coincident with this body if the transformation matrix is applied.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetCoincidenceTransform2( 
+&amp;   System.Object^
+BodyDispIn
+,
+&amp;   [Out] MathTransform^
+Xform
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEdgeCount</summary><p>Gets the number of edges for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetEdgeCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEdges</summary><p>Gets the edges for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>GetExcessBodyArray</summary><p>Gets the excess bodies after sewing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetExcessBodyArray();</pre></details><details style="margin: 0.5rem 0;"><summary>GetExtremePoint</summary><p>Calculates the extreme point of the model in the specified direction.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetExtremePoint( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   [Out] System.double
+Outx
+,
+&amp;   [Out] System.double
+Outy
+,
+&amp;   [Out] System.double
+Outz
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFaceCount</summary><p>Gets the number of faces in this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFaceCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFaces</summary><p>Gets all of the faces on the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFaces();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureCount</summary><p>Gets the number of features in this body in a multibody sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFeatureCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatures</summary><p>Gets the features in this body in a multibody sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFeatures();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstFace</summary><p>Finds the first face in a body and returns the face.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstFace();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstSelectedFace</summary><p>Gets the first selected face on this body. For use with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstSelectedFace();</pre></details><details style="margin: 0.5rem 0;"><summary>GetGraphicsBody</summary><p>Gets the graphics body associated with this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetGraphicsBody();</pre></details><details style="margin: 0.5rem 0;"><summary>GetIgesErrorCode</summary><p>Gets the current IGES error code.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetIgesErrorCode( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetIgesErrorCount</summary><p>Gets the number of errors encountered while running an IGES routine.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetIgesErrorCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetIntersectionEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetIntersectionEdges( 
+&amp;   System.Object^
+ToolBodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetIntersectionEdges2</summary><p>Gets the edges resulting from the intersection of the specified tool body and this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetIntersectionEdges2( 
+&amp;   System.Object^
+ToolBodyIn
+,
+&amp;   System.bool
+AddFaceIds
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMassProperties</summary><p>Gets the mass properties of this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMassProperties( 
+&amp;   System.double
+Density
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialIdName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialIdName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialIdName2</summary><p>Gets the material name for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialIdName2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialPropertyName</summary><p>Gets the names of the material database and the material for the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialPropertyName( 
+&amp;   System.String^
+ConfigName
+,
+&amp;   [Out] System.String^
+Database
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialUserName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialUserName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialUserName2</summary><p>Gets the material name for this body; the material name is visible to the user.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialUserName2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMeshBody</summary><p>Gets the mesh body associated with this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMeshBody();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMiddleSurface</summary><p>Inserts a midsurface in a body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetMiddleSurface( 
+&amp;   System.double
+PlacementPercentage
+,
+&amp;   [Out] System.Object^
+Face1List
+,
+&amp;   [Out] System.Object^
+Face2List
+,
+&amp;   [Out] System.Object^
+Thickness
+,
+&amp;   [Out] System.Object^
+MiddleSurfaceBody
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetNextSelectedFace</summary><p>Gets the next selected face. For use with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNextSelectedFace();</pre></details><details style="margin: 0.5rem 0;"><summary>GetOriginalPatternedBody</summary><p>Gets the original body from this patterned body. Also gets the transformation of this body with respect to the original body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ GetOriginalPatternedBody( 
+&amp;   [Out] MathTransform^
+Xform
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetProcessedBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetProcessedBody();</pre></details><details style="margin: 0.5rem 0;"><summary>GetProcessedBody2</summary><p>Pre-processes the geometry of the body using the specified parameters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ GetProcessedBody2( 
+&amp;   System.double
+MaxUAngle
+,
+&amp;   System.double
+MaxVAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetProcessedBodyWithSelFace</summary><p>Gets a processed body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetProcessedBodyWithSelFace();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPropertyExtension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPropertyExtension( 
+&amp;   System.int
+ID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPropertyExtension2</summary><p>Gets the specified property extension on this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPropertyExtension2( 
+&amp;   System.int
+ID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSafeBody</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ GetSafeBody();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedFaceCount</summary><p>Gets the number of selected faces on this body. For use with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSelectedFaceCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedFaces</summary><p>Gets the selected faces. For use with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectedFaces();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectionId</summary><p>Gets the selection ID of the body, if one exists.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetSelectionId();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSheetBody</summary><p>Gets a sheet (surface) body in this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSheetBody( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessellation</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessellation( 
+&amp;   System.Object^
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTexture</summary><p>Gets the texture applied to this body in the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Texture^ GetTexture( 
+&amp;   System.String^
+Config_name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTrackingIDs</summary><p>tracking IDs assigned to this body</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTrackingIDs( 
+&amp;   System.int
+TrackingCookie
+,
+&amp;   [Out] System.Object^
+TrackingIDs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTrackingIDsCount</summary><p>Gets the number of tracking IDs on this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTrackingIDsCount( 
+&amp;   System.int
+TrackingCookie
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetType</summary><p>Gets the type of the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetType();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUpdateStamp</summary><p>Gets the update stamp for the body as of the last rebuild.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetUpdateStamp();</pre></details><details style="margin: 0.5rem 0;"><summary>GetVertexCount</summary><p>Gets the number of vertices in this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetVertexCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetVertices</summary><p>Gets the vertices in this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetVertices();</pre></details><details style="margin: 0.5rem 0;"><summary>HasMaterialPropertyValues</summary><p>Gets whether this body has an appearance.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool HasMaterialPropertyValues();</pre></details><details style="margin: 0.5rem 0;"><summary>Hide</summary><p>Hides this temporary body in the context of the specified part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Hide( 
+&amp;   System.Object^
+Part
+)</pre></details><details style="margin: 0.5rem 0;"><summary>HideBody</summary><p>Hides or shows this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void HideBody( 
+&amp;   System.bool
+BHide
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileArc</summary><p>Creates an arc profile curve and returns a pointer to that curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileArc( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Axis
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.Object^
+StartPoint
+,
+&amp;   System.Object^
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileArcDLL</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileArcDLL( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double%
+Axis
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.double%
+StartPoint
+,
+&amp;   System.double%
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileBspline</summary><p>Creates an B-spline profile curve and returns a pointer to that curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileBspline( 
+&amp;   System.Object^
+Props
+,
+&amp;   System.Object^
+Knots
+,
+&amp;   System.Object^
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileBsplineByPts</summary><p>Adds a profile B-spline.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileBsplineByPts( 
+&amp;   System.int
+NumPoints
+,
+&amp;   System.double%
+PointArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileBsplineDLL</summary><p>Adds a profile B-spline.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileBsplineDLL( 
+&amp;   System.int%
+Properties
+,
+&amp;   System.double%
+KnotArray
+,
+&amp;   System.double%
+ControlPointCoordArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileLine</summary><p>Creates a line profile curve and returns a pointer to that curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileLine( 
+&amp;   System.Object^
+RootPoint
+,
+&amp;   System.Object^
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddProfileLineDLL</summary><p>Adds a profile line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IAddProfileLineDLL( 
+&amp;   System.double%
+RootPoint
+,
+&amp;   System.double%
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddVertexPoint</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Vertex^ IAddVertexPoint( 
+&amp;   System.double%
+Point
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICombineVolumes</summary><p>Combines the volumes of two bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICombineVolumes( 
+&amp;   Body2^
+ToolBody
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICopy</summary><p>Gets a copy of this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICopy();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBaseFeature</summary><p>Creates a base feature for the imported body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ICreateBaseFeature( 
+&amp;   Body2^
+BodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBlendSurface</summary><p>Creates a constant radius rolling-ball blend surface (also known as a pipe surface) between two side surfaces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateBlendSurface( 
+&amp;   Surface^
+Surface1
+,
+&amp;   System.double
+Range1
+,
+&amp;   Surface^
+Surface2
+,
+&amp;   System.double
+Range2
+,
+&amp;   System.double%
+StartVec
+,
+&amp;   System.double%
+EndVec
+,
+&amp;   System.int
+HaveHelpVec
+,
+&amp;   System.double%
+HelpVec
+,
+&amp;   System.int
+HaveHelpBox
+,
+&amp;   System.double%
+HelpBox
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodyFromFaces</summary><p>Creates a temporary body from the faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateBodyFromFaces( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBoundedSurface</summary><p>Creates a bounded surface from an independent base surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICreateBoundedSurface( 
+&amp;   System.bool
+UOpt
+,
+&amp;   System.bool
+VOpt
+,
+&amp;   System.double%
+UvParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBsplineSurface</summary><p>Creates a new B-spline surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateBsplineSurface( 
+&amp;   System.Object^
+Props
+,
+&amp;   System.Object^
+UKnots
+,
+&amp;   System.Object^
+VKnots
+,
+&amp;   System.Object^
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBsplineSurfaceDLL</summary><p>Creates a B-spline surface in this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateBsplineSurfaceDLL( 
+&amp;   System.int%
+Properties
+,
+&amp;   System.double%
+UKnotArray
+,
+&amp;   System.double%
+VKnotArray
+,
+&amp;   System.double%
+ControlPointCoordArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateExtrusionSurface</summary><p>Creates a new surface of extrusion (infinitely long tabulated cylinder).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateExtrusionSurface( 
+&amp;   Curve^
+ProfileCurve
+,
+&amp;   System.Object^
+AxisDirection
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateExtrusionSurfaceDLL</summary><p>Creates an extruded surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateExtrusionSurfaceDLL( 
+&amp;   Curve^
+ProfileCurve
+,
+&amp;   System.double%
+AxisDirection
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateNewSurface</summary><p>Creates a handle for a new surface to serve as geometry for a face to be added to the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateNewSurface();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateOffsetSurface</summary><p>Creates a new surface offset from an existing surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateOffsetSurface( 
+&amp;   Surface^
+SurfaceIn
+,
+&amp;   System.double
+Distance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreatePlanarSurface</summary><p>Creates a new infinite planar surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreatePlanarSurface( 
+&amp;   System.Object^
+VRootPoint
+,
+&amp;   System.Object^
+VNormal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreatePlanarSurfaceDLL</summary><p>Creates a planar surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreatePlanarSurfaceDLL( 
+&amp;   System.double%
+RootPoint
+,
+&amp;   System.double%
+Normal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreatePlanarTrimSurfaceDLL</summary><p>Creates a planar trim surface for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICreatePlanarTrimSurfaceDLL( 
+&amp;   System.int
+VertexCount
+,
+&amp;   System.double%
+Points
+,
+&amp;   System.double%
+Normal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreatePsplineSurfaceDLL</summary><p>Creates a B-surface from a piecewise surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreatePsplineSurfaceDLL( 
+&amp;   System.int
+Dim
+,
+&amp;   System.int
+UOrder
+,
+&amp;   System.int
+VOrder
+,
+&amp;   System.int
+Ncol
+,
+&amp;   System.int
+Nrow
+,
+&amp;   System.double%
+Coeffs
+,
+&amp;   System.int
+Basis
+,
+&amp;   System.double%
+Xform
+,
+&amp;   System.double
+ScaleFactor
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateRevolutionSurface</summary><p>Creates a new surface of revolution.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateRevolutionSurface( 
+&amp;   Curve^
+ProfileCurve
+,
+&amp;   System.Object^
+AxisPoint
+,
+&amp;   System.Object^
+AxisDirection
+,
+&amp;   System.Object^
+ProfileEndPtParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateRevolutionSurfaceDLL</summary><p>Creates a surface of revolution for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateRevolutionSurfaceDLL( 
+&amp;   Curve^
+ProfileCurve
+,
+&amp;   System.double%
+AxisPoint
+,
+&amp;   System.double%
+AxisDirection
+,
+&amp;   System.double%
+ProfileEndPtParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateRuledSurface</summary><p>Creates a ruled surface from the specified curves and apex point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateRuledSurface( 
+&amp;   Curve^
+Curve1
+,
+&amp;   Curve^
+Curve2
+,
+&amp;   System.double%
+ApexPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateTempBodyFromSurfaces</summary><p>Creates a temporary body from a list of existing trimmed surfaces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateTempBodyFromSurfaces();</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteBlends</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IDeleteBlends( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face2^%
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteBlends2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IDeleteBlends2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face2^%
+FaceList
+,
+&amp;   System.bool
+DoLocalCheck
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteBlends3</summary><p>Removes a set of fillet faces from a temporary body and heals the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IDeleteBlends3( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face2^%
+FaceList
+,
+&amp;   System.bool
+DoLocalCheck
+,
+&amp;   System.bool
+UsePlanarCap
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteFaces2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IDeleteFaces2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face2^%
+FaceList
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteFaces3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IDeleteFaces3( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face2^%
+FaceList
+,
+&amp;   System.int
+Option
+,
+&amp;   System.bool
+DoLocalCheck
+,
+&amp;   System.bool%
+LocalCheckResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteFacesMakeSheetBodies</summary><p>Creates sheet bodies from deleted faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IDeleteFacesMakeSheetBodies( 
+&amp;   System.int
+FaceCount
+,
+&amp;   Face2^%
+FaceList
+,
+&amp;   System.int
+SheetCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteFacesMakeSheetBodiesCount</summary><p>Gets the number of sheet bodies to create from the deleted faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IDeleteFacesMakeSheetBodiesCount( 
+&amp;   System.int
+FaceCount
+,
+&amp;   Face2^%
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDisplay</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IDisplay( 
+&amp;   PartDoc^
+Part
+,
+&amp;   System.int
+Color
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDisplayWireFrameXOR</summary><p>Displays a temporary body in the given part's context in XOR mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IDisplayWireFrameXOR( 
+&amp;   PartDoc^
+Part
+,
+&amp;   System.int
+Color
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDraftBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IDraftBody( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face2^%
+FaceList
+,
+&amp;   Edge^%
+EdgeList
+,
+&amp;   System.double
+DraftAngle
+,
+&amp;   System.double%
+Dir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDraftBody2</summary><p>Adds drafts to the specified faces on a temporary body. This method modifies the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IDraftBody2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face2^%
+FaceList
+,
+&amp;   Edge^%
+EdgeList
+,
+&amp;   MathPoint^
+BasePoint
+,
+&amp;   System.double
+DraftAngle
+,
+&amp;   System.double%
+Dir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IExtendSurface</summary><p>Creates a new temporary body by extending the selected edges.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IExtendSurface( 
+&amp;   System.int
+EdgeCount
+,
+&amp;   Edge^%
+EdgesToExtend
+,
+&amp;   System.bool
+ExtendLinear
+,
+&amp;   System.int
+EndCondition
+,
+&amp;   System.double
+Dist
+,
+&amp;   Vertex^
+PUpToVtx
+,
+&amp;   Face^
+PUpToFace
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBodyBox</summary><p>Gets the bounding box for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetBodyBox( 
+&amp;   System.double%
+BoxCorners
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEdges</summary><p>Gets the edges for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Edge^ IGetEdges( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetExcessBodyArray</summary><p>Gets the excess bodies after sewing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IGetExcessBodyArray();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetExcessBodyCount</summary><p>Gets the number of excess bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetExcessBodyCount();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFaces</summary><p>Gets all of the faces on the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face2^ IGetFaces( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFeatures</summary><p>Gets the features in this body in a multibody sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IGetFeatures( 
+&amp;   System.int
+NumberOfFeatures
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstFace</summary><p>Finds the first face in a body and returns the face.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face2^ IGetFirstFace();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstSelectedFace</summary><p>Gets the first selected face on this body. For use with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face2^ IGetFirstSelectedFace();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetIntersectionEdgeCount</summary><p>Gets the number of intersecting edges between this body and the specified tool body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetIntersectionEdgeCount( 
+&amp;   Body2^
+ToolBodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetIntersectionEdges</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Edge^ IGetIntersectionEdges( 
+&amp;   Body2^
+ToolBodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMassProperties</summary><p>Gets the mass properties of this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetMassProperties( 
+&amp;   System.double
+Density
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMaterialPropertyValuesForFace</summary><p>Gets the color of the specified face.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetMaterialPropertyValuesForFace( 
+&amp;   System.Object^
+FaceIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMiddleSurface</summary><p>Inserts a midsurface in a body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetMiddleSurface( 
+&amp;   System.double
+PlacementPercentage
+,
+&amp;   [Out] System.Object^
+Face1List
+,
+&amp;   [Out] System.Object^
+Face2List
+,
+&amp;   [Out] System.Object^
+Thickness
+,
+&amp;   [Out] Body2^
+MiddleSurfaceBody
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetNextSelectedFace</summary><p>Gets the next selected face. For use with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face2^ IGetNextSelectedFace();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProcessedBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IGetProcessedBody();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProcessedBodyWithSelFace</summary><p>Gets a processed body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IGetProcessedBodyWithSelFace();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectedFaces</summary><p>Gets the selected faces. For use with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face2^ IGetSelectedFaces( 
+&amp;   System.int
+SelectedFaceCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSheetBody</summary><p>Gets a sheet (surface) body in this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IGetSheetBody( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessellation</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Tessellation^ IGetTessellation( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face2^%
+FaceList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTrackingIDs</summary><p>tracking IDs assigned to this body</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetTrackingIDs( 
+&amp;   System.int
+TrackingCookie
+,
+&amp;   System.int
+Count
+,
+&amp;   [Out] System.int
+TrackingIDs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetVertices</summary><p>Gets the vertices in this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Vertex^ IGetVertices( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IHide</summary><p>Hides a temporary body using the specified part's context.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IHide( 
+&amp;   PartDoc^
+Part
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMatchedBoolean</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies2^ IMatchedBoolean( 
+&amp;   System.int
+OperationType
+,
+&amp;   Body2^
+ToolBody
+,
+&amp;   System.int
+NumOfMatchingFaces
+,
+&amp;   Face2^%
+FaceList1
+,
+&amp;   Face2^%
+FaceList2
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMatchedBoolean2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies2^ IMatchedBoolean2( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.int
+ToolBodyCount
+,
+&amp;   Body2^%
+ToolBodyArr
+,
+&amp;   System.int
+NumOfMatchingFaces
+,
+&amp;   Face2^%
+FaceList1
+,
+&amp;   Face2^%
+FaceList2
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMatchedBoolean3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies2^ IMatchedBoolean3( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.int
+ToolBodyCount
+,
+&amp;   Body2^%
+ToolBodyArr
+,
+&amp;   System.int
+NumOfMatchingFaces
+,
+&amp;   Face2^%
+FaceList1
+,
+&amp;   Face2^%
+FaceList2
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMatchedBoolean4</summary><p>Performs a matched boolean on the specified bodies and supports an optional list of faces that match exactly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies2^ IMatchedBoolean4( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.int
+ToolBodyCount
+,
+&amp;   Body2^%
+ToolBodyArr
+,
+&amp;   System.int
+NumOfMatchingFaces
+,
+&amp;   Face2^%
+FaceList1
+,
+&amp;   Face2^%
+FaceList2
+,
+&amp;   System.double
+MatchingTolerance
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IOperations</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IOperations( 
+&amp;   System.int
+OperationType
+,
+&amp;   Body2^
+ToolBody
+,
+&amp;   System.int
+NumMaxSections
+,
+&amp;   Body2^%
+ResultingBodies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IOperations2</summary><p>Performs add, cut, and intersect (unite, subtract, and interfere) operations between two temporary bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies2^ IOperations2( 
+&amp;   System.int
+OperationType
+,
+&amp;   Body2^
+ToolBody
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IRemoveFacesFromSheet</summary><p>Removes the specified faces from a sheet (surface) body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IRemoveFacesFromSheet( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face2^%
+FacesToRemove
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IRemoveMaterialProperty</summary><p>Removes the material property values (e.g., color) from the body in the specified configurations in parts and assemblies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IRemoveMaterialProperty( 
+&amp;   System.int
+Config_opt
+,
+&amp;   System.int
+Config_count
+,
+&amp;   System.String^%
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISave</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISave( 
+&amp;   System.Object^
+StreamIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISectionBySheet</summary><p>Sections a body using a sheet (surface) body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ISectionBySheet( 
+&amp;   Body2^
+Sheet
+,
+&amp;   System.int
+NumMaxSections
+,
+&amp;   Body2^%
+SectionedBodies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetCurrentSurface</summary><p>Places an existing surface into a temporary body that is under construction.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetCurrentSurface( 
+&amp;   Surface^
+SurfaceIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetXform</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetXform( 
+&amp;   System.double%
+XformIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsGraphicsBody</summary><p>Gets whether this body is a graphics body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsGraphicsBody();</pre></details><details style="margin: 0.5rem 0;"><summary>IsMeshBody</summary><p>Gets whether this body is a mesh body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsMeshBody();</pre></details><details style="margin: 0.5rem 0;"><summary>IsPatternSeed</summary><p>Gets whether this body is the seed of a patterned body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsPatternSeed( 
+&amp;   System.Object^
+BodyDispIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsSheetMetal</summary><p>Gets whether this body was created by a sheet metal feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsSheetMetal();</pre></details><details style="margin: 0.5rem 0;"><summary>IsTemporaryBody</summary><p>Gets whether the body is a temporary body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsTemporaryBody();</pre></details><details style="margin: 0.5rem 0;"><summary>MakeOffset</summary><p>Creates a new temporary body by offsetting the selected surface body by the specified distance and in the specified direction.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ MakeOffset( 
+&amp;   System.double
+Distance
+,
+&amp;   System.bool
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MatchedBoolean</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ MatchedBoolean( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.Object^
+ToolBody
+,
+&amp;   System.int
+NumOfMatchingFaces
+,
+&amp;   System.Object^
+FaceList1
+,
+&amp;   System.Object^
+FaceList2
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MatchedBoolean2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ MatchedBoolean2( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.Object^
+ToolBody
+,
+&amp;   System.int
+NumOfMatchingFaces
+,
+&amp;   System.Object^
+FaceList1
+,
+&amp;   System.Object^
+FaceList2
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MatchedBoolean3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ MatchedBoolean3( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.Object^
+ToolBody
+,
+&amp;   System.int
+NumOfMatchingFaces
+,
+&amp;   System.Object^
+FaceList1
+,
+&amp;   System.Object^
+FaceList2
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MatchedBoolean4</summary><p>Performs a matched boolean on the specified bodies and supports an optional list of faces that match exactly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ MatchedBoolean4( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.Object^
+ToolBody
+,
+&amp;   System.int
+NumOfMatchingFaces
+,
+&amp;   System.Object^
+FaceList1
+,
+&amp;   System.Object^
+FaceList2
+,
+&amp;   System.double
+MatchingTolerance
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MinimumRadius</summary><p>Gets the minimum radius of this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double MinimumRadius();</pre></details><details style="margin: 0.5rem 0;"><summary>Negate</summary><p>Reverses the direction (i.e., orientation) of the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Negate();</pre></details><details style="margin: 0.5rem 0;"><summary>OffsetPlanarWireBody</summary><p>Offsets a planar wire body</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ OffsetPlanarWireBody( 
+&amp;   System.double
+Distance
+,
+&amp;   MathVector^
+Normal
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Operations</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Operations( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.Object^
+ToolBody
+,
+&amp;   System.int
+NumMaxSections
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Operations2</summary><p>Performs add, cut, and intersect (unite, subtract, and interfere) operations between two temporary bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Operations2( 
+&amp;   System.int
+OperationType
+,
+&amp;   System.Object^
+ToolBody
+,
+&amp;   [Out] System.int
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveFacesFromSheet</summary><p>Removes the specified faces from a sheet (surface) body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RemoveFacesFromSheet( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+FacesToRemove
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveMaterialProperty</summary><p>Removes the material property values (e.g., color) from the body in the specified configurations in parts and assemblies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveMaterialProperty( 
+&amp;   System.int
+Config_opt
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveRedundantTopology</summary><p>Removes redundant topology from the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveRedundantTopology();</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveTexture</summary><p>Removes the texture applied to this body in the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveTexture( 
+&amp;   System.String^
+Config_name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveTextureByDisplayState</summary><p>Removes the texture applied to this body in the specified display state.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveTextureByDisplayState( 
+&amp;   System.String^
+DisplayStateName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveTrackingID</summary><p>tracking ID assigned to this body</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int RemoveTrackingID( 
+&amp;   System.int
+TrackingCookie
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ResetEdgeTolerances</summary><p>Resets the tolerance on all edges of this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ResetEdgeTolerances();</pre></details><details style="margin: 0.5rem 0;"><summary>ResetPropertyExtension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ResetPropertyExtension();</pre></details><details style="margin: 0.5rem 0;"><summary>ResetPropertyExtension2</summary><p>Clears all values stored in the property extension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ResetPropertyExtension2();</pre></details><details style="margin: 0.5rem 0;"><summary>Save</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Save( 
+&amp;   System.Object^
+StreamIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Select</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Select( 
+&amp;   System.bool
+Append
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Select2</summary><p>Selects this body and marks it.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Select2( 
+&amp;   System.bool
+Append
+,
+&amp;   SelectData^
+Data
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCurrentSurface</summary><p>Places an existing surface into a temporary body that is under construction.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetCurrentSurface( 
+&amp;   System.Object^
+SurfaceIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetIgesInfo</summary><p>Sends IGES-specific data to the geometric modeler.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetIgesInfo( 
+&amp;   System.String^
+SystemName
+,
+&amp;   System.double
+Granularity
+,
+&amp;   System.bool
+AttemptKnitting
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialIdName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetMaterialIdName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialIdName2</summary><p>Sets the material name for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetMaterialIdName2( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialProperty</summary><p>Sets the material for this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetMaterialProperty( 
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.String^
+Database
+,
+&amp;   System.String^
+MaterialName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialUserName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetMaterialUserName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialUserName2</summary><p>Sets the material name for this body. This material name is visible to the user.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetMaterialUserName2( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetTexture</summary><p>Applies texture to this body in the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetTexture( 
+&amp;   System.String^
+Config_name
+,
+&amp;   Texture^
+TextureIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetTextureByDisplayState</summary><p>Sets the texture applied to this body in the specified display state.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetTextureByDisplayState( 
+&amp;   System.String^
+DisplayStateName
+,
+&amp;   Texture^
+TextureIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetTrackingID</summary><p>Assigns a tracking ID to this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetTrackingID( 
+&amp;   System.int
+TrackingCookie
+,
+&amp;   System.int
+TrackingID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetXform</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetXform( 
+&amp;   System.Object^
+XformIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Check3</summary><p>Gets whether the body is a valid and returns an</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property FaultEntity^ Check3 {
+   FaultEntity^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DisableDisplay</summary><p>Gets or sets whether to hide or show this body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool DisableDisplay {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DisableHighlight</summary><p>Disables highlighting of the selected body in the graphics area.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool DisableHighlight {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IMaterialPropertyValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IMaterialPropertyValues {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IMaterialPropertyValues2</summary><p>Gets or sets the material properties for a body other than the base body in the active configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IMaterialPropertyValues2 {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IsSafe</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool IsSafe {
+   System.bool get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MaterialPropertyValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ MaterialPropertyValues {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MaterialPropertyValues2</summary><p>Gets or sets the material properties for a body other than the base body in the active configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ MaterialPropertyValues2 {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Name</summary><p>Gets or sets the name of the selected body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ Name {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Visible</summary><p>Gets whether this body is visible or hidden.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool Visible {
+   System.bool get();
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to the faces on a body and the ability to create surfaces for sewing into a body object. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IBody2 </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html">IBody2</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IBody2 </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IBody2 </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Body2.html">Body2</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Get_Bodies_Example_CPlusPlus_COM.htm">Get Bodies (C++)</a>
+<br/><a href="Traverse_Bodies_Example_CPlusPlusCLI.htm">Traverse Bodies (C++)</a>
+<br/><a href="Get_Original_Body_from_Pattern_Body_Example_VB.htm">Get Original Body from Pattern Body (VBA)</a>
+<br/><a href="Get_Original_Body_from_Pattern_Body_Example_VBNET.htm">Get Original Body from Pattern Body (VB.NET)</a>
+<br/><a href="Get_Original_Body_from_Pattern_Body_Example_CSharp.htm">Get Original Body from Pattern Body (C#)</a>
+<br/><a href="Display_Temporary_Body_Example_CSharp.htm">Display Temporary Body (C#)</a>
+<br/><a href="Display_Temporary_Body_Example_VBNET.htm">Display Temporary Body (VB.NET)</a>
+<br/><a href="Display_Temporary_Body_Example_VB.htm">Display Temporary Body (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute~GetBody.html">IAttribute::GetBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Copy.html">IBody2::Copy</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBodyFromFaces.html">IBody2::CreateBodyFromFaces</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateBodyFromFaces.html">IBody2::ICreateBodyFromFaces</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBodyFromSurfaces.html">IBody2::CreateBodyFromSurfaces</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateTempBodyFromSurfaces.html">IBody2::ICreateTempBodyFromSurfaces</a> <a href="designcommand:name=delete,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2|c3820'" style="POSITION: relative; LEFT: 5px; TOP: 2px" title="Delete this SeeAlso"></a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~DeleteFacesMakeSheetBodies.html">IBody2::DeleteFacesMakeSheetBodies</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IDeleteFacesMakeSheetBodies.html">IBody2::IDeleteFacesMakeSheetBodies</a> <a href="designcommand:name=delete,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2|c3823'" style="POSITION: relative; LEFT: 5px; TOP: 2px" title="Delete this SeeAlso"></a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ExtendSurface.html">IBody2::ExtendSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IExtendSurface.html">IBody2::IExtendSurface</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetExcessBodyArray.html">IBody2::GetExcessBodyArray</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetMiddleSurface.html">IBody2::GetMiddleSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetMiddleSurface.html">IBody2::IGetMiddleSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetOriginalPatternedBody.html">IBody2::GetOriginalPatternedBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetProcessedBody2.html">IBody2::GetProcessedBody2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetProcessedBody.html">IBody2::IGetProcessedBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetProcessedBodyWithSelFace.html">IBody2::GetProcessedBodyWithSelFace</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetProcessedBodyWithSelFace.html">IBody2::IGetProcessedBodyWithSelFace</a></p>
+<p></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetProcessedBodyWithSelFace.html"></a></p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetSheetBody.html">IBody2::GetSheetBody</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetSheetBody.html">IBody2::IGetSheetBody</a>  
+<p></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~MakeOffset.html">IBody2::MakeOffset</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~OffsetPlanarWireBody.html">IBody2::OffsetPlanarWireBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Operations2.html">IBody2::Operations2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IOperations2.html">IBody2::IOperations2</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~FeatureScopeBodies.html">IBoundaryBossFeatureData::FeatureScopeBodies</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~FeatureScopeBodies.html">ICircularPatternFeatureData::FeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICircularPatternFeatureData~IGetPatternBodyArray.html">ICircularPatternFeatureData::IGetPatternBodyArray</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICircularPatternFeatureData~PatternBodyArray.html">ICircularPatternFeatureData::PatternBodyArray</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICombineBodiesFeatureData~IGetBodiesToCombine.html">ICombineBodiesFeatureData::IGetBodiesToCombine</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICombineBodiesFeatureData~BodiesToCombine.html">ICombineBodiesFeatureData::BodiesToCombine</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICombineBodiesFeatureData~MainBody.html">ICombineBodiesFeatureData::MainBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetBody.html">IComponent2::GetBody</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetBody.html">IComponent2::IGetBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetBodies3.html">IComponent2::GetBodies3</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStateBodyProperties.html">IConfiguration::GetDisplayStateBodyProperties</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoreFeatureData~TargetBody.html">ICoreFeatureData::TargetBody</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData~GetBodyScope.html">ICornerReliefFeatureData::GetBodyScope</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~CreateWireBody.html">ICurve::CreateWireBody</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~FeatureScopeBodies.html">ICurveDrivenPatternFeatureData::FeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurveDrivenPatternFeatureData~IGetPatternBodyArray.html">ICurveDrivenPatternFeatureData::IGetPatternBodyArray</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurveDrivenPatternFeatureData~PatternBodyArray.html">ICurveDrivenPatternFeatureData::PatternBodyArray</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData~Bodies.html">IDeleteBodyFeatureData::Bodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData~IGetBodies.html">IDeleteBodyFeatureData::IGetBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~CreateWireBody.html">IEdge::CreateWireBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetBody.html">IEdge::GetBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumBodies2~Next.html">IEnumBodies2::Next</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~FeatureScopeBodies.html">IExtrudeFeatureData2::FeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~IGetFeatureScopeBodies.html">IExtrudeFeatureData2::IGetFeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~CreateSheetBody.html">IFace2::CreateSheetBody</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ICreateSheetBody.html">IFace2::ICreateSheetBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~CreateSheetBodyByFaceExtension.html">IFace2::CreateSheetBodyByFaceExtension</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ICreateSheetBodyByFaceExtension.html">IFace2::ICreateSheetBodyByFaceExtension</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetBody.html">IFace2::GetBody</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetBody.html">IFace2::IGetBody</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet~GetBody.html">IFacet::GetBody</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PreIntersect.html">IFeatureManager::PreIntersect</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillPatternFeatureData~FeatureScopeBodies.html">IFillPatternFeatureData::FeatureScopeBodies</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody~GetBody.html">IGraphicsBody::GetBody</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~TargetBody.html">IIndentFeatureData::TargetBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData~GetIntersections.html">IIntersectFeatureData::GetIntersections</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData~GetIntersectionsTools.html">IIntersectFeatureData::GetIntersectionsTools</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~FeatureScopeBodies.html">ILinearPatternFeatureData::FeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILinearPatternFeatureData~IGetPatternBodyArray.html">ILinearPatternFeatureData::IGetPatternBodyArray</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILinearPatternFeatureData~PatternBodyArray.html">ILinearPatternFeatureData::PatternBodyArray</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftFeatureData~FeatureScopeBodies.html">ILoftFeatureData::FeatureScopeBodies</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftFeatureData~IGetFeatureScopeBodies.html">ILoftFeatureData::IGetFeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~RevolvePlanarLoop.html">ILoop2::RevolvePlanarLoop</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IRevolvePlanarLoop.html">ILoop2::IRevolvePlanarLoop</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~SweepPlanarLoop.html">ILoop2::SweepPlanarLoop</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~ISweepPlanarLoop.html">ILoop2::ISweepPlanarLoop</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~EditBodies.html">IMacroFeatureData::EditBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IGetEditBodies.html">IMacroFeatureData::IGetEditBodies</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~SelectedItems.html">IMassProperty2::SelectedItems</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody~GetBody.html">IMeshBody::GetBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetNextNeutralSheet.html">IMidSurface2::GetNextNeutralSheet</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~IGetFirstNeutralSheet.html">IMidSurface2::IGetFirstNeutralSheet</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~FeatureScopeBodies.html">IMirrorPatternFeatureData::FeatureScopeBodies</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~IGetFeatureScopeBodies.html">IMirrorPatternFeatureData::IGetFeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorSolidFeatureData~IGetPatternBodyArray.html">IMirrorSolidFeatureData::IGetPatternBodyArray</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorSolidFeatureData~PatternBodyArray.html">IMirrorSolidFeatureData::PatternBodyArray</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CheckInterferenceBetweenTwoBodies.html">IModeler::CheckInterferenceBetweenTwoBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodiesFromSheets2.html">IModeler::CreateBodiesFromSheets2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodiesFromSheets2.html">IModeler::ICreateBodiesFromSheets2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBrepBody3.html">IModeler::CreateBrepBody3</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBrepBody3.html">IModeler::ICreateBrepBody3</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateExtrudedBody.html">IModeler::CreateExtrudedBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateSheetFromFaces.html">IModeler::CreateSheetFromFaces</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateSheetFromFaces.html">IModeler::ICreateSheetFromFaces</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateSweptBody.html">IModeler::CreateSweptBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateWireBody.html">IModeler::CreateWireBody</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateWireBody.html">IModeler::ICreateWireBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CheckInterference.html">IModeler::CheckInterference</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICheckInterference2.html">IModeler::ICheckInterference2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromBox.html">IModeler::CreateBodyFromBox</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromBox2.html">IModeler::ICreateBodyFromBox2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromCone.html">IModeler::CreateBodyFromCone</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromCone2.html">IModeler::ICreateBodyFromCone2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromCyl.html">IModeler::CreateBodyFromCyl</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromCyl2.html">IModeler::ICreateBodyFromCyl2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromFaces2.html">IModeler::CreateBodyFromFaces2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromFaces3.html">IModeler::ICreateBodyFromFaces3</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateSheetFromSurface.html">IModeler::CreateSheetFromSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateSheetFromSurface2.html">IModeler::ICreateSheetFromSurface2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~Restore.html">IModeler::Restore</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IRestore2.html">IModeler::IRestore2</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMoveCopyBodyFeatureData~Bodies.html">IMoveCopyBodyFeatureData::Bodies</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveCopyBodyFeatureData~IGetBodies.html">IMoveCopyBodyFeatureData::IGetBodies</a> </p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~GetEndConditionEntity.html">IMoveFaceFeatureData::GetEndConditionEntity</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~CreateNewBody.html">IPartDoc::CreateNewBody</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~ICreateNewBody2.html">IPartDoc::ICreateNewBody2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~GetBodies2.html">IPartDoc::GetBodies2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~GetRelatedBodies.html">IPartDoc::GetRelatedBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~GetRelatedSectionedBodies.html">IPartDoc::GetRelatedSectionedBodies</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep~GetBodies.html">IPartExplodeStep::GetBodies</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~FeatureScopeBodies.html">IRevolveFeatureData2::FeatureScopeBodies</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~IGetFeatureScopeBodies.html">IRevolveFeatureData2::IGetFeatureScopeBodies</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData~GetSaveBodies.html">ISaveBodyFeatureData::GetSaveBodies</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~Bodies.html">IScaleFeatureData::Bodies</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~IGetBodies.html">IScaleFeatureData::IGetBodies</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~SelectiveSectioningList.html">ISectionViewData::SelectiveSectioningList</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~TransparencyList.html">ISectionViewData::TransparencyList</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~FeatureScopeBodies.html">ISimpleHoleFeatureData2::FeatureScopeBodies</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~IGetFeatureScopeBodies.html">ISimpleHoleFeatureData2::IGetFeatureScopeBodies</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~FeatureScopeBodies.html">ISketchPatternFeatureData::FeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPatternFeatureData~IGetPatternBodyArray.html">ISketchPatternFeatureData::IGetPatternBodyArray</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPatternFeatureData~PatternBodyArray.html">ISketchPatternFeatureData::PatternBodyArray</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~CreateWireBody.html">ISketchSegment::CreateWireBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~GetSplitBodies.html">ISplitBodyFeatureData::GetSplitBodies</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~IGetSplitBodies.html">ISplitBodyFeatureData::IGetSplitBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISpring~BaseProfile.html">ISpring::BaseProfile</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISpring~GetSpringBody.html">ISpring::GetSpringBody</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISpring~SectionProfile.html">ISpring::SectionProfile</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData~GetBody.html">IStructureSystemMemberFeatureData::GetBody</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileAlignmentObject.html">IStructureSystemMemberProfile::ProfileAlignmentObject</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~CreateTrimmedSheet.html">ISurface::CreateTrimmedSheet</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData~FeatureScopeBodies.html">ISurfaceCutFeatureData::FeatureScopeBodies</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData~IGetFeatureScopeBodies.html">ISurfaceCutFeatureData::IGetFeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceTrimFeatureData~IGetPiecesToKeep.html">ISurfaceTrimFeatureData::IGetPiecesToKeep</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceTrimFeatureData~PiecesToKeep.html">ISurfaceTrimFeatureData::PiecesToKeep</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISweepFeatureData~FeatureScopeBodies.html">ISweepFeatureData::FeatureScopeBodies</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISweepFeatureData~IGetFeatureScopeBodies.html">ISweepFeatureData::IGetFeatureScopeBodies</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Profile.html">ISweepFeatureData::Profile</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITablePatternFeatureData~IGetPatternBodyArray.html">ITablePatternFeatureData::IGetPatternBodyArray</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITablePatternFeatureData~PatternBodyArray.html">ITablePatternFeatureData::PatternBodyArray</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IThickenFeatureData~FeatureScopeBodies.html">IThickenFeatureData::FeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IThickenFeatureData~IGetFeatureScopeBodies.html">IThickenFeatureData::IGetFeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~IGetCavitySurfaces.html">IToolingSplitFeatureData::IGetCavitySurfaces</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~CavitySurfaces.html">IToolingSplitFeatureData::CavitySurfaces</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~CoreSurfaces.html">IToolingSplitFeatureData::CoreSurfaces</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~IGetCoreSurfaces.html">IToolingSplitFeatureData::IGetCoreSurfaces</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~IGetPartingSurfaces.html">IToolingSplitFeatureData::IGetPartingSurfaces</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~PartingSurfaces.html">IToolingSplitFeatureData::PartingSurfaces</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentTrimExtendFeatureData~BodiesToBeTrimmed.html">IWeldmentTrimExtendFeatureData::BodiesToBeTrimmed</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentTrimExtendFeatureData~IGetBodiesToBeTrimmed.html">IWeldmentTrimExtendFeatureData::IGetBodiesToBeTrimmed</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~FeatureScopeBodies.html">IWizardHoleFeatureData2::FeatureScopeBodies</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~IGetFeatureScopeBodies.html">IWizardHoleFeatureData2::IGetFeatureScopeBodies</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#Body2">Body2</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html">IBody2 Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumBodies2.html">IEnumBodies2 Interface</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

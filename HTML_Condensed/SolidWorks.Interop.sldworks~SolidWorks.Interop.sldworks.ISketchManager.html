@@ -1,0 +1,1356 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>ISketchManager Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.ISketchManager"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">ISketchManager Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : ISketchManager Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AddAlongXDimension</summary><p>Projects and displays along the x axis a dimension between selected points in a 3D sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ AddAlongXDimension( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddAlongYDimension</summary><p>Projects and displays along the y axis a dimension between selected points in a 3D sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ AddAlongYDimension( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddAlongZDimension</summary><p>Projects and displays along the z axis a dimension between selected points in a 3D sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ AddAlongZDimension( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ConvertEntities</summary><p>Not implemented. Use</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ConvertEntities();</pre></details><details style="margin: 0.5rem 0;"><summary>Create3PointArc</summary><p>Creates a 3-point arc.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ Create3PointArc( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+,
+&amp;   System.double
+X3
+,
+&amp;   System.double
+Y3
+,
+&amp;   System.double
+Z3
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Create3PointCenterRectangle</summary><p>Creates a 3-point center rectangle at any angle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Create3PointCenterRectangle( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+,
+&amp;   System.double
+X3
+,
+&amp;   System.double
+Y3
+,
+&amp;   System.double
+Z3
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Create3PointCornerRectangle</summary><p>Creates a 3-point corner rectangle at any angle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Create3PointCornerRectangle( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+,
+&amp;   System.double
+X3
+,
+&amp;   System.double
+Y3
+,
+&amp;   System.double
+Z3
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateArc</summary><p>Creates an arc based on a center point, a start point, an end point, and a direction.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateArc( 
+&amp;   System.double
+XC
+,
+&amp;   System.double
+YC
+,
+&amp;   System.double
+Zc
+,
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+,
+&amp;   System.short
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBoundaryHatch</summary><p>Creates area hatch/fill boundary hatches using closed sketch profiles.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBoundaryHatch( 
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Scale
+,
+&amp;   System.int
+Color
+,
+&amp;   System.String^
+Hatchname
+,
+&amp;   System.String^
+Layername
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCenterLine</summary><p>Creates a center line between the specified points.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateCenterLine( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCenterRectangle</summary><p>Creates a center rectangle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateCenterRectangle( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateChamfer</summary><p>Creates a chamfer between two selected sketch entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateChamfer( 
+&amp;   System.int
+Type
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.double
+AngleORdist
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCircle</summary><p>Creates a circle based on a center point and a point on the circle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateCircle( 
+&amp;   System.double
+XC
+,
+&amp;   System.double
+YC
+,
+&amp;   System.double
+Zc
+,
+&amp;   System.double
+Xp
+,
+&amp;   System.double
+Yp
+,
+&amp;   System.double
+Zp
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCircleByRadius</summary><p>Creates a circle based on a center point and a specified radius.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateCircleByRadius( 
+&amp;   System.double
+XC
+,
+&amp;   System.double
+YC
+,
+&amp;   System.double
+Zc
+,
+&amp;   System.double
+Radius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCircularSketchStepAndRepeat</summary><p>Creates circular sketch pattern.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateCircularSketchStepAndRepeat( 
+&amp;   System.double
+ArcRadius
+,
+&amp;   System.double
+ArcAngle
+,
+&amp;   System.int
+PatternNum
+,
+&amp;   System.double
+PatternSpacing
+,
+&amp;   System.bool
+PatternRotate
+,
+&amp;   System.String^
+DeleteInstances
+,
+&amp;   System.bool
+RadiusDim
+,
+&amp;   System.bool
+AngleDim
+,
+&amp;   System.bool
+CreateNumOfInstancesDim
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateConic</summary><p>Creates a conic curve in the active sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateConic( 
+&amp;   System.double
+XFocus
+,
+&amp;   System.double
+YFocus
+,
+&amp;   System.double
+ZFocus
+,
+&amp;   System.double
+XApex
+,
+&amp;   System.double
+YApex
+,
+&amp;   System.double
+ZApex
+,
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateConstructionGeometry</summary><p>Sets selected sketch segments to be construction geometry instead of sketch geometry.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void CreateConstructionGeometry();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCornerRectangle</summary><p>Creates a corner rectangle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateCornerRectangle( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateEllipse</summary><p>Creates an ellipse using the specified center, major-axis, and minor-axis points.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateEllipse( 
+&amp;   System.double
+XC
+,
+&amp;   System.double
+YC
+,
+&amp;   System.double
+Zc
+,
+&amp;   System.double
+XMajor
+,
+&amp;   System.double
+YMajor
+,
+&amp;   System.double
+ZMajor
+,
+&amp;   System.double
+XMinor
+,
+&amp;   System.double
+YMinor
+,
+&amp;   System.double
+ZMinor
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateEllipticalArc</summary><p>Creates a partial ellipse given a center point, two points that specify the major and minor axis, and two points that define the elliptical start and end points.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateEllipticalArc( 
+&amp;   System.double
+XC
+,
+&amp;   System.double
+YC
+,
+&amp;   System.double
+Zc
+,
+&amp;   System.double
+XMajor
+,
+&amp;   System.double
+YMajor
+,
+&amp;   System.double
+ZMajor
+,
+&amp;   System.double
+XMinor
+,
+&amp;   System.double
+YMinor
+,
+&amp;   System.double
+ZMinor
+,
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+,
+&amp;   System.short
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateEquationSpline</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSpline^ CreateEquationSpline( 
+&amp;   System.String^
+YExpression
+,
+&amp;   System.double
+RangeStart
+,
+&amp;   System.double
+RangeEnd
+,
+&amp;   System.bool
+IsAngleRange
+,
+&amp;   System.double
+RotationAngle
+,
+&amp;   System.double
+XOffset
+,
+&amp;   System.double
+YOffset
+,
+&amp;   System.bool
+LockStart
+,
+&amp;   System.bool
+LockEnd
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateEquationSpline2</summary><p>Creates an equation-driven 2D explicit or parametric curve or a 3D parametric curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSpline^ CreateEquationSpline2( 
+&amp;   System.String^
+XExpression
+,
+&amp;   System.String^
+YExpression
+,
+&amp;   System.String^
+ZExpression
+,
+&amp;   System.String^
+RangeStart
+,
+&amp;   System.String^
+RangeEnd
+,
+&amp;   System.bool
+IsAngleRange
+,
+&amp;   System.double
+RotationAngle
+,
+&amp;   System.double
+XOffset
+,
+&amp;   System.double
+YOffset
+,
+&amp;   System.bool
+LockStart
+,
+&amp;   System.bool
+LockEnd
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFillet</summary><p>Creates a sketch fillet using the selected sketch entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateFillet( 
+&amp;   System.double
+Radius
+,
+&amp;   System.int
+ConstrainedCorners
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLine</summary><p>Creates a sketch line in the currently active 2D or 3D sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateLine( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLinearSketchStepAndRepeat</summary><p>Creates a linear sketch pattern.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateLinearSketchStepAndRepeat( 
+&amp;   System.int
+NumX
+,
+&amp;   System.int
+NumY
+,
+&amp;   System.double
+SpacingX
+,
+&amp;   System.double
+SpacingY
+,
+&amp;   System.double
+AngleX
+,
+&amp;   System.double
+AngleY
+,
+&amp;   System.String^
+DeleteInstances
+,
+&amp;   System.bool
+XSpacingDim
+,
+&amp;   System.bool
+YSpacingDim
+,
+&amp;   System.bool
+AngleDim
+,
+&amp;   System.bool
+CreateNumOfInstancesDimInXDir
+,
+&amp;   System.bool
+CreateNumOfInstancesDimInYDir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateParabola</summary><p>Creates a parabola in the active sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateParabola( 
+&amp;   System.double
+XFocus
+,
+&amp;   System.double
+YFocus
+,
+&amp;   System.double
+ZFocus
+,
+&amp;   System.double
+XApex
+,
+&amp;   System.double
+YApex
+,
+&amp;   System.double
+ZApex
+,
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateParallelogram</summary><p>Creates a parallelogram.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateParallelogram( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+,
+&amp;   System.double
+X3
+,
+&amp;   System.double
+Y3
+,
+&amp;   System.double
+Z3
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreatePoint</summary><p>Creates a sketch point in the active 2D or 3D sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchPoint^ CreatePoint( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreatePolygon</summary><p>Creates a polygon in the active sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreatePolygon( 
+&amp;   System.double
+XC
+,
+&amp;   System.double
+YC
+,
+&amp;   System.double
+Zc
+,
+&amp;   System.double
+Xp
+,
+&amp;   System.double
+Yp
+,
+&amp;   System.double
+Zp
+,
+&amp;   System.int
+Sides
+,
+&amp;   System.bool
+Inscribed
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateRegionHatch</summary><p>Creates an area hatch/fill region hatch using a closed sketch profile.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchHatch^ CreateRegionHatch( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Scale
+,
+&amp;   System.int
+Color
+,
+&amp;   System.String^
+Hatchname
+,
+&amp;   System.String^
+Layername
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSketchBelt</summary><p>Creates a sketch belt feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateSketchBelt( 
+&amp;   System.double
+Length
+,
+&amp;   System.double
+Thickness
+,
+&amp;   System.int
+Engage
+,
+&amp;   System.int
+PulleyCount
+,
+&amp;   System.int
+Side1
+,
+&amp;   System.int
+Side2
+,
+&amp;   System.int
+Side3
+,
+&amp;   System.int
+Side4
+,
+&amp;   System.int
+Side5
+,
+&amp;   System.int
+Side6
+,
+&amp;   System.int
+Side7
+,
+&amp;   System.int
+Side8
+,
+&amp;   System.int
+Side9
+,
+&amp;   System.int
+Side10
+,
+&amp;   System.int
+Side11
+,
+&amp;   System.int
+Side12
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSketchPlane</summary><p>Creates a 3D sketch plane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateSketchPlane( 
+&amp;   System.int
+Relation1
+,
+&amp;   System.int
+Relation2
+,
+&amp;   System.int
+Relation3
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSketchSlot</summary><p>Creates a sketch slot.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSlot^ CreateSketchSlot( 
+&amp;   System.int
+SlotCreationType
+,
+&amp;   System.int
+SlotLengthType
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+,
+&amp;   System.double
+X3
+,
+&amp;   System.double
+Y3
+,
+&amp;   System.double
+Z3
+,
+&amp;   System.int
+CenterArcDirection
+,
+&amp;   System.bool
+AddDimension
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSpline</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateSpline( 
+&amp;   System.Object^
+PointData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSpline2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateSpline2( 
+&amp;   System.Object^
+PointData
+,
+&amp;   System.bool
+SimulateNaturalEnds
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSpline3</summary><p>Creates either a 2D spline or a spline constrained to a surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSpline3( 
+&amp;   System.Object^
+PointData
+,
+&amp;   System.Object^
+Surfs
+,
+&amp;   System.Object^
+Direction
+,
+&amp;   System.bool
+SimulateNaturalEnds
+,
+&amp;   [Out] System.Object^
+Status
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSplineByEqnParams</summary><p>Creates a B-curve from B-spline data; that is, a set of B-spline vertices (control points) and a knot vector.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateSplineByEqnParams( 
+&amp;   System.Object^
+Parameters
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSplineParamData</summary><p>Creates an empty spline parameter data object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SplineParamData^ CreateSplineParamData();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSplinesByEqnParams</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSplinesByEqnParams( 
+&amp;   System.Object^
+Parameters
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSplinesByEqnParams2</summary><p>Creates one or more spline segments using the B-curve parameters provided.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSplinesByEqnParams2( 
+&amp;   SplineParamData^
+ParamData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTangentArc</summary><p>Creates a tangent arc.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ CreateTangentArc( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+,
+&amp;   System.int
+ArcType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditCircularSketchStepAndRepeat</summary><p>Edits a circular sketch pattern.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool EditCircularSketchStepAndRepeat( 
+&amp;   System.double
+ArcRadius
+,
+&amp;   System.double
+ArcAngle
+,
+&amp;   System.int
+PatternNum
+,
+&amp;   System.double
+PatternSpacing
+,
+&amp;   System.bool
+PatternRotate
+,
+&amp;   System.String^
+DeleteInstances
+,
+&amp;   System.bool
+RadiusDim
+,
+&amp;   System.bool
+AngleDim
+,
+&amp;   System.bool
+CreateNumOfInstancesDim
+,
+&amp;   System.String^
+Seeds
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditLinearSketchStepAndRepeat</summary><p>Edits a linear sketch pattern.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool EditLinearSketchStepAndRepeat( 
+&amp;   System.int
+NumX
+,
+&amp;   System.int
+NumY
+,
+&amp;   System.double
+SpacingX
+,
+&amp;   System.double
+SpacingY
+,
+&amp;   System.double
+AngleX
+,
+&amp;   System.double
+AngleY
+,
+&amp;   System.String^
+DeleteInstances
+,
+&amp;   System.bool
+XSpacingDim
+,
+&amp;   System.bool
+YSpacingDim
+,
+&amp;   System.bool
+AngleDim
+,
+&amp;   System.bool
+CreateNumOfInstancesDimInXDir
+,
+&amp;   System.bool
+CreateNumOfInstancesDimInYDir
+,
+&amp;   System.String^
+Seeds
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditSketchBlock</summary><p>Puts the block definition in edit mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditSketchBlock();</pre></details><details style="margin: 0.5rem 0;"><summary>EndEditSketchBlock</summary><p>Saves or discards your edits of the block and then ends the current editing session of this block.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EndEditSketchBlock( 
+&amp;   System.bool
+AcceptChanges
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ExplodeSketchBlockInstance</summary><p>Explodes the specified block instance.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ExplodeSketchBlockInstance( 
+&amp;   SketchBlockInstance^
+LpSketchBlockInstance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FullyDefineSketch</summary><p>Fully defines a sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int FullyDefineSketch( 
+&amp;   System.bool
+EntitiesToFullyDefine
+,
+&amp;   System.bool
+UseRelations
+,
+&amp;   System.int
+RelationsToApply
+,
+&amp;   System.bool
+UseDimensions
+,
+&amp;   System.int
+HorizontalDimScheme
+,
+&amp;   System.Object^
+HorizontalDatumDisp
+,
+&amp;   System.int
+VerticalDimScheme
+,
+&amp;   System.Object^
+VerticalDatumDisp
+,
+&amp;   System.int
+HorizontalDimPlacement
+,
+&amp;   System.int
+VerticalDimPlacement
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDynamicMirror</summary><p>Gets whether dynamic sketch mirroring, which is the automatic mirroring of newly created sketch entities about a selected centerline, is enabled.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetDynamicMirror();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchBlockDefinitionCount</summary><p>Gets the number of block definitions in the model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSketchBlockDefinitionCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchBlockDefinitions</summary><p>Gets all of the block definitions.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchBlockDefinitions();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSpline</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ ICreateSpline( 
+&amp;   System.int
+PointCount
+,
+&amp;   System.double%
+PointData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSpline2</summary><p>Creates a spline passing through the given points.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ ICreateSpline2( 
+&amp;   System.int
+PointCount
+,
+&amp;   System.double%
+PointData
+,
+&amp;   System.bool
+SimulateNaturalEnds
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSplineByEqnParams</summary><p>Creates a B-curve from B-spline data; that is, a set of B-spline vertices (control points) and a knot vector.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSegment^ ICreateSplineByEqnParams( 
+&amp;   System.int%
+Properties
+,
+&amp;   System.int
+KnotArrayCount
+,
+&amp;   System.double%
+Knots
+,
+&amp;   System.int
+ControlPointArrayCount
+,
+&amp;   System.double%
+ControlPoints
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSplinesByEqnParams</summary><p>Creates one or more spline segments using the B-curve parameters provided.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumSketchSegments^ ICreateSplinesByEqnParams( 
+&amp;   System.int%
+Properties
+,
+&amp;   System.int
+KnotArrayCount
+,
+&amp;   System.double%
+Knots
+,
+&amp;   System.int
+ControlPointArrayCount
+,
+&amp;   System.double%
+ControlPoints
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSketchBlockDefinitions</summary><p>Gets all of the block definitions.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchBlockDefinition^ IGetSketchBlockDefinitions( 
+&amp;   System.int
+BlockDefCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Insert3DSketch</summary><p>Inserts a new 3D sketch in a model or closes the active sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Insert3DSketch( 
+&amp;   System.bool
+UpdateEditRebuild
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertExplodeLineSketch</summary><p>Inserts or closes an explode line sketch in an exploded view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertExplodeLineSketch();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSketch</summary><p>Inserts a new sketch in the current part or assembly document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertSketch( 
+&amp;   System.bool
+UpdateEditRebuild
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSketchBlockInstance</summary><p>Inserts a block instance at the specified location using the block definition.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchBlockInstance^ InsertSketchBlockInstance( 
+&amp;   SketchBlockDefinition^
+BlockDef
+,
+&amp;   MathPoint^
+Position
+,
+&amp;   System.double
+Scale
+,
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSketchPicture</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchPicture^ InsertSketchPicture( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSketchPicture2</summary><p>Inserts a picture on the current drawing sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchPicture^ InsertSketchPicture2( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.bool
+HighestResolution
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IntersectCurves</summary><p>Creates a sketched intersection curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IntersectCurves();</pre></details><details style="margin: 0.5rem 0;"><summary>MakeSketchBlockFromFile</summary><p>Creates a block definition using the specified file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchBlockDefinition^ MakeSketchBlockFromFile( 
+&amp;   MathPoint^
+InsertionPoint
+,
+&amp;   System.String^
+FileName
+,
+&amp;   System.bool
+LinkedToFile
+,
+&amp;   System.double
+Scale
+,
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeSketchBlockFromSelected</summary><p>Creates a block definition at the specified location from the selected entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchBlockDefinition^ MakeSketchBlockFromSelected( 
+&amp;   MathPoint^
+InsertionPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeSketchBlockFromSketch</summary><p>Creates a block definition at the specified location using all of the sketch entities in the active sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchBlockDefinition^ MakeSketchBlockFromSketch( 
+&amp;   MathPoint^
+InsertionPoint
+,
+&amp;   Sketch^
+Sketch
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeSketchChain</summary><p>Creates a sketch path using the selected entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MakeSketchChain();</pre></details><details style="margin: 0.5rem 0;"><summary>PerimeterCircle</summary><p>Draws a 3-point perimeter arc.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ PerimeterCircle( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+X3
+,
+&amp;   System.double
+Y3
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReverseEndPointTangent</summary><p>Reverses the end point tangent direction of splines and arcs.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ReverseEndPointTangent( 
+&amp;   System.bool
+ForceDeleteConstraints
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RotateOrCopy3DAboutVector</summary><p>Rotates, and optionally copies, the selected 3D sketch entities about the specified vector.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RotateOrCopy3DAboutVector( 
+&amp;   System.bool
+Copy
+,
+&amp;   System.int
+NumCopies
+,
+&amp;   System.bool
+KeepRelations
+,
+&amp;   System.double
+BaseX
+,
+&amp;   System.double
+BaseY
+,
+&amp;   System.double
+BaseZ
+,
+&amp;   System.double
+VectorXCoord
+,
+&amp;   System.double
+VectorYCoord
+,
+&amp;   System.double
+VectorZCoord
+,
+&amp;   System.double
+AngleAboutVector
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RotateOrCopy3DAboutXYZ</summary><p>Rotates, and optionally copies, the selected 3D sketch entities about the specified x, y, and z coordinates.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RotateOrCopy3DAboutXYZ( 
+&amp;   System.bool
+Copy
+,
+&amp;   System.int
+NumCopies
+,
+&amp;   System.bool
+KeepRelations
+,
+&amp;   System.double
+BaseX
+,
+&amp;   System.double
+BaseY
+,
+&amp;   System.double
+BaseZ
+,
+&amp;   System.double
+AngleAboutXDir
+,
+&amp;   System.double
+AngleAboutYDir
+,
+&amp;   System.double
+AngleAboutZDir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDynamicMirror</summary><p>Enables or disables dynamic sketch mirroring, which is the automatic mirroring of newly created sketch entities about a selected centerline.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetDynamicMirror( 
+&amp;   System.bool
+DynamicMirror
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetGridOptions</summary><p>Sets the options for the grid.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetGridOptions( 
+&amp;   System.bool
+Display
+,
+&amp;   System.double
+Spacing
+,
+&amp;   System.bool
+Snap
+,
+&amp;   System.bool
+DotStyle
+,
+&amp;   System.short
+NumMajor
+,
+&amp;   System.short
+NumMinor
+,
+&amp;   System.bool
+AlignToEdge
+,
+&amp;   System.bool
+AngleSnap
+,
+&amp;   System.double
+AngleUnit
+,
+&amp;   System.bool
+MinorAuto
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SketchExtend</summary><p>Adds to the length of the selected sketch entity (i.e., line, centerline, or arc) to meet the nearest sketch entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SketchExtend( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SketchOffset</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SketchOffset( 
+&amp;   System.double
+Offset
+,
+&amp;   System.bool
+BothDirections
+,
+&amp;   System.bool
+Chain
+,
+&amp;   System.bool
+CapEnds
+,
+&amp;   System.bool
+MakeConstruction
+,
+&amp;   System.bool
+AddDimensions
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SketchOffset2</summary><p>Offsets the selected sketch entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SketchOffset2( 
+&amp;   System.double
+Offset
+,
+&amp;   System.bool
+BothDirections
+,
+&amp;   System.bool
+Chain
+,
+&amp;   System.int
+CapEnds
+,
+&amp;   System.int
+MakeConstruction
+,
+&amp;   System.bool
+AddDimensions
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SketchReplace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SketchReplace( 
+&amp;   System.bool
+MakeConstruction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SketchReplace2</summary><p>Replaces a sketch entity in a model with another sketch entity, preserving all references.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SketchReplace2( 
+&amp;   System.bool
+MakeConstruction
+,
+&amp;   System.bool
+MakeContour
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SketchTrim</summary><p>Trims the selected sketch entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SketchTrim( 
+&amp;   System.int
+Option
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SketchUseEdge</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SketchUseEdge( 
+&amp;   System.bool
+Chain
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SketchUseEdge2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SketchUseEdge2( 
+&amp;   System.bool
+Chain
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SketchUseEdge3</summary><p>Creates sketch entities on a sketch plane by projecting selected edges, loops, faces, curves, and external sketch contours.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SketchUseEdge3( 
+&amp;   System.bool
+Chain
+,
+&amp;   System.bool
+InnerLoops
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SplitClosedSegment</summary><p>Splits the selected closed sketch segment into two sketch segments.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ SplitClosedSegment( 
+&amp;   System.double
+X1
+,
+&amp;   System.double
+Y1
+,
+&amp;   System.double
+Z1
+,
+&amp;   System.double
+X2
+,
+&amp;   System.double
+Y2
+,
+&amp;   System.double
+Z2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SplitOpenSegment</summary><p>Splits the selected open sketch segment into two sketch segments.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ SplitOpenSegment( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ActiveSketch</summary><p>Gets the active sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property Sketch^ ActiveSketch {
+   Sketch^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>AddToDB</summary><p>Gets or sets whether sketch entities are added directly to the SOLIDWORKS database.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool AddToDB {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>AutoInference</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool AutoInference {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>AutoSolve</summary><p>Gets or sets whether SOLIDWORKS automatically solves the sketch geometry of the part while creating it.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool AutoSolve {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CurvatureDensity</summary><p>Gets or sets the scaling factor by which to adjust the density of the curvature combs for this spline.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int CurvatureDensity {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CurvatureScale</summary><p>Gets or sets the scaling factor by which to adjust the size of the curvature combs for this spline.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double CurvatureScale {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DisplayWhenAdded</summary><p>Gets or sets whether new sketch entities are immediately displayed when created.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool DisplayWhenAdded {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Document</summary><p>Gets the document for this</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property ModelDoc2^ Document {
+   ModelDoc2^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>InferenceMode</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool InferenceMode {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Provides access to sketch-creation routines. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface ISketchManager </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html">ISketchManager</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface ISketchManager </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class ISketchManager </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~SketchManager.html">SketchManager</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Get_Spline's_Parameters_Example_CSharp.htm">Get Spline's Parameters (C#)</a>
+<br/><a href="Get_Spline's_Parameters_Example_VBNET.htm">Get Spline's Parameters (VB.NET)</a>
+<br/><a href="Get_Spline's_Parameters_Example_VB.htm">Get Spline's Parameters (VBA)</a>
+<br/><a href="Extend_Sketch_Entity_Example_VB.htm">Extend Sketch Entity (VBA)</a>
+<br/><a href="Offset_Selected_Edges_in_Active_Sketch_Example_VB.htm">Offset Selected Edges in Active Sketch (VBA)</a>
+<br/><a href="Insert_and_Resize_Sketch_Slot_Example_CSharp.htm">Insert and Resize Sketch Slot (C#)</a>
+<br/><a href="Insert_and_Resize_Sketch_Slot_Example_VBNET.htm">Insert and Resize Sketch Slot (VB.NET)</a>
+<br/><a href="Insert_and_Resize_Sketch_Slot_Example_VB.htm">Insert and Resize Sketch Slot (VBA)</a>
+<br/><a href="Create_Block_Definition_and_Insert_Block_Instance_Example_CSharp.htm">Create Block Definition and Insert Block Instance (C#)</a>
+<br/><a href="Create_Block_Definition_and_Insert_Block_Instance_Example_VB.htm">Create Block Definition and Insert Block Instance (VBA)</a>
+<br/><a href="Create_Block_Definition_and_Insert_Block_Instance_Example_VBNET.htm">Create Block Definition and Insert Block Instance (VB.NET)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchManager.html">IModelDoc2::SketchManager</a></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#SketchManager">SketchManager</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html">ISketchManager Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

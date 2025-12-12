@@ -1,0 +1,391 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IModelView Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IModelView"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IModelView Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IModelView Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>Activate</summary><p>Activates the model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Activate();</pre></details><details style="margin: 0.5rem 0;"><summary>AddPerspective</summary><p>Adds perspective to the model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void AddPerspective();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCallout</summary><p>Creates a callout on this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Callout^ CreateCallout( 
+&amp;   System.int
+NumberOfRows
+,
+&amp;   System.Object^
+LpHandler
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DrawHighlightedItems</summary><p>Draws or redraws the highlighted items.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void DrawHighlightedItems();</pre></details><details style="margin: 0.5rem 0;"><summary>DrawTransparentFeatureTree</summary><p>Draws a transparent FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void DrawTransparentFeatureTree();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBkgdImageDisplayAreaAspectRatio</summary><p>Gets the aspect ratio (width/height) of the area of the window where the background image is displayed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetBkgdImageDisplayAreaAspectRatio();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayState</summary><p>Gets the display state of this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetDisplayState( 
+&amp;   System.int
+DisplayType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEyePoint</summary><p>Gets the eye position for perspective viewing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEyePoint();</pre></details><details style="margin: 0.5rem 0;"><summary>GetIsoPlaneDistance</summary><p>Gets the distance, in terms of screen space, from the eye position to the plane at which there is no scaling due to perspective.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetIsoPlaneDistance();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMouse</summary><p>Gets the mouse for this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Mouse^ GetMouse();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNext</summary><p>Gets the next model view after this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNext();</pre></details><details style="margin: 0.5rem 0;"><summary>GetStereoSeparation</summary><p>Obsolete and not superseded. Functionality no longer implemented.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetStereoSeparation();</pre></details><details style="margin: 0.5rem 0;"><summary>GetViewDIB</summary><p>Gets an image of the document as it looks in Normal view or in the print preview.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetViewDIB();</pre></details><details style="margin: 0.5rem 0;"><summary>GetViewDIBx64</summary><p>Gets an image of the document as it looks in Normal view or in the print preview in 64-bit applications.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int64 GetViewDIBx64();</pre></details><details style="margin: 0.5rem 0;"><summary>GetViewHWnd</summary><p>Gets the Microsoft window handle for this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetViewHWnd();</pre></details><details style="margin: 0.5rem 0;"><summary>GetViewHWndx64</summary><p>Gets the Microsoft window handle for this model view in 64-bit applications.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int64 GetViewHWndx64();</pre></details><details style="margin: 0.5rem 0;"><summary>GetViewPlaneDistance</summary><p>Gets the model view plane distance for perspective viewing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetViewPlaneDistance();</pre></details><details style="margin: 0.5rem 0;"><summary>GetVisibleBox</summary><p>Gets the boundaries of the visible model view window.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetVisibleBox();</pre></details><details style="margin: 0.5rem 0;"><summary>GraphicsRedraw</summary><p>Redraws the specified region of or the entire SOLIDWORKS graphics window.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GraphicsRedraw( 
+&amp;   System.Object^
+Rect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>HasPerspective</summary><p>Determines if the model view currently has perspective.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool HasPerspective();</pre></details><details style="margin: 0.5rem 0;"><summary>HideMagnifyingGlass</summary><p>Hides the Magnifying Glass tool.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void HideMagnifyingGlass();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEyePoint</summary><p>Gets the eye position for perspective viewing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetEyePoint( 
+&amp;   System.double%
+Eyept
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetNext</summary><p>Gets the next model view after this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelView^ IGetNext();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetStereoSeparation</summary><p>Obsolete and not superseded. Functionality no longer implemented.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetStereoSeparation();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetVisibleBox</summary><p>Gets the boundaries of the visible model view window.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetVisibleBox();</pre></details><details style="margin: 0.5rem 0;"><summary>IGraphicsRedraw</summary><p>Redraws the specified region of or the entire SOLIDWORKS graphics window.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGraphicsRedraw( 
+&amp;   System.int%
+Rect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InitializeShading</summary><p>Sets up the model view for OpenGL shading.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InitializeShading();</pre></details><details style="margin: 0.5rem 0;"><summary>ISetEyePoint</summary><p>Sets the eye position for perspective viewing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetEyePoint( 
+&amp;   System.double%
+Eyept
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetStereoSeparation</summary><p>Obsolete and not superseded. Functionality no longer implemented.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetStereoSeparation( 
+&amp;   System.double%
+DfSeparation
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MoveMagnifyingGlass</summary><p>Moves Magnifying Glass tool to the specified coordinates.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void MoveMagnifyingGlass( 
+&amp;   System.double
+Ptx
+,
+&amp;   System.double
+Pty
+,
+&amp;   System.double
+Ptz
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemovePerspective</summary><p>Removes perspective from the model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RemovePerspective();</pre></details><details style="margin: 0.5rem 0;"><summary>RollBy</summary><p>Rolls the model view about the line of sight by the specified angle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RollBy( 
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RotateAboutAxis</summary><p>Rotates the model view about a point, by an angle in the specified direction.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RotateAboutAxis( 
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Ptx
+,
+&amp;   System.double
+Pty
+,
+&amp;   System.double
+Ptz
+,
+&amp;   System.double
+AxisVecX
+,
+&amp;   System.double
+AxisVecY
+,
+&amp;   System.double
+AxisVecZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RotateAboutCenter</summary><p>Rotates the model view about the screen X and Y axes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RotateAboutCenter( 
+&amp;   System.double
+XAngle
+,
+&amp;   System.double
+YAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RotateAboutPoint</summary><p>Rotates the model view about the specified point by the specified angles in the directions of the screen X and Y axes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RotateAboutPoint( 
+&amp;   System.double
+XAngle
+,
+&amp;   System.double
+YAngle
+,
+&amp;   System.double
+Ptx
+,
+&amp;   System.double
+Pty
+,
+&amp;   System.double
+Ptz
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCameraByName</summary><p>Sets the model view to that of the specified camera, if in camera view mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetCameraByName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetEyePoint</summary><p>Sets the eye position for perspective viewing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetEyePoint( 
+&amp;   System.Object^
+Eyept
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetStereoSeparation</summary><p>Obsolete and not superseded. Functionality no longer implemented.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetStereoSeparation( 
+&amp;   System.Object^
+DfSeparation
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowMagnifyingGlass</summary><p>Shows the Magnifying Glass tool at the specified coordinates.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ShowMagnifyingGlass( 
+&amp;   System.double
+Ptx
+,
+&amp;   System.double
+Pty
+,
+&amp;   System.double
+Ptz
+,
+&amp;   System.double
+ZoomFactor
+,
+&amp;   System.bool
+HideOnClick
+,
+&amp;   System.bool
+FollowMouse
+)</pre></details><details style="margin: 0.5rem 0;"><summary>StartDynamics</summary><p>Provides faster rotation of model views.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void StartDynamics();</pre></details><details style="margin: 0.5rem 0;"><summary>StopDynamics</summary><p>Ends dynamic model view motion.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void StopDynamics();</pre></details><details style="margin: 0.5rem 0;"><summary>TranslateBy</summary><p>Translates the model view in the screen.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void TranslateBy( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+)</pre></details><details style="margin: 0.5rem 0;"><summary>TurnBy</summary><p>Rotates the camera by the specified angles about the camera's x and y axes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void TurnBy( 
+&amp;   System.double
+XAngle
+,
+&amp;   System.double
+YAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ZoomByFactor</summary><p>Modifies the zoom factor for the model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ZoomByFactor( 
+&amp;   System.double
+Factor
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Camera</summary><p>Gets or sets the camera.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property Camera^ Camera {
+   Camera^ get();
+   void set ( &amp;   Camera^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DisplayMode</summary><p>Gets or sets the display mode for this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int DisplayMode {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DisplayZebraStripes</summary><p>Gets or sets the zebra-line display state.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool DisplayZebraStripes {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DynamicMode</summary><p>Gets the dynamic mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int DynamicMode {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EnableGraphicsUpdate</summary><p>Gets or sets whether or not to refresh the model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool EnableGraphicsUpdate {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FrameHeight</summary><p>Get or sets the height of the frame of the document window that contains the model view in the SOLIDWORKS client area.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int FrameHeight {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FrameLeft</summary><p>Gets or sets the left position of the frame of the document window that contains the model view in the SOLIDWORKS client area.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int FrameLeft {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FrameState</summary><p>Gets or sets the window state (minimum, maximum, or normal) for the frame of the document window that contains the model view in the SOLIDWORKS client area.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int FrameState {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FrameTop</summary><p>Gets or sets the top position of the frame of the document window that contains the model view in the SOLIDWORKS client area.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int FrameTop {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FrameWidth</summary><p>Gets or sets the width of the frame of the document window that contains the model view in the SOLIDWORKS client area.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int FrameWidth {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>HlrQuality</summary><p>Gets or sets the hidden-line removal quality property of this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int HlrQuality {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IOrientation</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IOrientation {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IOrientation2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IOrientation2 {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ITranslation</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double ITranslation {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ITranslation2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double ITranslation2 {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Linked</summary><p>Gets whether or not this viewport is linked or not.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool Linked {
+   System.bool get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ObjectSizesAway</summary><p>Helps define the perspective of the current model view by relating the size of a displayed object with the distance of the object from the observer.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double ObjectSizesAway {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Orientation</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ Orientation {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Orientation2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ Orientation2 {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Orientation3</summary><p>Gets or sets the model view orientation matrix.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property MathTransform^ Orientation3 {
+   MathTransform^ get();
+   void set ( &amp;   MathTransform^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Scale</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double Scale {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Scale2</summary><p>Gets and sets the model view scale factor.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double Scale2 {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SuppressWaitCursorDuringRedraw</summary><p>Gets or sets the state of the wait cursor (also called the hourglass) while this model view is being redrawn.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool SuppressWaitCursorDuringRedraw {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Transform</summary><p>Gets the model space to the model view plane transform.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property MathTransform^ Transform {
+   MathTransform^ get();
+   void set ( &amp;   MathTransform^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Translation</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ Translation {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Translation2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ Translation2 {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Translation3</summary><p>Gets or sets the model view translation vector.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property MathVector^ Translation3 {
+   MathVector^ get();
+   void set ( &amp;   MathVector^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>UpdateAllGraphicsLayers</summary><p>Gets or sets whether to update all graphic layers in any mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool UpdateAllGraphicsLayers {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>VisibilityViewTools</summary><p>Gets or sets the visibility of the Heads-up View Toolbar for this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool VisibilityViewTools {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>XorHighlight</summary><p>Gets or sets the Xor highlight state.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool XorHighlight {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows you access to the model view's orientation, translation, and the Microsoft handle to the window. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IModelView </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html">IModelView</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IModelView </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IModelView </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~ModelView.html">ModelView</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Access_Assembly_Example_CPlusPlus_COM.htm">Access Assembly (C++)</a>
+<br/><a href="Get_Scale_of_Each_Model_View_Example_CPlusPlus_COM.htm">Get Scale Factor of Each Model View (C++)</a>
+<br/><a href="Get_Scale_of_Each_Model_View_Example_CSharp.htm">Get Scale Factor of Each Model View (C#)</a>
+<br/><a href="Get_Scale_of_Each_Model_View_Example_VBNET.htm">Get Scale Factor of Each Model View (VB.NET)</a>
+<br/><a href="Get_Scale_of_Each_Model_View_Example_VB.htm">Get Scale Factor of Each Model View (VBA)</a>
+<br/><a href="Create_Model_View_Callouts_Example_CSharp.htm">Create a Callout in a Model View (C#)</a>
+<br/><a href="Create_Model_View_Callouts_Example_VBNET.htm">Create a Callout in a Model View (VB.NET)</a>
+<br/><a href="Create_Model_View_Callouts_Example_VB.htm">Create a Callout in a Model View (VBA)</a>
+<br/><a href="Get_Names_of_Components_and_Window_Handle,_and_DIBSECTION_Example_CSharp.htm">Get Names of Components, Window Handles, and DIBSECTIONs (C#)</a>
+<br/><a href="Get_Names_of_Components_and_Window_Handle,_and_DIBSECTION_Example_VBNET.htm">Get Names of Components, Window Handles, and DIBSECTIONs (VB.NET)</a>
+<br/><a href="Get_Names_of_Components_and_Window_Handle,_and_DIBSECTION_Example_VB.htm">Get Names of Components, Window Handles, and DIBSECTIONs (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection"><p>Events are implemented with delegates in the Microsoft .NET Framework. See the <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks_namespace.html">Overview</a> topic for a list of delegates for this interface.</p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumModelViews~Next.html">IEnumModelViews::Next</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ActiveView.html">IModelDoc2::ActiveView</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IActiveView.html">IModelDoc2::IActiveView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetFirstModelView.html">IModelDoc2::GetFirstModelView</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetFirstModelView.html">IModelDoc2::IGetFirstModelView</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetModelViews.html">IModelDocExtension::GetModelViews</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IGetModelViews.html">IModelDocExtension::IGetModelViews</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~GetNext.html">IModelView::GetNext</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~IGetNext.html">IModelView::IGetNext</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#ModelView">ModelView</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html">IModelView Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html">IModelViewManager Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow.html">IModelWindow Interface</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

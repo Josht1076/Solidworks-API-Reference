@@ -1,0 +1,3227 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IDrawingDoc Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IDrawingDoc"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IDrawingDoc Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IDrawingDoc Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>ActivateSheet</summary><p>Activates the specified drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ActivateSheet( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ActivateView</summary><p>Activates the specified drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ActivateView( 
+&amp;   System.String^
+ViewName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddCenterMark</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddCenterMark( 
+&amp;   System.double
+CmSize
+,
+&amp;   System.bool
+CmShowLines
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddChamferDim</summary><p>Adds a chamfer dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddChamferDim( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddHoleCallout</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void AddHoleCallout();</pre></details><details style="margin: 0.5rem 0;"><summary>AddHoleCallout2</summary><p>Adds a hole callout at the specified position to the hole whose edge is selected.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddHoleCallout2( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddLineStyle</summary><p>Adds a line style to the current drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddLineStyle( 
+&amp;   System.String^
+StyleName
+,
+&amp;   System.String^
+StyleDefinition
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddOrdinateDimension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddOrdinateDimension( 
+&amp;   System.int
+DimType
+,
+&amp;   System.double
+LocX
+,
+&amp;   System.double
+LocY
+,
+&amp;   System.double
+LocZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddOrdinateDimension2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddOrdinateDimension2( 
+&amp;   System.int
+DimType
+,
+&amp;   System.double
+LocX
+,
+&amp;   System.double
+LocY
+,
+&amp;   System.double
+LocZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AlignHorz</summary><p>Uses the selected edge to align the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void AlignHorz();</pre></details><details style="margin: 0.5rem 0;"><summary>AlignOrdinate</summary><p>Aligns the ordinate dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void AlignOrdinate();</pre></details><details style="margin: 0.5rem 0;"><summary>AlignVert</summary><p>Uses the selected edge to align the current drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void AlignVert();</pre></details><details style="margin: 0.5rem 0;"><summary>AttachAnnotation</summary><p>Attaches an existing annotation to a drawing sheet or view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AttachAnnotation( 
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AttachDimensions</summary><p>Attaches unattached dimensions.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void AttachDimensions();</pre></details><details style="margin: 0.5rem 0;"><summary>AutoBalloon</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AutoBalloon( 
+&amp;   System.int
+Layout
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AutoBalloon2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AutoBalloon2( 
+&amp;   System.int
+Layout
+,
+&amp;   System.bool
+IgnoreMultiple
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AutoBalloon3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AutoBalloon3( 
+&amp;   System.int
+Layout
+,
+&amp;   System.bool
+IgnoreMultiple
+,
+&amp;   System.int
+Style
+,
+&amp;   System.int
+Size
+,
+&amp;   System.int
+UpperTextContent
+,
+&amp;   System.String^
+UpperText
+,
+&amp;   System.int
+LowerTextContent
+,
+&amp;   System.String^
+LowerText
+,
+&amp;   System.String^
+Layername
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AutoBalloon4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AutoBalloon4( 
+&amp;   System.int
+Layout
+,
+&amp;   System.bool
+IgnoreMultiple
+,
+&amp;   System.int
+Style
+,
+&amp;   System.int
+Size
+,
+&amp;   System.int
+UpperTextContent
+,
+&amp;   System.String^
+UpperText
+,
+&amp;   System.int
+LowerTextContent
+,
+&amp;   System.String^
+LowerText
+,
+&amp;   System.String^
+Layername
+,
+&amp;   System.bool
+BalloonsToFaces
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AutoBalloon5</summary><p>Automatically inserts BOM balloons in selected drawing views.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AutoBalloon5( 
+&amp;   AutoBalloonOptions^
+BalloonOptions
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AutoDimension</summary><p>Automatically dimensions the selected drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AutoDimension( 
+&amp;   System.int
+EntitiesToDimension
+,
+&amp;   System.int
+HorizontalScheme
+,
+&amp;   System.int
+HorizontalPlacement
+,
+&amp;   System.int
+VerticalScheme
+,
+&amp;   System.int
+VerticalPlacement
+)</pre></details><details style="margin: 0.5rem 0;"><summary>BreakLineSplineCut</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void BreakLineSplineCut();</pre></details><details style="margin: 0.5rem 0;"><summary>BreakLineStraightCut</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void BreakLineStraightCut();</pre></details><details style="margin: 0.5rem 0;"><summary>BreakLineZigZagCut</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void BreakLineZigZagCut();</pre></details><details style="margin: 0.5rem 0;"><summary>BreakView</summary><p>Breaks the drawing view along the existing break lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void BreakView();</pre></details><details style="margin: 0.5rem 0;"><summary>CenterMark</summary><p>Obsolete. Not superseded.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void CenterMark();</pre></details><details style="margin: 0.5rem 0;"><summary>ChangeComponentLayer</summary><p>Puts the selected components on the specified layer.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ChangeComponentLayer( 
+&amp;   System.String^
+Layername
+,
+&amp;   System.bool
+AllViews
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ChangeOrdDir</summary><p>Changes the ordinate direction.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ChangeOrdDir();</pre></details><details style="margin: 0.5rem 0;"><summary>ChangeRefConfigurationOfFlatPatternView</summary><p>Changes the configuration of the selected flat-pattern view of the specified model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ChangeRefConfigurationOfFlatPatternView( 
+&amp;   System.String^
+ModelName
+,
+&amp;   System.String^
+ConfigName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Create1stAngleViews</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Create1stAngleViews( 
+&amp;   System.String^
+ModelName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Create1stAngleViews2</summary><p>Creates standard three orthographic views (first angle projection) for the specified model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Create1stAngleViews2( 
+&amp;   System.String^
+ModelName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Create3rdAngleViews</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Create3rdAngleViews( 
+&amp;   System.String^
+ModelName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Create3rdAngleViews2</summary><p>Creates standard three orthographic views (third angle projection) for the specified model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Create3rdAngleViews2( 
+&amp;   System.String^
+ModelName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateAngDim</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateAngDim( 
+&amp;   System.Object^
+VP0
+,
+&amp;   System.Object^
+VP1
+,
+&amp;   System.Object^
+VP2
+,
+&amp;   System.Object^
+VP3
+,
+&amp;   System.Object^
+VP4
+,
+&amp;   System.Object^
+VP5
+,
+&amp;   System.Object^
+VP6
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateAngDim2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateAngDim2( 
+&amp;   System.Object^
+VP0
+,
+&amp;   System.Object^
+VP1
+,
+&amp;   System.Object^
+VP2
+,
+&amp;   System.Object^
+VP3
+,
+&amp;   System.Object^
+VP4
+,
+&amp;   System.Object^
+VP5
+,
+&amp;   System.Object^
+VP6
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.Object^
+VTextPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateAngDim3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateAngDim3( 
+&amp;   System.Object^
+VP0
+,
+&amp;   System.Object^
+VP1
+,
+&amp;   System.Object^
+VP2
+,
+&amp;   System.Object^
+VP3
+,
+&amp;   System.Object^
+VP4
+,
+&amp;   System.Object^
+VP5
+,
+&amp;   System.Object^
+VP6
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.Object^
+VTextPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateAngDim4</summary><p>Creates a non-associative angular dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateAngDim4( 
+&amp;   System.Object^
+P0
+,
+&amp;   System.Object^
+P1
+,
+&amp;   System.Object^
+P2
+,
+&amp;   System.Object^
+P3
+,
+&amp;   System.Object^
+P4
+,
+&amp;   System.Object^
+P5
+,
+&amp;   System.Object^
+P6
+,
+&amp;   System.Object^
+TextPoint
+,
+&amp;   System.double
+TextHeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateAutoBalloonOptions</summary><p>Creates an object that stores auto balloon options.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">AutoBalloonOptions^ CreateAutoBalloonOptions();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateAuxiliaryViewAt</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateAuxiliaryViewAt( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+NotAligned
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateAuxiliaryViewAt2</summary><p>Creates an auxiliary view based on a selected edge in a drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateAuxiliaryViewAt2( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+NotAligned
+,
+&amp;   System.String^
+Label
+,
+&amp;   System.bool
+Showarrow
+,
+&amp;   System.bool
+Flip
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBlockDefinition</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBlockDefinition( 
+&amp;   System.String^
+Name
+,
+&amp;   System.String^
+XRefFileName
+,
+&amp;   System.bool
+Instance
+,
+&amp;   System.Object^
+Segments
+,
+&amp;   System.Object^
+Points
+,
+&amp;   System.Object^
+Notes
+,
+&amp;   System.Object^
+Dimensions
+,
+&amp;   System.Object^
+Blocks
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBreakOutSection</summary><p>Creates a broken-out section in a drawing document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateBreakOutSection( 
+&amp;   System.double
+Depth
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCompoundNote</summary><p>Obsolete for documents created in SOLIDWORKS 2016 and later. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateCompoundNote( 
+&amp;   System.double
+Height
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateConstructionGeometry</summary><p>Sets the selected sketch segments to be construction geometry instead of sketch geometry.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void CreateConstructionGeometry();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCustomSymbol</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateCustomSymbol( 
+&amp;   System.Object^
+Segments
+,
+&amp;   System.Object^
+Points
+,
+&amp;   System.Object^
+Notes
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDetailView</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void CreateDetailView();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDetailViewAt</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateDetailViewAt( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDetailViewAt2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateDetailViewAt2( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDetailViewAt3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateDetailViewAt3( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.int
+Style
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.String^
+LabelIn
+,
+&amp;   System.int
+Showtype
+,
+&amp;   System.bool
+FullOutline
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDetailViewAt4</summary><p>Creates a detail view in a drawing document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateDetailViewAt4( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.int
+Style
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.String^
+LabelIn
+,
+&amp;   System.int
+Showtype
+,
+&amp;   System.bool
+FullOutline
+,
+&amp;   System.bool
+JaggedOutline
+,
+&amp;   System.bool
+NoOutline
+,
+&amp;   System.int
+ShapeIntensity
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDiamDim</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateDiamDim( 
+&amp;   System.double
+DimVal
+,
+&amp;   System.Object^
+VP0
+,
+&amp;   System.Object^
+VP1
+,
+&amp;   System.Object^
+VP2
+,
+&amp;   System.Object^
+VP3
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDiamDim2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateDiamDim2( 
+&amp;   System.double
+DimVal
+,
+&amp;   System.Object^
+VP0
+,
+&amp;   System.Object^
+VP1
+,
+&amp;   System.Object^
+VP2
+,
+&amp;   System.Object^
+VP3
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.Object^
+VTextPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDiamDim3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateDiamDim3( 
+&amp;   System.double
+DimVal
+,
+&amp;   System.Object^
+VP0
+,
+&amp;   System.Object^
+VP1
+,
+&amp;   System.Object^
+VP2
+,
+&amp;   System.Object^
+VP3
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.Object^
+VTextPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDiamDim4</summary><p>Creates a non-associative diameter dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateDiamDim4( 
+&amp;   System.Object^
+P0
+,
+&amp;   System.Object^
+P1
+,
+&amp;   System.Object^
+P2
+,
+&amp;   System.Object^
+P3
+,
+&amp;   System.Object^
+TextPoint
+,
+&amp;   System.double
+Val
+,
+&amp;   System.double
+TextHeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDrawViewFromModelView</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateDrawViewFromModelView( 
+&amp;   System.String^
+ModelName
+,
+&amp;   System.String^
+ViewName
+,
+&amp;   System.double
+LocX
+,
+&amp;   System.double
+LocY
+,
+&amp;   System.double
+LocZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDrawViewFromModelView2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ CreateDrawViewFromModelView2( 
+&amp;   System.String^
+ModelName
+,
+&amp;   System.String^
+ViewName
+,
+&amp;   System.double
+LocX
+,
+&amp;   System.double
+LocY
+,
+&amp;   System.double
+LocZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDrawViewFromModelView3</summary><p>Creates a drawing view on the current drawing sheet using the specified model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ CreateDrawViewFromModelView3( 
+&amp;   System.String^
+ModelName
+,
+&amp;   System.String^
+ViewName
+,
+&amp;   System.double
+LocX
+,
+&amp;   System.double
+LocY
+,
+&amp;   System.double
+LocZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFlatPatternViewFromModelView</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateFlatPatternViewFromModelView( 
+&amp;   System.String^
+ModelName
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.double
+LocX
+,
+&amp;   System.double
+LocY
+,
+&amp;   System.double
+LocZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFlatPatternViewFromModelView2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateFlatPatternViewFromModelView2( 
+&amp;   System.String^
+ModelName
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.double
+LocX
+,
+&amp;   System.double
+LocY
+,
+&amp;   System.double
+LocZ
+,
+&amp;   System.bool
+HideBendLines
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFlatPatternViewFromModelView3</summary><p>Creates a flat-pattern view from a model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ CreateFlatPatternViewFromModelView3( 
+&amp;   System.String^
+ModelName
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.double
+LocX
+,
+&amp;   System.double
+LocY
+,
+&amp;   System.double
+LocZ
+,
+&amp;   System.bool
+HideBendLines
+,
+&amp;   System.bool
+FlipView
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLayer</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateLayer( 
+&amp;   System.String^
+Layername
+,
+&amp;   System.String^
+LayerDesc
+,
+&amp;   System.int
+LayerColor
+,
+&amp;   System.int
+LayerStyle
+,
+&amp;   System.int
+LayerWidth
+,
+&amp;   System.bool
+BOn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLayer2</summary><p>Creates a layer for this document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateLayer2( 
+&amp;   System.String^
+Layername
+,
+&amp;   System.String^
+LayerDesc
+,
+&amp;   System.int
+LayerColor
+,
+&amp;   System.int
+LayerStyle
+,
+&amp;   System.int
+LayerWidth
+,
+&amp;   System.bool
+BOn
+,
+&amp;   System.bool
+BPrint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLinearDim</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateLinearDim( 
+&amp;   System.Object^
+P0
+,
+&amp;   System.Object^
+P1
+,
+&amp;   System.Object^
+P2
+,
+&amp;   System.Object^
+P3
+,
+&amp;   System.Object^
+P4
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLinearDim2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateLinearDim2( 
+&amp;   System.Object^
+P0
+,
+&amp;   System.Object^
+P1
+,
+&amp;   System.Object^
+P2
+,
+&amp;   System.Object^
+P3
+,
+&amp;   System.Object^
+P4
+,
+&amp;   System.double
+Val
+,
+&amp;   System.int
+PrimPrec
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.Object^
+TextPoint
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.String^
+Prefix
+,
+&amp;   System.String^
+Suffix
+,
+&amp;   System.String^
+Callout1
+,
+&amp;   System.String^
+Callout2
+,
+&amp;   System.int
+TolType
+,
+&amp;   System.String^
+TolMin
+,
+&amp;   System.String^
+TolMax
+,
+&amp;   System.int
+TolPrec
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.int
+ArrowStyle
+,
+&amp;   System.int
+ArrowDir
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.bool
+DualDisplay
+,
+&amp;   System.int
+DualPrec
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLinearDim3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateLinearDim3( 
+&amp;   System.Object^
+P0
+,
+&amp;   System.Object^
+P1
+,
+&amp;   System.Object^
+P2
+,
+&amp;   System.Object^
+P3
+,
+&amp;   System.Object^
+P4
+,
+&amp;   System.double
+Val
+,
+&amp;   System.int
+PrimPrec
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.Object^
+TextPoint
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.String^
+Prefix
+,
+&amp;   System.String^
+Suffix
+,
+&amp;   System.String^
+Callout1
+,
+&amp;   System.String^
+Callout2
+,
+&amp;   System.int
+TolType
+,
+&amp;   System.String^
+TolMin
+,
+&amp;   System.String^
+TolMax
+,
+&amp;   System.int
+TolPrec
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.int
+ArrowStyle
+,
+&amp;   System.int
+ArrowDir
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.bool
+DualDisplay
+,
+&amp;   System.int
+DualPrec
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLinearDim4</summary><p>Creates a non-associative linear dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateLinearDim4( 
+&amp;   System.Object^
+P0
+,
+&amp;   System.Object^
+P1
+,
+&amp;   System.Object^
+P2
+,
+&amp;   System.Object^
+P3
+,
+&amp;   System.Object^
+P4
+,
+&amp;   System.Object^
+TextPoint
+,
+&amp;   System.double
+Val
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+TextHeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateOrdinateDim</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateOrdinateDim( 
+&amp;   System.Object^
+P0
+,
+&amp;   System.Object^
+P1
+,
+&amp;   System.Object^
+P2
+,
+&amp;   System.Object^
+P3
+,
+&amp;   System.Object^
+P4
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateOrdinateDim2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateOrdinateDim2( 
+&amp;   System.Object^
+P0
+,
+&amp;   System.Object^
+P1
+,
+&amp;   System.Object^
+P2
+,
+&amp;   System.Object^
+P3
+,
+&amp;   System.Object^
+P4
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.Object^
+P5
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateOrdinateDim3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateOrdinateDim3( 
+&amp;   System.Object^
+P0
+,
+&amp;   System.Object^
+P1
+,
+&amp;   System.Object^
+P2
+,
+&amp;   System.Object^
+P3
+,
+&amp;   System.Object^
+P4
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.Object^
+P5
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateOrdinateDim4</summary><p>Creates a non-associative ordinate dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateOrdinateDim4( 
+&amp;   System.Object^
+P0
+,
+&amp;   System.Object^
+P1
+,
+&amp;   System.Object^
+P2
+,
+&amp;   System.Object^
+P3
+,
+&amp;   System.Object^
+P4
+,
+&amp;   System.Object^
+P5
+,
+&amp;   System.double
+Val
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+TextHeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateRelativeView</summary><p>Creates a relative drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ CreateRelativeView( 
+&amp;   System.String^
+ModelName
+,
+&amp;   System.double
+XPos
+,
+&amp;   System.double
+YPos
+,
+&amp;   System.int
+ViewDirFront
+,
+&amp;   System.int
+ViewDirRight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSectionView</summary><p>Creates a section view in the drawing using the selected section line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void CreateSectionView();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSectionViewAt</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateSectionViewAt( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+NotAligned
+,
+&amp;   System.bool
+IsOffsetSection
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSectionViewAt2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSectionViewAt2( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+NotAligned
+,
+&amp;   System.bool
+IsOffsetSection
+,
+&amp;   System.String^
+Label
+,
+&amp;   System.bool
+Chgdirection
+,
+&amp;   System.bool
+Scwithmodel
+,
+&amp;   System.bool
+Partial
+,
+&amp;   System.bool
+Dispsurfcut
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSectionViewAt3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ CreateSectionViewAt3( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+NotAligned
+,
+&amp;   System.bool
+IsOffsetSection
+,
+&amp;   System.String^
+Label
+,
+&amp;   System.bool
+Chgdirection
+,
+&amp;   System.bool
+Scwithmodel
+,
+&amp;   System.bool
+Partial
+,
+&amp;   System.bool
+Dispsurfcut
+,
+&amp;   System.Object^
+ExcludedComponents
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSectionViewAt4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ CreateSectionViewAt4( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.String^
+SectionLabel
+,
+&amp;   System.int
+Options
+,
+&amp;   System.Object^
+ExcludedComponents
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSectionViewAt5</summary><p>Creates the specified section view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ CreateSectionViewAt5( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.String^
+SectionLabel
+,
+&amp;   System.int
+Options
+,
+&amp;   System.Object^
+ExcludedComponents
+,
+&amp;   System.double
+SectionDepth
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateText</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateText( 
+&amp;   System.String^
+TextString
+,
+&amp;   System.double
+TextX
+,
+&amp;   System.double
+TextY
+,
+&amp;   System.double
+TextZ
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+TextAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateText2</summary><p>containing the specified text at a given location.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateText2( 
+&amp;   System.String^
+TextString
+,
+&amp;   System.double
+TextX
+,
+&amp;   System.double
+TextY
+,
+&amp;   System.double
+TextZ
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+TextAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateUnfoldedViewAt</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateUnfoldedViewAt( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateUnfoldedViewAt2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateUnfoldedViewAt2( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+NotAligned
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateUnfoldedViewAt3</summary><p>Creates an unfolded drawing view from the selected drawing view and places it in the drawing at the specified location.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ CreateUnfoldedViewAt3( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+NotAligned
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateViewport</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ CreateViewport( 
+&amp;   System.double
+LowerLeftX
+,
+&amp;   System.double
+LowerLeftY
+,
+&amp;   System.double
+UpperRightX
+,
+&amp;   System.double
+UpperRightY
+,
+&amp;   System.short
+SketchSize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateViewport2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ CreateViewport2( 
+&amp;   System.double
+LowerLeftX
+,
+&amp;   System.double
+LowerLeftY
+,
+&amp;   System.double
+UpperRightX
+,
+&amp;   System.double
+UpperRightY
+,
+&amp;   System.short
+SketchSize
+,
+&amp;   System.double
+Scale
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateViewport3</summary><p>Creates a an empty view in a drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ CreateViewport3( 
+&amp;   System.double
+LowerLeftX
+,
+&amp;   System.double
+LowerLeftY
+,
+&amp;   System.short
+SketchSize
+,
+&amp;   System.double
+Scale
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteAllCosmeticThreads</summary><p>Deletes all cosmetic threads, which do not have callouts, in a drawing of an assembly only.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void DeleteAllCosmeticThreads();</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteLineStyle</summary><p>Deletes the specified line style from the current drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteLineStyle( 
+&amp;   System.String^
+StyleName
+,
+&amp;   System.String^
+ReplaceName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Dimensions</summary><p>Adds dimensions to the drawing from model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Dimensions();</pre></details><details style="margin: 0.5rem 0;"><summary>DragModelDimension</summary><p>Copies or moves dimensions to a different drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void DragModelDimension( 
+&amp;   System.String^
+ViewName
+,
+&amp;   System.short
+DropEffect
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DrawingViewRotate</summary><p>Rotates the selected drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DrawingViewRotate( 
+&amp;   System.double
+NewAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DropDrawingViewFromPalette</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ DropDrawingViewFromPalette( 
+&amp;   System.int
+Layout
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DropDrawingViewFromPalette2</summary><p>Moves the specified drawing view from the View Palette to the current drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ DropDrawingViewFromPalette2( 
+&amp;   System.String^
+PaletteViewName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditCenterMarkProperties</summary><p>Edits center mark properties.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditCenterMarkProperties( 
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Size
+,
+&amp;   System.bool
+Lines
+,
+&amp;   System.bool
+DocSettings
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditOrdinate</summary><p>Edits an ordinate dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditOrdinate();</pre></details><details style="margin: 0.5rem 0;"><summary>EditRebuild</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditRebuild();</pre></details><details style="margin: 0.5rem 0;"><summary>EditSelectedGtol</summary><p>Gets the selected GTol to edit.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ EditSelectedGtol();</pre></details><details style="margin: 0.5rem 0;"><summary>EditSheet</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditSheet();</pre></details><details style="margin: 0.5rem 0;"><summary>EditSheet2</summary><p>Puts the current drawing sheet in edit mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditSheet2();</pre></details><details style="margin: 0.5rem 0;"><summary>EditSketch</summary><p>Allows editing of a sketch in the selected drawing view or sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditSketch();</pre></details><details style="margin: 0.5rem 0;"><summary>EditTemplate</summary><p>Puts the template of the current drawing sheet in edit mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditTemplate();</pre></details><details style="margin: 0.5rem 0;"><summary>EndDrawing</summary><p>Provides faster creation of entities in a drawing when used with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EndDrawing();</pre></details><details style="margin: 0.5rem 0;"><summary>ExplodeBlockInstance</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ExplodeBlockInstance();</pre></details><details style="margin: 0.5rem 0;"><summary>ExplodeCustomSymbol</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ExplodeCustomSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureByName</summary><p>Gets the specified feature in the drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ FeatureByName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FlipSectionLine</summary><p>Flips the cut direction of the selected section line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FlipSectionLine();</pre></details><details style="margin: 0.5rem 0;"><summary>ForceRebuild</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ForceRebuild();</pre></details><details style="margin: 0.5rem 0;"><summary>GenerateViewPaletteViews</summary><p>Adds the specified document's predefined drawing views to the View Palette.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GenerateViewPaletteViews( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBlockDefinition</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BlockDefinition^ GetBlockDefinition( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBlockDefinitionCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetBlockDefinitionCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBlockDefinitions</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBlockDefinitions();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCurrentSheet</summary><p>Gets the currently active drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCurrentSheet();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDrawingPaletteViewNames</summary><p>Gets the names of drawing views in the View Palette for the active drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDrawingPaletteViewNames();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEditBlock</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetEditBlock();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEditSheet</summary><p>Gets whether the current drawing is in edit sheet mode or edit template mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetEditSheet();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstView</summary><p>Gets the first drawing</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstView();</pre></details><details style="margin: 0.5rem 0;"><summary>GetInsertionPoint</summary><p>Gets the current insertion (pick) point in a drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetInsertionPoint();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineFontCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLineFontCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineFontCount2</summary><p>Gets the a number line fonts supported by this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLineFontCount2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineFontId</summary><p>Gets the associated line font ID.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLineFontId( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineFontInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLineFontInfo( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineFontInfo2</summary><p>Gets the detailed information about the specified line font.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLineFontInfo2( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineFontName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetLineFontName( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineFontName2</summary><p>Gets the name of the specified line font.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetLineFontName2( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineStyles</summary><p>Gets all of the line styles used in the current document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetLineStyles( 
+&amp;   [Out] System.Object^
+StyleNameList
+,
+&amp;   [Out] System.Object^
+StyleList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPenCount</summary><p>Gets the number of pens currently defined in SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetPenCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPenInfo</summary><p>Gets information about the pens used in SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPenInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSheetCount</summary><p>Gets the number of drawing sheets in this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSheetCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSheetNames</summary><p>Gets a list of the names of the drawing sheets in this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSheetNames();</pre></details><details style="margin: 0.5rem 0;"><summary>GetViewCount</summary><p>Gets all of the number of all of views, including the number of sheets, in this drawing document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetViewCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetViews</summary><p>Gets the all of the views, including the sheets, in this drawing document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetViews();</pre></details><details style="margin: 0.5rem 0;"><summary>HideEdge</summary><p>Hides selected visible edges in a drawing document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void HideEdge();</pre></details><details style="margin: 0.5rem 0;"><summary>HideShowDimensions</summary><p>Sets whether to display suppressed dimensions as dimmed and hide them.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void HideShowDimensions();</pre></details><details style="margin: 0.5rem 0;"><summary>HideShowDrawingViews</summary><p>Sets whether to hide or show hidden drawing views.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void HideShowDrawingViews();</pre></details><details style="margin: 0.5rem 0;"><summary>IAddChamferDim</summary><p>Adds a chamfer dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ IAddChamferDim( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddHoleCallout2</summary><p>Adds a hole callout at the specified position to the hole whose edge is selected.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ IAddHoleCallout2( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateAngDim</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICreateAngDim( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double%
+P5
+,
+&amp;   System.double%
+P6
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateAngDim2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICreateAngDim2( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double%
+P5
+,
+&amp;   System.double%
+P6
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.double%
+TextPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateAngDim3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ ICreateAngDim3( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double%
+P5
+,
+&amp;   System.double%
+P6
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.double%
+TextPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateAngDim4</summary><p>Creates a non-associative angular dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ ICreateAngDim4( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double%
+P5
+,
+&amp;   System.double%
+P6
+,
+&amp;   System.double%
+TextPoint
+,
+&amp;   System.double
+TextHeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateAuxiliaryViewAt2</summary><p>Creates an auxiliary view based on a selected edge in a drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ ICreateAuxiliaryViewAt2( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+NotAligned
+,
+&amp;   System.String^
+Label
+,
+&amp;   System.bool
+Showarrow
+,
+&amp;   System.bool
+Flip
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBlockDefinition</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BlockDefinition^ ICreateBlockDefinition( 
+&amp;   System.String^
+Name
+,
+&amp;   System.String^
+XRefFileName
+,
+&amp;   System.bool
+Instance
+,
+&amp;   System.int
+SegmentCount
+,
+&amp;   SketchSegment^%
+Segments
+,
+&amp;   System.int
+PointCount
+,
+&amp;   SketchPoint^%
+Points
+,
+&amp;   System.int
+NoteCount
+,
+&amp;   Note^%
+Notes
+,
+&amp;   System.int
+DimensionCount
+,
+&amp;   DisplayDimension^%
+Dimensions
+,
+&amp;   System.int
+BlockCount
+,
+&amp;   BlockInstance^%
+Blocks
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateCompoundNote</summary><p>Obsolete for documents created in SOLIDWORKS 2016 and later.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Note^ ICreateCompoundNote( 
+&amp;   System.double
+Height
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateCustomSymbol</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CustomSymbol^ ICreateCustomSymbol( 
+&amp;   System.int
+SegmentCount
+,
+&amp;   SketchSegment^%
+Segments
+,
+&amp;   System.int
+PointCount
+,
+&amp;   SketchPoint^%
+Points
+,
+&amp;   System.int
+NoteCount
+,
+&amp;   Note^%
+Notes
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateDetailViewAt3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ ICreateDetailViewAt3( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.int
+Style
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.String^
+LabelIn
+,
+&amp;   System.int
+Showtype
+,
+&amp;   System.bool
+FullOutline
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateDiamDim</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICreateDiamDim( 
+&amp;   System.double
+DimValue
+,
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateDiamDim2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICreateDiamDim2( 
+&amp;   System.double
+DimValue
+,
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.double%
+TextPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateDiamDim3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ ICreateDiamDim3( 
+&amp;   System.double
+DimValue
+,
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.double%
+TextPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateDiamDim4</summary><p>Creates a non-associative diameter dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ ICreateDiamDim4( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+TextPoint
+,
+&amp;   System.double
+Val
+,
+&amp;   System.double
+TextHeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateLinearDim</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICreateLinearDim( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateLinearDim2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICreateLinearDim2( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double
+Val
+,
+&amp;   System.int
+PrimPrec
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double%
+TextPoint
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.String^
+Prefix
+,
+&amp;   System.String^
+Suffix
+,
+&amp;   System.String^
+Callout1
+,
+&amp;   System.String^
+Callout2
+,
+&amp;   System.int
+TolType
+,
+&amp;   System.String^
+TolMin
+,
+&amp;   System.String^
+TolMax
+,
+&amp;   System.int
+TolPrec
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.int
+ArrowStyle
+,
+&amp;   System.int
+ArrowDir
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.bool
+DualDisplay
+,
+&amp;   System.int
+DualPrecision
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateLinearDim3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ ICreateLinearDim3( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double
+Val
+,
+&amp;   System.int
+PrimPrec
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double%
+TextPoint
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.String^
+Prefix
+,
+&amp;   System.String^
+Suffix
+,
+&amp;   System.String^
+Callout1
+,
+&amp;   System.String^
+Callout2
+,
+&amp;   System.int
+TolType
+,
+&amp;   System.String^
+TolMin
+,
+&amp;   System.String^
+TolMax
+,
+&amp;   System.int
+TolPrec
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.int
+ArrowStyle
+,
+&amp;   System.int
+ArrowDir
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.bool
+DualDisplay
+,
+&amp;   System.int
+DualPrecision
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateLinearDim4</summary><p>Creates a non-associative linear dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ ICreateLinearDim4( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double%
+TextPoint
+,
+&amp;   System.double
+Val
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+TextHeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateOrdinateDim</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICreateOrdinateDim( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateOrdinateDim2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICreateOrdinateDim2( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.double%
+P5
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateOrdinateDim3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ ICreateOrdinateDim3( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+ArrowSize
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+WitnessGap
+,
+&amp;   System.double
+WitnessOvershoot
+,
+&amp;   System.double%
+P5
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateOrdinateDim4</summary><p>Creates a non-associative ordinate dimension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DisplayDimension^ ICreateOrdinateDim4( 
+&amp;   System.double%
+P0
+,
+&amp;   System.double%
+P1
+,
+&amp;   System.double%
+P2
+,
+&amp;   System.double%
+P3
+,
+&amp;   System.double%
+P4
+,
+&amp;   System.double%
+P5
+,
+&amp;   System.double
+Val
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+TextHeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSectionViewAt2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ ICreateSectionViewAt2( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+NotAligned
+,
+&amp;   System.bool
+IsOffsetSection
+,
+&amp;   System.String^
+Label
+,
+&amp;   System.bool
+Chgdirection
+,
+&amp;   System.bool
+Scwithmodel
+,
+&amp;   System.bool
+Partial
+,
+&amp;   System.bool
+Dispsurfcut
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSectionViewAt3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ ICreateSectionViewAt3( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+NotAligned
+,
+&amp;   System.bool
+IsOffsetSection
+,
+&amp;   System.String^
+Label
+,
+&amp;   System.bool
+Chgdirection
+,
+&amp;   System.bool
+Scwithmodel
+,
+&amp;   System.bool
+Partial
+,
+&amp;   System.bool
+Dispsurfcut
+,
+&amp;   System.int
+NumExcludedComponents
+,
+&amp;   System.Object^%
+PExcludedComponents
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSectionViewAt4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ ICreateSectionViewAt4( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.String^
+SectionLabel
+,
+&amp;   System.int
+Options
+,
+&amp;   System.int
+NumExcludedComponents
+,
+&amp;   System.Object^%
+ExcludedComponents
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSectionViewAt5</summary><p>Creates a section view from the section line up to the specified distance at the specified distance.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ ICreateSectionViewAt5( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.String^
+SectionLabel
+,
+&amp;   System.int
+Options
+,
+&amp;   System.int
+NumExcludedComponents
+,
+&amp;   System.Object^%
+ExcludedComponents
+,
+&amp;   System.double
+SectionDepth
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateText2</summary><p>containing the specified text at a given location.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Note^ ICreateText2( 
+&amp;   System.String^
+TextString
+,
+&amp;   System.double
+TextX
+,
+&amp;   System.double
+TextY
+,
+&amp;   System.double
+TextZ
+,
+&amp;   System.double
+TextHeight
+,
+&amp;   System.double
+TextAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IEditSelectedGtol</summary><p>Gets the selected GTol to edit.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Gtol^ IEditSelectedGtol();</pre></details><details style="margin: 0.5rem 0;"><summary>IFeatureByName</summary><p>Gets the specified feature in the drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IFeatureByName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBlockDefinitions</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BlockDefinition^ IGetBlockDefinitions( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetCurrentSheet</summary><p>Gets the currently active drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Sheet^ IGetCurrentSheet();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstView</summary><p>Gets the first drawing</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ IGetFirstView();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetInsertionPoint</summary><p>Gets the current insertion (pick) point in a drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetInsertionPoint();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPenInfo</summary><p>Gets information about the pens used in SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetPenInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSheetNames</summary><p>Gets a list of the names of the drawing sheets in this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetSheetNames( 
+&amp;   [Out] System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertCustomSymbol2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CustomSymbol^ IInsertCustomSymbol2( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertDowelSymbol</summary><p>Inserts a dowel pin symbol on the currently selected edge or edges.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DowelSymbol^ IInsertDowelSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertMultiJogLeader2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MultiJogLeader^ IInsertMultiJogLeader2( 
+&amp;   System.int
+PointsCount
+,
+&amp;   MathPoint^%
+Points
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertMultiJogLeader3</summary><p>Inserts a multi-jog leader.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MultiJogLeader^ IInsertMultiJogLeader3( 
+&amp;   System.int
+PointsCount
+,
+&amp;   MathPoint^%
+Points
+,
+&amp;   System.int
+StartPointArrowStyle
+,
+&amp;   System.int
+EndPointArrowStyle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertRevisionCloud</summary><p>Inserts a revision cloud annotation with the specified shape into a view or sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">RevisionCloud^ IInsertRevisionCloud( 
+&amp;   System.int
+CloudShape
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMakeCustomSymbol2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CustomSymbol^ IMakeCustomSymbol2();</pre></details><details style="margin: 0.5rem 0;"><summary>INewGtol</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Gtol^ INewGtol();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertAngularRunningDim</summary><p>Inserts an angular running dimension into this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertAngularRunningDim();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBaseDim</summary><p>Inserts the base model dimensions into this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertBaseDim();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBlock</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BlockInstance^ InsertBlock( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Scale
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBreakHorizontal</summary><p>Inserts a horizontal break in the drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertBreakHorizontal();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBreakVertical</summary><p>Inserts a vertical break in this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertBreakVertical();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCenterLine</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertCenterLine();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCenterLine2</summary><p>Inserts a centerline on the selected entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Centerline^ InsertCenterLine2();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCenterMark</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CenterMark^ InsertCenterMark( 
+&amp;   System.bool
+UseDoc
+,
+&amp;   System.double
+Size
+,
+&amp;   System.bool
+ShowLines
+,
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCenterMark2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CenterMark^ InsertCenterMark2( 
+&amp;   System.int
+Style
+,
+&amp;   System.bool
+Propagate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCenterMark3</summary><p>Inserts a center mark in a drawing document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CenterMark^ InsertCenterMark3( 
+&amp;   System.int
+Style
+,
+&amp;   System.bool
+Propagate
+,
+&amp;   System.bool
+Slot
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertChainDim</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertChainDim();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCircularNotePattern</summary><p>Inserts a circular note pattern using the selected</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertCircularNotePattern( 
+&amp;   System.double
+ArcRadius
+,
+&amp;   System.double
+ArcAngle
+,
+&amp;   System.int
+PatternNum
+,
+&amp;   System.double
+PatternSpacing
+,
+&amp;   System.bool
+PatternRotate
+,
+&amp;   System.String^
+DeleteInstances
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCustomSymbol</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertCustomSymbol( 
+&amp;   System.String^
+SymbolPath
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCustomSymbol2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertCustomSymbol2( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertDatumTag</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertDatumTag();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertDowelSymbol</summary><p>Inserts a dowel pin symbol on the currently selected edge or edges in this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertDowelSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertGroup</summary><p>Inserts the currently selected items into a group (or view).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertGroup();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertHorizontalOrdinate</summary><p>Inserts a horizontal ordinate dimension into this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertHorizontalOrdinate();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertLinearNotePattern</summary><p>Inserts a linear note pattern using the selected</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertLinearNotePattern( 
+&amp;   System.int
+NumX
+,
+&amp;   System.int
+NumY
+,
+&amp;   System.double
+SpacingX
+,
+&amp;   System.double
+SpacingY
+,
+&amp;   System.double
+AngleX
+,
+&amp;   System.double
+AngleY
+,
+&amp;   System.String^
+DeleteInstances
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertModelAnnotations</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertModelAnnotations( 
+&amp;   System.int
+Option
+,
+&amp;   System.bool
+AllTypes
+,
+&amp;   System.int
+Types
+,
+&amp;   System.bool
+AllViews
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertModelAnnotations2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertModelAnnotations2( 
+&amp;   System.int
+Option
+,
+&amp;   System.bool
+AllTypes
+,
+&amp;   System.int
+Types
+,
+&amp;   System.bool
+AllViews
+,
+&amp;   System.bool
+DuplicateDims
+,
+&amp;   System.bool
+HiddenFeatureDims
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertModelAnnotations3</summary><p>Inserts model annotations into this drawing document's currently selected drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertModelAnnotations3( 
+&amp;   System.int
+Option
+,
+&amp;   System.int
+Types
+,
+&amp;   System.bool
+AllViews
+,
+&amp;   System.bool
+DuplicateDims
+,
+&amp;   System.bool
+HiddenFeatureDims
+,
+&amp;   System.bool
+UsePlacementInSketch
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertModelAnnotations4</summary><p>Inserts model annotations into this drawing document's currently selected drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertModelAnnotations4( 
+&amp;   System.int
+Option
+,
+&amp;   System.int
+Types
+,
+&amp;   System.bool
+AllViews
+,
+&amp;   System.bool
+DuplicateDims
+,
+&amp;   System.bool
+HiddenFeatureDims
+,
+&amp;   System.bool
+UsePlacementInSketch
+,
+&amp;   System.bool
+InsertAllAnnotations
+,
+&amp;   System.bool
+InsertAllReferenceGeometry
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertModelDimensions</summary><p>Inserts model dimensions into the selected drawing view according to the option specified.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertModelDimensions( 
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertModelInPredefinedView</summary><p>Inserts the model into the predefined drawing views in the active drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertModelInPredefinedView( 
+&amp;   System.String^
+ModelName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMultiJogLeader</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertMultiJogLeader();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMultiJogLeader2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertMultiJogLeader2( 
+&amp;   System.Object^
+Points
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMultiJogLeader3</summary><p>Inserts a multi-jog leader.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertMultiJogLeader3( 
+&amp;   System.Object^
+Points
+,
+&amp;   System.int
+StartPointArrowStyle
+,
+&amp;   System.int
+EndPointArrowStyle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertNewNote</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertNewNote( 
+&amp;   System.String^
+Text
+,
+&amp;   System.bool
+NoLeader
+,
+&amp;   System.bool
+BalloonNote
+,
+&amp;   System.bool
+BentLeader
+,
+&amp;   System.short
+ArrowStyle
+,
+&amp;   System.short
+LeaderSide
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertNewNote2</summary><p>Creates a new note in this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertNewNote2( 
+&amp;   System.String^
+UpperText
+,
+&amp;   System.String^
+LowerText
+,
+&amp;   System.bool
+NoLeader
+,
+&amp;   System.bool
+BentLeader
+,
+&amp;   System.short
+ArrowStyle
+,
+&amp;   System.short
+LeaderSide
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.short
+BalloonStyle
+,
+&amp;   System.short
+BalloonFit
+,
+&amp;   System.short
+UpperNoteContent
+,
+&amp;   System.short
+LowerNoteContent
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertOrdinate</summary><p>Inserts an ordinate dimension into this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertOrdinate();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRefDim</summary><p>Inserts reference dimensions in this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertRefDim();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRevisionCloud</summary><p>Inserts a revision cloud annotation with the specified shape into a view or sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertRevisionCloud( 
+&amp;   System.int
+CloudShape
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRevisionSymbol</summary><p>Inserts a revision symbol note in this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Note^ InsertRevisionSymbol( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSurfaceFinishSymbol</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertSurfaceFinishSymbol( 
+&amp;   System.int
+SymType
+,
+&amp;   System.int
+LeaderType
+,
+&amp;   System.double
+LocX
+,
+&amp;   System.double
+LocY
+,
+&amp;   System.double
+LocZ
+,
+&amp;   System.int
+LaySymbol
+,
+&amp;   System.int
+ArrowType
+,
+&amp;   System.String^
+MachAllowance
+,
+&amp;   System.String^
+OtherVals
+,
+&amp;   System.String^
+ProdMethod
+,
+&amp;   System.String^
+SampleLen
+,
+&amp;   System.String^
+MaxRoughness
+,
+&amp;   System.String^
+MinRoughness
+,
+&amp;   System.String^
+RoughnessSpacing
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertTableAnnotation</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TableAnnotation^ InsertTableAnnotation( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.int
+Rows
+,
+&amp;   System.int
+Columns
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertTableAnnotation2</summary><p>Inserts a table annotation in this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TableAnnotation^ InsertTableAnnotation2( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.String^
+TableTemplate
+,
+&amp;   System.int
+Rows
+,
+&amp;   System.int
+Columns
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertThreadCallout</summary><p>Inserts a thread callout into this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertThreadCallout();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertVerticalOrdinate</summary><p>Inserts a vertical ordinate dimension in this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertVerticalOrdinate();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWeldSymbol</summary><p>Creates a weld symbol located at the last edge selection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertWeldSymbol( 
+&amp;   System.String^
+Dim1
+,
+&amp;   System.String^
+Symbol
+,
+&amp;   System.String^
+Dim2
+,
+&amp;   System.bool
+Symmetric
+,
+&amp;   System.bool
+FieldWeld
+,
+&amp;   System.bool
+ShowOtherSide
+,
+&amp;   System.bool
+DashOnTop
+,
+&amp;   System.bool
+Peripheral
+,
+&amp;   System.bool
+HasProcess
+,
+&amp;   System.String^
+ProcessValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IReorderSheets</summary><p>Reorders the drawing sheets per their positions in the input array.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IReorderSheets( 
+&amp;   System.int
+SheetCount
+,
+&amp;   System.String^%
+NewSheetList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsDetailingMode</summary><p>Gets whether this drawing is in detailing mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsDetailingMode();</pre></details><details style="margin: 0.5rem 0;"><summary>IsolateChangedDimensions</summary><p>Isolates changed dimensions.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IsolateChangedDimensions();</pre></details><details style="margin: 0.5rem 0;"><summary>LoadLineStyles</summary><p>Loads the specified line styles into the current drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool LoadLineStyles( 
+&amp;   System.String^
+StyleFiles
+,
+&amp;   System.Object^
+StyleNameList
+,
+&amp;   System.bool
+ReplaceExisting
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeBlockDefinition</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BlockDefinition^ MakeBlockDefinition( 
+&amp;   System.String^
+Name
+,
+&amp;   System.String^
+XRefFileName
+,
+&amp;   System.bool
+Instance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeCustomSymbol</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void MakeCustomSymbol();</pre></details><details style="margin: 0.5rem 0;"><summary>MakeCustomSymbol2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ MakeCustomSymbol2();</pre></details><details style="margin: 0.5rem 0;"><summary>MakeSectionLine</summary><p>Makes a section line from a set of connected sketch lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void MakeSectionLine();</pre></details><details style="margin: 0.5rem 0;"><summary>ModifySurfaceFinishSymbol</summary><p>Modifies the selected surface finish symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ModifySurfaceFinishSymbol( 
+&amp;   System.int
+SymType
+,
+&amp;   System.int
+LeaderType
+,
+&amp;   System.double
+LocX
+,
+&amp;   System.double
+LocY
+,
+&amp;   System.double
+LocZ
+,
+&amp;   System.int
+LaySymbol
+,
+&amp;   System.int
+ArrowType
+,
+&amp;   System.String^
+MachAllowance
+,
+&amp;   System.String^
+OtherVals
+,
+&amp;   System.String^
+ProdMethod
+,
+&amp;   System.String^
+SampleLen
+,
+&amp;   System.String^
+MaxRoughness
+,
+&amp;   System.String^
+MinRoughness
+,
+&amp;   System.String^
+RoughnessSpacing
+)</pre></details><details style="margin: 0.5rem 0;"><summary>NewGtol</summary><p>Creates a new GTol object and returns the pointer to that object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ NewGtol();</pre></details><details style="margin: 0.5rem 0;"><summary>NewNote</summary><p>Creates a new note at the selected location.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void NewNote( 
+&amp;   System.String^
+Text
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>NewSheet</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void NewSheet( 
+&amp;   System.String^
+Name
+,
+&amp;   System.short
+PaperSize
+,
+&amp;   System.short
+TemplateIn
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>NewSheet2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool NewSheet2( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.int
+TemplateIn
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.bool
+FirstAngle
+,
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>NewSheet3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool NewSheet3( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.int
+TemplateIn
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.bool
+FirstAngle
+,
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+,
+&amp;   System.String^
+PropertyViewName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>NewSheet4</summary><p>Creates a new drawing sheet in this drawing document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool NewSheet4( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.int
+TemplateIn
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.bool
+FirstAngle
+,
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+,
+&amp;   System.String^
+PropertyViewName
+,
+&amp;   System.double
+ZoneLeftMargin
+,
+&amp;   System.double
+ZoneRightMargin
+,
+&amp;   System.double
+ZoneTopMargin
+,
+&amp;   System.double
+ZoneBottomMargin
+,
+&amp;   System.int
+ZoneRow
+,
+&amp;   System.int
+ZoneCol
+)</pre></details><details style="margin: 0.5rem 0;"><summary>OnComponentProperties</summary><p>Component Properties</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void OnComponentProperties();</pre></details><details style="margin: 0.5rem 0;"><summary>PasteSheet</summary><p>Copies and pastes a drawing sheet to the specified location of the drawing document, optionally renaming whenever duplicate names occur.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool PasteSheet( 
+&amp;   System.int
+InsertOption
+,
+&amp;   System.int
+RenameOption
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReorderSheets</summary><p>Reorders the drawing sheets per their positions in the input array.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReorderSheets( 
+&amp;   System.Object^
+NewSheetList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReplaceViewModel</summary><p>Replaces the specified instances of a model in the specified drawing views.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReplaceViewModel( 
+&amp;   System.String^
+NewModelPathName
+,
+&amp;   System.Object^
+Views
+,
+&amp;   System.Object^
+Instances
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ResolveOutOfDateLightWeightComponents</summary><p>Resolves out-of-date lightweight components in the selected drawing view or drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ResolveOutOfDateLightWeightComponents();</pre></details><details style="margin: 0.5rem 0;"><summary>RestoreRotation</summary><p>Restores rotation for the selected drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RestoreRotation();</pre></details><details style="margin: 0.5rem 0;"><summary>SaveBlock</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SaveBlock( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SaveLineStyles</summary><p>Exports to a file the specified line styles in the current drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SaveLineStyles( 
+&amp;   System.String^
+StyleFiles
+,
+&amp;   System.Object^
+StyleNameList
+,
+&amp;   System.bool
+ReplaceExisting
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCurrentLayer</summary><p>Sets the current layer used by this document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetCurrentLayer( 
+&amp;   System.String^
+Layername
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetLineColor</summary><p>Sets the line color for a selected edge or sketch entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetLineColor( 
+&amp;   System.int
+Color
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetLineStyle</summary><p>Sets the style or font for the line for a selected edge or sketch entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetLineStyle( 
+&amp;   System.String^
+StyleName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetLineWidth</summary><p>Sets the line thickness for a selected edge or sketch entity to a SOLIDWORKS-supplied weight (width).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetLineWidth( 
+&amp;   System.int
+Width
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetLineWidthCustom</summary><p>Sets the line thickness to the specified custom width for a selected edge or sketch entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetLineWidthCustom( 
+&amp;   System.double
+Width
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSheetsSelected</summary><p>Sets the specified drawing sheets whose setups to modify.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetSheetsSelected( 
+&amp;   System.Object^
+NewSheetList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetupSheet</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetupSheet( 
+&amp;   System.String^
+Name
+,
+&amp;   System.short
+PaperSize
+,
+&amp;   System.short
+TemplateIn
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetupSheet2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetupSheet2( 
+&amp;   System.String^
+Name
+,
+&amp;   System.short
+PaperSize
+,
+&amp;   System.short
+TemplateIn
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.int
+SkPointsFlag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetupSheet3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetupSheet3( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.int
+TemplateIn
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.bool
+FirstAngle
+,
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetupSheet4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetupSheet4( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.int
+TemplateIn
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.bool
+FirstAngle
+,
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+,
+&amp;   System.String^
+PropertyViewName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetupSheet5</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetupSheet5( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.int
+TemplateIn
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.bool
+FirstAngle
+,
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+,
+&amp;   System.String^
+PropertyViewName
+,
+&amp;   System.bool
+RemoveModifiedNotes
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetupSheet6</summary><p>Sets up the specified drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetupSheet6( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.int
+TemplateIn
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.bool
+FirstAngle
+,
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+,
+&amp;   System.String^
+PropertyViewName
+,
+&amp;   System.bool
+RemoveModifiedNotes
+,
+&amp;   System.double
+ZoneLeftMargin
+,
+&amp;   System.double
+ZoneRightMargin
+,
+&amp;   System.double
+ZoneTopMargin
+,
+&amp;   System.double
+ZoneBottomMargin
+,
+&amp;   System.int
+ZoneRow
+,
+&amp;   System.int
+ZoneCol
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SheetNext</summary><p>Moves to the next sheet in the drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SheetNext();</pre></details><details style="margin: 0.5rem 0;"><summary>SheetPrevious</summary><p>Returns to the previous sheet in a drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SheetPrevious();</pre></details><details style="margin: 0.5rem 0;"><summary>ShowEdge</summary><p>Shows the selected hidden edges in a drawing document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ShowEdge();</pre></details><details style="margin: 0.5rem 0;"><summary>SketchDim</summary><p>Inserts a sketch dimension in this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SketchDim();</pre></details><details style="margin: 0.5rem 0;"><summary>StartDrawing</summary><p>Provides faster creation of entities within a drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void StartDrawing();</pre></details><details style="margin: 0.5rem 0;"><summary>SuppressView</summary><p>Hides the selected drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SuppressView();</pre></details><details style="margin: 0.5rem 0;"><summary>ToggleGrid</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ToggleGrid();</pre></details><details style="margin: 0.5rem 0;"><summary>TranslateDrawing</summary><p>Translates the entire drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void TranslateDrawing( 
+&amp;   System.double
+DeltaX
+,
+&amp;   System.double
+DeltaY
+)</pre></details><details style="margin: 0.5rem 0;"><summary>UnBreakView</summary><p>Removes a break in the selected drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void UnBreakView();</pre></details><details style="margin: 0.5rem 0;"><summary>UnsuppressView</summary><p>Hides the selected drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void UnsuppressView();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewDisplayHidden</summary><p>Sets the current display mode to</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewDisplayHidden();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewDisplayHiddengreyed</summary><p>Sets the current display mode to</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewDisplayHiddengreyed();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewDisplayShaded</summary><p>Sets the current display mode to</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewDisplayShaded();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewDisplayWireframe</summary><p>Sets the current display mode to</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewDisplayWireframe();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewFullPage</summary><p>Fits the drawing to the full page.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewFullPage();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewHlrQuality</summary><p>Hidden Lines Removed</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewHlrQuality();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewModelEdges</summary><p>Toggles the mode for viewing model edges when in shaded mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewModelEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>ViewTangentEdges</summary><p>Toggles display of tangent edges in the selected drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ViewTangentEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>ActiveDrawingView</summary><p>Gets the currently active drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ ActiveDrawingView {
+   System.Object^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>AutomaticViewUpdate</summary><p>Gets or sets whether the drawing views in this drawing are automatically updated if the underlying model in that drawing view changes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool AutomaticViewUpdate {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>BackgroundProcessingOption</summary><p>Gets or sets the background processing option for this drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int BackgroundProcessingOption {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>HiddenViewsVisible</summary><p>Shows or hides all of the hidden drawing views.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool HiddenViewsVisible {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IActiveDrawingView</summary><p>Gets the currently active drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property View^ IActiveDrawingView {
+   View^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Sheet</summary><p>Gets the specified sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property Sheet^ Sheet {
+   Sheet^ get(System.String^
+Name
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to functions that perform drawing operations. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IDrawingDoc </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html">IDrawingDoc</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IDrawingDoc </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IDrawingDoc </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc.html">DrawingDoc</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Copy_and_Paste_Drawing_Sheet_Example_CSharp.htm">Copy and Paste Drawing Sheet (C#)</a>
+<br/><a href="Copy_and_Paste_Drawing_Sheet_Example_VBNET.htm">Copy and Paste Drawing Sheet (VB.NET)</a>
+<br/><a href="Copy_and_Paste_Drawing_Sheet_Example_VB.htm">Copy and Paste Drawing Sheet (VBA)</a>
+<br/><a href="Manage_Drawing_Document_Line_Styles_Example_CSharp.htm">Manage Drawing Document Line Styles (C#)</a>
+<br/><a href="Manage_Drawing_Document_Line_Styles_Example_VBNET.htm">Manage Drawing Document Line Styles (VB.NET)</a>
+<br/><a href="Manage_Drawing_Document_Line_Styles_Example_VB.htm">Manage Drawing Document Line Styles (VBA)</a>
+<br/><a href="Activate_Each_View_on_Current_Sheet_Example_VB.htm">Activate Each View on Current Sheet (VBA)</a>
+<br/><a href="Insert_Spline_in_Drawing_Example_CPlusPlus_COM.htm">Insert Spline in Drawing (C++)</a>
+<br/><a href="Get_Notes_from_New_or_Existing_Title_Block_Example_CSharp.htm">Get Notes from New or Existing Title Block (C#)</a>
+<br/><a href="Get_Notes_from_New_or_Existing_Title_Block_Example_VBNET.htm">Get Notes from New or Existing Title Block (VB.NET)</a>
+<br/><a href="Get_Notes_from_New_or_Existing_Title_Block_Example_VB.htm">Get Notes from New or Existing Title Block (VBA)</a>
+<br/><a href="Insert_Revision_Cloud_into_Drawing_Example_VB.htm">Insert Revision Cloud into a Drawing (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection"><p>Creating, aligning, and accessing drawing views are a few of the functions you find on the IDrawingDoc object.</p>
+<p>The SOLIDWORKS API also includes functions that are common to all document types. For example, determining the file name associated with a document is a common operation. The SOLIDWORKS API uses the <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html">IModelDoc2</a> object to expose common document-level functions. </p>
+<p>Events are implemented with delegates in the Microsoft .NET Framework. See the <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks_namespace.html">Overview</a> topic for a list of delegates for this interface.</p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#DrawingDoc">DrawingDoc</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html">IDrawingDoc Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

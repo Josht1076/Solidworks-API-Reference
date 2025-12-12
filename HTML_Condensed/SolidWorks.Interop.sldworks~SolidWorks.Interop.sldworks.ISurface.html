@@ -1,0 +1,692 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>ISurface Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.ISurface"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">ISurface Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : ISurface Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AddTrimmingLoop</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddTrimmingLoop( 
+&amp;   System.int
+NCrvs
+,
+&amp;   System.Object^
+VOrder
+,
+&amp;   System.Object^
+VDim
+,
+&amp;   System.Object^
+VPeriodic
+,
+&amp;   System.Object^
+VNumKnots
+,
+&amp;   System.Object^
+VNumCtrlPoints
+,
+&amp;   System.Object^
+VKnots
+,
+&amp;   System.Object^
+VCtrlPointDbls
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddTrimmingLoop2</summary><p>Creates a trimming loop out of specified surface parametric UV-curves and adds it to a list of such loops.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddTrimmingLoop2( 
+&amp;   System.int
+NCrvs
+,
+&amp;   System.Object^
+VOrder
+,
+&amp;   System.Object^
+VDim
+,
+&amp;   System.Object^
+VPeriodic
+,
+&amp;   System.Object^
+VNumKnots
+,
+&amp;   System.Object^
+VNumCtrlPoints
+,
+&amp;   System.Object^
+VKnots
+,
+&amp;   System.Object^
+VCtrlPointDbls
+,
+&amp;   System.Object^
+UvRange
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Copy</summary><p>Gets a copy of this surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Copy();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateNewCurve</summary><p>Creates a new empty curve for the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateNewCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTrimmedSheet</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateTrimmedSheet( 
+&amp;   System.Object^
+Curves
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTrimmedSheet4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateTrimmedSheet4( 
+&amp;   System.Object^
+Curves
+,
+&amp;   System.bool
+PreserveAnalyticCurves
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTrimmedSheet5</summary><p>Creates a trimmed sheet body from this surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateTrimmedSheet5( 
+&amp;   System.Object^
+Curves
+,
+&amp;   System.bool
+PreserveAnalyticCurves
+,
+&amp;   System.double
+Tolerance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Evaluate</summary><p>Evaluates the surface, given the u and v parameters of the surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Evaluate( 
+&amp;   System.double
+UParam
+,
+&amp;   System.double
+VParam
+,
+&amp;   System.int
+NumUDeriv
+,
+&amp;   System.int
+NumVDeriv
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EvaluateAtPoint</summary><p>Evaluates a surface at the specified XYZ point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ EvaluateAtPoint( 
+&amp;   System.double
+PositionX
+,
+&amp;   System.double
+PositionY
+,
+&amp;   System.double
+PositionZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FindMinimumRadius</summary><p>Gets the minimum radius of curvature for the selected surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool FindMinimumRadius( 
+&amp;   System.Object^
+UBound
+,
+&amp;   System.Object^
+VBound
+,
+&amp;   [Out] System.int
+NumOfRadius
+,
+&amp;   [Out] System.Object^
+Radius
+,
+&amp;   [Out] System.Object^
+Location
+,
+&amp;   [Out] System.Object^
+UVParameter
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBSurfParams</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBSurfParams( 
+&amp;   System.bool
+WantCubicRational
+,
+&amp;   System.Object^
+VP0
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBSurfParams2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBSurfParams2( 
+&amp;   System.bool
+WantCubic
+,
+&amp;   System.bool
+WantNonRational
+,
+&amp;   System.Object^
+VP0
+,
+&amp;   System.double
+Tolerance
+,
+&amp;   [Out] System.bool
+Sense
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBSurfParams3</summary><p>Gets the parameterization data for a B-spline surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BSurfParamData^ GetBSurfParams3( 
+&amp;   System.bool
+WantCubic
+,
+&amp;   System.bool
+WantNonRational
+,
+&amp;   System.Object^
+VP0
+,
+&amp;   System.double
+Tolerance
+,
+&amp;   [Out] System.bool
+Sense
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetClosestPointOn</summary><p>Uses the X,Y,Z input point to determine the closest point on the surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetClosestPointOn( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetExtrusionsurfParams</summary><p>Gets the parameters for the extrusion surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetExtrusionsurfParams();</pre></details><details style="margin: 0.5rem 0;"><summary>GetIntersectCurveCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetIntersectCurveCount( 
+&amp;   Curve^
+OtherCurve
+,
+&amp;   System.double%
+CurveBound
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetIntersectCurveCount2</summary><p>Gets the number of points for a surface-curve intersection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetIntersectCurveCount2( 
+&amp;   Curve^
+OtherCurve
+,
+&amp;   System.double%
+CurveBound
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetIntersectSurfaceCount</summary><p>Gets the number of curves for a surface-surface intersection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetIntersectSurfaceCount( 
+&amp;   Surface^
+OtherSurface
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetOffsetSurfParams</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetOffsetSurfParams();</pre></details><details style="margin: 0.5rem 0;"><summary>GetOffsetSurfParams2</summary><p>Gets the overall offset distance of this offset surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetOffsetSurfParams2( 
+&amp;   [Out] System.Object^
+BaseSurf
+,
+&amp;   [Out] System.bool
+Sense
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetProfileCurve</summary><p>Gets the curve used to create the surface of revolution or extrusion surface and applies to only surface of revolution or extrusion surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetProfileCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>GetProjectedPointOn</summary><p>Gets the point where the input point is projected on to this surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MathPoint^ GetProjectedPointOn( 
+&amp;   MathPoint^
+Point
+,
+&amp;   MathVector^
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetRevsurfParams</summary><p>Gets the parameters for the surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetRevsurfParams();</pre></details><details style="margin: 0.5rem 0;"><summary>IAddTrimmingLoop</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IAddTrimmingLoop( 
+&amp;   System.int
+CurveCount
+,
+&amp;   System.int%
+Order
+,
+&amp;   System.int%
+Dim
+,
+&amp;   System.int%
+Periodic
+,
+&amp;   System.int%
+NumKnots
+,
+&amp;   System.int%
+NumCtrlPoints
+,
+&amp;   System.double%
+Knots
+,
+&amp;   System.double%
+CtrlPointDbls
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IAddTrimmingLoop2</summary><p>Creates a trimming loop out of specified surface parametric (UV-curves) and adds it to a list of such loops.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IAddTrimmingLoop2( 
+&amp;   System.int
+CurveCount
+,
+&amp;   System.int%
+Order
+,
+&amp;   System.int%
+Dim
+,
+&amp;   System.int%
+Periodic
+,
+&amp;   System.int%
+NumKnots
+,
+&amp;   System.int%
+NumCtrlPoints
+,
+&amp;   System.double%
+Knots
+,
+&amp;   System.double%
+CtrlPointDbls
+,
+&amp;   System.double%
+UvRange
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICopy</summary><p>Gets a copy of this surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICopy();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateNewCurve</summary><p>Creates a new empty curve for the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ ICreateNewCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateTrimmedSheet</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateTrimmedSheet( 
+&amp;   System.int
+NCurves
+,
+&amp;   Curve^%
+Curves
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateTrimmedSheet2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateTrimmedSheet2( 
+&amp;   System.int
+NCurves
+,
+&amp;   Curve^%
+Curves
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateTrimmedSheet4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateTrimmedSheet4( 
+&amp;   System.int
+NCurves
+,
+&amp;   Curve^%
+Curves
+,
+&amp;   System.bool
+PreserveAnalyticCurves
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Identity</summary><p>Gets the type of surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Identity();</pre></details><details style="margin: 0.5rem 0;"><summary>IEvaluate</summary><p>Evaluates the surface, given the u and v parameters of the surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IEvaluate( 
+&amp;   System.double
+UParam
+,
+&amp;   System.double
+VParam
+,
+&amp;   System.int
+NumUDeriv
+,
+&amp;   System.int
+NumVDeriv
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IEvaluateAtPoint</summary><p>Evaluates a surface at the specified XYZ point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IEvaluateAtPoint( 
+&amp;   System.double
+PositionX
+,
+&amp;   System.double
+PositionY
+,
+&amp;   System.double
+PositionZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IFindMinimumRadius</summary><p>Gets the minimum radius of curvature for the selected surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IFindMinimumRadius( 
+&amp;   System.double%
+UBound
+,
+&amp;   System.double%
+VBound
+,
+&amp;   [Out] System.int
+NumOfRadius
+,
+&amp;   [Out] System.Object^
+Radius
+,
+&amp;   [Out] System.Object^
+Location
+,
+&amp;   [Out] System.Object^
+UVParameter
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBSurfParams</summary><p>Gets the b-spline surface parameters for the surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetBSurfParams();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBSurfParamsSize</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetBSurfParamsSize( 
+&amp;   System.bool
+WantCubicRational
+,
+&amp;   System.double%
+Range
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBSurfParamsSize2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetBSurfParamsSize2( 
+&amp;   System.bool
+WantCubic
+,
+&amp;   System.bool
+WantNonRational
+,
+&amp;   System.double%
+Range
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBSurfParamsSize3</summary><p>Gets the allocation size necessary for Bsurface parameter data retrieval in a subsequent call to</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetBSurfParamsSize3( 
+&amp;   System.bool
+WantCubic
+,
+&amp;   System.bool
+WantNonRational
+,
+&amp;   System.double%
+Range
+,
+&amp;   System.double
+Tolerance
+,
+&amp;   [Out] System.bool
+Sense
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetClosestPointOn</summary><p>Uses the X,Y,Z input point to determine the closest point on the surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetClosestPointOn( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetExtrusionsurfParams</summary><p>Gets the parameters for the extrusion surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetExtrusionsurfParams();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMakeIsoCurvesCount</summary><p>Gets the number of curves that represent the ISO line of a given direction.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetMakeIsoCurvesCount( 
+&amp;   System.double%
+UvRange
+,
+&amp;   System.double%
+Dir
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Tol
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetOffsetSurfParams2</summary><p>Gets the overall offset distance of this offset surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetOffsetSurfParams2( 
+&amp;   [Out] Surface^
+BaseSurf
+,
+&amp;   [Out] System.bool
+Sense
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProfileCurve</summary><p>Gets the curve used to create the surface of revolution or extrusion surface and applies to only surface of revolution or extrusion surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IGetProfileCurve();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetRevsurfParams</summary><p>Gets the parameters for the surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetRevsurfParams();</pre></details><details style="margin: 0.5rem 0;"><summary>IIntersectCurve</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IIntersectCurve( 
+&amp;   Curve^
+OtherCurve
+,
+&amp;   System.double%
+CurveBound
+,
+&amp;   System.int
+PointCount
+,
+&amp;   [Out] System.double
+PointArray
+,
+&amp;   [Out] System.double
+TArray
+,
+&amp;   [Out] System.double
+UvArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IIntersectCurve2</summary><p>Gets a surface-curve intersection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IIntersectCurve2( 
+&amp;   Curve^
+OtherCurve
+,
+&amp;   System.double%
+CurveBound
+,
+&amp;   System.int
+PointCount
+,
+&amp;   [Out] System.double
+PointArray
+,
+&amp;   [Out] System.double
+TArray
+,
+&amp;   [Out] System.double
+UvArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IIntersectSurface</summary><p>Gets a surface-surface intersection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IIntersectSurface( 
+&amp;   Surface^
+OtherSurf
+,
+&amp;   System.int
+CurveCount
+,
+&amp;   [Out] Curve^
+CurveArray
+,
+&amp;   [Out] System.double
+BoundsArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMakeIsoCurve</summary><p>Creates a curve that represents the ISO line of a given surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IMakeIsoCurve( 
+&amp;   System.bool
+UorV
+,
+&amp;   System.double
+UvValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMakeIsoCurves</summary><p>Creates curves on a surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IMakeIsoCurves( 
+&amp;   System.double%
+UvRange
+,
+&amp;   System.double%
+Dir
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Tol
+,
+&amp;   System.int
+CurveCount
+,
+&amp;   [Out] Curve^
+Curves
+,
+&amp;   [Out] System.double
+CurveBounds
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IntersectCurve</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IntersectCurve( 
+&amp;   System.Object^
+OtherCurve
+,
+&amp;   System.Object^
+CurveBound
+,
+&amp;   [Out] System.Object^
+PointArray
+,
+&amp;   [Out] System.Object^
+TArray
+,
+&amp;   [Out] System.Object^
+UvArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IntersectCurve2</summary><p>Gets a surface-curve intersection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IntersectCurve2( 
+&amp;   System.Object^
+OtherCurve
+,
+&amp;   System.Object^
+CurveBound
+,
+&amp;   [Out] System.Object^
+PointArray
+,
+&amp;   [Out] System.Object^
+TArray
+,
+&amp;   [Out] System.Object^
+UvArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IntersectSurface</summary><p>Gets a surface-surface intersection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IntersectSurface( 
+&amp;   System.Object^
+OtherSurf
+,
+&amp;   [Out] System.Object^
+CurveArray
+,
+&amp;   [Out] System.Object^
+BoundsArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IParameterization</summary><p>Gets the parameterization of the surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IParameterization();</pre></details><details style="margin: 0.5rem 0;"><summary>IReverseEvaluate</summary><p>Gets the UV parameters at the specified location, which must be on the surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IReverseEvaluate( 
+&amp;   System.double
+PositionX
+,
+&amp;   System.double
+PositionY
+,
+&amp;   System.double
+PositionZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsBlending</summary><p>Gets whether the surface is a blending surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsBlending();</pre></details><details style="margin: 0.5rem 0;"><summary>IsCone</summary><p>Gets whether the surface is a cone.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsCone();</pre></details><details style="margin: 0.5rem 0;"><summary>IsCylinder</summary><p>Gets whether the surface is a cylinder.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsCylinder();</pre></details><details style="margin: 0.5rem 0;"><summary>IsForeign</summary><p>Gets whether the surface is a foreign surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsForeign();</pre></details><details style="margin: 0.5rem 0;"><summary>IsOffset</summary><p>Gets whether the surface is an offset surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsOffset();</pre></details><details style="margin: 0.5rem 0;"><summary>IsParametric</summary><p>Gets whether the surface is a parametric (spline type) surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsParametric();</pre></details><details style="margin: 0.5rem 0;"><summary>IsPlane</summary><p>Gets whether the surface is a planar surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsPlane();</pre></details><details style="margin: 0.5rem 0;"><summary>IsRevolved</summary><p>Gets whether the surface is a revolved surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsRevolved();</pre></details><details style="margin: 0.5rem 0;"><summary>IsSphere</summary><p>Gets whether the surface is a sphere.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsSphere();</pre></details><details style="margin: 0.5rem 0;"><summary>IsSwept</summary><p>Gets whether the surface is swept.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsSwept();</pre></details><details style="margin: 0.5rem 0;"><summary>IsTorus</summary><p>Gets whether the surface is a torus.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsTorus();</pre></details><details style="margin: 0.5rem 0;"><summary>MakeIsoCurve</summary><p>Creates an untrimmed curve using the specified surface parameter.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ MakeIsoCurve( 
+&amp;   System.bool
+UorV
+,
+&amp;   System.double
+UvValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeIsoCurve2</summary><p>Creates an untrimmed curve on a surface using the specified u or v surface function parameter.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ MakeIsoCurve2( 
+&amp;   System.bool
+UorV
+,
+&amp;   [Out] System.double
+UvValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeIsoCurves</summary><p>Creates curves on a surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MakeIsoCurves( 
+&amp;   System.Object^
+UvRange
+,
+&amp;   System.Object^
+Dir
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Tol
+,
+&amp;   [Out] System.Object^
+Curves
+,
+&amp;   [Out] System.Object^
+CurveBounds
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Parameterization</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Parameterization();</pre></details><details style="margin: 0.5rem 0;"><summary>Parameterization2</summary><p>Gets the parameterization of the surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SurfaceParameterizationData^ Parameterization2();</pre></details><details style="margin: 0.5rem 0;"><summary>ReverseEvaluate</summary><p>Gets the UV parameters at the specified location, which must be on the surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ ReverseEvaluate( 
+&amp;   System.double
+PositionX
+,
+&amp;   System.double
+PositionY
+,
+&amp;   System.double
+PositionZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ConeParams</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ ConeParams {
+   System.Object^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ConeParams2</summary><p>Gets the parameters of a conical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ ConeParams2 {
+   System.Object^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CylinderParams</summary><p>Gets the parameters of a cylindrical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ CylinderParams {
+   System.Object^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IConeParams</summary><p>Gets the parameters of a conical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IConeParams {
+   System.double get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ICylinderParams</summary><p>Gets the parameters of a cylindrical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double ICylinderParams {
+   System.double get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IPlaneParams</summary><p>Gets the parameters of a planar surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IPlaneParams {
+   System.double get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ISphereParams</summary><p>Gets the parameters of a spherical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double ISphereParams {
+   System.double get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ITorusParams</summary><p>Gets the parameters of a toroidal surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double ITorusParams {
+   System.double get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>PlaneParams</summary><p>Gets the parameters of a planar surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ PlaneParams {
+   System.Object^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SphereParams</summary><p>Gets the parameters of a spherical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ SphereParams {
+   System.Object^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>TorusParams</summary><p>Gets the parameters of a toroidal surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ TorusParams {
+   System.Object^ get();
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Used as the underlying definition of a face. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface ISurface </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html">ISurface</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface ISurface </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class ISurface </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Surface.html">Surface</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Get_B-Spline_Surface_Parameterization_Data_Example_CSharp.htm">Get B-Spline Surface Parameterization Data (C#)</a>
+<br/><a href="Get_B-Spline_Surface_Parameterization_Data_Example_VBNET.htm">Get B-Spline Surface Parameterization Data (VB.NET)</a>
+<br/><a href="Get_B-Spline_Surface_Parameterization_Data_Example_VB.htm">Get B-Spline Surface Parameterization Data (VBA)</a>
+<br/><a href="Get_Surface_Type_Example_VB.htm">Get Surface Type (VBA)</a>
+<br/><a href="Evaluate_Points_on_Surface_Example_VB.htm">Evaluate Points on Surface (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection"><p>This interface allows you to get the surface type and various surface definition data as well as evaluate and reverse evaluate locations on the surface.</p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~SelectionEntity.html">IAdvancedHoleElementData::SelectionEntity</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBlendSurface.html">IBody2::CreateBlendSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateBlendSurface.html">IBody2::ICreateBlendSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBsplineSurface.html">IBody2::CreateBsplineSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateBsplineSurface.html">IBody2::ICreateBsplineSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateExtrusionSurface.html">IBody2::CreateExtrusionSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateExtrusionSurface.html">IBody2::ICreateExtrusionSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateNewSurface.html">IBody2::CreateNewSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateNewSurface.html">IBody2::ICreateNewSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateOffsetSurface.html">IBody2::CreateOffsetSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateOffsetSurface.html">IBody2::ICreateOffsetSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreatePlanarSurface.html">IBody2::CreatePlanarSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreatePlanarSurface.html">IBody2::ICreatePlanarSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateRevolutionSurface.html">IBody2::CreateRevolutionSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateRevolutionSurface.html">IBody2::ICreateRevolutionSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateRuledSurface.html">IBody2::CreateRuledSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateRuledSurface.html">IBody2::ICreateRuledSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateExtrusionSurfaceDLL.html">IBody2::ICreateExtrusionSurfaceDLL</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreatePlanarSurfaceDLL.html">IBody2::ICreatePlanarSurfaceDLL</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreatePsplineSurfaceDLL.html">IBody2::ICreatePsplineSurfaceDLL</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateRevolutionSurfaceDLL.html">IBody2::ICreateRevolutionSurfaceDLL</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData~EntitiesToMate.html">ICoincidentMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData~EntitiesToMate.html">IConcentricMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetSurface.html">IFace2::GetSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetSurface.html">IFace2::IGetSurface</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHingeMateFeatureData~EntitiesToMate.html">IHingeMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData~GetIntersectionsTools.html">IIntersectFeatureData::GetIntersectionsTools</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D1Axis.html">ILinearPatternFeatureData::D1Axis</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D2Axis.html">ILinearPatternFeatureData::D2Axis</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1Axis.html">ILocalLinearPatternFeatureData::D1Axis</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D2Axis.html">ILocalLinearPatternFeatureData::D2Axis</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBsplineSurface.html">IModeler::CreateBsplineSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBsplineSurface.html">IModeler::ICreateBsplineSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateConicalSurface2.html">IModeler::CreateConicalSurface2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateConicalSurface2.html">IModeler::ICreateConicalSurface2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateCoonsBSurface.html">IModeler::CreateCoonsBSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateCylindricalSurface2.html">IModeler::CreateCylindricalSurface2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateCylindricalSurface2.html">IModeler::ICreateCylindricalSurface2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateExtrusionSurface.html">IModeler::CreateExtrusionSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateExtrusionSurface.html">IModeler::ICreateExtrusionSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateLoftSurface.html">IModeler::CreateLoftSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateLoftSurface.html">IModeler::ICreateLoftSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateOffsetSurface.html">IModeler::CreateOffsetSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateOffsetSurface.html">IModeler::ICreateOffsetSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreatePlanarSurface2.html">IModeler::CreatePlanarSurface2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreatePlanarSurface2.html">IModeler::ICreatePlanarSurface2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateRuledSurface.html">IModeler::CreateRuledSurface</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateRuledSurface.html">IModeler::ICreateRuledSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateSphericalSurface2.html">IModeler::CreateSphericalSurface2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateSphericalSurface2.html">IModeler::ICreateSphericalSurface2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateSweptSurface.html">IModeler::CreateSweptSurface</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateToroidalSurface.html">IModeler::CreateToroidalSurface</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~GetEndConditionEntity.html">IMoveFaceFeatureData::GetEndConditionEntity</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~GetFromEntity.html">IMoveFaceFeatureData::GetFromEntity</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberFacePlaneIntersectionFeatureData~GetIntersectingPlanesAndFaces.html">IPrimaryMemberFacePlaneIntersectionFeatureData::GetIntersectingPlanesAndFaces</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData~EntitiesToMate.html">IRackPinionMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileAlignmentObject.html">IStructureSystemMemberProfile::ProfileAlignmentObject</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Copy.html">ISurface::Copy</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~ICopy.html">ISurface::ICopy</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetOffsetSurfParams2.html">ISurface::GetOffsetSurfParams2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetOffsetSurfParams2.html">ISurface::IGetOffsetSurfParams2</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData~Faces.html">ISurfaceFlattenFeatureData::Faces</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~EndDirectionVector.html">ISweepFeatureData::EndDirectionVector</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~StartDirectionVector.html">ISweepFeatureData::StartDirectionVector</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~GetEndConditionReference.html">IThreadFeatureData::GetEndConditionReference</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~StartEntity.html">IThreadFeatureData::StartEntity</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#Surface">Surface</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html">ISurface Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,372 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>ISketch Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.ISketch"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">ISketch Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : ISketch Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AutoDimension</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AutoDimension( 
+&amp;   System.int
+EntitiesToDimension
+,
+&amp;   System.int
+HorizontalScheme
+,
+&amp;   System.int
+HorizontalPlacement
+,
+&amp;   System.int
+VerticalScheme
+,
+&amp;   System.int
+VerticalPlacement
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AutoDimension2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AutoDimension2( 
+&amp;   System.int
+EntitiesToDimension
+,
+&amp;   System.int
+HorizontalScheme
+,
+&amp;   System.int
+HorizontalPlacement
+,
+&amp;   System.int
+VerticalScheme
+,
+&amp;   System.int
+VerticalPlacement
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CheckFeatureUse</summary><p>Checks to see if this sketch is valid for use in creating a specified feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int CheckFeatureUse( 
+&amp;   System.int
+FeatureType
+,
+&amp;   [Out] System.int
+OpenCount
+,
+&amp;   [Out] System.int
+ClosedCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ConstrainAll</summary><p>Attempts to solve all of the apparent relations in the sketch and returns the number</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ConstrainAll();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArcCount</summary><p>Gets the number of arcs in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetArcCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArcs</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetArcs();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArcs2</summary><p>Gets all of the arcs in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetArcs2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetAutomaticSolve</summary><p>Checks whether the computation to solve the sketch geometry of the part as modifications are automatically performed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetAutomaticSolve();</pre></details><details style="margin: 0.5rem 0;"><summary>GetConstrainedStatus</summary><p>Gets the current constrained status of the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetConstrainedStatus();</pre></details><details style="margin: 0.5rem 0;"><summary>GetContourEdgeCount</summary><p>Gets the number of edges for this sketch contour.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetContourEdgeCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetContourEdges</summary><p>Gets the edges for a sketch that has one contour.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetContourEdges( 
+&amp;   System.Object^
+Xform
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDetachSegmentOnDrag</summary><p>Detach Segment on Drag</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetDetachSegmentOnDrag();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEllipseCount</summary><p>Gets the number of ellipses in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetEllipseCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEllipses</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEllipses();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEllipses2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEllipses2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetEllipses3</summary><p>Gets all of the ellipses in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEllipses3();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLineCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineCount2</summary><p>Gets the number of lines in the sketch with an option to exclude or include crosshatch lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLineCount2( 
+&amp;   System.short
+CrossHatchOption
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLines</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLines2</summary><p>Gets all of the lines in the sketch with an option to include or exclude crosshatch lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLines2( 
+&amp;   System.short
+CrossHatchOption
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetParabolaCount</summary><p>Gets the number of parabolas in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetParabolaCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetParabolas</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetParabolas();</pre></details><details style="margin: 0.5rem 0;"><summary>GetParabolas2</summary><p>Gets all of the parabolas in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetParabolas2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolyLineCount</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetPolyLineCount( 
+&amp;   System.int%
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPolylines</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPolylines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetReferenceEntity</summary><p>Gets the entity on which this sketch was created.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetReferenceEntity( 
+&amp;   [Out] System.int
+LEntityType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchBlockInstanceCount</summary><p>Gets the number of block instances in this sketch (i.e., the sketch under which the block instances are displayed in the FeatureManager design tree).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSketchBlockInstanceCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchBlockInstances</summary><p>Gets the block instances in this sketch (i.e., the sketch under which the block instances are displayed in the FeatureManager design tree).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchBlockInstances();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchContourCount</summary><p>Gets the number of sketch contours in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSketchContourCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchContours</summary><p>Gets the sketch contours in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchContours();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchHatches</summary><p>Gets an array of sketch hatches that exist in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchHatches();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchPathCount</summary><p>Gets the number of sketch paths in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSketchPathCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchPaths</summary><p>Gets the sketch paths in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchPaths();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchPictureCount</summary><p>Gets the number of pictures on this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSketchPictureCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchPictures</summary><p>Gets the pictures on this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchPictures();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchPoints</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchPoints();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchPoints2</summary><p>Gets the sketch points in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchPoints2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchPointsCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSketchPointsCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchPointsCount2</summary><p>Gets the number of sketch points in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSketchPointsCount2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchRegionCount</summary><p>Gets the number of sketch regions in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSketchRegionCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchRegions</summary><p>Gets the sketch regions in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchRegions();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchSegments</summary><p>Gets the sketch segments in this sketch, which include line, arc, spline, parabola, and ellipse entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchSegments();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchSlotCount</summary><p>Gets the number of sketch slots in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSketchSlotCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchSlots</summary><p>Gets the sketch slots in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchSlots();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSketchTextSegments</summary><p>Gets the sketch segments that represent the selected text in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSketchTextSegments();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplineCount</summary><p>Gets the number of splines in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSplineCount( 
+&amp;   System.int%
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplineInterpolateCount</summary><p>Gets the number of points in the spline and number of splines in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSplineInterpolateCount( 
+&amp;   System.int%
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplineParams</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSplineParams();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplineParams2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSplineParams2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplineParams3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSplineParams3( 
+&amp;   System.bool
+ForceNonPeriodic
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplineParams4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SplineParamData^ GetSplineParams4( 
+&amp;   System.bool
+ForceNonPeriodic
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplineParams5</summary><p>Gets the parameterization data of the specified spline in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSplineParams5( 
+&amp;   System.bool
+ForceNonPeriodic
+,
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplineParamsCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSplineParamsCount( 
+&amp;   [Out] System.int
+Size
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplineParamsCount2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSplineParamsCount2( 
+&amp;   [Out] System.int
+Size
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplineParamsCount3</summary><p>Gets the number of splines in the sketch and the size of array required to hold the data for them.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSplineParamsCount3( 
+&amp;   System.bool
+ForceNonPeriodic
+,
+&amp;   [Out] System.int
+Size
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplines</summary><p>Gets information for each spline by tessellation instead of by interpolation as is done by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSplines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSplinesInterpolate</summary><p>Gets the spline points by interpolation instead of by tessellation as is done by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSplinesInterpolate();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserPoints</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetUserPoints();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserPoints2</summary><p>Gets all of the user points in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetUserPoints2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserPointsCount</summary><p>Gets the number of user points in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetUserPointsCount();</pre></details><details style="margin: 0.5rem 0;"><summary>IEnumSketchHatches</summary><p>Gets the sketch hatches enumeration in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumSketchHatches^ IEnumSketchHatches();</pre></details><details style="margin: 0.5rem 0;"><summary>IEnumSketchPoints</summary><p>Gets the sketch points enumeration in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumSketchPoints^ IEnumSketchPoints();</pre></details><details style="margin: 0.5rem 0;"><summary>IEnumSketchSegments</summary><p>Gets the sketch segments enumeration in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumSketchSegments^ IEnumSketchSegments();</pre></details><details style="margin: 0.5rem 0;"><summary>IEnumSketchTextSegments</summary><p>Gets the sketch segments enumeration for the selected text in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumSketchSegments^ IEnumSketchTextSegments();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetArcs</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetArcs();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetArcs2</summary><p>Gets all of the arcs in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetArcs2( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetContourEdges</summary><p>Gets the edges for a sketch that has one contour.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Edge^ IGetContourEdges( 
+&amp;   System.double%
+Xform
+,
+&amp;   System.int
+EdgeCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEllipses</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetEllipses();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEllipses2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetEllipses2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEllipses3</summary><p>Gets all of the ellipses in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetEllipses3( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetLines</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetLines();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetLines2</summary><p>Gets all of the lines in the sketch with an option to include or exclude crosshatch lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetLines2( 
+&amp;   System.short
+CrossHatchOption
+,
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetParabolas</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetParabolas();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetParabolas2</summary><p>Gets all of the parabolas in the sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetParabolas2( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPolylines</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetPolylines();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSketchBlockInstances</summary><p>Gets the block instances in this sketch (i.e., the sketch under which the block instances are displayed in the FeatureManager design tree).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchBlockInstance^ IGetSketchBlockInstances( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSketchContours</summary><p>Gets the sketch contours in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchContour^ IGetSketchContours( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSketchPaths</summary><p>Gets the sketch paths in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchPath^ IGetSketchPaths( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSketchPictures</summary><p>Gets the pictures on this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchPicture^ IGetSketchPictures( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSketchPoints2</summary><p>Gets the sketch points in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchPoint^ IGetSketchPoints2( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSketchRegions</summary><p>Gets the sketch regions in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchRegion^ IGetSketchRegions( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSketchSlots</summary><p>Gets the sketch slots in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SketchSlot^ IGetSketchSlots( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSplineParams</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSplineParams();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSplineParams2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSplineParams2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSplineParams3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSplineParams3( 
+&amp;   System.bool
+ForceNonPeriodic
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSplines</summary><p>Gets information for each spline by tessellation instead of by interpolation as is done by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSplines();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSplinesInterpolate</summary><p>Gets the spline points by interpolation instead of by tessellation as is done by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSplinesInterpolate();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetUserPoints</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetUserPoints();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetUserPoints2</summary><p>Gets all of the user points in this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetUserPoints2( 
+&amp;   System.int
+ArraySize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRouteLine</summary><p>Inserts a route line in an explode line sketch or a 3D sketch to indicate component relationships.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertRouteLine( 
+&amp;   System.Object^
+ItemsToConnect
+,
+&amp;   System.Object^
+Reverse
+,
+&amp;   System.Object^
+AlternatePath
+,
+&amp;   System.Object^
+AlongXYZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Is3D</summary><p>Gets whether this sketch is 2D or 3D.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Is3D();</pre></details><details style="margin: 0.5rem 0;"><summary>IsBoundaryBoxSketch</summary><p>Determines whether the sketch is a boundary box.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsBoundaryBoxSketch();</pre></details><details style="margin: 0.5rem 0;"><summary>IsDerived</summary><p>Gets whether a sketch is derived.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsDerived();</pre></details><details style="margin: 0.5rem 0;"><summary>IsShared</summary><p>Gets whether this sketch is used by more than one feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsShared();</pre></details><details style="margin: 0.5rem 0;"><summary>IsSketchEditable</summary><p>Gets whether this sketch is editable.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsSketchEditable();</pre></details><details style="margin: 0.5rem 0;"><summary>MergePoints</summary><p>Merges sketch points within a specified distance.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MergePoints( 
+&amp;   System.double
+Distance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetAutomaticSolve</summary><p>Controls whether the computation to solve the sketch geometry of the part as modifications are automatically performed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetAutomaticSolve( 
+&amp;   System.bool
+SolveFlag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDetachSegmentOnDrag</summary><p>Detach Segment on Drag</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetDetachSegmentOnDrag( 
+&amp;   System.bool
+Detach
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSketchEditable</summary><p>Sets whether this sketch is editable.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetSketchEditable( 
+&amp;   System.bool
+Editable
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetWorkingPlaneOrientation</summary><p>Sets the orientation for sketching geometry in a 3D sketch. It sets the planar location for new 2D and 3D geometry in a 3D sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetWorkingPlaneOrientation( 
+&amp;   System.double
+OriginX
+,
+&amp;   System.double
+OriginY
+,
+&amp;   System.double
+OriginZ
+,
+&amp;   System.double
+XAxisX
+,
+&amp;   System.double
+XAxisY
+,
+&amp;   System.double
+XAxisZ
+,
+&amp;   System.double
+YAxisX
+,
+&amp;   System.double
+YAxisY
+,
+&amp;   System.double
+YAxisZ
+,
+&amp;   System.double
+NormalX
+,
+&amp;   System.double
+NormalY
+,
+&amp;   System.double
+NormalZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IModelToSketchXform</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IModelToSketchXform {
+   System.double get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ModelToSketchTransform</summary><p>Gets the model-to-sketch transform for this sketch.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property MathTransform^ ModelToSketchTransform {
+   MathTransform^ get();
+   void set ( &amp;   MathTransform^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ModelToSketchXform</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ ModelToSketchXform {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>RelationManager</summary><p>Gets the sketch relation manager.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property SketchRelationManager^ RelationManager {
+   SketchRelationManager^ get();
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to sketch entities and to extract information about sketch elements, the sketch orientation, and so on. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface ISketch </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html">ISketch</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface ISketch </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class ISketch </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Sketch.html">Sketch</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Get_Spline_Points_Example_CPlusPlus_COM.htm">Get Spline Points (C++)</a>
+<br/><a href="Get_Spline's_Parameters_Example_CSharp.htm">Get Spline's Parameters (C#)</a>
+<br/><a href="Get_Spline's_Parameters_Example_VBNET.htm">Get Spline's Parameters (VB.NET)</a>
+<br/><a href="Get_Spline's_Parameters_Example_VB.htm">Get Spline's Parameters (VBA)</a>
+<br/><a href="Create_Imported_Surface_Body_from_Sketch_Example_CSharp.htm">Create Imported Surface Body from Sketch (C#)</a>
+<br/><a href="Delete_All_Constraints_in_Selected_Sketch_Example_VB.htm">Delete All Constraints in Selected Sketch (VBA)</a>
+<br/><a href="Transform_Sketch_to_Model_Example_VB.htm">Transform Sketch to Model (VBA)</a>
+<br/><a href="Open_and_Exit_Sketch_Example_VB.htm">Open and Exit Sketch (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection">A sketch is typically used in <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html">part</a> or <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc.html">assembly</a> documents to generate a solid body or such subsequent <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html">features</a> as a cut or boss. A sketch is also used in <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc.html">drawing</a> documents whenever the user constructs individual lines, arcs, and so on, on a drawing <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet.html">sheet</a> or in a drawing <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html">view</a>.</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~D1Curves.html">IBoundaryBossFeatureData::D1Curves</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~D2Curves.html">IBoundaryBossFeatureData::D2Curves</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~Path.html">IChainPatternFeatureData::Path</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetEntitiesWeldPath.html">ICosmeticWeldBeadFeatureData::GetEntitiesWeldPath</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D1Direction.html">ICurveDrivenPatternFeatureData::D1Direction</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D2Direction.html">ICurveDrivenPatternFeatureData::D2Direction</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~ConstraintPointOrSketch.html">IDomeFeatureData2::ConstraintPointOrSketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html">IFeature::GetSpecificFeature2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCurvePatternFeatureData~D1Direction.html">ILocalCurvePatternFeatureData::D1Direction</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCurvePatternFeatureData~D2Direction.html">ILocalCurvePatternFeatureData::D2Direction</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalSketchPatternFeatureData~Sketch.html">ILocalSketchPatternFeatureData::Sketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetActiveSketch2.html">IModelDoc2::GetActiveSketch2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetActiveSketch2.html">IModelDoc2::IGetActiveSketch2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetSketch.html">INote::GetSketch</a> or <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~IGetSketch.html">INote::IGetSketch</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder~GetSketch.html">IProfileGroupFolder::GetSketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet~GetTemplateSketch.html">ISheet::GetTemplateSketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetSketch.html">ISketchBlockDefinition::GetSketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~GetSketch.html">ISketchBlockInstance::GetSketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchContour~Sketch.html">ISketchContour::Sketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchHatch~GetSketch.html">ISketchHatch::GetSketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPath~GetSketch.html">ISketchPath::GetSketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPatternFeatureData~Sketch.html">ISketchPatternFeatureData::Sketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint~GetSketch.html">ISketchPoint::GetSketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRegion~Sketch.html">ISketchRegion::Sketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~GetSketch.html">ISketchSegment::GetSketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitLineFeatureData~Sketch.html">ISplitLineFeatureData::GetSketch</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~GetSketch.html">IStructureSystemMemberProfile::GetSketch</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~Path.html">ISweptFlangeFeatureData::Path</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~Profile.html">ISweptFlangeFeatureData::Profile</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetCenterLineSketch.html">IView::GetCenterLineSketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetSketch.html">IView::GetSketch</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetSketch.html">IView::IGetSketch</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWrapSketchFeatureData~SourceSketch.html">IWrapSketchFeatureData::GetSourceSketch</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#Sketch">Sketch</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html">ISketch Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html">ISketchArc Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html">ISketchBlockDefinition Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html">ISketchBlockInstance Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour.html">ISketchContour Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html">ISketchedBendFeatureData Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html">ISketchEllipse Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html">ISketchHatch Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html">ISketchLine Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html">ISketchManager Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html">ISketchParabola Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html">ISketchPatternFeatureData Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html">ISketchPoint Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion.html">ISketchRegion Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation.html">ISketchRelation Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager.html">ISketchRelationManager Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html">ISketchSegment Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html">ISketchSpline Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText.html">ISketchText Interface</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

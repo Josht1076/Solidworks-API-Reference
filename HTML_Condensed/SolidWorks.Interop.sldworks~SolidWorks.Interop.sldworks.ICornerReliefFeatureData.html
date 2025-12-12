@@ -1,0 +1,403 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>ICornerReliefFeatureData Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.ICornerReliefFeatureData"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">ICornerReliefFeatureData Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : ICornerReliefFeatureData Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AccessSelections</summary><p>Gains access to the selections that define this sheet metal corner relief feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AccessSelections( 
+&amp;   System.Object^
+TopDoc
+,
+&amp;   System.Object^
+Component
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddNewCorner</summary><p>Adds a corner with the specified parameters to this sheet metal corner relief feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddNewCorner( 
+&amp;   System.Object^
+Face1
+,
+&amp;   System.Object^
+Face2
+,
+&amp;   System.Object^
+Face3
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   [Out] System.Object^
+Corner
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CollectAllCorners</summary><p>Creates corners, all with the specified relief, in a selected sheet-metal body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int CollectAllCorners( 
+&amp;   System.int
+ReliefType
+,
+&amp;   [Out] System.Object^
+Corners
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBodyScope</summary><p>Gets the sheet metal body to which this corner relief feature is applied.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBodyScope();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCornerAtIndex</summary><p>Gets the corner at the specified index of this corner relief feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetCornerAtIndex( 
+&amp;   System.int
+CornerIndex
+,
+&amp;   [Out] System.Object^
+Corner
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCorners</summary><p>Gets all corners of the specified type in this corner relief feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCorners( 
+&amp;   System.int
+CornerReliefType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Initialize</summary><p>Initializes this corner relief feature to have specified corner relief bend type.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Initialize( 
+&amp;   System.int
+CornerType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReleaseSelectionAccess</summary><p>Releases access to the selections that define this sheet metal corner relief feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ReleaseSelectionAccess();</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveCorner</summary><p>Removes the specified corner from this corner relief feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveCorner( 
+&amp;   System.int
+CornerIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetBodyScope</summary><p>Sets the sheet metal body to which this corner relief feature is applied.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetBodyScope( 
+&amp;   System.Object^
+SheetBody
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CornerCount</summary><p>Gets the number of corner objects in this corner relief feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int CornerCount {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CornerType</summary><p>Gets the bend type of this corner relief feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int CornerType {
+   System.int get();
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to sheet metal corner relief feature data. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface ICornerReliefFeatureData </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html">ICornerReliefFeatureData</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface ICornerReliefFeatureData </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class ICornerReliefFeatureData </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData.html">CornerReliefFeatureData</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><p>'VBA</p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'=========================================================</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'Preconditions:</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'1. Ensure that the specified part template exists.</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'2. Open an Immediate window.</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'Postconditions:</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>' 1. Press F5.</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>' 2. Creates:</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'<span style="mso-spacerun: yes">    </span> - <strong>Base-Flange1</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'<span style="mso-spacerun: yes">    </span> - <strong>Sketched Bend1</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'<span style="mso-spacerun: yes">    </span> - <strong>Sketched Bend2</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'<span style="mso-spacerun: yes">    </span> - <strong>Sketched Bend3</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'<span style="mso-spacerun: yes">    </span> - <strong>Sketched Bend4</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>' 3. Selects the sheet metal solid body.</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>' 4. Sets rectangular reliefs for the four corners.</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>' 5. Creates <strong>Corner Relief1</strong>.</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>' 6. Press F5.</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>' 7. Changes four corners to have circular reliefs.</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>' 8. Press F5.</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>' 9. Changes four corners to have constant width reliefs.</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'10. Inspect the Immediate window and the graphics area after each change.</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>'===============================================================================</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim swApp As SldWorks.SldWorks</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim swModel As SldWorks.ModelDoc2</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim featMgr As SldWorks.FeatureManager</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim cornerReliefFeatData As SldWorks.CornerReliefFeatureData</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim swBody As SldWorks.Body2</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim selMgr As SldWorks.SelectionMgr</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim SMCorner As SldWorks.SMCornerReliefData</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim getCornerVar As Variant</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim cntr1 As Long</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim cornerItr As SldWorks.SMCornerReliefData</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim Feat As SldWorks.Feature</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim featModData As SldWorks.CornerReliefFeatureData</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim cornerReliefMod3Data As SldWorks.CornerReliefFeatureData</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim UseRatio As Boolean</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim CFace1 As SldWorks.face2</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim CFace2 As SldWorks.face2</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim CFace3 As SldWorks.face2</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim boolstatus As Boolean</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Dim longstatus As Long, longwarnings As Long<br/></span></p>
+<p class="MsoNormal"></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Sub PrintReliefData(ByVal cornerIndex As Long, ByVal cornerReliefFeatData As SldWorks.CornerReliefFeatureData)</span></p>
+<p class="MsoNormal"></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Dim smCornerReliefData1 As SldWorks.SMCornerReliefData</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = cornerReliefFeatData.<strong>GetCornerAtIndex</strong>(cornerIndex, smCornerReliefData1)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print "Add filleted corners? " &amp; smCornerReliefData1.<strong>AddFilletedCorners</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print "Corner fillet diameter = " &amp; smCornerReliefData1.<strong>CornerFilletDiameter</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print "Use ratio to thickness? " &amp; smCornerReliefData1.<strong>RatioToThickness</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print "Relief type as defined by swCornerBendReliefType_e = " &amp; smCornerReliefData1.<strong>ReliefType</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print "Slot length = " &amp; smCornerReliefData1.<strong>SlotLength</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print "Slot width = " &amp; smCornerReliefData1.<strong>SlotWidth</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print "Center on bend lines? " &amp; smCornerReliefData1.<strong>CenterOnBendLines</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print "Tangent to bend? " &amp; smCornerReliefData1.<strong>TangentToBend</strong></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Call smCornerReliefData1.<strong>GetFaces</strong>(CFace1, CFace2, CFace3)</span></p>
+<p class="MsoNormal"></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>End Sub<br/></span></p>
+<p class="MsoNormal"></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>Sub main()</span></p>
+<p class="MsoNormal"></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set swApp = Application.SldWorks</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set swModel = swApp.ActiveDoc</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Dim swSheetWidth As Double</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swSheetWidth = 0</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Dim swSheetHeight As Double</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swSheetHeight = 0</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set swModel = swApp.NewDocument("C:\ProgramData\SolidWorks\SOLIDWORKS 2022\templates\\Part.PRTDOT", 0, swSheetWidth, swSheetHeight)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set featMgr = swModel.FeatureManager</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = swModel.Extension.SelectByID2("Front Plane", "PLANE", -7.54055245830957E-02, 5.42345258765876E-02, 2.94433115750138E-03, False, 0, Nothing, 0)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ClearSelection2 True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Dim skSegment As Object</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(-0.049594, 0.029143, 0#, 0.026075, 0.029143, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(0.026075, 0.029143, 0#, 0.026075, 0.015645, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(0.026075, 0.015645, 0#, 0.04305, 0.015645, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(0.04305, 0.015645, 0#, 0.04305, -0.034869, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(0.04305, -0.034869, 0#, 0.026075, -0.034869, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(0.026075, -0.034869, 0#, 0.026075, -0.048571, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(0.026075, -0.048571, 0#, -0.049594, -0.048571, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(-0.049594, -0.048571, 0#, -0.049594, -0.034869, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(-0.049594, -0.034869, 0#, -0.066568, -0.034869, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(-0.066568, -0.034869, 0#, -0.066568, 0.015645, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(-0.066568, 0.015645, 0#, -0.049594, 0.015645, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(-0.049594, 0.015645, 0#, -0.049594, 0.029143, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ClearSelection2 True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ShowNamedView2 "*Trimetric", 8</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ViewZoomtofit2</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Dim customBendAllowanceData As SldWorks.CustomBendAllowance</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set customBendAllowanceData = swModel.FeatureManager.CreateCustomBendAllowance()</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> customBendAllowanceData.KFactor = 0.5</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Dim myFeature As SldWorks.Feature</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set myFeature = swModel.FeatureManager.InsertSheetMetalBaseFlange2(0.0007366, False, 0.0007366, 0.02, 0.01, False, 0, 0, 1, customBendAllowanceData, False, 0, 0.0001, 0.0001, 0.5, True, False, True, True)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = swModel.Extension.SelectByRay(-1.45172925108454E-02, -3.87700058865903E-03, 0, -0.5, -0.707106781186547, -0.5, 5.56802642645787E-04, 2, False, 0, 0)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ClearSelection2 True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(-0.049594, 0.015645, 0#, -0.049594, -0.034869, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ClearSelection2 True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = swModel.Extension.SelectByRay(-2.54254889823514E-02, -6.75397704068888E-03, 0, 0, 0, -1, 4.28258640921609E-04, 2, True, 0, 0)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Dim CBAObject As SldWorks.CustomBendAllowance</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set myFeature = swModel.FeatureManager.InsertSheetMetal3dBend(1.5707963267949, True, 0.0007366, False, 3, CBAObject)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = swModel.Extension.SelectByRay(-2.46697384395485E-02, -2.97522432667467E-03, 0, 0, 0, -1, 4.28258640921609E-04, 2, False, 0, 0)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ClearSelection2 True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = swModel.Extension.SelectByRay(-0.049594, 0.015645, 0, 0, 0, -1, 3.92913800359539E-04, 3, False, 0, 0)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ClearSelection2 True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(-0.049594, 0.015645, 0#, 0.026075, 0.015645, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ClearSelection2 True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = swModel.Extension.SelectByRay(-2.35965085767476E-02, -4.34032596567101E-03, 0, 0, 0, -1, 3.92913800359539E-04, 2, True, 0, 0)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set myFeature = swModel.FeatureManager.InsertSheetMetal3dBend(1.5707963267949, True, 0.0007366, False, 3, CBAObject)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = swModel.Extension.SelectByRay(-2.34809456942889E-02, -1.97101893326765E-02, 0, 0, 0, -1, 3.92913800359539E-04, 2, False, 0, 0)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ClearSelection2 True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(-0.049594, -0.034869, 0#, 0.026075, -0.034869, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ClearSelection2 True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = swModel.Extension.SelectByRay(-1.71484564194607E-02, -3.99245414393841E-03, 0, 0, 0, -1, 3.67699685812068E-04, 2, True, 0, 0)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set myFeature = swModel.FeatureManager.InsertSheetMetal3dBend(1.5707963267949, True, 0.0007366, False, 3, CBAObject)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = swModel.Extension.SelectByRay(-1.07677854009571E-02, -9.72424336395007E-03, 0, 0, 0, -1, 3.67699685812068E-04, 2, False, 0, 0)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ClearSelection2 True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set skSegment = swModel.SketchManager.CreateLine(0.026075, -0.034869, 0#, 0.026075, 0.015645, 0#)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ClearSelection2 True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.SketchManager.InsertSketch True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = swModel.Extension.SelectByRay(-2.59083606991011E-02, -6.2053705579176E-03, 0, 0, 0, -1, 3.67699685812068E-04, 2, True, 0, 0)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set myFeature = swModel.FeatureManager.InsertSheetMetal3dBend(1.5707963267949, True, 0.0007366, False, 3, CBAObject)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> ' Zoom to Area</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> swModel.ViewZoomTo2 1.52447662706814E-02, 2.18199896815251E-03, -8.86660359613402E-03, 0.022429935049572, -6.38493303744786E-03, -8.86660359613402E-03</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set cornerReliefFeatData = featMgr.<strong>CreateDefinition</strong>(swFmCornerRelief)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> boolstatus = swModel.Extension.SelectByID2("Sketched Bend4", "SOLIDBODY", 0, 0, 0, False, 0, Nothing, 0)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set selMgr = swModel.SelectionManager</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set swBody = selMgr.GetSelectedObject6(1, -1)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> cornerReliefFeatData.<strong>Initialize</strong> swCornerReliefBendType_TwoBend</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> cornerReliefFeatData.<strong>SetBodyScope</strong> swBody</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> 'Create corners (tear reliefs are the default reliefs for Sketched Bends)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> longstatus = cornerReliefFeatData.<strong>CollectAllCorners</strong>(swCornerTearRelief, getCornerVar)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print ""</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print "-------------Changing corners to rectangular reliefs------------------- "</span></p>
+<p class="MsoNormal"></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> For cntr1 = 0 To UBound(getCornerVar)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> Set cornerItr = getCornerVar(cntr1)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> cornerItr.<strong>AddFilletedCorners</strong> = True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> cornerItr.<strong>CornerFilletDiameter</strong> = 0.00025</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> cornerItr.<strong>CenterOnBendLines</strong> = True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> cornerItr.<strong>TangentToBend</strong> = True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> cornerItr.<strong>ReliefType</strong> = swCornerRectangularRelief</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> UseRatio = True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> If Not UseRatio Then</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">           </span> cornerItr.<strong>SlotLength</strong> = 0.009</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">    </span> <span style="mso-spacerun: yes">   </span>Else</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">           </span> cornerItr.<strong>RatioToThickness</strong> = True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> End If</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> PrintReliefData cntr1 + 1, cornerReliefFeatData</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> Debug.Print ""</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Next</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set Feat = featMgr.<strong>CreateFeature</strong>(cornerReliefFeatData)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Stop</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set featModData = Feat.<strong>GetDefinition</strong>()</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> featModData.<strong>AccessSelections</strong> swModel, Nothing</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> getCornerVar = featModData.<strong>GetCorners</strong>(-1)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print ""</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print "-------------Changing corners to circular reliefs------------------- "</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> For cntr1 = 0 To UBound(getCornerVar)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> Set cornerItr = getCornerVar(cntr1)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> cornerItr.<strong>ReliefType</strong> = swCornerCircularRelief</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> UseRatio = False</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> If Not UseRatio Then</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">           </span> cornerItr.<strong>SlotWidth</strong> = 0.0008</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> Else</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">           </span> cornerItr.<strong>RatioToThickness</strong> = True</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> End If</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> PrintReliefData cntr1 + 1, featModData</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> Debug.Print ""</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Next</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Feat.<strong>ModifyDefinition</strong> featModData, swModel, Nothing</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Stop</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Set cornerReliefMod3Data = Feat.<strong>GetDefinition</strong>()</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> cornerReliefMod3Data.<strong>AccessSelections</strong> swModel, Nothing</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> getCornerVar = cornerReliefMod3Data.<strong>GetCorners</strong>(-1)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print ""</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Debug.Print "-------------Changing corners to constant width reliefs------------------- "</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> For cntr1 = 0 To UBound(getCornerVar)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> Set cornerItr = getCornerVar(cntr1)</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> cornerItr.<strong>ReliefType</strong> = swCornerConstantWidthRelief</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> PrintReliefData cntr1 + 1, cornerReliefMod3Data</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">       </span> Debug.Print ""</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Next</span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span></span></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'><span style="mso-spacerun: yes">   </span> Feat.ModifyDefinition cornerReliefMod3Data, swModel, Nothing</span></p>
+<p class="MsoNormal"></p>
+<p class="MsoNormal"><span style='FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; LINE-HEIGHT: 107%'>End Sub</span></p>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Create_SM_Corner_Relief_Feature_Example_VBNET.htm">Create Sheet Metal Corner Relief Feature (VB.NET)</a>
+<br><a href="Create_SM_Corner_Relief_Feature_Example_CSharp.htm">Create Sheet Metal Corner Relief Feature (C#)</a>
+</br></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection">For more information see the <strong>SOLIDWORKS user-interface help &gt; Sheet Metal &gt; Using Sheet Metal Tools &gt; Corner Reliefs and Bend Transitions</strong> topics.</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html">IFeature::GetDefinition</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html">IFeatureManager::CreateDefinition</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#CornerReliefFeatureData">CornerReliefFeatureData</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData_members.html">ICornerReliefFeatureData Members</a>
+<br><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</br></div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

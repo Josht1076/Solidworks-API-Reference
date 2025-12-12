@@ -1,0 +1,372 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>ISheet Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.ISheet"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">ISheet Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : ISheet Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>CreateOLEObject</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateOLEObject( 
+&amp;   System.int
+Aspect
+,
+&amp;   System.Object^
+Position
+,
+&amp;   System.Object^
+Buffer
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBomTable</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBomTable();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDrawingZone</summary><p>Gets the name of the drawing zone for the specified x and y coordinates on the sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetDrawingZone( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetID</summary><p>Gets the ID of this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetID();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMagneticLines</summary><p>Gets the magnetic lines on this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMagneticLines();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMagneticLinesCount</summary><p>Gets the number of magnetic lines on this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetMagneticLinesCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetName</summary><p>Gets the name of the sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetOLEObjectCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetOLEObjectCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetOLEObjectData</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetOLEObjectData( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetOLEObjectSettings</summary><p>Obsolete. Superseded by I</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetOLEObjectSettings( 
+&amp;   System.int
+Index
+,
+&amp;   [Out] System.int
+ByteCount
+,
+&amp;   [Out] System.int
+Aspect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetProperties</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetProperties();</pre></details><details style="margin: 0.5rem 0;"><summary>GetProperties2</summary><p>Gets the properties for this sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetProperties2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSheetFormatName</summary><p>Gets the name of the sheet format of this drawing sheet, as displayed in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetSheetFormatName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSize</summary><p>Gets the size of the sheet and the corresponding standard sheet size.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSize( 
+&amp;   [Out] System.double
+Width
+,
+&amp;   [Out] System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTemplateName</summary><p>Gets the name of the template used by this sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetTemplateName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTemplateSketch</summary><p>Gets the sheet format sketch for this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Sketch^ GetTemplateSketch();</pre></details><details style="margin: 0.5rem 0;"><summary>GetViews</summary><p>Gets the drawing views on this sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetViews();</pre></details><details style="margin: 0.5rem 0;"><summary>GetZoneMargin</summary><p>Gets the specified zone margin.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetZoneMargin( 
+&amp;   System.int
+ZoneMargin
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetZoneSizeDistribution</summary><p>Gets the zone size distribution.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetZoneSizeDistribution( 
+&amp;   [Out] System.int
+Rows
+,
+&amp;   [Out] System.int
+Columns
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetZoneSizeRegion</summary><p>Gets the type of zone size region.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetZoneSizeRegion();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateOLEObject</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ICreateOLEObject( 
+&amp;   System.int
+Aspect
+,
+&amp;   System.double%
+Position
+,
+&amp;   System.int
+ByteCount
+,
+&amp;   System.byte%
+Buffer
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBomTable</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">BomTable^ IGetBomTable();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMagneticLines</summary><p>Gets the magnetic lines on this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MagneticLine^ IGetMagneticLines( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetOLEObjectData</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IGetOLEObjectData( 
+&amp;   System.int
+Index
+,
+&amp;   [Out] System.byte
+Buffer
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetOLEObjectSettings</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IGetOLEObjectSettings( 
+&amp;   System.int
+Index
+,
+&amp;   [Out] System.int
+ByteCount
+,
+&amp;   [Out] System.int
+Aspect
+,
+&amp;   [Out] System.double
+Position
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProperties</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetProperties();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMagneticLine</summary><p>Inserts a magnetic line at the specified start and end points on this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MagneticLine^ InsertMagneticLine( 
+&amp;   MathPoint^
+StartPoint
+,
+&amp;   MathPoint^
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRevisionTable</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">RevisionTableAnnotation^ InsertRevisionTable( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.String^
+TableTemplate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRevisionTable2</summary><p>Inserts a revision table in this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">RevisionTableAnnotation^ InsertRevisionTable2( 
+&amp;   System.bool
+UseAnchorPoint
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.int
+AnchorType
+,
+&amp;   System.String^
+TableTemplate
+,
+&amp;   System.int
+Shape
+,
+&amp;   System.bool
+AutoUpdateZoomCells
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertTitleBlock</summary><p>Inserts a title block into this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TitleBlock^ InsertTitleBlock( 
+&amp;   System.Object^
+Notes
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsLoaded</summary><p>Gets whether this sheet is loaded.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsLoaded();</pre></details><details style="margin: 0.5rem 0;"><summary>ReloadTemplate</summary><p>Reloads the sheet format from the original sheet format template.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ReloadTemplate( 
+&amp;   System.bool
+KeepNoteChanges
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SaveFormat</summary><p>Saves the sheet format in the specified file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SaveFormat( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetAsTableAnchor</summary><p>Sets the anchor for the specified table at a selected point in the sheet format.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ SetAsTableAnchor( 
+&amp;   System.int
+TableType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetName</summary><p>Sets the sheet name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetName( 
+&amp;   System.String^
+NameIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetProperties</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetProperties( 
+&amp;   System.int
+PaperSz
+,
+&amp;   System.int
+Templ
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.bool
+FirstAngle
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetProperties2</summary><p>Sets the properties for this sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetProperties2( 
+&amp;   System.int
+PaperSz
+,
+&amp;   System.int
+Templ
+,
+&amp;   System.double
+Scale1
+,
+&amp;   System.double
+Scale2
+,
+&amp;   System.bool
+FirstAngle
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+,
+&amp;   System.bool
+SameCustomPropAsSheetInDocProp
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetScale</summary><p>Sets the scale for this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetScale( 
+&amp;   System.double
+Numerator
+,
+&amp;   System.double
+Denominator
+,
+&amp;   System.bool
+ScaleAnnoPosition
+,
+&amp;   System.bool
+ScaleAnnoTextHeight
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSheetFormatName</summary><p>Sets the name of the sheet format of this drawing sheet, as displayed in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetSheetFormatName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSize</summary><p>Sets the standard sheet size and the size of the sheet so that the drawing looks correct.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetSize( 
+&amp;   System.int
+Size
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetTemplateName</summary><p>Sets the template name for the sheet format.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetTemplateName( 
+&amp;   System.String^
+NameIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetZoneMargin</summary><p>Sets the specified zone margin.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetZoneMargin( 
+&amp;   System.int
+ZoneMarginType
+,
+&amp;   System.double
+MarginValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetZoneSizeDistribution</summary><p>Sets the zone size distribution.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetZoneSizeDistribution( 
+&amp;   System.int
+Type
+,
+&amp;   System.int
+Rows
+,
+&amp;   System.int
+Column
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetZoneSizeRegion</summary><p>Sets the type of zone size region.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetZoneSizeRegion( 
+&amp;   System.int
+RegionType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CustomPropertyView</summary><p>Gets or sets the drawing view to use to set the custom information for this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ CustomPropertyView {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FocusLocked</summary><p>Gets or sets whether focus is locked on this sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool FocusLocked {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IPageSetup</summary><p>Gets the page setup for this sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property PageSetup^ IPageSetup {
+   PageSetup^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>PageSetup</summary><p>Gets the page setup for this sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ PageSetup {
+   System.Object^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>RevisionTable</summary><p>Gets the revision table annotation for this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property RevisionTableAnnotation^ RevisionTable {
+   RevisionTableAnnotation^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SheetFormatVisible</summary><p>Gets or sets whether the sheet format is currently visible in this drawing sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool SheetFormatVisible {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>TableAnchor</summary><p>Gets the specified table anchor.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property TableAnchor^ TableAnchor {
+   TableAnchor^ get(System.int
+TableType
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>TitleBlock</summary><p>Gets the title block in this sheet.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property TitleBlock^ TitleBlock {
+   TitleBlock^ get();
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to a sheet and objects on the sheet such as <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable.html">BOM tables</a>. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface ISheet </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html">ISheet</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface ISheet </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class ISheet </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Sheet.html">Sheet</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Get_Sheet_Properties_and_Insert_Object_Example_CPlusPlus_COM.htm">Get Sheet Properties and Insert Object (C++)</a>
+<br/><a href="Copy_and_Paste_Drawing_Sheet_Example_CSharp.htm">Copy and Paste Drawing Sheet (C#)</a>
+<br/><a href="Copy_and_Paste_Drawing_Sheet_Example_VBNET.htm">Copy and Paste Drawing Sheet (VB.NET)</a>
+<br/><a href="Copy_and_Paste_Drawing_Sheet_Example_VB.htm">Copy and Paste Drawing Sheet (VBA)</a>
+<br/><a href="Get_and_Set_Sheet_Properties_Example_VB.htm">Get and Set Sheet Properties (VBA)</a>
+<br/><a href="Activate_Each_View_on_Current_Sheet_Example_VB.htm">Activate Each View on Current Sheet (VBA)</a>
+<br/><a href="Get_Notes_from_New_or_Existing_Title_Block_Example_CSharp.htm">Get Notes from New or Existing Title Block (C#)</a>
+<br/><a href="Get_Notes_from_New_or_Existing_Title_Block_Example_VBNET.htm">Get Notes from New or Existing Title Block (VB.NET)</a>
+<br/><a href="Get_Notes_from_New_or_Existing_Title_Block_Example_VB.htm">Get Notes from New or Existing Title Block (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection"><p>A drawing document can consist of one or more sheets. Each sheet typically contains one or more <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html">drawing views</a>. Each drawing view is an oriented snapshot of a particular SOLIDWORKS model and a particular <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration.html">configuration</a> of the model.</p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~GetCurrentSheet.html">IDrawingDoc::GetCurrentSheet</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~IGetCurrentSheet.html">IDrawingDoc::IGetCurrentSheet</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~Sheet.html">IDrawingDoc::Sheet</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~GetSheet.html">IRevisionTableAnnotation::GetSheet</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~Sheet.html">IView::Sheet</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#Sheet">Sheet</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html">ISheet Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html">IDrawingDoc Interface</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

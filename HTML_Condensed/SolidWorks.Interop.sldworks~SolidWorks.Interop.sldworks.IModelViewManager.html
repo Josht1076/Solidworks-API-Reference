@@ -1,0 +1,334 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IModelViewManager Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IModelViewManager"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IModelViewManager Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IModelViewManager Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>ActivateControlTab</summary><p>Selects a control tab on the model view to be the active tab.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ActivateControlTab( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ActivateModelTab</summary><p>Selects a control tab on the model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ActivateModelTab();</pre></details><details style="margin: 0.5rem 0;"><summary>AddControl</summary><p>Adds a tab to this model view using the specified ActiveX control.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddControl( 
+&amp;   System.String^
+Name
+,
+&amp;   System.String^
+ControlName
+,
+&amp;   System.String^
+BstrLicKey
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddControl2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddControl2( 
+&amp;   System.String^
+Name
+,
+&amp;   System.String^
+ControlName
+,
+&amp;   System.String^
+BstrLicKey
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddControl3</summary><p>Adds a tab to this model view that supports tab traversal using the specified ActiveX control.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ AddControl3( 
+&amp;   System.String^
+Name
+,
+&amp;   System.String^
+ControlName
+,
+&amp;   System.String^
+BstrLicKey
+,
+&amp;   System.bool
+SplitWindow
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddSnapShot</summary><p>Creates a snapshot with the specified name of an assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SnapShot^ AddSnapShot( 
+&amp;   System.String^
+SnapShotName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeatureMgrControl</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">FeatMgrView^ CreateFeatureMgrControl( 
+&amp;   System.Object^
+PPicture
+,
+&amp;   System.String^
+Class
+,
+&amp;   System.String^
+LicKey
+,
+&amp;   System.String^
+ToolTip
+,
+&amp;   System.int
+WhichPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeatureMgrControl2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">FeatMgrView^ CreateFeatureMgrControl2( 
+&amp;   System.String^
+BitMapFile
+,
+&amp;   System.String^
+Class
+,
+&amp;   System.String^
+LicKey
+,
+&amp;   System.String^
+ToolTip
+,
+&amp;   System.int
+WhichPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeatureMgrControl3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">FeatMgrView^ CreateFeatureMgrControl3( 
+&amp;   System.String^
+BitMapFile
+,
+&amp;   System.String^
+Class
+,
+&amp;   System.String^
+LicKey
+,
+&amp;   System.String^
+ToolTip
+,
+&amp;   System.int
+WhichPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeatureMgrControl4</summary><p>Creates a new FeatureManager design tree view containing the specified ActiveX control with a tab that displays the specified scaleable icon.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">FeatMgrView^ CreateFeatureMgrControl4( 
+&amp;   System.Object^
+BitMapFileNames
+,
+&amp;   System.String^
+Class
+,
+&amp;   System.String^
+LicKey
+,
+&amp;   System.String^
+ToolTip
+,
+&amp;   System.int
+WhichPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeatureMgrView</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">FeatMgrView^ CreateFeatureMgrView( 
+&amp;   System.Object^
+PPicture
+,
+&amp;   System.String^
+ToolTip
+,
+&amp;   System.int
+WhichPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeatureMgrView2</summary><p>Creates a new view (tab) in this FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">FeatMgrView^ CreateFeatureMgrView2( 
+&amp;   System.String^
+BitMapFile
+,
+&amp;   System.String^
+ToolTip
+,
+&amp;   System.int
+WhichPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeatureMgrWindowFromHandle</summary><p>Creates a new view in the FeatureManager design tree using the specified .NET tab control.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">FeatMgrView^ CreateFeatureMgrWindowFromHandle( 
+&amp;   System.String^
+BitMapFile
+,
+&amp;   System.int
+WindowHandle
+,
+&amp;   System.String^
+ToolTip
+,
+&amp;   System.int
+WhichPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeatureMgrWindowFromHandlex64</summary><p>On 64-bit machines, creates a new view in the FeatureManager design tree using the specified .NET tab control.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">FeatMgrView^ CreateFeatureMgrWindowFromHandlex64( 
+&amp;   System.String^
+BitMapFile
+,
+&amp;   System.int64
+WindowHandle
+,
+&amp;   System.String^
+ToolTip
+,
+&amp;   System.int
+WhichPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateManipulator</summary><p>Creates a manipulator, which is similar to the triad in the SOLIDWORKS user interface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Manipulator^ CreateManipulator( 
+&amp;   System.int
+Type
+,
+&amp;   System.Object^
+PHandler
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSectionView</summary><p>Creates a section view in parts and assemblies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateSectionView( 
+&amp;   SectionViewData^
+SectionData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSectionViewData</summary><p>object whose properties you set before</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SectionViewData^ CreateSectionViewData();</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteControlTab</summary><p>Deletes the specified control tab.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteControlTab( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteSnapShot</summary><p>Deletes the specified snapshot from an assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteSnapShot( 
+&amp;   System.String^
+SnapShotName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DisplayWindowFromHandle</summary><p>Displays a .NET control in this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DisplayWindowFromHandle( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+WindowHandle
+,
+&amp;   System.bool
+SplitWindow
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DisplayWindowFromHandlex64</summary><p>Displays a .NET control in this model view on 64-bit machines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DisplayWindowFromHandlex64( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int64
+WindowHandle
+,
+&amp;   System.bool
+SplitWindow
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetConfigurationManagerTabIndex</summary><p>Gets the index of the ConfigurationManager tab in the Manager Pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetConfigurationManagerTabIndex();</pre></details><details style="margin: 0.5rem 0;"><summary>GetControl</summary><p>Gets the control associated with this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetControl( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDimXpertManagerTabIndex</summary><p>Gets the index of the DimXpertManager tab in the Manager Pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDimXpertManagerTabIndex();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayManagerTabIndex</summary><p>Gets the index of the DisplayManager tab in the Manager Pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDisplayManagerTabIndex();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureManagerTabs</summary><p>Gets the tabs from right to left in the Manager Pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFeatureManagerTabs();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureManagerTreeTabIndex</summary><p>Gets the index of the FeatureManager design tree tab in the Manager Pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFeatureManagerTreeTabIndex();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureMgrViewHWnd</summary><p>Gets the window handle for the specified FeatureManager design tree view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFeatureMgrViewHWnd( 
+&amp;   System.int
+FeatMgrViewPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureMgrViewHWndx64</summary><p>Gets the window handle for the specified FeatureManager design tree view in 64-bit applications.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int64 GetFeatureMgrViewHWndx64( 
+&amp;   System.int
+FeatMgrViewPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPropertyManagerTabIndex</summary><p>Gets the index of the PropertyManager tab in the Manager Pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetPropertyManagerTabIndex();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSectionViewData</summary><p>Gets access to the data of the specified section view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SectionViewData^ GetSectionViewData( 
+&amp;   System.String^
+ViewName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSnapShot</summary><p>Gets the specified snapshot of an assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SnapShot^ GetSnapShot( 
+&amp;   System.String^
+SnapShotName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSnapShots</summary><p>Gets the snapshots of an assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSnapShots();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetControl</summary><p>Gets the control associated with this model view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ IGetControl( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsControlTabActive</summary><p>Gets whether the specified control is active.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsControlTabActive( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsModelTabActive</summary><p>Gets whether the control on this model view is active.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsModelTabActive();</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveSectionView</summary><p>Removes a section view from a part and assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveSectionView();</pre></details><details style="margin: 0.5rem 0;"><summary>ActiveFeatureManagerTabIndex</summary><p>Gets or sets the index of the active tab in the Manager Pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int ActiveFeatureManagerTabIndex {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Document</summary><p>Gets the document to which this model view belongs.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property ModelDoc2^ Document {
+   ModelDoc2^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureManagerTabsVisible</summary><p>Gets or sets whether all of the tabs in the Manager Pane are visible.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool FeatureManagerTabsVisible {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>LinkedViews</summary><p>Gets or sets whether linking of viewports is enabled in this document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool LinkedViews {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ViewportDisplay</summary><p>Sets the model's viewport arrangement.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int ViewportDisplay {
+   void set ( &amp;   System.int
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to the model view. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IModelViewManager </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html">IModelViewManager</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IModelViewManager </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IModelViewManager </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager.html">ModelViewManager</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Create_Section_View_in_Model_Example_CSharp.htm">Create Section View in Model (C#)</a>
+<br/><a href="Create_Section_View_in_Model_Example_VBNET.htm">Create Section View in Model (VB.NET)</a>
+<br/><a href="Create_Section_View_in_Model_Example_VB.htm">Create Section View in Model (VBA)</a>
+<br/><a href="Set_Viewports_Example_CSharp.htm">Set Viewports (C#)</a>
+<br/><a href="Set_Viewports_Example_VBNET.htm">Set Viewports (VB.NET)</a>
+<br/><a href="Set_Viewports_Example_VB.htm">Set Viewports (VBA)</a>
+<br/><a href="Add_.NET_Controls_to_SOLIDWORKS_Using_an_Add-in_Example_CSharp.htm">Add .NET Controls to SOLIDWORKS using an Add-in (C#)</a>
+<br/><a href="Add_.NET_Controls_to_SolidWorks_Using_an_Add-in_Example_VBNET.htm">Add .NET Controls to SOLIDWORKS using an Add-in (VB.NET)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ModelViewManager.html">IModelDoc2::ModelViewManager</a></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#ModelViewManager">ModelViewManager</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager_members.html">IModelViewManager Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html">IModelView Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html">IManipulator Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html">ISectionViewData Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView.html">IFeatMgrView Interface</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

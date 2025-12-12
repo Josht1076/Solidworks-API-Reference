@@ -1,0 +1,514 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IGtol Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IGtol"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IGtol Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IGtol Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AddFrame</summary><p>Adds a frame at the end of the list of this Gtol's frames.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddFrame();</pre></details><details style="margin: 0.5rem 0;"><summary>CanConvertFormat</summary><p>Gets whether this Gtol can be converted to the current format.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CanConvertFormat();</pre></details><details style="margin: 0.5rem 0;"><summary>ConvertFormat</summary><p>Converts this Gtol to the current format.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ConvertFormat();</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteBelowFrameTextAt</summary><p>Deletes the specified text line in the below frame of this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteBelowFrameTextAt( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteFrame</summary><p>Deletes the specified frame from this Gtol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteFrame( 
+&amp;   System.int
+FrameNum
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetAllAround</summary><p>Gets whether this GTol uses an All Around leader.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetAllAround();</pre></details><details style="margin: 0.5rem 0;"><summary>GetAllAroundThisSide</summary><p>Gets whether this GTol uses an All Around This Side leader.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetAllAroundThisSide();</pre></details><details style="margin: 0.5rem 0;"><summary>GetAllOverThisSide</summary><p>Gets whether this GTol uses an All Over This Side leader.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetAllOverThisSide();</pre></details><details style="margin: 0.5rem 0;"><summary>GetAnnotation</summary><p>Gets the annotation for this specific Gtol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetAnnotation();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArcAtIndex</summary><p>Gets information about the specified arc.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetArcAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetArcCount</summary><p>Gets the number of arcs in this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetArcCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArrowHeadAtIndex</summary><p>Gets information on the specified arrow head in this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetArrowHeadAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetArrowHeadCount</summary><p>Gets the number of arrow heads in the GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetArrowHeadCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetArrowHeadInfo</summary><p>Gets an array of doubles that describe the geometry of the arrowhead on the far end of the leader line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetArrowHeadInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetAttachPos</summary><p>Gets the attachment point of the GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetAttachPos();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBelowFrameTextAt</summary><p>Gets the specified line of text in this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetBelowFrameTextAt( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBelowFrameTextLineCount</summary><p>Gets the number of text lines in the below frame of this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetBelowFrameTextLineCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBetweenTwoPoints</summary><p>Gets whether the between two points symbol is being used.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetBetweenTwoPoints();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBetweenTwoPointsText</summary><p>Gets the text used in the between two points symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetBetweenTwoPointsText( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCompositeFrame</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetCompositeFrame();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCompositeFrame2</summary><p>Gets whether the GTol frame with the specified index is part of a composite frame.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetCompositeFrame2( 
+&amp;   System.short
+FrameNum
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDatumIdentifier</summary><p>Gets the datum identifier.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetDatumIdentifier();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayDualDimensionInRangeValues</summary><p>Gets whether to display dual units in dimension range values.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetDisplayDualDimensionInRangeValues();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFontInfo</summary><p>Gets with the font information for this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFontInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFormat</summary><p>Gets the format type of this Gtol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFormat();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFrame</summary><p>Gets the Gtol frame at the specified index.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFrame( 
+&amp;   System.int
+FrameIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFrameCount</summary><p>Gets the number of frames in this GTol symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.short GetFrameCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFrameDiameterSymbols</summary><p>Gets whether diameter symbols are displayed for the specified frame.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFrameDiameterSymbols( 
+&amp;   System.short
+FrameNumber
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFrameSymbols</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFrameSymbols( 
+&amp;   System.short
+FrameNumber
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFrameSymbols2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFrameSymbols2( 
+&amp;   System.short
+FrameNumber
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFrameSymbols3</summary><p>Gets the symbols for the specified frame.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFrameSymbols3( 
+&amp;   System.int
+FrameNumber
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFrameValues</summary><p>Gets an array that describes the text that appears in each of the fields of the specified GTol frame.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFrameValues( 
+&amp;   System.short
+FrameNumber
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFromTo</summary><p>Gets whether the From-To symbol is present in this Gtol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetFromTo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFromToText</summary><p>Gets the From-To text of this Gtol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetFromToText( 
+&amp;   [Out] System.String^
+FromText
+,
+&amp;   [Out] System.String^
+ToText
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetHeight</summary><p>Gets the GTol height.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetHeight();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLeaderAtIndex</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLeaderAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLeaderAtIndex2</summary><p>Gets information about the specified leader on this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLeaderAtIndex2( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLeaderCount</summary><p>Gets the number of leaders on this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLeaderCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLeaderInfo</summary><p>Gets information describing the layout of the GTol leader lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLeaderInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLeaderSide</summary><p>Gets where the leader attaches to the symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLeaderSide();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineAtIndex</summary><p>Gets the start and end information for the specified line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLineAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineCount</summary><p>Gets the number of linea in this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLineCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNextGTOL</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNextGTOL();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPTZHeight</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetPTZHeight();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPTZHeight2</summary><p>Gets the projected tolerance zone for the specified frame and tolerance in this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetPTZHeight2( 
+&amp;   System.int
+FrameNumber
+,
+&amp;   System.int
+TolNumber
+,
+&amp;   [Out] System.bool
+PtzDisplay
+,
+&amp;   [Out] System.String^
+PtzHt
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSymArcs</summary><p>Gets an array that defines all arcs in the symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSymArcs( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSymCircles</summary><p>Gets an array that defines all circles in the symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSymCircles( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSymDesc</summary><p>Gets the specified symbol description.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetSymDesc( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSymEdgeCounts</summary><p>Gets an array of the number of lines, arcs and circles in the specified symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSymEdgeCounts( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSymLines</summary><p>Gets an array that defines all lines in the symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSymLines( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSymName</summary><p>Gets the symbol name based on the specified index number that SOLIDWORKS uses to identify the symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetSymName( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSymText</summary><p>Gets the symbol text.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSymText( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSymTextPoints</summary><p>Gets the text points for the specified symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSymTextPoints( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetText</summary><p>Gets the specified text part of this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetText( 
+&amp;   System.int
+WhichText
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTextAngleAtIndex</summary><p>Gets the text angle for the specified piece of text in this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetTextAngleAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTextAtIndex</summary><p>Gets the specified text from this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetTextAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTextCount</summary><p>Gets the number of text items in the GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTextCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTextFont</summary><p>Gets the font for this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetTextFont();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTextFormat</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTextFormat();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTextHeightAtIndex</summary><p>Gets the text height for the specified piece of text in this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetTextHeightAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTextInvertAtIndex</summary><p>Gets the specified text item's invert flag.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTextInvertAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTextPoint</summary><p>Gets the GTol text reference point, which is the upper-left corner of the bounding rectangle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTextPoint();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTextPositionAtIndex</summary><p>Gets the text item's offset relative to note's text point.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTextPositionAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTextRefPositionAtIndex</summary><p>Gets the reference position for the specified text item in this GTol (for example, upper-left, lower-left, center).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTextRefPositionAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTriangleAtIndex</summary><p>Gets the triangle at the specified index.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTriangleAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTriangleCount</summary><p>Gets the number of triangles in this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTriangleCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUseDocTextFormat</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetUseDocTextFormat();</pre></details><details style="margin: 0.5rem 0;"><summary>GetWitnessLine</summary><p>Gets the extension line that connects the leader of this geometric tolerance with the entity being dimensioned.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetWitnessLine();</pre></details><details style="margin: 0.5rem 0;"><summary>HasExtraLeader</summary><p>Gets whether the GTol has a bent leaderline or a straight leaderline.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool HasExtraLeader();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetAnnotation</summary><p>Gets the annotation for this specific GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Annotation^ IGetAnnotation();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetArcAtIndex</summary><p>Gets information for the specified arc.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetArcAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetArrowHeadAtIndex</summary><p>Gets information on the specified arrow head in this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetArrowHeadAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetArrowHeadInfo</summary><p>Gets an array of doubles that describe the geometry of the arrowhead on the far end of the leader line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetArrowHeadInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetAttachPos</summary><p>Gets the attachment point of the GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetAttachPos();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFontInfo</summary><p>Gets with the font information for this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetFontInfo();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFrameDiameterSymbols</summary><p>Gets whether diameter symbols are displayed for the specified frame.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IGetFrameDiameterSymbols( 
+&amp;   System.short
+FrameNumber
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFrameSymbols</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.short IGetFrameSymbols( 
+&amp;   System.short
+FrameNumber
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFrameSymbols2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetFrameSymbols2( 
+&amp;   System.short
+FrameNumber
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFrameValues</summary><p>Gets an array that describes the text that appears in each of the fields of the specified GTol frame.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetFrameValues( 
+&amp;   System.short
+FrameNumber
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetLeaderAtIndex</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetLeaderAtIndex( 
+&amp;   System.int
+Index
+,
+&amp;   [Out] System.int
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetLeaderAtIndex2</summary><p>Gets information about the specified leader on this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetLeaderAtIndex2( 
+&amp;   System.int
+Index
+,
+&amp;   [Out] System.int
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetLeaderInfo</summary><p>Gets information describing the layout of the GTol leader lines.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetLeaderInfo( 
+&amp;   [Out] System.int
+PointCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetLineAtIndex</summary><p>Gets the start and end information for the specified line.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetLineAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetNextGTOL</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Gtol^ IGetNextGTOL();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSymArcs</summary><p>Gets an array that defines all arcs in the symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSymArcs( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSymCircles</summary><p>Gets an array that defines all circles in the symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSymCircles( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSymEdgeCounts</summary><p>Gets an array of the number of lines, arcs and circles in the specified symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.short IGetSymEdgeCounts( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSymLines</summary><p>Gets an array that defines all lines in the symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSymLines( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSymText</summary><p>Gets the symbol text.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetSymText( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSymTextPoints</summary><p>Gets the text points for the specified symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSymTextPoints( 
+&amp;   System.short
+SymIdx
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTextFormat</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TextFormat^ IGetTextFormat();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTextPoint</summary><p>Gets the GTol text reference point, which is the upper-left corner of the bounding rectangle.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetTextPoint();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTextPositionAtIndex</summary><p>Gets the reference position for the specified text item in this GTol (for example, upper-left, lower-left, center).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetTextPositionAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTriangleAtIndex</summary><p>Gets the triangle at the specified index.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetTriangleAtIndex( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetWitnessLine</summary><p>Gets the extension line that connects the leader of this geometric tolerance with the entity that is being dimensioned.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetWitnessLine();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBelowFrameTextAt</summary><p>Inserts the specified text at the specified line index in the below frame of this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertBelowFrameTextAt( 
+&amp;   System.int
+Index
+,
+&amp;   System.String^
+Text
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsAttached</summary><p>Gets whether this GTol is attached.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsAttached();</pre></details><details style="margin: 0.5rem 0;"><summary>ISetTextFormat</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetTextFormat( 
+&amp;   System.int
+TextFormatType
+,
+&amp;   TextFormat^
+TextFormat
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetAllAroundThisSide</summary><p>Sets whether this GTol uses an All Around This Side leader.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetAllAroundThisSide( 
+&amp;   System.bool
+AllAroundTS
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetAllOverThisSide</summary><p>Sets whether this Gtol uses an All Over This Side leader.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetAllOverThisSide( 
+&amp;   System.bool
+AllOverTS
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetBelowFrameTextAt</summary><p>Edits or inserts a text line at the specified below frame line index of this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetBelowFrameTextAt( 
+&amp;   System.int
+Index
+,
+&amp;   System.String^
+Text
+,
+&amp;   System.bool
+Overwrite
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetBetweenTwoPoints</summary><p>Enables or disables the between two points symbol and its texts.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetBetweenTwoPoints( 
+&amp;   System.bool
+Between
+,
+&amp;   System.String^
+TextFrom
+,
+&amp;   System.String^
+TextTo
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCompositeFrame</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetCompositeFrame( 
+&amp;   System.bool
+Composite
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCompositeFrame2</summary><p>Sets whether to create a composite frame containing the specified GTol frame.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetCompositeFrame2( 
+&amp;   System.bool
+Composite
+,
+&amp;   System.short
+FrameNum
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDatumIdentifier</summary><p>Sets the name of the datum being defined.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetDatumIdentifier( 
+&amp;   System.String^
+DatumIdentifier
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDisplayDualDimensionInRangeValues</summary><p>Sets whether to display dual units in dimension range values.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetDisplayDualDimensionInRangeValues( 
+&amp;   System.bool
+InValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetFrameSymbols</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetFrameSymbols( 
+&amp;   System.short
+FrameNumber
+,
+&amp;   System.short
+GCS
+,
+&amp;   System.bool
+TolDia1
+,
+&amp;   System.short
+TolMC1
+,
+&amp;   System.bool
+TolDia2
+,
+&amp;   System.short
+TolMC2
+,
+&amp;   System.short
+DatumMC1
+,
+&amp;   System.short
+DatumMC2
+,
+&amp;   System.short
+DatumMC3
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetFrameSymbols2</summary><p>Sets the symbols for the specified frame.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetFrameSymbols2( 
+&amp;   System.short
+FrameNumber
+,
+&amp;   System.String^
+GCS
+,
+&amp;   System.bool
+TolDia1
+,
+&amp;   System.String^
+TolMC1
+,
+&amp;   System.bool
+TolDia2
+,
+&amp;   System.String^
+TolMC2
+,
+&amp;   System.String^
+DatumMC1
+,
+&amp;   System.String^
+DatumMC2
+,
+&amp;   System.String^
+DatumMC3
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetFrameValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetFrameValues( 
+&amp;   System.short
+FrameNumber
+,
+&amp;   System.String^
+Tol1
+,
+&amp;   System.String^
+Tol2
+,
+&amp;   System.String^
+Datum1
+,
+&amp;   System.String^
+Datum2
+,
+&amp;   System.String^
+Datum3
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetFrameValues2</summary><p>Sets the geometric tolerance values and datum references in the specified frame of this GTol symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetFrameValues2( 
+&amp;   System.short
+FrameNumber
+,
+&amp;   System.String^
+Tol1
+,
+&amp;   System.String^
+Tol2
+,
+&amp;   System.String^
+Datum1
+,
+&amp;   System.String^
+Datum2
+,
+&amp;   System.String^
+Datum3
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetFromToText</summary><p>Adds a From-To symbol and sets the From-To text for this Gtol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetFromToText( 
+&amp;   System.bool
+EnableFromTo
+,
+&amp;   System.String^
+FromText
+,
+&amp;   System.String^
+ToText
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetLeader</summary><p>Sets the characteristics of the leader for this symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetLeader( 
+&amp;   System.bool
+Leader
+,
+&amp;   System.int
+LeaderSide
+,
+&amp;   System.bool
+BentLeader
+,
+&amp;   System.bool
+AllAround
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetPosition</summary><p>Sets the position of this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetPosition( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetPTZHeight</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetPTZHeight( 
+&amp;   System.String^
+PtzHt
+,
+&amp;   System.bool
+DisplayIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetPTZHeight2</summary><p>Sets the projected tolerance zone for the specified frame and tolerance in this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetPTZHeight2( 
+&amp;   System.int
+FrameNumber
+,
+&amp;   System.int
+TolNumber
+,
+&amp;   System.bool
+PtzDisplay
+,
+&amp;   System.String^
+PtzHt
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetText</summary><p>Sets the specified text part of this GTol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetText( 
+&amp;   System.int
+WhichText
+,
+&amp;   System.String^
+Text
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetTextFormat</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetTextFormat( 
+&amp;   System.int
+TextFormatType
+,
+&amp;   System.Object^
+TextFormat
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Angle</summary><p>Gets or sets the rotation angle of this Gtol symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double Angle {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SeparateRequirement</summary><p>Gets or sets whether a SEP REQT label is present with the Gtol symbol.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool SeparateRequirement {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows you to get and set geometric tolerance (GTol) parameters. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IGtol </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html">IGtol</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IGtol </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IGtol </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Gtol.html">Gtol</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Get_Text_Items_in_GTol_Frame_VB.htm">Get Text Items in GTol Frame (VBA)</a>
+<br/><a href="Get_Text_Items_in_GTol_Frame_Example_VBNET.htm">Get Text Items in GTol Frame (VB.NET)</a>
+<br/><a href="Get_Text_Items_in_GTol_Frame_Example_CSharp.htm">Get Text Items in GTol Frame (C#)</a>
+<br/><a href="Get_GTol_Witness_Line_Example_VB.htm">Get GTol Witness Line (VBA)</a>
+<br/><a href="Get_GTol_Witness_Line_Example_VBNET.htm">Get GTol Witness Line (VB.NET)</a>
+<br/><a href="Get_GTol_Witness_Line_Example_CSharp.htm">Get GTol Witness Line (C#)</a>
+<br/><a href="Set_Text_in_Datum_Tags_and_GTols_Example_VB.htm">Set Text in Datum Tags and GTols (VBA)</a>
+<br/><a href="Set_Text_in_Datum_Tags_and_GTols_Example_VBNET.htm">Set Text in Datum Tags and GTols (VB.NET)</a>
+<br/><a href="Set_Text_in_Datum_Tags_and_GTols_Example_CSharp.htm">Set Text in Datum Tags and GTols (C#)</a>
+<br/><a href="Insert_GTol_Example_CSharp.htm">Insert GTol (C#)</a>
+<br/><a href="Insert_GTol_Example_VBNET.htm">Insert GTol (VB.NET)</a>
+<br/><a href="Insert_GTol_Example_VB.htm">Insert GTol (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetSpecificAnnotation.html">IAnnotation::GetSpecificAnnotation</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IGetSpecificAnnotation.html">IAnnotation::IGetSpecificAnnotation</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~EditSelectedGtol.html">IDrawingDoc::EditSelectedGtol</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~IEditSelectedGtol.html">IDrawingDoc::IEditSelectedGtol</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~NewGtol.html">IDrawingDoc::NewGtol</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~INewGtol.html">IDrawingDoc::INewGtol</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetNextGTOL.html">IGtol::GetNextGTOL</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~IGetNextGTOL.html">IGtol::IGetNextGTOL</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertGtol.html">IModelDoc2::InsertGtol</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IInsertGtol.html">IModelDoc2::IInsertGtol</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstGTOL.html">IView::GetFirstGTOL</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetFirstGTOL.html">IView::IGetFirstGTOL</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetGTols.html">IView::GetGTols</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetGTols.html">IView::IGetGTols</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#Gtol">Gtol</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html">IGtol Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html">IAnnotation Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertGtol.html">IModelDoc2::InsertGtol Method</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

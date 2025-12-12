@@ -1,0 +1,1714 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IModeler Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IModeler"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IModeler Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IModeler Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>CheckInterference</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CheckInterference( 
+&amp;   System.Object^
+Body1
+,
+&amp;   System.Object^
+Body2
+,
+&amp;   System.bool
+CoincidentInterference
+,
+&amp;   [Out] System.Object^
+Body1InterferedFaceArray
+,
+&amp;   [Out] System.Object^
+Body2InterferedFaceArray
+,
+&amp;   [Out] System.Object^
+IntersectedBodyArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CheckInterference3</summary><p>Checks for interferences among the specified bodies in a part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CheckInterference3( 
+&amp;   System.Object^
+TargetBodies
+,
+&amp;   System.Object^
+ToolBodies
+,
+&amp;   System.int
+Options
+,
+&amp;   [Out] System.Object^
+Body1InterferedFaceArray
+,
+&amp;   [Out] System.Object^
+Body2InterferedFaceArray
+,
+&amp;   [Out] System.Object^
+IntersectedBodyArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CheckInterferenceBetweenTwoBodies</summary><p>Checks for interference between the specified bodies in an assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CheckInterferenceBetweenTwoBodies( 
+&amp;   System.Object^
+Body1
+,
+&amp;   System.Object^
+Body2
+,
+&amp;   System.bool
+CoincidentInterference
+,
+&amp;   [Out] System.Object^
+Body1InterferedFaceArray
+,
+&amp;   [Out] System.Object^
+Body2InterferedFaceArray
+,
+&amp;   [Out] System.Object^
+IntersectedBodyArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CopyWizardHole</summary><p>Copies hole data from the source hole to the destination hole.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int CopyWizardHole( 
+&amp;   System.Object^
+SourceHole
+,
+&amp;   System.Object^
+DestinationHole
+,
+&amp;   System.bool
+RebuildOwner
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateArc</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateArc( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Axis
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.Object^
+StartPoint
+,
+&amp;   System.Object^
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBodiesFromSheets</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBodiesFromSheets( 
+&amp;   System.Object^
+Sheets
+,
+&amp;   System.int
+Options
+,
+&amp;   [Out] System.int
+Error
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBodiesFromSheets2</summary><p>Sews sheets to make sheet (surface) or solid bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBodiesFromSheets2( 
+&amp;   System.Object^
+Sheets
+,
+&amp;   System.int
+Options
+,
+&amp;   System.double
+KnittingTolerance
+,
+&amp;   [Out] System.int
+Error
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBodyFromBox</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBodyFromBox( 
+&amp;   System.Object^
+BoxDimArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBodyFromBox3</summary><p>Creates a temporary body from the specified box dimensions.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ CreateBodyFromBox3( 
+&amp;   System.Object^
+BoxDimArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBodyFromCone</summary><p>Creates a temporary body from cone dimensions.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBodyFromCone( 
+&amp;   System.Object^
+ConeDimArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBodyFromCyl</summary><p>Creates a temporary body from cylinder dimensions.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBodyFromCyl( 
+&amp;   System.Object^
+CylDimArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBodyFromFaces2</summary><p>Creates a temporary body from a list of faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBodyFromFaces2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   System.Object^
+Faces
+,
+&amp;   System.int
+ActionType
+,
+&amp;   System.bool
+DoLocalCheck
+,
+&amp;   [Out] System.bool
+LocalCheckResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBrepBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBrepBody( 
+&amp;   System.int
+Type
+,
+&amp;   System.int
+NTopologies
+,
+&amp;   System.Object^
+Topologies
+,
+&amp;   System.Object^
+EdgeToleranceArray
+,
+&amp;   System.Object^
+VertexToleranceArray
+,
+&amp;   System.Object^
+PointArray
+,
+&amp;   System.Object^
+CurveArray
+,
+&amp;   System.Object^
+SurfaceArray
+,
+&amp;   System.int
+NRelations
+,
+&amp;   System.Object^
+Parents
+,
+&amp;   System.Object^
+Children
+,
+&amp;   System.Object^
+Senses
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBrepBody3</summary><p>Creates a temporary body from BREP (boundary representation) data.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBrepBody3( 
+&amp;   System.int
+Type
+,
+&amp;   System.int
+NTopologies
+,
+&amp;   System.Object^
+Topologies
+,
+&amp;   System.Object^
+EdgeToleranceArray
+,
+&amp;   System.Object^
+VertexToleranceArray
+,
+&amp;   System.Object^
+PointArray
+,
+&amp;   System.Object^
+CurveArray1
+,
+&amp;   System.Object^
+CurveSurfaceArray1
+,
+&amp;   System.Object^
+CurveArray2
+,
+&amp;   System.Object^
+CurveSurfaceArray2
+,
+&amp;   System.Object^
+SurfaceArray
+,
+&amp;   System.int
+NRelations
+,
+&amp;   System.Object^
+Parents
+,
+&amp;   System.Object^
+Children
+,
+&amp;   System.Object^
+Senses
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBsplineCurve</summary><p>Creates a b-spline curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBsplineCurve( 
+&amp;   System.Object^
+Props
+,
+&amp;   System.Object^
+Knots
+,
+&amp;   System.Object^
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateBsplineSurface</summary><p>Creates a b-spline surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateBsplineSurface( 
+&amp;   System.Object^
+Props
+,
+&amp;   System.Object^
+UKnots
+,
+&amp;   System.Object^
+VKnots
+,
+&amp;   System.Object^
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateConicalSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateConicalSurface( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Direction
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.double
+SemiAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateConicalSurface2</summary><p>Creates an untrimmed conical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateConicalSurface2( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Direction
+,
+&amp;   System.Object^
+RefDirection
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.double
+SemiAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCoonsBSurface</summary><p>Creates a coons b-surface using the four specified boundary curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ CreateCoonsBSurface( 
+&amp;   Curve^
+UCurve0
+,
+&amp;   Curve^
+UCurve1
+,
+&amp;   Curve^
+VCurve0
+,
+&amp;   Curve^
+VCurve1
+,
+&amp;   System.bool
+IgnoreClosureReqt
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCylindricalSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateCylindricalSurface( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Direction
+,
+&amp;   System.double
+Radius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCylindricalSurface2</summary><p>Creates an untrimmed cylindrical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateCylindricalSurface2( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Direction
+,
+&amp;   System.Object^
+RefDirection
+,
+&amp;   System.double
+Radius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateEllipse</summary><p>Creates a temporary elliptical curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateEllipse( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.double
+MajorRadius
+,
+&amp;   System.double
+MinorRadius
+,
+&amp;   System.Object^
+MajorAxis
+,
+&amp;   System.Object^
+MinorAxis
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateExtrudedBody</summary><p>Creates a temporary extruded body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ CreateExtrudedBody( 
+&amp;   Body2^
+SheetBody
+,
+&amp;   MathVector^
+Direction
+,
+&amp;   System.double
+Length
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateExtrusionSurface</summary><p>Creates an extruded surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateExtrusionSurface( 
+&amp;   System.Object^
+ProfileCurve
+,
+&amp;   System.Object^
+AxisDirection
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLine</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateLine( 
+&amp;   System.Object^
+RootPoint
+,
+&amp;   System.Object^
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLoftBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ CreateLoftBody( 
+&amp;   ModelDoc2^
+PModDoc
+,
+&amp;   System.bool
+IsBlendClosed
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+ForceNonRational
+,
+&amp;   System.bool
+IsSolidBody
+,
+&amp;   System.double
+TessTolFactor
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLoftBody2</summary><p>Creates a loft body using the specified profiles, guide curves, and centerline.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ CreateLoftBody2( 
+&amp;   ModelDoc2^
+PModDoc
+,
+&amp;   System.Object^
+Profile
+,
+&amp;   System.Object^
+GuideCurve
+,
+&amp;   System.Object^
+Centerline
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.int
+ThinType
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.bool
+FeatureScope
+,
+&amp;   System.bool
+IsBlendClosed
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+ForceNonRational
+,
+&amp;   System.bool
+IsSolidBody
+,
+&amp;   System.double
+TessTolFactor
+,
+&amp;   System.double
+StartTangentLength
+,
+&amp;   System.double
+EndTangentLength
+,
+&amp;   System.bool
+StartTangentDir
+,
+&amp;   System.bool
+EndTangentDir
+,
+&amp;   System.int
+StartMatchingType
+,
+&amp;   System.int
+EndMatchingType
+,
+&amp;   System.bool
+Merge
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateLoftSurface</summary><p>Creates a loft surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateLoftSurface( 
+&amp;   System.Object^
+CurveArray
+,
+&amp;   System.bool
+BBlendClosed
+,
+&amp;   System.bool
+BForceCubic
+,
+&amp;   System.Object^
+GuideCrvArray
+,
+&amp;   System.int
+StartMatchingType
+,
+&amp;   System.int
+EndMatchingType
+,
+&amp;   System.Object^
+NormalAtStartSection
+,
+&amp;   System.Object^
+NormalAtEndSection
+,
+&amp;   System.Object^
+StartMatchingFaceList
+,
+&amp;   System.Object^
+EndMatchingFaceList
+,
+&amp;   System.bool
+DegeneratedStart
+,
+&amp;   System.bool
+DegeneratedEnd
+,
+&amp;   System.Object^
+StartPointOfStartSection
+,
+&amp;   System.Object^
+StartPointOfEndSection
+,
+&amp;   System.int
+SectionIndexStart
+,
+&amp;   System.int
+SectionIndexEnd
+,
+&amp;   System.int
+GuideIndexStart
+,
+&amp;   System.int
+GuideIndexEnd
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateOffsetSurface</summary><p>Creates a surface that is offset from an existing surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateOffsetSurface( 
+&amp;   System.Object^
+SurfaceIn
+,
+&amp;   System.double
+Distance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreatePCurve</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreatePCurve( 
+&amp;   System.Object^
+Surface
+,
+&amp;   System.Object^
+Props
+,
+&amp;   System.Object^
+Knots
+,
+&amp;   System.Object^
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreatePlanarSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreatePlanarSurface( 
+&amp;   System.Object^
+VRootPoint
+,
+&amp;   System.Object^
+VNormal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreatePlanarSurface2</summary><p>Creates a new infinite planar surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreatePlanarSurface2( 
+&amp;   System.Object^
+VRootPoint
+,
+&amp;   System.Object^
+VNormal
+,
+&amp;   System.Object^
+VRef
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateRuledSurface</summary><p>Creates a ruled surface from the curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateRuledSurface( 
+&amp;   System.Object^
+Curve1In
+,
+&amp;   System.Object^
+Curve2In
+,
+&amp;   System.Object^
+Apex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateRuledSurfaceFromEdge</summary><p>Creates a ruled surface using the specified edges and returns a surface body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int CreateRuledSurfaceFromEdge( 
+&amp;   ModelDoc2^
+ModDoc
+,
+&amp;   System.Object^
+Edges
+,
+&amp;   System.int
+Type
+,
+&amp;   System.double
+Length
+,
+&amp;   System.bool
+FlipPullDir
+,
+&amp;   System.bool
+FlipDir
+,
+&amp;   System.bool
+TrimAndSew
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+CoordInput
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+BConnectSurface
+,
+&amp;   [Out] System.Object^
+RuledSurface
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSheetFromFaces</summary><p>Creates a sheet (surface) body from connected faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ CreateSheetFromFaces( 
+&amp;   System.Object^
+FaceArr
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSheetFromSurface</summary><p>Creates a sheet (surface) body from a surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSheetFromSurface( 
+&amp;   System.Object^
+SurfaceIn
+,
+&amp;   System.Object^
+UvRange
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSphericalSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSphericalSurface( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.double
+Radius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSphericalSurface2</summary><p>Creates an untrimmed spherical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSphericalSurface2( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Axis
+,
+&amp;   System.Object^
+RefDir
+,
+&amp;   System.double
+Radius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSpring</summary><p>Creates the geometry for a spring.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Spring^ CreateSpring();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSweptBody</summary><p>Creates a swept body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ CreateSweptBody( 
+&amp;   ModelDoc2^
+PModDoc
+,
+&amp;   System.bool
+Propagate
+,
+&amp;   System.bool
+Alignment
+,
+&amp;   System.short
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+BAdvancedSmoothing
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.short
+ThinType
+,
+&amp;   System.short
+PathAlign
+,
+&amp;   System.double
+TwistAngle
+,
+&amp;   System.bool
+BMergeSmoothFaces
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSweptSurface</summary><p>Creates a swept surface from a curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSweptSurface( 
+&amp;   System.Object^
+CurveIn
+,
+&amp;   System.Object^
+Dir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateToroidalSurface</summary><p>Creates an untrimmed toroidal surface from the specified arguments.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateToroidalSurface( 
+&amp;   System.Object^
+Center
+,
+&amp;   System.Object^
+Axis
+,
+&amp;   System.Object^
+RefDirection
+,
+&amp;   System.double
+MajorRadius
+,
+&amp;   System.double
+MinorRadius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateWireBody</summary><p>Creates a wire body from the input entities, which can be edges or curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ CreateWireBody( 
+&amp;   System.Object^
+EntVar
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteFacesFromSheetBody</summary><p>Deletes the unused faces of the sheet body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteFacesFromSheetBody( 
+&amp;   System.Object^
+FaceVar
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FindTwoEdgeMaxDeviation</summary><p>Finds the maximum distance between two edges.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double FindTwoEdgeMaxDeviation( 
+&amp;   System.Object^
+LpEdge1
+,
+&amp;   System.Object^
+LpEdge2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBodyOutline</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetBodyOutline( 
+&amp;   System.Object^
+BodyVar
+,
+&amp;   MathVector^
+Direction
+,
+&amp;   System.double
+Tolerance
+,
+&amp;   [Out] System.Object^
+CurvesOut
+,
+&amp;   [Out] System.Object^
+TopolEntities
+,
+&amp;   [Out] System.Object^
+Outline
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBodyOutline2</summary><p>Gets the curves that form the outline of a body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetBodyOutline2( 
+&amp;   System.Object^
+BodyList
+,
+&amp;   MathVector^
+Direction
+,
+&amp;   System.double
+Tolerance
+,
+&amp;   System.bool
+ProjectOnPlane
+,
+&amp;   [Out] System.Object^
+Curves
+,
+&amp;   [Out] System.Object^
+TopolEntities
+,
+&amp;   [Out] System.Object^
+Outline
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetInitKnitGapWidth</summary><p>Gets the initial gap bound width for knitting a body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetInitKnitGapWidth();</pre></details><details style="margin: 0.5rem 0;"><summary>GetManifoldBodiesCount</summary><p>Gets the number of manifold bodies created from the specified non-manifold body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetManifoldBodiesCount( 
+&amp;   Body2^
+NonManifoldIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetToleranceValue</summary><p>Gets the current tolerance value of the given tolerance ID.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetToleranceValue( 
+&amp;   System.int
+ToleranceID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICheckInterference</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICheckInterference( 
+&amp;   [Out] Face^
+Body1InterferedFaceArray
+,
+&amp;   [Out] Face^
+Body2InterferedFaceArray
+,
+&amp;   [Out] Body^
+IntersectedBodyArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICheckInterference2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ICheckInterference2( 
+&amp;   [Out] Face2^
+Body1InterferedFaceArray
+,
+&amp;   [Out] Face2^
+Body2InterferedFaceArray
+,
+&amp;   [Out] Body2^
+IntersectedBodyArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICheckInterference3</summary><p>Checks the interference among the specified bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ICheckInterference3( 
+&amp;   [Out] Face2^
+Body1InterferedFaceArray
+,
+&amp;   [Out] Face2^
+Body2InterferedFaceArray
+,
+&amp;   [Out] Body2^
+IntersectedBodyArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICheckInterferenceCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ICheckInterferenceCount( 
+&amp;   Body^
+Body1
+,
+&amp;   Body^
+Body2
+,
+&amp;   System.bool
+CoincidentInterference
+,
+&amp;   [Out] System.int
+Body1InterferedFaceCount
+,
+&amp;   [Out] System.int
+Body2InterferedFaceCount
+,
+&amp;   [Out] System.int
+IntersectedBodyCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICheckInterferenceCount2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ICheckInterferenceCount2( 
+&amp;   Body2^
+Body1
+,
+&amp;   Body2^
+Body2
+,
+&amp;   System.bool
+CoincidentInterference
+,
+&amp;   [Out] System.int
+Body1InterferedFaceCount
+,
+&amp;   [Out] System.int
+Body2InterferedFaceCount
+,
+&amp;   [Out] System.int
+IntersectedBodyCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICheckInterferenceCount3</summary><p>Checks interference among the specified bodies and returns the number of interferences.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ICheckInterferenceCount3( 
+&amp;   System.int
+NumOfTargetBodies
+,
+&amp;   Body2^%
+TargetBodies
+,
+&amp;   System.int
+NumOfToolBodies
+,
+&amp;   Body2^%
+ToolBodies
+,
+&amp;   System.int
+Options
+,
+&amp;   [Out] System.int
+NumBody1InterferedFaceArray
+,
+&amp;   [Out] System.int
+NumBody2InterferedFaceArray
+,
+&amp;   [Out] System.int
+NumIntersectedBodyArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICopyWizardHole</summary><p>Copies hole data from the source hole to the destination hole.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ICopyWizardHole( 
+&amp;   Feature^
+SourceHole
+,
+&amp;   Feature^
+DestinationHole
+,
+&amp;   System.bool
+RebuildOwner
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateArc</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ ICreateArc( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double%
+Axis
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.double%
+StartPoint
+,
+&amp;   System.double%
+EndPoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodiesFromSheets</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ICreateBodiesFromSheets( 
+&amp;   System.int
+NSheets
+,
+&amp;   System.Object^%
+Sheets
+,
+&amp;   System.int
+Options
+,
+&amp;   [Out] System.int
+NResults
+,
+&amp;   [Out] System.Object^
+Results
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodiesFromSheets2</summary><p>Sews sheets to make a sheet (surface) or solid bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ICreateBodiesFromSheets2( 
+&amp;   System.int
+NSheets
+,
+&amp;   Body2^%
+Sheets
+,
+&amp;   System.int
+Options
+,
+&amp;   System.double
+KnittingTolerance
+,
+&amp;   [Out] System.int
+NResults
+,
+&amp;   [Out] Body2^
+Results
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodyFromBox</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateBodyFromBox( 
+&amp;   System.double%
+BoxDimArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodyFromBox2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateBodyFromBox2( 
+&amp;   System.double%
+BoxDimArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodyFromCone</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateBodyFromCone( 
+&amp;   System.double%
+ConeDimArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodyFromCone2</summary><p>Creates a temporary body from cone dimensions.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateBodyFromCone2( 
+&amp;   System.double%
+ConeDimArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodyFromCyl</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateBodyFromCyl( 
+&amp;   System.double%
+CylDimArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodyFromCyl2</summary><p>Creates a temporary body from cylinder dimensions.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateBodyFromCyl2( 
+&amp;   System.double%
+CylDimArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodyFromFaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateBodyFromFaces( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face^%
+Faces
+,
+&amp;   System.bool
+DoLocalCheck
+,
+&amp;   System.bool%
+LocalCheckResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodyFromFaces2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateBodyFromFaces2( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face^%
+Faces
+,
+&amp;   System.int
+ActionType
+,
+&amp;   System.bool
+DoLocalCheck
+,
+&amp;   [Out] System.bool
+LocalCheckResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBodyFromFaces3</summary><p>Creates a temporary body from a list of faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateBodyFromFaces3( 
+&amp;   System.int
+NumOfFaces
+,
+&amp;   Face2^%
+Faces
+,
+&amp;   System.int
+ActionType
+,
+&amp;   System.bool
+DoLocalCheck
+,
+&amp;   [Out] System.bool
+LocalCheckResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBrepBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateBrepBody( 
+&amp;   System.int
+Type
+,
+&amp;   System.int
+NTopologies
+,
+&amp;   System.int%
+Topologies
+,
+&amp;   System.double%
+EdgeTolArray
+,
+&amp;   System.double%
+VertexTolArray
+,
+&amp;   System.double%
+PointArray
+,
+&amp;   Curve^%
+CurveArray
+,
+&amp;   Surface^%
+SurfaceArray
+,
+&amp;   System.int
+NRelations
+,
+&amp;   System.int%
+Parents
+,
+&amp;   System.int%
+Children
+,
+&amp;   System.int%
+Senses
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBrepBody2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateBrepBody2( 
+&amp;   System.int
+Type
+,
+&amp;   System.int
+NTopologies
+,
+&amp;   System.int%
+Topologies
+,
+&amp;   System.double%
+EdgeTolArray
+,
+&amp;   System.double%
+VertexTolArray
+,
+&amp;   System.double%
+PointArray
+,
+&amp;   Curve^%
+CurveArray
+,
+&amp;   Surface^%
+SurfaceArray
+,
+&amp;   System.int
+NRelations
+,
+&amp;   System.int%
+Parents
+,
+&amp;   System.int%
+Children
+,
+&amp;   System.int%
+Senses
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBrepBody3</summary><p>Creates a temporary body from BREP (boundary representation) data.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateBrepBody3( 
+&amp;   System.int
+Type
+,
+&amp;   System.int
+NTopologies
+,
+&amp;   System.int%
+Topologies
+,
+&amp;   System.double%
+EdgeTolArray
+,
+&amp;   System.double%
+VertexTolArray
+,
+&amp;   System.double%
+PointArray
+,
+&amp;   Curve^%
+CurveArra1
+,
+&amp;   Surface^%
+CurveSurfaceArray1
+,
+&amp;   Curve^%
+CurveArray2
+,
+&amp;   Surface^%
+CurveSurfaceArray2
+,
+&amp;   Surface^%
+SurfaceArray
+,
+&amp;   System.int
+NRelations
+,
+&amp;   System.int%
+Parents
+,
+&amp;   System.int%
+Children
+,
+&amp;   System.int%
+Senses
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBsplineCurve</summary><p>Creates a b-spline curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ ICreateBsplineCurve( 
+&amp;   System.int%
+Properties
+,
+&amp;   System.double%
+KnotArray
+,
+&amp;   System.double%
+ControlPointCoordArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateBsplineSurface</summary><p>Creates a b-spline surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateBsplineSurface( 
+&amp;   System.int%
+Properties
+,
+&amp;   System.double%
+UKnotArray
+,
+&amp;   System.double%
+VKnotArray
+,
+&amp;   System.double%
+ControlPointCoordArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateConicalSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateConicalSurface( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double%
+Direction
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.double
+SemiAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateConicalSurface2</summary><p>Creates an untrimmed conical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateConicalSurface2( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double%
+Direction
+,
+&amp;   System.double%
+RefDirection
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.double
+SemiAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateCylindricalSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateCylindricalSurface( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double%
+Direction
+,
+&amp;   System.double
+Radius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateCylindricalSurface2</summary><p>Creates an untrimmed cylindrical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateCylindricalSurface2( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double%
+Direction
+,
+&amp;   System.double%
+RefDirection
+,
+&amp;   System.double
+Radius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateEllipse</summary><p>Creates a temporary elliptical curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ ICreateEllipse( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double
+MajorRadius
+,
+&amp;   System.double
+MinorRadius
+,
+&amp;   System.double%
+MajorAxis
+,
+&amp;   System.double%
+MinorAxis
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateExtrusionSurface</summary><p>Creates an extruded surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateExtrusionSurface( 
+&amp;   Curve^
+ProfileCurve
+,
+&amp;   System.double%
+AxisDirection
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateLine</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ ICreateLine( 
+&amp;   System.double%
+RootPoint
+,
+&amp;   System.double%
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateLoftSurface</summary><p>Creates a loft surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateLoftSurface( 
+&amp;   System.int
+NCurves
+,
+&amp;   Curve^%
+CurveArray
+,
+&amp;   System.bool
+BBlendClosed
+,
+&amp;   System.bool
+BForceCubic
+,
+&amp;   System.int
+NGuides
+,
+&amp;   Curve^%
+GuideCrvArray
+,
+&amp;   System.int
+StartMatchingType
+,
+&amp;   System.int
+EndMatchingType
+,
+&amp;   MathVector^
+NormalAtStartSection
+,
+&amp;   MathVector^
+NormalAtEndSection
+,
+&amp;   System.int
+NStartMatchingFaces
+,
+&amp;   Face2^%
+StartMatchingFaceList
+,
+&amp;   System.int
+NEndMatchingFaces
+,
+&amp;   Face2^%
+EndMatchingFaceList
+,
+&amp;   System.bool
+DegeneratedStart
+,
+&amp;   System.bool
+DegeneratedEnd
+,
+&amp;   MathPoint^
+StartPointOfStartSection
+,
+&amp;   MathPoint^
+StartPointOfEndSection
+,
+&amp;   System.int
+SectionIndexStart
+,
+&amp;   System.int
+SectionIndexEnd
+,
+&amp;   System.int
+GuideIndexStart
+,
+&amp;   System.int
+GuideIndexEnd
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateOffsetSurface</summary><p>Creates a surface that is offset from an existing surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateOffsetSurface( 
+&amp;   Surface^
+SurfaceIn
+,
+&amp;   System.double
+Distance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreatePCurve</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ ICreatePCurve( 
+&amp;   Surface^
+Surface
+,
+&amp;   System.int%
+Props
+,
+&amp;   System.double%
+Knots
+,
+&amp;   System.double%
+CtrlPtCoords
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreatePlanarSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreatePlanarSurface( 
+&amp;   System.double%
+RootPoint
+,
+&amp;   System.double%
+Normal
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreatePlanarSurface2</summary><p>Creates a new infinite planar surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreatePlanarSurface2( 
+&amp;   System.double%
+RootPoint
+,
+&amp;   System.double%
+Normal
+,
+&amp;   System.double%
+Ref
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateRuledSurface</summary><p>Creates a ruled surface from the curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateRuledSurface( 
+&amp;   Curve^
+Curve1In
+,
+&amp;   Curve^
+Curve2In
+,
+&amp;   System.double%
+Apex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateRuledSurfaceFromEdge</summary><p>Creates a ruled surface using the specified edges and returns a surface body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ICreateRuledSurfaceFromEdge( 
+&amp;   ModelDoc2^
+ModDoc
+,
+&amp;   System.int
+NumOfEdges
+,
+&amp;   Edge^%
+Edges
+,
+&amp;   System.int
+Type
+,
+&amp;   System.double
+Length
+,
+&amp;   System.bool
+FlipPullDir
+,
+&amp;   System.bool
+FlipDir
+,
+&amp;   System.bool
+TrimAndSew
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+CoordInput
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+BConnectSurface
+,
+&amp;   [Out] Body2^
+RuledSurface
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSheetFromFaces</summary><p>Creates a sheet (surface) body from connected faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateSheetFromFaces( 
+&amp;   System.int
+FaceCount
+,
+&amp;   Face2^%
+FaceArr
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSheetFromSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateSheetFromSurface( 
+&amp;   Surface^
+SurfaceIn
+,
+&amp;   System.double%
+UvRange
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSheetFromSurface2</summary><p>Creates a sheet (surface) body from a surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateSheetFromSurface2( 
+&amp;   Surface^
+SurfaceIn
+,
+&amp;   System.double%
+UvRange
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSphericalSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateSphericalSurface( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double
+Radius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSphericalSurface2</summary><p>Creates an untrimmed spherical surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateSphericalSurface2( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double%
+Axis
+,
+&amp;   System.double%
+RefDir
+,
+&amp;   System.double
+Radius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSweptSurface</summary><p>Creates a swept surface from a curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateSweptSurface( 
+&amp;   Curve^
+CurveIn
+,
+&amp;   System.double%
+Dir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateToroidalSurface</summary><p>Creates an untrimmed toroidal surface from the specified arguments.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Surface^ ICreateToroidalSurface( 
+&amp;   System.double%
+Center
+,
+&amp;   System.double%
+Axis
+,
+&amp;   System.double%
+RefDirection
+,
+&amp;   System.double
+MajorRadius
+,
+&amp;   System.double
+MinorRadius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateWireBody</summary><p>Creates a wire body from the input entities, which can be edges or curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateWireBody( 
+&amp;   System.int
+Count
+,
+&amp;   System.Object^%
+EntArr
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteFacesFromSheetBody</summary><p>Deletes the unused faces of the sheet body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IDeleteFacesFromSheetBody( 
+&amp;   System.int
+Count
+,
+&amp;   Face2^%
+FaceVar
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IFindTwoEdgeMaxDeviation</summary><p>Finds the maximum distance between two edges.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IFindTwoEdgeMaxDeviation( 
+&amp;   Edge^
+PEdge1
+,
+&amp;   Edge^
+PEdge2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IImprintingFaces</summary><p>Imprints the specified tool faces onto the specified target faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IImprintingFaces( 
+&amp;   [Out] Edge^
+TargetEdges
+,
+&amp;   [Out] Edge^
+ToolEdges
+,
+&amp;   [Out] Vertex^
+TargetVertices
+,
+&amp;   [Out] Vertex^
+ToolVertices
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IImprintingFacesCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IImprintingFacesCount( 
+&amp;   System.int
+NTargetFaces
+,
+&amp;   Face^%
+TargetFaceArray
+,
+&amp;   System.int
+NToolFaces
+,
+&amp;   Face^%
+ToolFaceArray
+,
+&amp;   System.int
+Options
+,
+&amp;   [Out] System.int
+NTargetEdges
+,
+&amp;   [Out] System.int
+NtoolEdges
+,
+&amp;   [Out] System.int
+NtargetVertices
+,
+&amp;   [Out] System.int
+ToolVertices
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IImprintingFacesCount2</summary><p>Gets the number of imprinted edges and vertices in the model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IImprintingFacesCount2( 
+&amp;   System.int
+NTargetFaces
+,
+&amp;   Face2^%
+TargetFaceArray
+,
+&amp;   System.int
+NToolFaces
+,
+&amp;   Face2^%
+ToolFaceArray
+,
+&amp;   System.int
+Options
+,
+&amp;   [Out] System.int
+NTargetEdges
+,
+&amp;   [Out] System.int
+NtoolEdges
+,
+&amp;   [Out] System.int
+NtargetVertices
+,
+&amp;   [Out] System.int
+ToolVertices
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMakeManifoldBodies</summary><p>Creates manifold bodies from the specified non-manifold body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IMakeManifoldBodies( 
+&amp;   Body2^
+NonManifoldIn
+,
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMergeCurves</summary><p>Merges multiple curves into one curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ IMergeCurves( 
+&amp;   System.int
+CurveCount
+,
+&amp;   Curve^%
+CurveArr
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ImprintingFaces</summary><p>Imprints the specified tool faces onto the specified target faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ImprintingFaces( 
+&amp;   System.Object^
+TargetFaceArray
+,
+&amp;   System.Object^
+ToolFaceArray
+,
+&amp;   System.int
+Options
+,
+&amp;   [Out] System.Object^
+TargetEdges
+,
+&amp;   [Out] System.Object^
+ToolEdges
+,
+&amp;   [Out] System.Object^
+TargetVertices
+,
+&amp;   [Out] System.Object^
+ToolVertices
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IReplaceSurfaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IReplaceSurfaces( 
+&amp;   System.int
+NFaces
+,
+&amp;   Face^%
+FaceArray
+,
+&amp;   Surface^%
+NewSurfArray
+,
+&amp;   System.int%
+SenseArray
+,
+&amp;   System.double
+Tolerance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IReplaceSurfaces2</summary><p>Replaces the surfaces of the given faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IReplaceSurfaces2( 
+&amp;   System.int
+NFaces
+,
+&amp;   Face2^%
+FaceArray
+,
+&amp;   Surface^%
+NewSurfArray
+,
+&amp;   System.int%
+SenseArray
+,
+&amp;   System.double
+Tolerance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IRestore</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ IRestore( 
+&amp;   System.Object^
+StreamIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IRestore2</summary><p>Restores a temporary body object from the specified stream.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IRestore2( 
+&amp;   System.Object^
+StreamIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISplitFaceOnParam</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face^ ISplitFaceOnParam();</pre></details><details style="margin: 0.5rem 0;"><summary>ISplitFaceOnParam2</summary><p>Splits and retrieves the faces on the U or V parameter.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face2^ ISplitFaceOnParam2();</pre></details><details style="margin: 0.5rem 0;"><summary>ISplitFaceOnParamCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ISplitFaceOnParamCount( 
+&amp;   Face^
+Facedisp
+,
+&amp;   System.int
+UVFlag
+,
+&amp;   System.double
+Parameter
+,
+&amp;   [Out] System.bool
+Status
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISplitFaceOnParamCount2</summary><p>Sets up and counts the number of new faces split on the U or V parameter.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ISplitFaceOnParamCount2( 
+&amp;   Face2^
+Facedisp
+,
+&amp;   System.int
+UVFlag
+,
+&amp;   System.double
+Parameter
+,
+&amp;   [Out] System.bool
+Status
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeManifoldBodies</summary><p>Creates manifold bodies from the specified non-manifold body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ MakeManifoldBodies( 
+&amp;   Body2^
+NonManifoldIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MergeCurves</summary><p>Merges multiple curves into one curve.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ MergeCurves( 
+&amp;   System.Object^
+CurveVar
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ProjectCurveOnSurface</summary><p>Projects a curve on a surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Curve^ ProjectCurveOnSurface( 
+&amp;   Curve^
+CurveIn
+,
+&amp;   Surface^
+SurfaceIn
+,
+&amp;   MathVector^
+ProjDir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReplaceSurfaces</summary><p>Replaces the surfaces of the given faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReplaceSurfaces( 
+&amp;   System.int
+NFaces
+,
+&amp;   System.Object^
+FaceArray
+,
+&amp;   System.Object^
+NewSurfArray
+,
+&amp;   System.Object^
+SenseArray
+,
+&amp;   System.double
+Tolerance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Restore</summary><p>Restores a temporary body object from the specified stream.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Restore( 
+&amp;   System.Object^
+StreamIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetInitKnitGapWidth</summary><p>Sets the initial gap bound width for sewing a body. Call this method before calling any calls that attempt to knit a body; for example,</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetInitKnitGapWidth( 
+&amp;   System.double
+InitGapWidth
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetTolerances</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetTolerances( 
+&amp;   System.int%
+ToleranceIDArray
+,
+&amp;   System.double%
+ToleranceValueArray
+,
+&amp;   System.int
+NumTol
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetToleranceValue</summary><p>Sets tolerances governing geometry output.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double SetToleranceValue( 
+&amp;   System.int
+ToleranceID
+,
+&amp;   System.double
+NewToleranceValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SplitFaceOnParam</summary><p>Splits and retrieves the faces on the U or V parameter</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ SplitFaceOnParam( 
+&amp;   System.Object^
+Facedisp
+,
+&amp;   System.int
+UVFlag
+,
+&amp;   System.double
+Parameter
+,
+&amp;   [Out] System.bool
+Status
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ThickenSheet</summary><p>Thickens a sheet body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ThickenSheet( 
+&amp;   Body2^
+Sheet
+,
+&amp;   System.double
+Thickness
+,
+&amp;   System.int
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>UnsetTolerances</summary><p>Sets the tolerances back to system settings.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool UnsetTolerances( 
+&amp;   System.int%
+ToleranceIDArray
+,
+&amp;   System.int
+NumTol
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GeneralTopology</summary><p>Gets or sets the Parasolid option to create general (non-manifold) bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool GeneralTopology {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Provides an interface to temporary body objects. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IModeler </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html">IModeler</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IModeler </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IModeler </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Modeler.html">Modeler</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Check_Interference_using_Modeler_CheckInterference_Example_VB.htm">Check Interference Using IModeler::CheckInterference (VBA)</a>
+<br/><a href="Create_Loft_Body_Example_VBNET.htm">Create Loft Body (VB.NET)</a>
+<br/><a href="Create_Loft_Body_Example_VB.htm">Create Loft Body (VBA)</a>
+<br/><a href="Create_Loft_Body_Example_CSharp.htm">Create Loft Body (C#)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetModeler.html">ISldWorks::Get Modeler</a></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#Modeler">Modeler</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html">IModeler Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

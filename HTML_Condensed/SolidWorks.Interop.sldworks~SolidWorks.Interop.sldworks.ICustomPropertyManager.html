@@ -1,0 +1,315 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>ICustomPropertyManager Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.ICustomPropertyManager"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">ICustomPropertyManager Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : ICustomPropertyManager Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>Add</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Add( 
+&amp;   System.String^
+FieldName
+,
+&amp;   System.String^
+FieldType
+,
+&amp;   System.String^
+FieldValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Add2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Add2( 
+&amp;   System.String^
+FieldName
+,
+&amp;   System.int
+FieldType
+,
+&amp;   System.String^
+FieldValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Add3</summary><p>Adds a custom property to a configuration or model document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Add3( 
+&amp;   System.String^
+FieldName
+,
+&amp;   System.int
+FieldType
+,
+&amp;   System.String^
+FieldValue
+,
+&amp;   System.int
+OverwriteExisting
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Delete</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Delete( 
+&amp;   System.String^
+FieldName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Delete2</summary><p>Deletes the specified custom property.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Delete2( 
+&amp;   System.String^
+FieldName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Get</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ Get( 
+&amp;   System.String^
+FieldName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Get2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void Get2( 
+&amp;   System.String^
+FieldName
+,
+&amp;   [Out] System.String^
+ValOut
+,
+&amp;   [Out] System.String^
+ReesolvedValOut
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Get3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Get3( 
+&amp;   System.String^
+FieldName
+,
+&amp;   System.bool
+UseCached
+,
+&amp;   [Out] System.String^
+ValOut
+,
+&amp;   [Out] System.String^
+ResolvedValOut
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Get4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Get4( 
+&amp;   System.String^
+FieldName
+,
+&amp;   System.bool
+UseCached
+,
+&amp;   [Out] System.String^
+ValOut
+,
+&amp;   [Out] System.String^
+ResolvedValOut
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Get5</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Get5( 
+&amp;   System.String^
+FieldName
+,
+&amp;   System.bool
+UseCached
+,
+&amp;   [Out] System.String^
+ValOut
+,
+&amp;   [Out] System.String^
+ResolvedValOut
+,
+&amp;   [Out] System.bool
+WasResolved
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Get6</summary><p>Gets the value and the evaluated value of the specified custom property.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Get6( 
+&amp;   System.String^
+FieldName
+,
+&amp;   System.bool
+UseCached
+,
+&amp;   [Out] System.String^
+ValOut
+,
+&amp;   [Out] System.String^
+ResolvedValOut
+,
+&amp;   [Out] System.bool
+WasResolved
+,
+&amp;   [Out] System.bool
+LinkToProperty
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetAll</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetAll( 
+&amp;   [Out] System.Object^
+PropNames
+,
+&amp;   [Out] System.Object^
+PropTypes
+,
+&amp;   [Out] System.Object^
+PropValues
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetAll2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetAll2( 
+&amp;   [Out] System.Object^
+PropNames
+,
+&amp;   [Out] System.Object^
+PropTypes
+,
+&amp;   [Out] System.Object^
+PropValues
+,
+&amp;   [Out] System.Object^
+Resolved
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetAll3</summary><p>Gets all of the custom properties for this configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetAll3( 
+&amp;   [Out] System.Object^
+PropNames
+,
+&amp;   [Out] System.Object^
+PropTypes
+,
+&amp;   [Out] System.Object^
+PropValues
+,
+&amp;   [Out] System.Object^
+Resolved
+,
+&amp;   [Out] System.Object^
+PropLink
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetNames</summary><p>Gets the names of the custom properties.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNames();</pre></details><details style="margin: 0.5rem 0;"><summary>GetType</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetType( 
+&amp;   System.String^
+FieldName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetType2</summary><p>Gets the type of the specified custom property for a configuration or model document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetType2( 
+&amp;   System.String^
+FieldName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetAll</summary><p>Gets all of the custom properties for this configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IGetAll( 
+&amp;   System.int
+Count
+,
+&amp;   [Out] System.String^
+PropNames
+,
+&amp;   [Out] System.int
+PropTypes
+,
+&amp;   [Out] System.String^
+PropValues
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetNames</summary><p>Gets the names of the custom properties.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetNames( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsCustomPropertyEditable</summary><p>Gets whether the specified custom property is editable in the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsCustomPropertyEditable( 
+&amp;   System.String^
+PropertyName
+,
+&amp;   System.String^
+ConfigurationName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>LinkProperty</summary><p>Sets whether to link or unlink the specified custom property to or from its parent part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int LinkProperty( 
+&amp;   System.String^
+FieldName
+,
+&amp;   System.bool
+FieldLink
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Set</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Set( 
+&amp;   System.String^
+FieldName
+,
+&amp;   System.String^
+FieldValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Set2</summary><p>Sets the value for the specified custom property.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Set2( 
+&amp;   System.String^
+FieldName
+,
+&amp;   System.String^
+FieldValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Count</summary><p>Gets the number of custom properties.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int Count {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>LinkAll</summary><p>Gets or sets whether to link or unlink all custom properties to or from their parent parts.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool LinkAll {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Owner</summary><p>Gets the owner of this custom property.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ Owner {
+   System.Object^ get();
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to the custom properties. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface ICustomPropertyManager </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html">ICustomPropertyManager</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface ICustomPropertyManager </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class ICustomPropertyManager </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager.html">CustomPropertyManager</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Get_Custom_Property_Values_On_Cut_List_Folders_Example_VB.htm">Get Custom Property Values on Cut List Folders (VBA)</a>
+<br/><a href="Get_Custom_Properties_of_Referenced_Part_Example_CSharp.htm">Get Custom Properties of Referenced Part (C#)</a>
+<br/><a href="Get_Custom_Properties_of_Referenced_Part_Example_VBNET.htm">Get Custom Properties of Referenced Part (VB.NET)</a>
+<br/><a href="Get_Custom_Properties_of_Referenced_Part_Example_VB.htm">Get Custom Properties of Referenced Part (VBA)</a>
+<br/><a href="Get_Custom_Properties_for_Configuration_Example_VB.htm">Get Custom Properties for Configuration (VBA)</a>
+<br/><a href="Get_Custom_Properties_for_Configuration_Example_VBNET.htm">Get Custom Properties for Configuration (VB.NET)</a>
+<br/><a href="Get_Custom_Properties_for_Configuration_Example_CSharp.htm">Get Custom Properties for Configuration (C#)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~CustomPropertyManager.html">IComponent2::CustomPropertyManager</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~CustomPropertyManager.html">IConfiguration::CustomPropertyManager</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListItem~CustomPropertyManager.html">ICutListItem::CustomPropertyManager</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~CustomPropertyManager.html">IFeature::CustomPropertyManager</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~CustomPropertyManager.html">IModelDocExtension::CustomPropertyManager</a></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#CustomPropertyManager">CustomPropertyManager</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html">ICustomPropertyManager Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

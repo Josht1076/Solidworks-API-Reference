@@ -1,0 +1,6279 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IFeatureManager Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IFeatureManager"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IFeatureManager Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IFeatureManager Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AddCornerReliefCorner</summary><p>Adds the bend corner of two selected faces of a sheet metal body to the set of corners to which to apply a corner relief.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddCornerReliefCorner();</pre></details><details style="margin: 0.5rem 0;"><summary>AddCornerReliefType</summary><p>Specifies the type of corner relief to apply to the specified corner of the selected sheet metal body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddCornerReliefType( 
+&amp;   System.int
+CornerIndex
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   System.double
+Length1
+,
+&amp;   System.double
+Length2
+,
+&amp;   System.double
+Length3
+,
+&amp;   System.bool
+CenterOnBendLines
+,
+&amp;   System.bool
+RatioToThickness
+,
+&amp;   System.bool
+TangentToBend
+,
+&amp;   System.bool
+AddFilletedCorners
+,
+&amp;   System.bool
+NarrowCorner
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddSMNormalCut</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddSMNormalCut();</pre></details><details style="margin: 0.5rem 0;"><summary>AddSMNormalCutType</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void AddSMNormalCutType( 
+&amp;   System.bool
+AutoPropagation
+,
+&amp;   System.bool
+Optimize
+,
+&amp;   System.bool
+BExtent
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddVariablePitchHelixFirstPitchAndDiameter</summary><p>Adds the first segment to a variable-pitch helix.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddVariablePitchHelixFirstPitchAndDiameter( 
+&amp;   System.double
+FirstPitch
+,
+&amp;   System.double
+FirstDiameter
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddVariablePitchHelixSegment</summary><p>Adds a segment to a variable-pitch helix.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddVariablePitchHelixSegment( 
+&amp;   System.double
+Height
+,
+&amp;   System.double
+Diameter
+,
+&amp;   System.double
+Pitch
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AdvancedHole</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ AdvancedHole( 
+&amp;   System.Object^
+AdvancedHoleNearElementArray
+,
+&amp;   System.Object^
+AdvancedHoleFarElementArray
+,
+&amp;   System.bool
+UseBaselineDimensions
+,
+&amp;   System.bool
+IsCustomCallout
+,
+&amp;   [Out] System.Object^
+ResultArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AdvancedHole2</summary><p>Creates an Advanced Hole feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ AdvancedHole2( 
+&amp;   System.Object^
+AdvancedHoleNearElementArray
+,
+&amp;   System.Object^
+AdvancedHoleFarElementArray
+,
+&amp;   System.bool
+UseBaselineDimensions
+,
+&amp;   System.bool
+IsCustomCallout
+,
+&amp;   System.bool
+IsDepthUptoTip
+,
+&amp;   [Out] System.Object^
+ResultArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCoordinateSystem</summary><p>Creates a coordinate system feature using the specified entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ CreateCoordinateSystem( 
+&amp;   System.Object^
+OriginPointEntity
+,
+&amp;   System.Object^
+XAxisEntities
+,
+&amp;   System.Object^
+YAxisEntities
+,
+&amp;   System.Object^
+ZAxisEntities
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCoordinateSystemUsingNumericalValues</summary><p>Creates a coordinate system feature using the specified numerical values for position and orientation with respect to the global coordinate system.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ CreateCoordinateSystemUsingNumericalValues( 
+&amp;   System.bool
+UseLocation
+,
+&amp;   System.double
+DeltaX
+,
+&amp;   System.double
+DeltaY
+,
+&amp;   System.double
+DeltaZ
+,
+&amp;   System.bool
+UseRotation
+,
+&amp;   System.double
+AngleX
+,
+&amp;   System.double
+AngleY
+,
+&amp;   System.double
+AngleZ
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCustomBendAllowance</summary><p>Creates a custom bend allowance to use when creating a sheet metal feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CustomBendAllowance^ CreateCustomBendAllowance();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateDefinition</summary><p>Creates a feature data object of the specified type.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateDefinition( 
+&amp;   System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeature</summary><p>Creates the specified feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ CreateFeature( 
+&amp;   System.Object^
+FeatureData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFormTool</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ CreateFormTool();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFormTool2</summary><p>Creates a forming tool feature with the specified point of insertion in a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ CreateFormTool2( 
+&amp;   System.double
+OriginX
+,
+&amp;   System.double
+OriginY
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSaveBodyFeature</summary><p>Creates a Save Bodies feature and creates part and assembly documents of the save bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSaveBodyFeature( 
+&amp;   System.Object^
+Bodies
+,
+&amp;   System.Object^
+FilePaths
+,
+&amp;   System.String^
+AssemName
+,
+&amp;   System.bool
+ConsumeBody
+,
+&amp;   System.bool
+CopyCustomProperty
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateStructuralMemberGroup</summary><p>Creates a weldment structural-member group.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">StructuralMemberGroup^ CreateStructuralMemberGroup();</pre></details><details style="margin: 0.5rem 0;"><summary>DraftXpertChange</summary><p>Changes the parameters on the selected drafted faces, regardless of whether the drafted faces were created manually or with DraftXpert, provided that DraftXpert can process them.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ DraftXpertChange( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+FlipDir
+,
+&amp;   System.bool
+EdgeDraft
+,
+&amp;   System.int
+PropType
+,
+&amp;   System.bool
+IsStepDraft
+,
+&amp;   System.bool
+IsBodyDraft
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DraftXpertRemove</summary><p>Deletes the draft on the selected faces. If all the faces of a draft are selected, then this method deletes the draft feature; if not, then this method edits the draft feature and removes the selected face references from it.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ DraftXpertRemove();</pre></details><details style="margin: 0.5rem 0;"><summary>EditDeleteFace</summary><p>Edits a DeleteFace feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool EditDeleteFace( 
+&amp;   System.int
+Refill
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditFreeze</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int EditFreeze( 
+&amp;   System.int
+Location
+,
+&amp;   System.String^
+FeatureName
+,
+&amp;   System.bool
+UpdateAllConfigs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditFreeze2</summary><p>Moves the freeze bar to the specified location in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int EditFreeze2( 
+&amp;   System.int
+Location
+,
+&amp;   System.String^
+FeatureName
+,
+&amp;   System.bool
+UpdateAllConfigs
+,
+&amp;   System.bool
+UnlockConfigs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditReferencePoint</summary><p>Edits the selected reference points.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool EditReferencePoint( 
+&amp;   System.int
+NRefPointType
+,
+&amp;   System.int
+NRefPointAlongCurveType
+,
+&amp;   System.double
+DDistance_or_Percent
+,
+&amp;   System.int
+NumberOfRefPoints
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditRollback</summary><p>Rolls back or forward the rollback bar to a specific location in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool EditRollback( 
+&amp;   System.int
+Location
+,
+&amp;   System.String^
+Feature
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EndVariablePitchHelix</summary><p>Ends and inserts a variable-pitch helix.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ EndVariablePitchHelix();</pre></details><details style="margin: 0.5rem 0;"><summary>ExpandFeature</summary><p>Expands the specified component in the specified FeatureManager design tree pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ExpandFeature( 
+&amp;   System.Object^
+Component
+,
+&amp;   System.String^
+FeatureName
+,
+&amp;   System.int
+WhichPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureAdvancedTableDrivenPattern</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureAdvancedTableDrivenPattern();</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureBossThicken</summary><p>Thickens the selected reference surface, and then generates a boss.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureBossThicken( 
+&amp;   System.double
+Thickness
+,
+&amp;   System.int
+Direction
+,
+&amp;   System.int
+FaceIndex
+,
+&amp;   System.bool
+FillVolume
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureChainPattern</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureChainPattern( 
+&amp;   System.int
+PitchMethod
+,
+&amp;   System.bool
+FlipDirection
+,
+&amp;   System.bool
+FillPath
+,
+&amp;   System.int
+Number
+,
+&amp;   System.double
+Spacing
+,
+&amp;   System.bool
+GroupOneFlipPlane
+,
+&amp;   System.bool
+GroupTwoChain
+,
+&amp;   System.bool
+GroupTwoFlipPlane
+,
+&amp;   System.int
+AlignMethod
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCircularPattern</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCircularPattern( 
+&amp;   System.int
+Num
+,
+&amp;   System.double
+Spacing
+,
+&amp;   System.bool
+FlipDir
+,
+&amp;   System.String^
+DName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCircularPattern2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCircularPattern2( 
+&amp;   System.int
+Num
+,
+&amp;   System.double
+Spacing
+,
+&amp;   System.bool
+FlipDir
+,
+&amp;   System.String^
+DName
+,
+&amp;   System.bool
+GeometryPattern
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCircularPattern3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCircularPattern3( 
+&amp;   System.int
+Number
+,
+&amp;   System.double
+Spacing
+,
+&amp;   System.bool
+FlipDirection
+,
+&amp;   System.String^
+DName
+,
+&amp;   System.bool
+GeometryPattern
+,
+&amp;   System.bool
+EqualSpacing
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCircularPattern4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCircularPattern4( 
+&amp;   System.int
+Number
+,
+&amp;   System.double
+Spacing
+,
+&amp;   System.bool
+FlipDirection
+,
+&amp;   System.String^
+DName
+,
+&amp;   System.bool
+GeometryPattern
+,
+&amp;   System.bool
+EqualSpacing
+,
+&amp;   System.bool
+VaryInstance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCircularPattern5</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCircularPattern5( 
+&amp;   System.int
+Number
+,
+&amp;   System.double
+Spacing
+,
+&amp;   System.bool
+FlipDirection
+,
+&amp;   System.String^
+DName
+,
+&amp;   System.bool
+GeometryPattern
+,
+&amp;   System.bool
+EqualSpacing
+,
+&amp;   System.bool
+VaryInstance
+,
+&amp;   System.bool
+SyncSubAssemblies
+,
+&amp;   System.bool
+BDir2
+,
+&amp;   System.bool
+BSymmetric
+,
+&amp;   System.int
+Number2
+,
+&amp;   System.double
+Spacing2
+,
+&amp;   System.String^
+DName2
+,
+&amp;   System.bool
+EqualSpacing2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCut</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCut( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+NormalCut
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCut2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCut2( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+NormalCut
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.bool
+AssemblyFeatureScope
+,
+&amp;   System.bool
+AutoSelectComponents
+,
+&amp;   System.bool
+PropagateFeatureToParts
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCut3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCut3( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+NormalCut
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.bool
+AssemblyFeatureScope
+,
+&amp;   System.bool
+AutoSelectComponents
+,
+&amp;   System.bool
+PropagateFeatureToParts
+,
+&amp;   System.int
+T0
+,
+&amp;   System.double
+StartOffset
+,
+&amp;   System.bool
+FlipStartOffset
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCut4</summary><p>Creates a cut extrude feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCut4( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+NormalCut
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.bool
+AssemblyFeatureScope
+,
+&amp;   System.bool
+AutoSelectComponents
+,
+&amp;   System.bool
+PropagateFeatureToParts
+,
+&amp;   System.int
+T0
+,
+&amp;   System.double
+StartOffset
+,
+&amp;   System.bool
+FlipStartOffset
+,
+&amp;   System.bool
+OptimizeGeometry
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCutThicken</summary><p>Thickens the selected reference surface feature, and then generates a cut.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCutThicken( 
+&amp;   System.double
+Thickness
+,
+&amp;   System.int
+Direction
+,
+&amp;   System.int
+FaceIndex
+,
+&amp;   System.bool
+FillVolume
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCutThin</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCutThin( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.double
+Thk1
+,
+&amp;   System.double
+Thk2
+,
+&amp;   System.double
+EndThk
+,
+&amp;   System.int
+RevThinDir
+,
+&amp;   System.int
+CapEnds
+,
+&amp;   System.bool
+AddBends
+,
+&amp;   System.double
+BendRad
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureCutThin2</summary><p>Inserts a thin cut extrude feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureCutThin2( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.double
+Thk1
+,
+&amp;   System.double
+Thk2
+,
+&amp;   System.double
+EndThk
+,
+&amp;   System.int
+RevThinDir
+,
+&amp;   System.int
+CapEnds
+,
+&amp;   System.bool
+AddBends
+,
+&amp;   System.double
+BendRad
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.int
+T0
+,
+&amp;   System.double
+StartOffset
+,
+&amp;   System.bool
+FlipStartOffset
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureDimensionPattern</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureDimensionPattern( 
+&amp;   System.int
+Num1
+,
+&amp;   System.double
+Spacing1
+,
+&amp;   System.int
+Num2
+,
+&amp;   System.double
+Spacing2
+,
+&amp;   System.bool
+DiagonalOnly
+,
+&amp;   System.String^
+DName1
+,
+&amp;   System.String^
+DName2
+,
+&amp;   System.bool
+VaryInstance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtruRefSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureExtruRefSurface( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+CapEnd1
+,
+&amp;   System.bool
+CapEnd2
+,
+&amp;   System.bool
+DeleteOriginalFace
+,
+&amp;   System.bool
+KnitResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtruRefSurface2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureExtruRefSurface2( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+CapEnd1
+,
+&amp;   System.bool
+CapEnd2
+,
+&amp;   System.bool
+DeleteOriginalFace
+,
+&amp;   System.bool
+KnitResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtruRefSurface3</summary><p>Inserts an extruded surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureExtruRefSurface3( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+StartCond
+,
+&amp;   System.double
+OffsetVal
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+CapEnd1
+,
+&amp;   System.bool
+CapEnd2
+,
+&amp;   System.bool
+DeleteOriginalFace
+,
+&amp;   System.bool
+KnitResult
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusion</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureExtrusion( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusion2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureExtrusion2( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.int
+T0
+,
+&amp;   System.double
+StartOffset
+,
+&amp;   System.bool
+FlipStartOffset
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusion3</summary><p>Creates an extruded feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureExtrusion3( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.int
+T0
+,
+&amp;   System.double
+StartOffset
+,
+&amp;   System.bool
+FlipStartOffset
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusionThin</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureExtrusionThin( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.double
+Thk1
+,
+&amp;   System.double
+Thk2
+,
+&amp;   System.double
+EndThk
+,
+&amp;   System.int
+RevThinDir
+,
+&amp;   System.int
+CapEnds
+,
+&amp;   System.bool
+AddBends
+,
+&amp;   System.double
+BendRad
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusionThin2</summary><p>Creates an extruded thin feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureExtrusionThin2( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.double
+Thk1
+,
+&amp;   System.double
+Thk2
+,
+&amp;   System.double
+EndThk
+,
+&amp;   System.int
+RevThinDir
+,
+&amp;   System.int
+CapEnds
+,
+&amp;   System.bool
+AddBends
+,
+&amp;   System.double
+BendRad
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.int
+T0
+,
+&amp;   System.double
+StartOffset
+,
+&amp;   System.bool
+FlipStartOffset
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureFillet</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ FeatureFillet( 
+&amp;   System.int
+Options
+,
+&amp;   System.double
+R1
+,
+&amp;   System.int
+Ftyp
+,
+&amp;   System.int
+OverflowType
+,
+&amp;   System.Object^
+Radii
+,
+&amp;   System.Object^
+SetBackDistances
+,
+&amp;   System.Object^
+PointRadiusArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureFillet2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ FeatureFillet2( 
+&amp;   System.int
+Options
+,
+&amp;   System.double
+R1
+,
+&amp;   System.double
+Rho
+,
+&amp;   System.int
+Ftyp
+,
+&amp;   System.int
+OverflowType
+,
+&amp;   System.int
+ConicRhoType
+,
+&amp;   System.Object^
+Radii
+,
+&amp;   System.Object^
+RhoArr
+,
+&amp;   System.Object^
+SetBackDistances
+,
+&amp;   System.Object^
+PointRadiusArray
+,
+&amp;   System.Object^
+PointRhoArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureFillet3</summary><p>Creates a fillet feature for selected edges and control point references.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ FeatureFillet3( 
+&amp;   System.int
+Options
+,
+&amp;   System.double
+R1
+,
+&amp;   System.double
+R2
+,
+&amp;   System.double
+Rho
+,
+&amp;   System.int
+Ftyp
+,
+&amp;   System.int
+OverflowType
+,
+&amp;   System.int
+ConicRhoType
+,
+&amp;   System.Object^
+Radii
+,
+&amp;   System.Object^
+Dist2Arr
+,
+&amp;   System.Object^
+RhoArr
+,
+&amp;   System.Object^
+SetBackDistances
+,
+&amp;   System.Object^
+PointRadiusArray
+,
+&amp;   System.Object^
+PointDist2Array
+,
+&amp;   System.Object^
+PointRhoArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureFillPattern</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureFillPattern( 
+&amp;   System.int
+PatternLayoutType
+,
+&amp;   System.int
+LayoutSpacingType
+,
+&amp;   System.double
+InstanceSpacing
+,
+&amp;   System.double
+StaggerAngle
+,
+&amp;   System.double
+Margins
+,
+&amp;   System.double
+LoopSpacing
+,
+&amp;   System.int
+NoOfInstances
+,
+&amp;   System.int
+PatternLayoutPolygonSides
+,
+&amp;   System.int
+FeaturesToPatternType
+,
+&amp;   System.int
+CreateSeedCutType
+,
+&amp;   System.double
+Diameter
+,
+&amp;   System.double
+Dimension
+,
+&amp;   System.double
+Rotation
+,
+&amp;   System.double
+Diagonal
+,
+&amp;   System.int
+CreateSeedCutPolygonSides
+,
+&amp;   System.double
+OuterRadius
+,
+&amp;   System.double
+InnerRadius
+,
+&amp;   System.bool
+FlipShapeDirection
+,
+&amp;   System.bool
+GeometryPattern
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureFolderLocation</summary><p>Gets the folder feature for the specified feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureFolderLocation( 
+&amp;   Feature^
+Feature
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureLinearPattern</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureLinearPattern( 
+&amp;   System.int
+Num1
+,
+&amp;   System.double
+Spacing1
+,
+&amp;   System.int
+Num2
+,
+&amp;   System.double
+Spacing2
+,
+&amp;   System.bool
+FlipDir1
+,
+&amp;   System.bool
+FlipDir2
+,
+&amp;   System.String^
+DName1
+,
+&amp;   System.String^
+DName2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureLinearPattern2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureLinearPattern2( 
+&amp;   System.int
+Num1
+,
+&amp;   System.double
+Spacing1
+,
+&amp;   System.int
+Num2
+,
+&amp;   System.double
+Spacing2
+,
+&amp;   System.bool
+FlipDir1
+,
+&amp;   System.bool
+FlipDir2
+,
+&amp;   System.String^
+DName1
+,
+&amp;   System.String^
+DName2
+,
+&amp;   System.bool
+GeometryPattern
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureLinearPattern3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureLinearPattern3( 
+&amp;   System.int
+Num1
+,
+&amp;   System.double
+Spacing1
+,
+&amp;   System.int
+Num2
+,
+&amp;   System.double
+Spacing2
+,
+&amp;   System.bool
+FlipDir1
+,
+&amp;   System.bool
+FlipDir2
+,
+&amp;   System.String^
+DName1
+,
+&amp;   System.String^
+DName2
+,
+&amp;   System.bool
+GeometryPattern
+,
+&amp;   System.bool
+VaryInstance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureLinearPattern4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureLinearPattern4( 
+&amp;   System.int
+Num1
+,
+&amp;   System.double
+Spacing1
+,
+&amp;   System.int
+Num2
+,
+&amp;   System.double
+Spacing2
+,
+&amp;   System.bool
+FlipDir1
+,
+&amp;   System.bool
+FlipDir2
+,
+&amp;   System.String^
+DName1
+,
+&amp;   System.String^
+DName2
+,
+&amp;   System.bool
+GeometryPattern
+,
+&amp;   System.bool
+VaryInstance
+,
+&amp;   System.bool
+HasOffset1
+,
+&amp;   System.bool
+HasOffset2
+,
+&amp;   System.bool
+CtrlByNum1
+,
+&amp;   System.bool
+CtrlByNum2
+,
+&amp;   System.bool
+FromCentroid1
+,
+&amp;   System.bool
+FromCentroid2
+,
+&amp;   System.bool
+RevOffset1
+,
+&amp;   System.bool
+RevOffset2
+,
+&amp;   System.double
+Offset1
+,
+&amp;   System.double
+Offset2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureLinearPattern5</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureLinearPattern5( 
+&amp;   System.int
+Num1
+,
+&amp;   System.double
+Spacing1
+,
+&amp;   System.int
+Num2
+,
+&amp;   System.double
+Spacing2
+,
+&amp;   System.bool
+FlipDir1
+,
+&amp;   System.bool
+FlipDir2
+,
+&amp;   System.String^
+DName1
+,
+&amp;   System.String^
+DName2
+,
+&amp;   System.bool
+GeometryPattern
+,
+&amp;   System.bool
+VaryInstance
+,
+&amp;   System.bool
+HasOffset1
+,
+&amp;   System.bool
+HasOffset2
+,
+&amp;   System.bool
+CtrlByNum1
+,
+&amp;   System.bool
+CtrlByNum2
+,
+&amp;   System.bool
+FromCentroid1
+,
+&amp;   System.bool
+FromCentroid2
+,
+&amp;   System.bool
+RevOffset1
+,
+&amp;   System.bool
+RevOffset2
+,
+&amp;   System.double
+Offset1
+,
+&amp;   System.double
+Offset2
+,
+&amp;   System.bool
+D2PatternSeedOnly
+,
+&amp;   System.bool
+SyncSubAssemblies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureLocalCurveDrivenPattern</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureLocalCurveDrivenPattern( 
+&amp;   System.bool
+FlipDir1
+,
+&amp;   System.int
+Num1
+,
+&amp;   System.bool
+EqualSpacing1
+,
+&amp;   System.double
+Spacing1
+,
+&amp;   System.int
+ReferencePoint
+,
+&amp;   System.int
+CurveMethod
+,
+&amp;   System.int
+AlignMethod
+,
+&amp;   System.bool
+Direction2
+,
+&amp;   System.bool
+FlipDir2
+,
+&amp;   System.int
+Num2
+,
+&amp;   System.bool
+EqualSpacing2
+,
+&amp;   System.double
+Spacing2
+,
+&amp;   System.bool
+PatternSeedOnly
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureLocalSketchDrivenPattern</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureLocalSketchDrivenPattern( 
+&amp;   System.int
+ReferencePoint
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolve</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureRevolve( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+,
+&amp;   System.int
+Options
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSel
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolve2</summary><p>Creates a base-, boss-, or cut-revolve feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureRevolve2( 
+&amp;   System.bool
+SingleDir
+,
+&amp;   System.bool
+IsSolid
+,
+&amp;   System.bool
+IsThin
+,
+&amp;   System.bool
+IsCut
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.bool
+BothDirectionUpToSameEntity
+,
+&amp;   System.int
+Dir1Type
+,
+&amp;   System.int
+Dir2Type
+,
+&amp;   System.double
+Dir1Angle
+,
+&amp;   System.double
+Dir2Angle
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.double
+OffsetDistance1
+,
+&amp;   System.double
+OffsetDistance2
+,
+&amp;   System.int
+ThinType
+,
+&amp;   System.double
+ThinThickness1
+,
+&amp;   System.double
+ThinThickness2
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolveCut</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureRevolveCut( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+,
+&amp;   System.int
+Options
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolveCut2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureRevolveCut2( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+,
+&amp;   System.int
+Options
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.bool
+AssemblyFeatureScope
+,
+&amp;   System.bool
+AutoSelectComponents
+,
+&amp;   System.bool
+PropagateFeatureToParts
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolveThin</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureRevolveThin( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.int
+ReverseThinDir
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolveThinCut</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureRevolveThinCut( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.int
+ReverseThinDir
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureSketchDrivenPattern</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FeatureSketchDrivenPattern( 
+&amp;   System.bool
+UseCentroid
+,
+&amp;   System.bool
+BGeomPatt
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FilletXpertChange</summary><p>Changes the parameters on the selected filleted faces, regardless of whether the filleted faces were created manually or with FilletXpert, provided that FilletXpert can process them.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FilletXpertChange( 
+&amp;   System.int
+Options
+,
+&amp;   System.double
+R1
+,
+&amp;   System.int
+Ftyp
+,
+&amp;   System.int
+OverflowType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FilletXpertMakeCorner</summary><p>Creates or changes a fillet corner feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FilletXpertMakeCorner( 
+&amp;   System.int
+CornerType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FilletXpertRemove</summary><p>Deletes the fillets on the selected faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FilletXpertRemove();</pre></details><details style="margin: 0.5rem 0;"><summary>FinishCornerRelief</summary><p>Creates a sheet metal corner relief feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ FinishCornerRelief();</pre></details><details style="margin: 0.5rem 0;"><summary>FinishSMNormalCut</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ FinishSMNormalCut();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCornerManagementFolders</summary><p>Gets the structure system corner management folders.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCornerManagementFolders();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCreateFeatureErrors</summary><p>Gets the errors that occurred during the last call to</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetCreateFeatureErrors( 
+&amp;   [Out] System.Object^
+Msgs
+,
+&amp;   [Out] System.String^
+FeatureTypeName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureCount</summary><p>Gets the number of features in this document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFeatureCount( 
+&amp;   System.bool
+ToplevelOnly
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatures</summary><p>Gets the features in this document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFeatures( 
+&amp;   System.bool
+ToplevelOnly
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureTreeRootItem</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TreeControlItem^ GetFeatureTreeRootItem();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFeatureTreeRootItem2</summary><p>Gets the root item of the FeatureManager design tree in the specified pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TreeControlItem^ GetFeatureTreeRootItem2( 
+&amp;   System.int
+WhichPane
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFlatPatternFolder</summary><p>Gets the interface to the flat-pattern folder feature in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFlatPatternFolder();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFreezeLocation</summary><p>Gets the location of the freeze bar in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ GetFreezeLocation();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPreTrimmedBodies</summary><p>Gets the temporary trimmed bodies using the specified target sheet (surface) body according to the trim tools previously defined by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPreTrimmedBodies( 
+&amp;   Body2^
+TargetSurface
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectionSetFolder</summary><p>Gets the Selection Sets folder.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectionSetFolder();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSheetMetalFolder</summary><p>Gets the interface to the sheet metal folder feature in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSheetMetalFolder();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSlicingData</summary><p>Gets a new slicing data object with default parameter values.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSlicingData();</pre></details><details style="margin: 0.5rem 0;"><summary>GetStructureSystemFolders</summary><p>Gets the structure system folders.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetStructureSystemFolders();</pre></details><details style="margin: 0.5rem 0;"><summary>HideBodies</summary><p>Hides both solid and surface bodies in the model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void HideBodies();</pre></details><details style="margin: 0.5rem 0;"><summary>HoleWizard</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ HoleWizard( 
+&amp;   System.int
+GenericHoleType
+,
+&amp;   System.int
+StandardIndex
+,
+&amp;   System.int
+FastenerTypeIndex
+,
+&amp;   System.String^
+SSize
+,
+&amp;   System.short
+EndType
+,
+&amp;   System.double
+Diameter
+,
+&amp;   System.double
+Depth
+,
+&amp;   System.double
+Value1
+,
+&amp;   System.double
+Value2
+,
+&amp;   System.double
+Value3
+,
+&amp;   System.double
+Value4
+,
+&amp;   System.double
+Value5
+,
+&amp;   System.double
+Value6
+,
+&amp;   System.double
+Value7
+,
+&amp;   System.double
+Value8
+,
+&amp;   System.double
+Value9
+,
+&amp;   System.double
+Value10
+,
+&amp;   System.double
+Value11
+,
+&amp;   System.double
+Value12
+)</pre></details><details style="margin: 0.5rem 0;"><summary>HoleWizard2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ HoleWizard2( 
+&amp;   System.int
+GenericHoleType
+,
+&amp;   System.int
+StandardIndex
+,
+&amp;   System.int
+FastenerTypeIndex
+,
+&amp;   System.String^
+SSize
+,
+&amp;   System.short
+EndType
+,
+&amp;   System.double
+Diameter
+,
+&amp;   System.double
+Depth
+,
+&amp;   System.double
+Value1
+,
+&amp;   System.double
+Value2
+,
+&amp;   System.double
+Value3
+,
+&amp;   System.double
+Value4
+,
+&amp;   System.double
+Value5
+,
+&amp;   System.double
+Value6
+,
+&amp;   System.double
+Value7
+,
+&amp;   System.double
+Value8
+,
+&amp;   System.double
+Value9
+,
+&amp;   System.double
+Value10
+,
+&amp;   System.double
+Value11
+,
+&amp;   System.double
+Value12
+,
+&amp;   System.String^
+ThreadClass
+,
+&amp;   System.bool
+RevDir
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.bool
+AssemblyFeatureScope
+,
+&amp;   System.bool
+AutoSelectComponents
+)</pre></details><details style="margin: 0.5rem 0;"><summary>HoleWizard3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ HoleWizard3( 
+&amp;   System.int
+GenericHoleType
+,
+&amp;   System.int
+StandardIndex
+,
+&amp;   System.int
+FastenerTypeIndex
+,
+&amp;   System.String^
+SSize
+,
+&amp;   System.short
+EndType
+,
+&amp;   System.double
+Diameter
+,
+&amp;   System.double
+Depth
+,
+&amp;   System.double
+Value1
+,
+&amp;   System.double
+Value2
+,
+&amp;   System.double
+Value3
+,
+&amp;   System.double
+Value4
+,
+&amp;   System.double
+Value5
+,
+&amp;   System.double
+Value6
+,
+&amp;   System.double
+Value7
+,
+&amp;   System.double
+Value8
+,
+&amp;   System.double
+Value9
+,
+&amp;   System.double
+Value10
+,
+&amp;   System.double
+Value11
+,
+&amp;   System.double
+Value12
+,
+&amp;   System.String^
+ThreadClass
+,
+&amp;   System.bool
+RevDir
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.bool
+AssemblyFeatureScope
+,
+&amp;   System.bool
+AutoSelectComponents
+,
+&amp;   System.bool
+PropagateFeatureToParts
+)</pre></details><details style="margin: 0.5rem 0;"><summary>HoleWizard4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ HoleWizard4( 
+&amp;   System.int
+GenericHoleType
+,
+&amp;   System.int
+StandardIndex
+,
+&amp;   System.int
+FastenerTypeIndex
+,
+&amp;   System.String^
+SSize
+,
+&amp;   System.short
+EndType
+,
+&amp;   System.double
+Diameter
+,
+&amp;   System.double
+Depth
+,
+&amp;   System.double
+Value1
+,
+&amp;   System.double
+Value2
+,
+&amp;   System.double
+Value3
+,
+&amp;   System.double
+Value4
+,
+&amp;   System.double
+Value5
+,
+&amp;   System.double
+Value6
+,
+&amp;   System.double
+Value7
+,
+&amp;   System.double
+Value8
+,
+&amp;   System.double
+Value9
+,
+&amp;   System.double
+Value10
+,
+&amp;   System.double
+Value11
+,
+&amp;   System.double
+Value12
+,
+&amp;   System.String^
+ThreadClass
+,
+&amp;   System.bool
+RevDir
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.bool
+AssemblyFeatureScope
+,
+&amp;   System.bool
+AutoSelectComponents
+,
+&amp;   System.bool
+PropagateFeatureToParts
+)</pre></details><details style="margin: 0.5rem 0;"><summary>HoleWizard5</summary><p>Creates customized holes of various kinds.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ HoleWizard5( 
+&amp;   System.int
+GenericHoleType
+,
+&amp;   System.int
+StandardIndex
+,
+&amp;   System.int
+FastenerTypeIndex
+,
+&amp;   System.String^
+SSize
+,
+&amp;   System.short
+EndType
+,
+&amp;   System.double
+Diameter
+,
+&amp;   System.double
+Depth
+,
+&amp;   System.double
+Length
+,
+&amp;   System.double
+Value1
+,
+&amp;   System.double
+Value2
+,
+&amp;   System.double
+Value3
+,
+&amp;   System.double
+Value4
+,
+&amp;   System.double
+Value5
+,
+&amp;   System.double
+Value6
+,
+&amp;   System.double
+Value7
+,
+&amp;   System.double
+Value8
+,
+&amp;   System.double
+Value9
+,
+&amp;   System.double
+Value10
+,
+&amp;   System.double
+Value11
+,
+&amp;   System.double
+Value12
+,
+&amp;   System.String^
+ThreadClass
+,
+&amp;   System.bool
+RevDir
+,
+&amp;   System.bool
+FeatureScope
+,
+&amp;   System.bool
+AutoSelect
+,
+&amp;   System.bool
+AssemblyFeatureScope
+,
+&amp;   System.bool
+AutoSelectComponents
+,
+&amp;   System.bool
+PropagateFeatureToParts
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IFeatureFillet</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IFeatureFillet( 
+&amp;   System.int
+Options
+,
+&amp;   System.double
+R1
+,
+&amp;   System.int
+Ftyp
+,
+&amp;   System.int
+OverflowType
+,
+&amp;   System.int
+NRadii
+,
+&amp;   System.double%
+Radii
+,
+&amp;   System.int
+SetbackDistCount
+,
+&amp;   System.double%
+SetBackDistances
+,
+&amp;   System.int
+PointCount
+,
+&amp;   System.double%
+PointRadiusArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IFeatureFillet2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IFeatureFillet2( 
+&amp;   System.int
+Options
+,
+&amp;   System.double
+R1
+,
+&amp;   System.double
+Rho
+,
+&amp;   System.int
+Ftyp
+,
+&amp;   System.int
+OverflowType
+,
+&amp;   System.int
+ConicRhoType
+,
+&amp;   System.int
+NRadii
+,
+&amp;   System.double%
+Radii
+,
+&amp;   System.double%
+RhoArr
+,
+&amp;   System.int
+SetbackDistCount
+,
+&amp;   System.double%
+SetBackDistances
+,
+&amp;   System.int
+PointCount
+,
+&amp;   System.double%
+PointRadiusArray
+,
+&amp;   System.double%
+PointRhoArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFeatures</summary><p>Gets the features in this document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IGetFeatures( 
+&amp;   System.bool
+ToplevelOnly
+,
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertCombineFeature</summary><p>Combines the specified bodies in the multibody part to create a combine feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IInsertCombineFeature( 
+&amp;   System.int
+OperationType
+,
+&amp;   Body2^
+MainBody
+,
+&amp;   System.int
+ToolsCount
+,
+&amp;   Body2^%
+ToolsArr
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertMacroFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IInsertMacroFeature( 
+&amp;   System.String^
+BaseName
+,
+&amp;   System.String^
+ProgId
+,
+&amp;   System.String^%
+MacroMethods
+,
+&amp;   System.int
+ParamCount
+,
+&amp;   System.String^%
+ParamNames
+,
+&amp;   System.int%
+ParamTypes
+,
+&amp;   System.String^%
+ParamValues
+,
+&amp;   Body2^
+EditBody
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertMacroFeature2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IInsertMacroFeature2( 
+&amp;   System.String^
+BaseName
+,
+&amp;   System.String^
+ProgId
+,
+&amp;   System.String^%
+MacroMethods
+,
+&amp;   System.int
+ParamCount
+,
+&amp;   System.String^%
+ParamNames
+,
+&amp;   System.int%
+ParamTypes
+,
+&amp;   System.String^%
+ParamValues
+,
+&amp;   System.int
+DimCount
+,
+&amp;   System.int%
+DimTypes
+,
+&amp;   System.double%
+DimCountValues
+,
+&amp;   Body2^
+EditBody
+,
+&amp;   System.int
+IconCount
+,
+&amp;   System.String^%
+IconFiles
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertMacroFeature3</summary><p>Inserts a macro feature in this model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IInsertMacroFeature3( 
+&amp;   System.String^
+BaseName
+,
+&amp;   System.String^
+ProgId
+,
+&amp;   System.String^%
+MacroMethods
+,
+&amp;   System.int
+ParamCount
+,
+&amp;   System.String^%
+ParamNames
+,
+&amp;   System.int%
+ParamTypes
+,
+&amp;   System.String^%
+ParamValues
+,
+&amp;   System.int
+DimCount
+,
+&amp;   System.int%
+DimTypes
+,
+&amp;   System.double%
+DimCountValues
+,
+&amp;   System.int
+BodyCount
+,
+&amp;   Body2^%
+EditBodies
+,
+&amp;   System.int
+IconCount
+,
+&amp;   System.String^%
+IconFiles
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertMoveFace2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IInsertMoveFace2( 
+&amp;   System.int
+MoveType
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.double%
+TranslationParams
+,
+&amp;   System.double%
+RotationParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertReferencePoint</summary><p>Creates the geometry for the reference points based on any of these selected entities: edges, faces, planes, vertices, or sketch geometry.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IInsertReferencePoint( 
+&amp;   System.int
+NRefPointType
+,
+&amp;   System.int
+NRefPointAlongCurveType
+,
+&amp;   System.double
+DDistance_or_Percent
+,
+&amp;   System.int
+NumberOfRefPoints
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertSheetMetalEdgeFlange2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IInsertSheetMetalEdgeFlange2( 
+&amp;   System.int
+EdgeCount
+,
+&amp;   Edge^%
+FlangeEdges
+,
+&amp;   System.int
+SketchFeatCount
+,
+&amp;   Feature^%
+SketchFeat
+,
+&amp;   System.int
+BooleanOptions
+,
+&amp;   System.double
+FlangeAngle
+,
+&amp;   System.double
+FlangeRadius
+,
+&amp;   System.int
+BendPosition
+,
+&amp;   System.double
+FlangeOffsetDist
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   System.double
+FlangeReliefRatio
+,
+&amp;   System.double
+FlangeReliefWidth
+,
+&amp;   System.double
+FlangeReliefDepth
+,
+&amp;   System.int
+FlangeSharpType
+,
+&amp;   CustomBendAllowance^
+CustomBendAllowance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IInsertTableDrivenPattern</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IInsertTableDrivenPattern( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Count
+,
+&amp;   System.double%
+PointArr
+,
+&amp;   System.bool
+UseCentrod
+,
+&amp;   System.bool
+GeomPatt
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCenterOfMass</summary><p>Inserts a Center of Mass feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCenterOfMass();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCenterOfMassReferencePoint</summary><p>Inserts a Center of Mass Reference Point feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCenterOfMassReferencePoint();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCombineFeature</summary><p>Combines the specified bodies in the multibody part to create a combine feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCombineFeature( 
+&amp;   System.int
+OperationType
+,
+&amp;   Body2^
+MainBody
+,
+&amp;   System.Object^
+ToolVar
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertConnectionPoint</summary><p>Adds a connection point based on the selected entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertConnectionPoint( 
+&amp;   System.int
+Type
+,
+&amp;   System.int
+SubType
+,
+&amp;   System.bool
+ReverseDirection
+,
+&amp;   System.double
+Diameter
+,
+&amp;   System.double
+StubLength
+,
+&amp;   System.double
+MinimumStraight
+,
+&amp;   System.double
+EndLengthAdjustment
+,
+&amp;   System.double
+ConductorSplitLength
+,
+&amp;   System.String^
+SchematicPinID
+,
+&amp;   System.double
+CableWidth
+,
+&amp;   System.double
+CableThickness
+,
+&amp;   System.bool
+SwitchPin1Position
+,
+&amp;   System.String^
+SpecificationFieldName
+,
+&amp;   System.String^
+SpecificationValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertConvertToSheetMetal</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertConvertToSheetMetal( 
+&amp;   System.double
+Thickness
+,
+&amp;   System.bool
+ReverseThickDir
+,
+&amp;   System.bool
+FindBends
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.double
+Gap
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   System.double
+ReliefRatio
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertConvertToSheetMetal2</summary><p>Converts a solid or surface body into a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertConvertToSheetMetal2( 
+&amp;   System.double
+Thickness
+,
+&amp;   System.bool
+ReverseThickDir
+,
+&amp;   System.bool
+FindBends
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.double
+Gap
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   System.double
+ReliefRatio
+,
+&amp;   System.int
+OverlapType
+,
+&amp;   System.double
+OverlapRatio
+,
+&amp;   System.bool
+KeepBody
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCoordinateSystem</summary><p>Inserts a coordinate system feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCoordinateSystem( 
+&amp;   System.bool
+XFlippedIn
+,
+&amp;   System.bool
+YFlippedIn
+,
+&amp;   System.bool
+ZFlippedIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCosmeticThread</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ InsertCosmeticThread( 
+&amp;   System.short
+Type
+,
+&amp;   System.double
+Depth
+,
+&amp;   System.double
+Length
+,
+&amp;   System.String^
+Note
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCosmeticThread2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCosmeticThread2( 
+&amp;   System.short
+Type
+,
+&amp;   System.double
+Depth
+,
+&amp;   System.double
+Length
+,
+&amp;   System.String^
+Note
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCosmeticThread3</summary><p>Inserts a cosmetic thread.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCosmeticThread3( 
+&amp;   System.int
+Standard
+,
+&amp;   System.String^
+StandardType
+,
+&amp;   System.String^
+Size
+,
+&amp;   System.double
+Diameter
+,
+&amp;   System.int
+EndType
+,
+&amp;   System.double
+Depth
+,
+&amp;   System.String^
+Note
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCosmeticWeldBead</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCosmeticWeldBead( 
+&amp;   System.double
+WeldSize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCosmeticWeldBead2</summary><p>Inserts a cosmetic weld bead using either weld geometry or a weld path.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertCosmeticWeldBead2( 
+&amp;   System.int
+WeldMode
+,
+&amp;   System.Object^
+WeldFromFaceOrEdgeSet
+,
+&amp;   System.Object^
+WeldToFaceOrEdgeSet
+,
+&amp;   System.double
+WeldSize
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCrossBreak</summary><p>Inserts a cross break feature on the selected face in a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCrossBreak( 
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Radius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCutBlend</summary><p>Inserts a lofted cut based on the selected profiles, centerline, and guide curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCutBlend( 
+&amp;   System.bool
+Closed
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+ForceNonRational
+,
+&amp;   System.double
+TessToleranceFactor
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.short
+ThinType
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCutSurface</summary><p>Inserts a surface-cut feature using the preselected surface or plane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCutSurface( 
+&amp;   System.bool
+Flip
+,
+&amp;   System.int
+KeepPieceIndex
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.Object^
+Bodies
+,
+&amp;   [Out] System.int
+Error
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCutSwept</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCutSwept( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.bool
+Alignment
+,
+&amp;   System.short
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+ForceNonRational
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.short
+ThinType
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCutSwept2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCutSwept2( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.bool
+Alignment
+,
+&amp;   System.short
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+ForceNonRational
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.short
+ThinType
+,
+&amp;   System.short
+PathAlign
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCutSwept3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCutSwept3( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.bool
+Alignment
+,
+&amp;   System.short
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+BAdvancedSmoothing
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.short
+ThinType
+,
+&amp;   System.short
+PathAlign
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.double
+TwistAngle
+,
+&amp;   System.bool
+BMergeSmoothFaces
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCutSwept4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCutSwept4( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.bool
+Alignment
+,
+&amp;   System.short
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+BAdvancedSmoothing
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.short
+ThinType
+,
+&amp;   System.short
+PathAlign
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.double
+TwistAngle
+,
+&amp;   System.bool
+BMergeSmoothFaces
+,
+&amp;   System.bool
+AssemblyFeatureScope
+,
+&amp;   System.bool
+AutoSelectComponents
+,
+&amp;   System.bool
+PropagateFeatureToParts
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertCutSwept5</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertCutSwept5( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.bool
+Alignment
+,
+&amp;   System.int
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+BAdvancedSmoothing
+,
+&amp;   System.int
+StartMatchingType
+,
+&amp;   System.int
+EndMatchingType
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.int
+ThinType
+,
+&amp;   System.int
+PathAlign
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.double
+TwistAngle
+,
+&amp;   System.bool
+BMergeSmoothFaces
+,
+&amp;   System.bool
+AssemblyFeatureScope
+,
+&amp;   System.bool
+AutoSelectComponents
+,
+&amp;   System.bool
+PropagateFeatureToParts
+,
+&amp;   System.bool
+CircularProfile
+,
+&amp;   System.double
+CircularProfileDiameter
+,
+&amp;   System.int
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertDeleteBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertDeleteBody();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertDeleteBody2</summary><p>Inserts a Body-Delete/Keep feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertDeleteBody2( 
+&amp;   System.bool
+KeepBodies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertDeleteHoleForSurface</summary><p>Inserts a Delete Hole feature for one or more selected hole edges on a surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertDeleteHoleForSurface();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertDerivedPattern</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertDerivedPattern();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertDerivedPattern2</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertDerivedPattern2();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertDwgOrDxfFile</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertDwgOrDxfFile( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertDwgOrDxfFile2</summary><p>Inserts a DXF/DWG image feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertDwgOrDxfFile2( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.Object^
+DxfDwgImportData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertEdgeMerge</summary><p>Merges multiple edges into a single edge using the selected faces when importing data.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertEdgeMerge( 
+&amp;   System.double
+Angular_tolerance
+,
+&amp;   System.double
+Edge_length_tolerance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertEndCapFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertEndCapFeature( 
+&amp;   System.double
+Depth
+,
+&amp;   System.bool
+BIsGivenOffset
+,
+&amp;   System.bool
+BIsChamfer
+,
+&amp;   System.double
+OffsetValue
+,
+&amp;   System.double
+WallThicknessRatio
+,
+&amp;   System.double
+ChamferValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertEndCapFeature2</summary><p>Inserts an end cap feature using the specified end faces of a structural member.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertEndCapFeature2( 
+&amp;   System.double
+Depth
+,
+&amp;   System.bool
+BIsGivenOffset
+,
+&amp;   System.bool
+BIsChamfer
+,
+&amp;   System.double
+OffsetValue
+,
+&amp;   System.double
+WallThicknessRatio
+,
+&amp;   System.double
+ChamferValue
+,
+&amp;   System.Object^
+Faces
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertEndCapFeature3</summary><p>Inserts an end cap feature for one or more pre-selected open ends of a structural member.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertEndCapFeature3( 
+&amp;   System.double
+Depth
+,
+&amp;   System.bool
+BIsGivenOffset
+,
+&amp;   System.bool
+BIsChamfer
+,
+&amp;   System.double
+OffsetValue
+,
+&amp;   System.double
+WallThicknessRatio
+,
+&amp;   System.double
+ChamferValue
+,
+&amp;   System.bool
+BIsCornerTreatment
+,
+&amp;   System.double
+DepthOffset
+,
+&amp;   System.bool
+BIsReverse
+,
+&amp;   System.int
+BIsEndCapInward
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFeatureChamfer</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFeatureChamfer( 
+&amp;   System.int
+Options
+,
+&amp;   System.int
+ChamferType
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+OtherDist
+,
+&amp;   System.double
+VertexChamDist1
+,
+&amp;   System.double
+VertexChamDist2
+,
+&amp;   System.double
+VertexChamDist3
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFeatureLock</summary><p>Locks or freezes a selected feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFeatureLock();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFeatureTreeFolder</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertFeatureTreeFolder();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFeatureTreeFolder2</summary><p>Inserts a folder in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFeatureTreeFolder2( 
+&amp;   System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFilletBeadFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFilletBeadFeature( 
+&amp;   System.short
+Type1
+,
+&amp;   System.double
+Size1
+,
+&amp;   System.double
+Length1
+,
+&amp;   System.double
+Pitch
+,
+&amp;   System.short
+Type2
+,
+&amp;   System.double
+Size2
+,
+&amp;   System.double
+Length2
+,
+&amp;   System.int
+Flag
+,
+&amp;   System.int
+EdgeNum1
+,
+&amp;   System.Object^
+DeSelEdge1
+,
+&amp;   System.int
+EdgeNum2
+,
+&amp;   System.Object^
+DeSelEdge2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFilletBeadFeature2</summary><p>Inserts a fillet weld bead feature and also fills the gap between the pre-selected part bodies, if any.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFilletBeadFeature2( 
+&amp;   System.short
+Type1
+,
+&amp;   System.double
+Size1
+,
+&amp;   System.double
+Length1
+,
+&amp;   System.short
+PenetrationType1
+,
+&amp;   System.double
+PenetrationValue1
+,
+&amp;   System.double
+Pitch
+,
+&amp;   System.short
+Type2
+,
+&amp;   System.double
+Size2
+,
+&amp;   System.double
+Length2
+,
+&amp;   System.short
+PenetrationType2
+,
+&amp;   System.double
+PenetrationValue2
+,
+&amp;   System.int
+Flag
+,
+&amp;   System.int
+EdgeNum1
+,
+&amp;   System.Object^
+DeSelEdge1
+,
+&amp;   System.int
+EdgeNum2
+,
+&amp;   System.Object^
+DeSelEdge2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFilletBeadFeature3</summary><p>Inserts fillet weld bead features for the specified face sets.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFilletBeadFeature3( 
+&amp;   System.short
+Type1
+,
+&amp;   System.double
+Size1
+,
+&amp;   System.double
+Length1
+,
+&amp;   System.short
+PenetrationType1
+,
+&amp;   System.double
+PenetrationValue1
+,
+&amp;   System.double
+Pitch
+,
+&amp;   System.short
+Type2
+,
+&amp;   System.double
+Size2
+,
+&amp;   System.double
+Length2
+,
+&amp;   System.short
+PenetrationType2
+,
+&amp;   System.double
+PenetrationValue2
+,
+&amp;   System.int
+Flag
+,
+&amp;   System.int
+EdgeNum1
+,
+&amp;   System.Object^
+DeSelEdge1
+,
+&amp;   System.int
+EdgeNum2
+,
+&amp;   System.Object^
+DeSelEdge2
+,
+&amp;   System.Object^
+FaceSet1
+,
+&amp;   System.Object^
+FaceSet2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFillSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFillSurface( 
+&amp;   System.int
+Resolution
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFillSurface2</summary><p>Inserts a fill-surface feature in the model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFillSurface2( 
+&amp;   System.int
+Resolutions
+,
+&amp;   System.int
+Options
+,
+&amp;   System.Object^
+VPatchBoundaries
+,
+&amp;   System.Object^
+VCurvatureControlType
+,
+&amp;   System.Object^
+VFaces
+,
+&amp;   System.Object^
+VConstraintCurves
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFlattenSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFlattenSurface( 
+&amp;   System.int
+AccuracyFactor
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFlattenSurface2</summary><p>Inserts a surface-flatten feature in the model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFlattenSurface2( 
+&amp;   System.int
+AccuracyFactor
+,
+&amp;   System.bool
+ShouldUseTears
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFlexFeature</summary><p>Inserts a Flex feature using the selected solid or surface body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFlexFeature( 
+&amp;   System.double
+RotX
+,
+&amp;   System.double
+RotY
+,
+&amp;   System.double
+RotZ
+,
+&amp;   System.double
+TanX
+,
+&amp;   System.double
+TanY
+,
+&amp;   System.double
+TanZ
+,
+&amp;   System.double
+RadX
+,
+&amp;   System.double
+RadY
+,
+&amp;   System.double
+RadZ
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+PivotX
+,
+&amp;   System.double
+PivotY
+,
+&amp;   System.double
+PivotZ
+,
+&amp;   System.int
+Type
+,
+&amp;   System.double
+LeftTrim
+,
+&amp;   System.double
+RightTrim
+,
+&amp;   System.bool
+HardEdges
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFormToolFeature</summary><p>Inserts a forming tool from the Design Library into a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFormToolFeature( 
+&amp;   System.String^
+Path
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.double
+RotAngle
+,
+&amp;   System.String^
+Config
+,
+&amp;   System.bool
+OverrideDoc
+,
+&amp;   System.bool
+ShowPunch
+,
+&amp;   System.bool
+ShowProfile
+,
+&amp;   System.bool
+ShowCenter
+,
+&amp;   System.bool
+LinkToPart
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFreeform</summary><p>solete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFreeform( 
+&amp;   System.short
+Continuity0
+,
+&amp;   System.short
+Continuity1
+,
+&amp;   System.short
+Continuity2
+,
+&amp;   System.short
+Continuity3
+,
+&amp;   System.bool
+Symmetric0
+,
+&amp;   System.bool
+Symmetric1
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertFreeform2</summary><p>Inserts a Freeform feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertFreeform2( 
+&amp;   System.bool
+Nsided
+,
+&amp;   System.bool
+Symmetric0
+,
+&amp;   System.bool
+Symmetric1
+,
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertGlobalBoundingBox</summary><p>IFeatureManager::CreateDefinition</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertGlobalBoundingBox( 
+&amp;   System.int
+BBoxType
+,
+&amp;   System.bool
+IncludeHiddenBodies
+,
+&amp;   System.bool
+IncludeSurfaceBodies
+,
+&amp;   [Out] System.int
+Status
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertGridFeature</summary><p>Inserts a Grid System feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertGridFeature( 
+&amp;   System.Object^
+HeightDoubles
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertGroundPlane</summary><p>IFeatureManager::CreateDefinition</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertGroundPlane( 
+&amp;   System.bool
+ReverseDirection
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertGussetFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertGussetFeature( 
+&amp;   System.double
+Depth
+,
+&amp;   System.short
+DirType
+,
+&amp;   System.short
+LocType
+,
+&amp;   System.bool
+BIsProfile
+,
+&amp;   System.double
+ProfileD1
+,
+&amp;   System.double
+ProfileD2
+,
+&amp;   System.double
+ProfileD3
+,
+&amp;   System.double
+ProfileAngle
+,
+&amp;   System.double
+ProfileD4
+,
+&amp;   System.bool
+BOffset
+,
+&amp;   System.double
+DProfileOffset
+,
+&amp;   System.int
+CrvIndex
+,
+&amp;   System.bool
+BReverseDir
+,
+&amp;   System.bool
+BReverseFace
+,
+&amp;   System.bool
+BUseLenDim
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertGussetFeature2</summary><p>Inserts a gusset feature for the specified faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertGussetFeature2( 
+&amp;   System.double
+Depth
+,
+&amp;   System.short
+DirType
+,
+&amp;   System.short
+LocType
+,
+&amp;   System.bool
+BIsProfile
+,
+&amp;   System.double
+ProfileD1
+,
+&amp;   System.double
+ProfileD2
+,
+&amp;   System.double
+ProfileD3
+,
+&amp;   System.double
+ProfileAngle
+,
+&amp;   System.double
+ProfileD4
+,
+&amp;   System.bool
+BOffset
+,
+&amp;   System.double
+DProfileOffset
+,
+&amp;   System.int
+CrvIndex
+,
+&amp;   System.bool
+BReverseDir
+,
+&amp;   System.bool
+BReverseFace
+,
+&amp;   System.bool
+BUseLenDim
+,
+&amp;   System.Object^
+Faces
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertGussetFeature3</summary><p>Inserts a gusset feature for pre-selected faces of a weldment.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertGussetFeature3( 
+&amp;   System.double
+Depth
+,
+&amp;   System.short
+DirType
+,
+&amp;   System.short
+LocType
+,
+&amp;   System.bool
+BIsProfile
+,
+&amp;   System.double
+ProfileD1
+,
+&amp;   System.double
+ProfileD2
+,
+&amp;   System.double
+ProfileD3
+,
+&amp;   System.double
+ProfileAngle
+,
+&amp;   System.double
+ProfileD4
+,
+&amp;   System.bool
+BOffset
+,
+&amp;   System.double
+DProfileOffset
+,
+&amp;   System.int
+CrvIndex
+,
+&amp;   System.bool
+BReverseDir
+,
+&amp;   System.bool
+BReverseFace
+,
+&amp;   System.bool
+BUseLenDim
+,
+&amp;   System.double
+ProfileD5
+,
+&amp;   System.double
+ProfileD6
+,
+&amp;   System.double
+ProfileChamferAngle
+,
+&amp;   System.bool
+BUseLenDimForChamfer
+,
+&amp;   System.bool
+BNeedChamferInGusset
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertIndent</summary><p>Inserts an indent feature using a selected target body and tool body regions.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertIndent( 
+&amp;   System.double
+Thickness
+,
+&amp;   System.double
+Clearance
+,
+&amp;   System.bool
+Exclude
+,
+&amp;   System.bool
+ClrDir
+,
+&amp;   System.bool
+Cut
+,
+&amp;   System.bool
+CutDir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertLiveSectionPlane</summary><p>Inserts a Live Section Plane using the selected plane or planar face.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertLiveSectionPlane( 
+&amp;   System.short
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMacroFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMacroFeature( 
+&amp;   System.String^
+BaseName
+,
+&amp;   System.String^
+ProgId
+,
+&amp;   System.Object^
+MacroMethods
+,
+&amp;   System.Object^
+ParamNames
+,
+&amp;   System.Object^
+ParamTypes
+,
+&amp;   System.Object^
+ParamValues
+,
+&amp;   Body2^
+EditBody
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMacroFeature2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMacroFeature2( 
+&amp;   System.String^
+BaseName
+,
+&amp;   System.String^
+ProgId
+,
+&amp;   System.Object^
+MacroMethods
+,
+&amp;   System.Object^
+ParamNames
+,
+&amp;   System.Object^
+ParamTypes
+,
+&amp;   System.Object^
+ParamValues
+,
+&amp;   System.Object^
+DimTypes
+,
+&amp;   System.Object^
+DimValues
+,
+&amp;   Body2^
+EditBody
+,
+&amp;   System.Object^
+IconFiles
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMacroFeature3</summary><p>Inserts a macro feature in this model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMacroFeature3( 
+&amp;   System.String^
+BaseName
+,
+&amp;   System.String^
+ProgId
+,
+&amp;   System.Object^
+MacroMethods
+,
+&amp;   System.Object^
+ParamNames
+,
+&amp;   System.Object^
+ParamTypes
+,
+&amp;   System.Object^
+ParamValues
+,
+&amp;   System.Object^
+DimTypes
+,
+&amp;   System.Object^
+DimValues
+,
+&amp;   System.Object^
+EditBodies
+,
+&amp;   System.Object^
+IconFiles
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMateReference</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMateReference( 
+&amp;   System.String^
+BstrMateReferenceName
+,
+&amp;   Entity^
+PrimaryReferenceEntity
+,
+&amp;   System.int
+PrimaryReferenceType
+,
+&amp;   System.int
+PrimaryReferenceAlignment
+,
+&amp;   Entity^
+SecondaryReferenceEntity
+,
+&amp;   System.int
+SecondaryReferenceType
+,
+&amp;   System.int
+SecondaryReferenceAlignment
+,
+&amp;   Entity^
+TertiaryReferenceEntity
+,
+&amp;   System.int
+TertiaryReferenceType
+,
+&amp;   System.int
+TertiaryReferenceAlignment
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMateReference2</summary><p>Inserts a mate reference for a part or assembly document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMateReference2( 
+&amp;   System.String^
+BstrMateReferenceName
+,
+&amp;   Entity^
+PrimaryReferenceEntity
+,
+&amp;   System.int
+PrimaryReferenceType
+,
+&amp;   System.int
+PrimaryReferenceAlignment
+,
+&amp;   System.bool
+PrimaryReferenceAlignAxes
+,
+&amp;   Entity^
+SecondaryReferenceEntity
+,
+&amp;   System.int
+SecondaryReferenceType
+,
+&amp;   System.int
+SecondaryReferenceAlignment
+,
+&amp;   System.bool
+SecondaryReferenceAlignAxes
+,
+&amp;   Entity^
+TertiaryReferenceEntity
+,
+&amp;   System.int
+TertiaryReferenceType
+,
+&amp;   System.int
+TertiaryReferenceAlignment
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMidSurface</summary><p>Inserts a midsurface feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertMidSurface( 
+&amp;   Body2^
+PBodyIn
+,
+&amp;   ModelDoc2^
+PPartDocIn
+,
+&amp;   System.double
+Placement
+,
+&amp;   System.bool
+KnitFlag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMirrorFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMirrorFeature( 
+&amp;   System.bool
+BMirrorBody
+,
+&amp;   System.bool
+BGeometryPattern
+,
+&amp;   System.bool
+BMerge
+,
+&amp;   System.bool
+BKnit
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMirrorFeature2</summary><p>Mirrors selected features, faces, bodies, and structure systems about a selected plane or planar face.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMirrorFeature2( 
+&amp;   System.bool
+BMirrorBody
+,
+&amp;   System.bool
+BGeometryPattern
+,
+&amp;   System.bool
+BMerge
+,
+&amp;   System.bool
+BKnit
+,
+&amp;   System.int
+ScopeOptions
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMoldCoreCavitySolids</summary><p>Creates a core/cavity solid feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMoldCoreCavitySolids( 
+&amp;   System.double
+Dist1
+,
+&amp;   System.double
+Dist2
+,
+&amp;   System.bool
+Setback
+,
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMoldPartingLine</summary><p>Inserts a mold parting line feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMoldPartingLine( 
+&amp;   System.bool
+BFlipDir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMoldPartingSurface</summary><p>Inserts a mold parting surface feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMoldPartingSurface( 
+&amp;   System.int
+Radiate
+,
+&amp;   System.bool
+ReverseAlignment
+,
+&amp;   System.bool
+ReverseOffset
+,
+&amp;   System.double
+OffsetDistance
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.int
+Smooth
+,
+&amp;   System.double
+SmoothDistance
+,
+&amp;   System.bool
+Knit
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMoldShutOffSurface</summary><p>Inserts the mold shut-off surface feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMoldShutOffSurface();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMoveCopyBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMoveCopyBody( 
+&amp;   System.double
+TransX
+,
+&amp;   System.double
+TransY
+,
+&amp;   System.double
+TransZ
+,
+&amp;   System.double
+TransDist
+,
+&amp;   System.double
+RotPointX
+,
+&amp;   System.double
+RotPointY
+,
+&amp;   System.double
+RotPointZ
+,
+&amp;   System.double
+RotAngleX
+,
+&amp;   System.double
+RotAngleY
+,
+&amp;   System.double
+RotAngleZ
+,
+&amp;   System.bool
+BCopy
+,
+&amp;   System.int
+NumCopies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMoveCopyBody2</summary><p>Moves or makes copies of the selected solid bodies or surfaces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMoveCopyBody2( 
+&amp;   System.double
+TransX
+,
+&amp;   System.double
+TransY
+,
+&amp;   System.double
+TransZ
+,
+&amp;   System.double
+TransDist
+,
+&amp;   System.double
+RotPointX
+,
+&amp;   System.double
+RotPointY
+,
+&amp;   System.double
+RotPointZ
+,
+&amp;   System.double
+RotAngleX
+,
+&amp;   System.double
+RotAngleY
+,
+&amp;   System.double
+RotAngleZ
+,
+&amp;   System.bool
+BCopy
+,
+&amp;   System.int
+NumCopies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMoveFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMoveFace( 
+&amp;   System.int
+MoveType
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Distance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMoveFace2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMoveFace2( 
+&amp;   System.int
+MoveType
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.Object^
+TranslationParams
+,
+&amp;   System.Object^
+RotationParams
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMoveFace3</summary><p>Moves the selected faces on a solid or surface model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMoveFace3( 
+&amp;   System.int
+MoveType
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.Object^
+TranslationParams
+,
+&amp;   System.Object^
+RotationParams
+,
+&amp;   System.int
+EndConditionType
+,
+&amp;   System.double
+OffsetDistance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMultiFaceDraft</summary><p>Inserts a multiface draft feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertMultiFaceDraft( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+FlipDir
+,
+&amp;   System.bool
+EdgeDraft
+,
+&amp;   System.int
+PropType
+,
+&amp;   System.bool
+IsStepDraft
+,
+&amp;   System.bool
+IsBodyDraft
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertNetBlend</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertNetBlend( 
+&amp;   System.short
+Type
+,
+&amp;   System.short
+NCurvesDir1
+,
+&amp;   System.short
+NCurvesDir2
+,
+&amp;   System.bool
+HasCenterline
+,
+&amp;   System.double
+TessTolFactor
+,
+&amp;   System.bool
+WantsSolid
+,
+&amp;   System.bool
+MergeBody
+,
+&amp;   System.bool
+FeatureScope
+,
+&amp;   System.bool
+AutoSelect
+,
+&amp;   System.bool
+Thin
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.bool
+ReverseThickness
+,
+&amp;   System.short
+ThinSolidType
+,
+&amp;   System.bool
+UseSharedThickness
+,
+&amp;   System.bool
+CapEnds
+,
+&amp;   System.double
+EndThickness
+,
+&amp;   System.bool
+AutoFillet
+,
+&amp;   System.double
+FilletRadius
+,
+&amp;   System.bool
+ForceNonRational
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertNetBlend2</summary><p>This method inserts a boundary feature or a boundary surface feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertNetBlend2( 
+&amp;   System.short
+Type
+,
+&amp;   System.short
+NCurvesDir1
+,
+&amp;   System.short
+NCurvesDir2
+,
+&amp;   System.bool
+HasCenterline
+,
+&amp;   System.double
+TessTolFactor
+,
+&amp;   System.bool
+WantsSolid
+,
+&amp;   System.bool
+MergeBody
+,
+&amp;   System.bool
+FeatureScope
+,
+&amp;   System.bool
+AutoSelect
+,
+&amp;   System.bool
+Thin
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.bool
+ReverseThickness
+,
+&amp;   System.short
+ThinSolidType
+,
+&amp;   System.bool
+UseSharedThickness
+,
+&amp;   System.bool
+CapEnds
+,
+&amp;   System.double
+EndThickness
+,
+&amp;   System.bool
+AutoFillet
+,
+&amp;   System.double
+FilletRadius
+,
+&amp;   System.bool
+ForceNonRational
+,
+&amp;   System.bool
+CreateSolid
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertProtrusionBlend</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertProtrusionBlend( 
+&amp;   System.bool
+Closed
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+ForceNonRational
+,
+&amp;   System.double
+TessToleranceFactor
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.double
+StartTangentLength
+,
+&amp;   System.double
+EndTangentLength
+,
+&amp;   System.bool
+StartTangentDir
+,
+&amp;   System.bool
+EndTangentDir
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.short
+ThinType
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertProtrusionBlend2</summary><p>Creates a lofted body or boss from the selected profiles, centerline, and guide curves.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertProtrusionBlend2( 
+&amp;   System.bool
+Closed
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+ForceNonRational
+,
+&amp;   System.double
+TessToleranceFactor
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.double
+StartTangentLength
+,
+&amp;   System.double
+EndTangentLength
+,
+&amp;   System.bool
+StartTangentDir
+,
+&amp;   System.bool
+EndTangentDir
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.short
+ThinType
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.int
+GuideCurveInfluence
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertProtrusionSwept</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertProtrusionSwept( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.bool
+Alignment
+,
+&amp;   System.short
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+ForceNonRational
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.short
+ThinType
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertProtrusionSwept2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertProtrusionSwept2( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.bool
+Alignment
+,
+&amp;   System.short
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+ForceNonRational
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.short
+ThinType
+,
+&amp;   System.short
+PathAlign
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertProtrusionSwept3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertProtrusionSwept3( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.bool
+Alignment
+,
+&amp;   System.short
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+BAdvancedSmoothing
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.short
+ThinType
+,
+&amp;   System.short
+PathAlign
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.double
+TwistAngle
+,
+&amp;   System.bool
+BMergeSmoothFaces
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertProtrusionSwept4</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertProtrusionSwept4( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.bool
+Alignment
+,
+&amp;   System.int
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+BAdvancedSmoothing
+,
+&amp;   System.int
+StartMatchingType
+,
+&amp;   System.int
+EndMatchingType
+,
+&amp;   System.bool
+IsThinBody
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.int
+ThinType
+,
+&amp;   System.int
+PathAlign
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.double
+TwistAngle
+,
+&amp;   System.bool
+BMergeSmoothFaces
+,
+&amp;   System.bool
+CircularProfile
+,
+&amp;   System.double
+CircularProfileDiameter
+,
+&amp;   System.int
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertReferencePoint</summary><p>Creates the geometry for the reference points based on any of these selected entities: edges, faces, planes, vertices, or sketch geometry.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertReferencePoint( 
+&amp;   System.int
+NRefPointType
+,
+&amp;   System.int
+NRefPointAlongCurveType
+,
+&amp;   System.double
+DDistance_or_Percent
+,
+&amp;   System.int
+NumberOfRefPoints
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRefPlane</summary><p>Inserts a constraint-based reference plane using the selected reference entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertRefPlane( 
+&amp;   System.int
+FirstConstraint
+,
+&amp;   System.double
+FirstConstraintAngleOrDistance
+,
+&amp;   System.int
+SecondConstraint
+,
+&amp;   System.double
+SecondConstraintAngleOrDistance
+,
+&amp;   System.int
+ThirdConstraint
+,
+&amp;   System.double
+ThirdConstraintAngleOrDistance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRevolvedRefSurface</summary><p>Creates a revolved reference surface by revolving a profile around a centerline.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertRevolvedRefSurface( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRib</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InsertRib( 
+&amp;   System.bool
+Is2Sided
+,
+&amp;   System.bool
+ReverseThicknessDir
+,
+&amp;   System.double
+Thickness
+,
+&amp;   System.int
+ReferenceEdgeIndex
+,
+&amp;   System.bool
+ReverseMaterialDir
+,
+&amp;   System.bool
+IsDrafted
+,
+&amp;   System.bool
+DraftOutward
+,
+&amp;   System.double
+DraftAngle
+,
+&amp;   System.bool
+IsNormToSketch
+,
+&amp;   System.bool
+IsDraftedFromWall
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRuledSurfaceFromEdge</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertRuledSurfaceFromEdge( 
+&amp;   System.int
+Type
+,
+&amp;   System.double
+Length
+,
+&amp;   System.bool
+FlipPullDir
+,
+&amp;   System.bool
+FlipDir
+,
+&amp;   System.bool
+TrimAndSew
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+CoordInput
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertRuledSurfaceFromEdge2</summary><p>Inserts a ruled surface from the selected edge on this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertRuledSurfaceFromEdge2( 
+&amp;   System.int
+Type
+,
+&amp;   System.double
+Length
+,
+&amp;   System.bool
+FlipPullDir
+,
+&amp;   System.bool
+FlipDir
+,
+&amp;   System.bool
+TrimAndSew
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+CoordInput
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+,
+&amp;   System.bool
+BConnectSurface
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSaveOutBodies</summary><p>Saves the selected surface bodies or solid bodies or sub-weldments to a file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertSaveOutBodies();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertScale</summary><p>Applies the specified scaling to either the current model or a selected graphic body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertScale( 
+&amp;   System.short
+Type
+,
+&amp;   System.bool
+Uniform
+,
+&amp;   System.double
+Xscale
+,
+&amp;   System.double
+YScale
+,
+&amp;   System.double
+ZScale
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSecurityNote</summary><p>Inserts a note for the specified</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Note^ InsertSecurityNote( 
+&amp;   System.String^
+Text
+,
+&amp;   Feature^
+FeatureOwner
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSewRefSurface</summary><p>Creates a surface by knitting the selected surfaces together.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSewRefSurface( 
+&amp;   System.bool
+UseGapFilters
+,
+&amp;   System.bool
+TryToFormSolid
+,
+&amp;   System.bool
+MergeEntities
+,
+&amp;   System.double
+KnitTolerance
+,
+&amp;   System.double
+MaxValueForGapRange
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetal3dBend</summary><p>Inserts a 3D bend in sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetal3dBend( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+BUseDefaultRadius
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.bool
+FlipDir
+,
+&amp;   System.short
+BendPos
+,
+&amp;   CustomBendAllowance^
+PCBA
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalBaseFlange</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalBaseFlange( 
+&amp;   System.double
+Thickness
+,
+&amp;   System.bool
+ThickenDir
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.double
+ExtrudeDist1
+,
+&amp;   System.double
+ExtrudeDist2
+,
+&amp;   System.bool
+FlipExtruDir
+,
+&amp;   System.int
+EndCondition1
+,
+&amp;   System.int
+EndCondition2
+,
+&amp;   System.int
+DirToUse
+,
+&amp;   CustomBendAllowance^
+PCBA
+,
+&amp;   System.bool
+UseDefaultRelief
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   System.double
+ReliefWidth
+,
+&amp;   System.double
+ReliefDepth
+,
+&amp;   System.double
+ReliefRatio
+,
+&amp;   System.bool
+UseReliefRatio
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalBaseFlange2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalBaseFlange2( 
+&amp;   System.double
+Thickness
+,
+&amp;   System.bool
+ThickenDir
+,
+&amp;   System.double
+Radius
+,
+&amp;   System.double
+ExtrudeDist1
+,
+&amp;   System.double
+ExtrudeDist2
+,
+&amp;   System.bool
+FlipExtruDir
+,
+&amp;   System.int
+EndCondition1
+,
+&amp;   System.int
+EndCondition2
+,
+&amp;   System.int
+DirToUse
+,
+&amp;   CustomBendAllowance^
+PCBA
+,
+&amp;   System.bool
+UseDefaultRelief
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   System.double
+ReliefWidth
+,
+&amp;   System.double
+ReliefDepth
+,
+&amp;   System.double
+ReliefRatio
+,
+&amp;   System.bool
+UseReliefRatio
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalCornerTrim</summary><p>Inserts a break corner trim in the sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalCornerTrim( 
+&amp;   System.int
+InternalCornerFlag
+,
+&amp;   System.int
+BreakType
+,
+&amp;   System.double
+BreakDist
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   System.double
+Param
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalEdgeFlange</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalEdgeFlange( 
+&amp;   Edge^
+FlangeEdge
+,
+&amp;   Feature^
+SketchFeat
+,
+&amp;   System.int
+BooleanOptions
+,
+&amp;   System.double
+DAngle
+,
+&amp;   System.double
+DRadius
+,
+&amp;   System.int
+BendPosition
+,
+&amp;   System.double
+DOffsetDist
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   System.double
+DReliefRatio
+,
+&amp;   System.double
+DReliefWidth
+,
+&amp;   System.double
+DReliefDepth
+,
+&amp;   System.int
+FlangeSharpType
+,
+&amp;   CustomBendAllowance^
+PCBA
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalEdgeFlange2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalEdgeFlange2( 
+&amp;   System.Object^
+FlangeEdges
+,
+&amp;   System.Object^
+SketchFeats
+,
+&amp;   System.int
+BooleanOptions
+,
+&amp;   System.double
+FlangeAngle
+,
+&amp;   System.double
+FlangeRadius
+,
+&amp;   System.int
+BendPosition
+,
+&amp;   System.double
+FlangeOffsetDist
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   System.double
+FlangeReliefRatio
+,
+&amp;   System.double
+FlangeReliefWidth
+,
+&amp;   System.double
+FlangeReliefDepth
+,
+&amp;   System.int
+FlangeSharpType
+,
+&amp;   CustomBendAllowance^
+CustomBendAllowance
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalGussetFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalGussetFeature( 
+&amp;   System.bool
+BOffset
+,
+&amp;   System.double
+DOffset
+,
+&amp;   System.bool
+BFlipOffsetSide
+,
+&amp;   System.int
+ProfDimType
+,
+&amp;   System.double
+DIndentDepth
+,
+&amp;   System.double
+DLength
+,
+&amp;   System.bool
+BUseAngle
+,
+&amp;   System.double
+DHeight
+,
+&amp;   System.double
+DAngle
+,
+&amp;   System.bool
+BFlipSides
+,
+&amp;   System.double
+DWidth
+,
+&amp;   System.double
+DThickness
+,
+&amp;   System.bool
+BDraft
+,
+&amp;   System.double
+DDraftAngle
+,
+&amp;   System.bool
+BInnerCornerFillet
+,
+&amp;   System.double
+DInnerCornerFilletRadius
+,
+&amp;   System.bool
+BOuterCornerFillet
+,
+&amp;   System.double
+DOuterCornerFilletRadius
+,
+&amp;   System.int
+GussetType
+,
+&amp;   System.bool
+BEdgeFillet
+,
+&amp;   System.double
+DEdgeFilletRadius
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalGussetFeature2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalGussetFeature2( 
+&amp;   System.bool
+BOffset
+,
+&amp;   System.double
+DOffset
+,
+&amp;   System.bool
+BFlipOffsetSide
+,
+&amp;   System.int
+ProfDimType
+,
+&amp;   System.double
+DIndentDepth
+,
+&amp;   System.double
+DLength
+,
+&amp;   System.bool
+BUseAngle
+,
+&amp;   System.double
+DHeight
+,
+&amp;   System.double
+DAngle
+,
+&amp;   System.bool
+BFlipSides
+,
+&amp;   System.double
+DWidth
+,
+&amp;   System.double
+DThickness
+,
+&amp;   System.bool
+BDraft
+,
+&amp;   System.double
+DDraftAngle
+,
+&amp;   System.bool
+BInnerCornerFillet
+,
+&amp;   System.double
+DInnerCornerFilletRadius
+,
+&amp;   System.bool
+BOuterCornerFillet
+,
+&amp;   System.double
+DOuterCornerFilletRadius
+,
+&amp;   System.int
+GussetType
+,
+&amp;   System.bool
+BEdgeFillet
+,
+&amp;   System.double
+DEdgeFilletRadius
+,
+&amp;   System.Object^
+ArrayOfFaces
+,
+&amp;   System.Object^
+ArrayRefLines
+,
+&amp;   System.Object^
+ArrayRefPoints
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalGussetFeature3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalGussetFeature3( 
+&amp;   System.bool
+BOffset
+,
+&amp;   System.double
+DOffset
+,
+&amp;   System.bool
+BFlipOffsetSide
+,
+&amp;   System.int
+ProfDimType
+,
+&amp;   System.double
+DIndentDepth
+,
+&amp;   System.double
+DLength
+,
+&amp;   System.bool
+BUseAngle
+,
+&amp;   System.double
+DHeight
+,
+&amp;   System.double
+DAngle
+,
+&amp;   System.bool
+BFlipSides
+,
+&amp;   System.double
+DWidth
+,
+&amp;   System.double
+DThickness
+,
+&amp;   System.bool
+BDraft
+,
+&amp;   System.double
+DDraftAngle
+,
+&amp;   System.bool
+BInnerCornerFillet
+,
+&amp;   System.double
+DInnerCornerFilletRadius
+,
+&amp;   System.bool
+BOuterCornerFillet
+,
+&amp;   System.double
+DOuterCornerFilletRadius
+,
+&amp;   System.int
+GussetType
+,
+&amp;   System.bool
+BEdgeFillet
+,
+&amp;   System.double
+DEdgeFilletRadius
+,
+&amp;   System.bool
+BOverrideDoc
+,
+&amp;   System.bool
+BShowProfile
+,
+&amp;   System.bool
+BShowCenter
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalHem</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalHem( 
+&amp;   System.int
+Type
+,
+&amp;   System.int
+Position
+,
+&amp;   System.bool
+Reverse
+,
+&amp;   System.double
+DLength
+,
+&amp;   System.double
+DGap
+,
+&amp;   System.double
+DAngle
+,
+&amp;   System.double
+DRad
+,
+&amp;   System.double
+DMiterGap
+,
+&amp;   CustomBendAllowance^
+PCBA
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalHem2</summary><p>Inserts a hem of the specified relief type at the selected edges of the current sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalHem2( 
+&amp;   System.int
+Type
+,
+&amp;   System.int
+Position
+,
+&amp;   System.bool
+Reverse
+,
+&amp;   System.double
+DLength
+,
+&amp;   System.double
+DGap
+,
+&amp;   System.double
+DAngle
+,
+&amp;   System.double
+DRad
+,
+&amp;   System.double
+DMiterGap
+,
+&amp;   CustomBendAllowance^
+PCBA
+,
+&amp;   System.bool
+UseDefaultRelief
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   System.int
+ReliefTearTypes
+,
+&amp;   System.bool
+UseReliefRatio
+,
+&amp;   System.double
+ReliefRatio
+,
+&amp;   System.double
+ReliefWidth
+,
+&amp;   System.double
+ReliefDepth
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalLoftedBend</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalLoftedBend( 
+&amp;   System.int
+ThickDirType
+,
+&amp;   System.double
+Thickness
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalLoftedBend2</summary><p>Inserts a lofted bend in a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalLoftedBend2( 
+&amp;   System.int
+ThickDirType
+,
+&amp;   System.double
+Thickness
+,
+&amp;   System.bool
+BFormed
+,
+&amp;   System.double
+DRadius
+,
+&amp;   System.bool
+BReferToEndPoint
+,
+&amp;   System.int
+EFacetOption
+,
+&amp;   System.double
+DChordTol
+,
+&amp;   System.int
+INumBends
+,
+&amp;   System.double
+DSegLength
+,
+&amp;   System.double
+DSegAngle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSheetMetalMiterFlange</summary><p>Inserts a meter flange in a sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSheetMetalMiterFlange( 
+&amp;   System.bool
+UseDefaultRadius
+,
+&amp;   System.double
+GlobalRadius
+,
+&amp;   System.double
+RipGap
+,
+&amp;   System.bool
+UseDefaultRelief
+,
+&amp;   System.bool
+UseReliefRatio
+,
+&amp;   System.double
+ReliefRatio
+,
+&amp;   System.double
+ReliefWidth
+,
+&amp;   System.double
+ReliefDepth
+,
+&amp;   System.int
+ReliefType
+,
+&amp;   System.bool
+TrimSideBends
+,
+&amp;   System.int
+FlangePos
+,
+&amp;   System.double
+OffsetDist1
+,
+&amp;   System.double
+OffsetDist2
+,
+&amp;   CustomBendAllowance^
+PCBA
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSlicing</summary><p>Creates and inserts slicing into the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertSlicing( 
+&amp;   System.Object^
+SlicingData
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSplitLineIntersect</summary><p>Creates split lines using the selected intersecting tool and target entities.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSplitLineIntersect( 
+&amp;   System.int
+CompleteOption
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertStructuralWeldment</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertStructuralWeldment( 
+&amp;   System.String^
+Path
+,
+&amp;   System.int
+EndCond
+,
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertStructuralWeldment2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertStructuralWeldment2( 
+&amp;   System.String^
+Path
+,
+&amp;   System.int
+EndCond
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+Merge
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertStructuralWeldment3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertStructuralWeldment3( 
+&amp;   System.String^
+Path
+,
+&amp;   System.int
+EndCond
+,
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.Object^
+Groups
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertStructuralWeldment4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertStructuralWeldment4( 
+&amp;   System.String^
+Path
+,
+&amp;   System.int
+ConnectedSegmentsOption
+,
+&amp;   System.bool
+AllowProtrusion
+,
+&amp;   System.Object^
+Groups
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertStructuralWeldment5</summary><p>Inserts a structural weldment feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertStructuralWeldment5( 
+&amp;   System.String^
+Path
+,
+&amp;   System.int
+ConnectedSegmentsOption
+,
+&amp;   System.bool
+AllowProtrusion
+,
+&amp;   System.Object^
+Groups
+,
+&amp;   System.String^
+ConfigurationName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSubFolder</summary><p>Creates a subfolder in the</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSubFolder();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSubWeldFolder</summary><p>Creates a sub weld folder feature containing solid bodies that are pre-selected in the user interface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSubWeldFolder();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSubWeldFolder2</summary><p>Creates a sub weld folder feature containing the specified weldment bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSubWeldFolder2( 
+&amp;   System.Object^
+BodyArray
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSweepSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSweepSurface( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.short
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+ForceNonRational
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.short
+PathAlign
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSweepSurface2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSweepSurface2( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.short
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+BAdvancedSmoothing
+,
+&amp;   System.short
+StartMatchingType
+,
+&amp;   System.short
+EndMatchingType
+,
+&amp;   System.short
+PathAlign
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.double
+TwistAngle
+,
+&amp;   System.bool
+BMergeSmoothFaces
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertSweepSurface3</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertSweepSurface3( 
+&amp;   System.bool
+Propagate
+,
+&amp;   System.int
+TwistCtrlOption
+,
+&amp;   System.bool
+KeepTangency
+,
+&amp;   System.bool
+BAdvancedSmoothing
+,
+&amp;   System.int
+StartMatchingType
+,
+&amp;   System.int
+EndMatchingType
+,
+&amp;   System.int
+PathAlign
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.double
+TwistAngle
+,
+&amp;   System.bool
+BMergeSmoothFaces
+,
+&amp;   System.bool
+CircularProfile
+,
+&amp;   System.double
+CircularProfileDiameter
+,
+&amp;   System.int
+Direction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertTableDrivenPattern</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertTableDrivenPattern( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.Object^
+PointVar
+,
+&amp;   System.bool
+UseCentrod
+,
+&amp;   System.bool
+GeomPatt
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertTableDrivenPattern2</summary><p>IFeatureManager::CreateFeature</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertTableDrivenPattern2( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.Object^
+PointVar
+,
+&amp;   System.bool
+UseCentroid
+,
+&amp;   System.bool
+GeomPattern
+,
+&amp;   System.bool
+PropVisProps
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertUntrimSurface</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertUntrimSurface( 
+&amp;   System.int
+FaceUntrimType
+,
+&amp;   System.int
+EdgeUntrimType
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.bool
+BMerge
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertUntrimSurface2</summary><p>Extends a surface along its natural boundaries or fills interior surface holes, optionally trimming outside these boundaries or holes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertUntrimSurface2( 
+&amp;   System.int
+FaceUntrimType
+,
+&amp;   System.int
+EdgeUntrimType
+,
+&amp;   System.double
+Distance
+,
+&amp;   System.bool
+BMerge
+,
+&amp;   System.bool
+BTrimOppositeSide
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertVariablePitchHelix</summary><p>Starts a variable-pitch helix using the selected sketch containing an arc.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertVariablePitchHelix( 
+&amp;   System.bool
+Reversed
+,
+&amp;   System.bool
+Clockwise
+,
+&amp;   System.int
+Helixdef
+,
+&amp;   System.double
+Startangle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertVaryInstanceIncrement</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertVaryInstanceIncrement( 
+&amp;   System.String^
+DName
+,
+&amp;   System.int
+PatternType
+,
+&amp;   System.int
+IncrementType
+,
+&amp;   System.int
+Direction
+,
+&amp;   System.double
+IncrementValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertVaryInstanceOverride</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertVaryInstanceOverride( 
+&amp;   System.String^
+DName
+,
+&amp;   System.int
+PatternType
+,
+&amp;   System.int
+OverrideType
+,
+&amp;   System.int
+Direction
+,
+&amp;   System.int
+InstanceRowIndex
+,
+&amp;   System.int
+InstanceColumnIndex
+,
+&amp;   System.double
+OverrideValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWeldmentCutList</summary><p>Inserts a cut-list-item folder feature containing pre-selected weldment bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertWeldmentCutList();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWeldmentCutList2</summary><p>Inserts a cut-list-item folder feature containing the specified weldment bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertWeldmentCutList2( 
+&amp;   System.Object^
+Bodies
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWeldmentFeature</summary><p>Inserts a weldment feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertWeldmentFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWeldmentTrimFeature</summary><p>Inserts a weldment trim feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertWeldmentTrimFeature( 
+&amp;   System.int
+EndCond
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWeldmentTrimFeature2</summary><p>Inserts a weldment trim feature for the specified weldment bodies or faces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertWeldmentTrimFeature2( 
+&amp;   System.int
+EndCond
+,
+&amp;   System.int
+Options
+,
+&amp;   System.double
+GapValue
+,
+&amp;   System.Object^
+BodiesToTrim
+,
+&amp;   System.Object^
+BodiesOrFaces
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWrapFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertWrapFeature( 
+&amp;   System.int
+Type
+,
+&amp;   System.double
+Thickness
+,
+&amp;   System.bool
+ReverseDir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertWrapFeature2</summary><p>Inserts a wrap feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertWrapFeature2( 
+&amp;   System.int
+Type
+,
+&amp;   System.double
+Thickness
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.int
+Method
+,
+&amp;   System.int
+MeshFactor
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsNameUsed</summary><p>Checks to see whether the specified name is unique in the FeatureManager design tree and valid to use.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsNameUsed( 
+&amp;   System.int
+Type
+,
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeStyledCurves</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void MakeStyledCurves( 
+&amp;   System.double
+Tol
+,
+&amp;   System.int
+Mode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MakeStyledCurves2</summary><p>Fits a spline to the preselected sketch segments to make a smooth edge on the model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MakeStyledCurves2( 
+&amp;   System.double
+Tolerance
+,
+&amp;   System.int
+Mode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MoldUndercutDetect</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void MoldUndercutDetect( 
+&amp;   System.int
+ColUndercut
+,
+&amp;   System.int
+ColBase
+,
+&amp;   System.bool
+BCoordInput
+,
+&amp;   System.double
+Dx
+,
+&amp;   System.double
+Dy
+,
+&amp;   System.double
+Dz
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MoldUndercutDetect2</summary><p>Detects trapped, also called undercut, areas in a model that cannot be ejected from the mold.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void MoldUndercutDetect2( 
+&amp;   System.int
+ColUndercut1
+,
+&amp;   System.int
+ColUndercut2
+,
+&amp;   System.int
+ColOccluded
+,
+&amp;   System.int
+ColStraddle
+,
+&amp;   System.int
+ColBase
+,
+&amp;   System.bool
+BCoordInput
+,
+&amp;   System.double
+Dx
+,
+&amp;   System.double
+Dy
+,
+&amp;   System.double
+Dz
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MoveRotateLiveSectionPlane</summary><p>Moves or rotates the selected Live Section Plane using the selected Live Section Plane and its manipulator.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MoveRotateLiveSectionPlane( 
+&amp;   System.String^
+Feat
+,
+&amp;   System.short
+Type
+,
+&amp;   System.double
+XorDeltaX
+,
+&amp;   System.double
+YorDeltaY
+,
+&amp;   System.double
+ZorDeltaZ
+,
+&amp;   System.double
+Axisx
+,
+&amp;   System.double
+Axisy
+,
+&amp;   System.double
+Axisz
+,
+&amp;   System.double
+Angle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MoveToFolder</summary><p>Moves the selected feature or folder in the</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MoveToFolder( 
+&amp;   System.String^
+MoveToFeat
+,
+&amp;   System.String^
+MoveFromFeat
+,
+&amp;   System.bool
+IsFolder
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PostIntersect</summary><p>Creates an intersect feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ PostIntersect( 
+&amp;   System.Object^
+IntersectionsToExclude
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.bool
+Consume
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PostSplitBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ PostSplitBody( 
+&amp;   System.Object^
+BodiesToMark
+,
+&amp;   System.bool
+ConsumeCut
+,
+&amp;   System.Object^
+Origins
+,
+&amp;   System.Object^
+SavePaths
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PostSplitBody2</summary><p>Creates a Split feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ PostSplitBody2( 
+&amp;   System.Object^
+BodiesToMark
+,
+&amp;   System.bool
+ConsumeCut
+,
+&amp;   System.Object^
+Origins
+,
+&amp;   System.Object^
+SavePaths
+,
+&amp;   System.String^
+OverrideTemplateName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PostTrimSurface</summary><p>Sets whether to sew the resulting trimmed surfaces.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ PostTrimSurface( 
+&amp;   System.bool
+BSewSurfaceIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PreIntersect</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ PreIntersect( 
+&amp;   System.bool
+CapPlanar
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PreIntersect2</summary><p>Prepares an intersect feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ PreIntersect2( 
+&amp;   System.bool
+CapPlanar
+,
+&amp;   System.int
+RegionType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PreSplitBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ PreSplitBody();</pre></details><details style="margin: 0.5rem 0;"><summary>PreSplitBody2</summary><p>Gets all of the bodies created by splitting a part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ PreSplitBody2();</pre></details><details style="margin: 0.5rem 0;"><summary>PreTrimSurface</summary><p>Sets the trimming options before trimming a surface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool PreTrimSurface( 
+&amp;   System.bool
+BMutualTrimIn
+,
+&amp;   System.bool
+BSplitSystemIn
+,
+&amp;   System.bool
+BSplitLinearIn
+,
+&amp;   System.bool
+BRemovePickedIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetComponentIdentifiers</summary><p>Allows you to specify the primary, ( secondary ), and &lt; tertiary &gt; elements to display for the components in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetComponentIdentifiers( 
+&amp;   System.int
+Primary
+,
+&amp;   System.int
+Secondary
+,
+&amp;   System.int
+Tertiary
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetFreeformBoundaryContinuity</summary><p>Sets the boundary continuity for this Freeform feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetFreeformBoundaryContinuity( 
+&amp;   System.short
+BoundaryIndex
+,
+&amp;   System.short
+Continuity
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetFreeformCurveData</summary><p>Adds a curve to the pre-selected face for a Freeform feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetFreeformCurveData( 
+&amp;   System.short
+Direction
+,
+&amp;   System.double
+CurveParameter
+,
+&amp;   System.double
+Tangent0X
+,
+&amp;   System.double
+Tangent0Y
+,
+&amp;   System.double
+Tangent0Z
+,
+&amp;   System.double
+Tangent1X
+,
+&amp;   System.double
+Tangent1Y
+,
+&amp;   System.double
+Tangent1Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetFreeformPointData</summary><p>Adds a point to a curve for a Freeform feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetFreeformPointData( 
+&amp;   System.short
+Direction
+,
+&amp;   System.double
+CurveParameter
+,
+&amp;   System.double
+ParameterOnCurve
+,
+&amp;   System.double
+XOffset
+,
+&amp;   System.double
+YOffset
+,
+&amp;   System.double
+ZOffset
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetNetBlendCurveData</summary><p>Sets the data for a curve for this boundary feature or boundary surface feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ SetNetBlendCurveData( 
+&amp;   System.short
+Direction
+,
+&amp;   System.short
+CurveIndex
+,
+&amp;   System.short
+TangentType
+,
+&amp;   System.double
+SignedDraftAngle
+,
+&amp;   System.double
+SignedTangentLength
+,
+&amp;   System.bool
+TangentLengthApplyAll
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetNetBlendDirectionData</summary><p>Sets the curve set data (one for each of the two directions) for this boundary feature or boundary surface feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ SetNetBlendDirectionData( 
+&amp;   System.short
+Direction
+,
+&amp;   System.short
+InfluenceType
+,
+&amp;   System.short
+TrimCurves
+,
+&amp;   System.bool
+BlendClosed
+,
+&amp;   System.bool
+SplitSurfaces
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowBodies</summary><p>Shows both hidden solid and surface bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ShowBodies();</pre></details><details style="margin: 0.5rem 0;"><summary>SimpleHole</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ SimpleHole( 
+&amp;   System.double
+Dia
+,
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SimpleHole2</summary><p>Inserts a simple hole feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ SimpleHole2( 
+&amp;   System.double
+Dia
+,
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+UseFeatScope
+,
+&amp;   System.bool
+UseAutoSelect
+,
+&amp;   System.bool
+AssemblyFeatureScope
+,
+&amp;   System.bool
+AutoSelectComponents
+,
+&amp;   System.bool
+PropagateFeatureToParts
+)</pre></details><details style="margin: 0.5rem 0;"><summary>UpdateFeatureTree</summary><p>Updates the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void UpdateFeatureTree();</pre></details><details style="margin: 0.5rem 0;"><summary>ComponentPrimaryIdentifier</summary><p>Gets the primary element displayed for the components in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int ComponentPrimaryIdentifier {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ComponentSecondaryIdentifier</summary><p>Gets the secondary element(s) displayed for the components in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int ComponentSecondaryIdentifier {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ComponentTertiaryIdentifier</summary><p>Gets the tertiary element(s) displayed for the components in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int ComponentTertiaryIdentifier {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Document</summary><p>Gets the specified document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property ModelDoc2^ Document {
+   ModelDoc2^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EnableFeatureTree</summary><p>Gets or sets whether or not to update the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool EnableFeatureTree {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EnableFeatureTreeWindow</summary><p>Gets or sets whether the FeatureManager design tree is enabled or not.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool EnableFeatureTreeWindow {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureName</summary><p>Gets the feature name for the specified feature ID.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ FeatureName {
+   System.String^ get(System.int
+NameID
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureStatistics</summary><p>Gets statistics about the features in a part document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property FeatureStatistics^ FeatureStatistics {
+   FeatureStatistics^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>GroupComponentInstances</summary><p>Gets or sets whether to group the same components in the same configuration in an assembly into a folder in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool GroupComponentInstances {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>HideComponentSingleConfigurationOrDisplayStateNames</summary><p>Gets or sets whether to hide a component's only configuration or display state.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool HideComponentSingleConfigurationOrDisplayStateNames {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MoveSizeFeatures</summary><p>Shows or hides the feature Instant3D.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool MoveSizeFeatures {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ShowComponentConfigurationDescriptions</summary><p>Gets or sets whether to show the active configuration's component configuration descriptions in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ShowComponentConfigurationDescriptions {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ShowComponentConfigurationNames</summary><p>Gets or sets whether to show the active configuration's component configuration names in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ShowComponentConfigurationNames {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ShowComponentDescriptions</summary><p>Gets or sets whether to show the component configuration descriptions in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ShowComponentDescriptions {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ShowComponentNames</summary><p>Gets or sets whether to show the component configuration names in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ShowComponentNames {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ShowDisplayStateNames</summary><p>Gets or sets whether to show the display state names in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ShowDisplayStateNames {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ShowFeatureDescription</summary><p>Gets or sets whether to show the description of the feature in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ShowFeatureDescription {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ShowFeatureDetails</summary><p>Gets or sets whether to show the feature details in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ShowFeatureDetails {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ShowFeatureName</summary><p>Gets or sets whether to show the name of the feature in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ShowFeatureName {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ShowHierarchyOnly</summary><p>Gets or sets whether to show only the hierarchy in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ShowHierarchyOnly {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SolidForTrim</summary><p>Gets or sets whether a</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool SolidForTrim {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ViewDependencies</summary><p>Gets or sets whether to view the FeatureManager design tree by its dependencies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ViewDependencies {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ViewFeatures</summary><p>Gets or sets whether to view the FeatureManager design tree by its features.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ViewFeatures {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows you to create features. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IFeatureManager </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html">IFeatureManager</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IFeatureManager </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IFeatureManager </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~FeatureManager.html">FeatureManager</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Insert_Convert_to_Sheet_Metal_Example_CSharp.htm">Convert Extrusion to Sheet Metal (C#)</a>
+<br/><a href="Insert_Convert_to_Sheet_Metal_Example_VBNET.htm">Convert Extrusion to Sheet Metal (VB.NET)</a>
+<br/><a href="Insert_Convert_to_Sheet_Metal_Example_VB.htm">Convert Extrusion to Sheet Metal (VBA)</a>
+<br/><a href="Insert_Grid_System_Feature_Example_CSharp.htm">Insert Grid System Feature (C#)</a>
+<br/><a href="Insert_Grid_System_Feature_Example_VBNET.htm">Insert Grid System Feature (VB.NET)</a>
+<br/><a href="Insert_Grid_System_Feature_Example_VB.htm">Insert Grid System Feature (VBA)</a>
+<br/><a href="Insert_Structural_Weldment_Example_CSharp.htm">Insert Structural Weldment (C#)</a>
+<br/><a href="Insert_Structural_Weldment_Example_VBNET.htm">Insert Structural Weldment (VB.NET)</a>
+<br/><a href="Insert_Structural_Weldment_Example_VB.htm">Insert Structural Weldment (VBA)</a>
+<br/><a href="Insert_Sweep_Cut_Feature_Example_CSharp.htm">Insert Sweep Cut Feature (C#)</a>
+<br/><a href="Insert_Sweep_Cut_Feature_Example_VBNET.htm">Insert Sweep Cut Feature (VB.NET)</a>
+<br/><a href="Insert_Sweep_Cut_Feature_Example_VB.htm">Insert Sweep Cut Feature (VBA)</a>
+<br/><a href="Insert_Folder_in_FeatureManager_Design_Tree_Example_VB.htm">Insert Folder in FeatureManager Design Tree (VBA)</a>
+<br/><a href="Insert_Macro_Feature_Example_CPlusPlus_COM.htm">Insert Macro Feature (C++)</a>
+<br/><a href="Insert_MidSurface_in_Component_Example_CSharp.htm">Insert MidSurface in Component (C#)</a>
+<br/><a href="Insert_MidSurface_in_Component_Example_VBNET.htm">Insert MidSurface in Component (VB.NET)</a>
+<br/><a href="Insert_MidSurface_in_Component_Example_VB.htm">Insert MidSurface in Component (VBA)</a>
+<br/><a href="Insert_Protrusion_Blend_Example_VB.htm">Insert Protrusion Blend (VBA)</a>
+<br/><a href="Insert_Protrusion_Blend_Example_VBNET.htm">Insert Protrusion Blend (VB.NET)</a>
+<br/><a href="Insert_Protrusion_Blend_Example_CSharp.htm">Insert Protrusion Blend (C#)</a>
+<br/><a href="Create_Thin_Feature_Revolve_in_Two_Directions_Example_VB.htm">Create Thin Feature Revolve in Two Directions (VBA)</a>
+<br/><a href="Create_Thin_Feature_Revolve_in_Two_Directions_Example_VBNET.htm">Create Thin Feature Revolve in Two Directions (VB.NET)</a>
+<br/><a href="Create_Thin_Feature_Revolve_in_Two_Directions_Example_CSharp.htm">Create Thin Feature Revolve in Two Directions (C#)</a>
+<br/><a href="Insert_Sheet_Metal_Hem_Example_VB.htm">Insert Sheet Metal Hem (VBA)</a>
+<br/><a href="Insert_Sheet_Metal_Hem_Example_VBNET.htm">Insert Sheet Metal Hem (VB.NET)</a>
+<br/><a href="Insert_Sheet_Metal_Hem_Example_CSharp.htm">Insert Sheet Metal Hem (C#)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~FeatureManager.html">IModelDoc2::FeatureManager</a></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#FeatureManager">FeatureManager</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html">IFeatureManager Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

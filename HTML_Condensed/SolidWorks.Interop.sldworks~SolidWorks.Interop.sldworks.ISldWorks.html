@@ -1,0 +1,2302 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>ISldWorks Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.ISldWorks"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">ISldWorks Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : ISldWorks Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>ActivateDoc</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ ActivateDoc( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ActivateDoc2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ ActivateDoc2( 
+&amp;   System.String^
+Name
+,
+&amp;   System.bool
+Silent
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ActivateDoc3</summary><p>Activates a loaded document and rebuilds it as specified.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ ActivateDoc3( 
+&amp;   System.String^
+Name
+,
+&amp;   System.bool
+UseUserPreferences
+,
+&amp;   System.int
+Option
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ActivateTaskPane</summary><p>Activates the specified task pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ActivateTaskPane( 
+&amp;   System.int
+TaskPaneID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddCallback</summary><p>Registers a general purpose callback handler.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void AddCallback( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+CallbackFunction
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddFileOpenItem</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddFileOpenItem( 
+&amp;   System.String^
+CallbackFcnAndModule
+,
+&amp;   System.String^
+Description
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddFileOpenItem2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddFileOpenItem2( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+MethodName
+,
+&amp;   System.String^
+Description
+,
+&amp;   System.String^
+Extension
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddFileOpenItem3</summary><p>Adds file types to the</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddFileOpenItem3( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+MethodName
+,
+&amp;   System.String^
+Description
+,
+&amp;   System.String^
+Extension
+,
+&amp;   System.String^
+OptionLabel
+,
+&amp;   System.String^
+OptionMethodName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddFileSaveAsItem</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddFileSaveAsItem( 
+&amp;   System.String^
+CallbackFcnAndModule
+,
+&amp;   System.String^
+Description
+,
+&amp;   System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddFileSaveAsItem2</summary><p>Adds a file type to the SOLIDWORKS</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddFileSaveAsItem2( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+MethodName
+,
+&amp;   System.String^
+Description
+,
+&amp;   System.String^
+Extension
+,
+&amp;   System.int
+DocumentType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddItemToThirdPartyPopupMenu</summary><p>Adds menu items to a pop-up (shortcut) menu in a C++ SOLIDWORKS add-in.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddItemToThirdPartyPopupMenu( 
+&amp;   System.int
+RegisterId
+,
+&amp;   System.int
+DocType
+,
+&amp;   System.String^
+Item
+,
+&amp;   System.String^
+CallbackFcnAndModule
+,
+&amp;   System.String^
+CustomName
+,
+&amp;   System.String^
+HintString
+,
+&amp;   System.String^
+BitmapFileName
+,
+&amp;   System.int
+MenuItemTypeOption
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddItemToThirdPartyPopupMenu2</summary><p>Adds menu items to a pop-up (shortcut) menu in a SOLIDWORKS add-in.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddItemToThirdPartyPopupMenu2( 
+&amp;   System.int
+RegisterId
+,
+&amp;   System.int
+DocType
+,
+&amp;   System.String^
+Item
+,
+&amp;   System.int
+Identifier
+,
+&amp;   System.String^
+CallbackFunction
+,
+&amp;   System.String^
+EnableFunction
+,
+&amp;   System.String^
+CustomName
+,
+&amp;   System.String^
+HintString
+,
+&amp;   System.String^
+BitmapFileName
+,
+&amp;   System.int
+MenuItemTypeOption
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMenu</summary><p>Adds a menu item to a SOLIDWORKS menu for DLL applications.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddMenu( 
+&amp;   System.int
+DocType
+,
+&amp;   System.String^
+Menu
+,
+&amp;   System.int
+Position
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMenuItem</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddMenuItem( 
+&amp;   System.int
+DocType
+,
+&amp;   System.String^
+Menu
+,
+&amp;   System.int
+Postion
+,
+&amp;   System.String^
+CallbackModuleAndFcn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMenuItem2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddMenuItem2( 
+&amp;   System.int
+DocumentType
+,
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+MenuItem
+,
+&amp;   System.int
+Position
+,
+&amp;   System.String^
+MenuCallback
+,
+&amp;   System.String^
+MenuEnableMethod
+,
+&amp;   System.String^
+HintString
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMenuItem3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddMenuItem3( 
+&amp;   System.int
+DocumentType
+,
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+MenuItem
+,
+&amp;   System.int
+Position
+,
+&amp;   System.String^
+MenuCallback
+,
+&amp;   System.String^
+MenuEnableMethod
+,
+&amp;   System.String^
+HintString
+,
+&amp;   System.String^
+BitmapFilePath
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMenuItem4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddMenuItem4( 
+&amp;   System.int
+DocumentType
+,
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+MenuItem
+,
+&amp;   System.int
+Position
+,
+&amp;   System.String^
+MenuCallback
+,
+&amp;   System.String^
+MenuEnableMethod
+,
+&amp;   System.String^
+HintString
+,
+&amp;   System.String^
+BitmapFilePath
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMenuItem5</summary><p>Adds a menu item and image to the SOLIDWORKS user interface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddMenuItem5( 
+&amp;   System.int
+DocumentType
+,
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+MenuItem
+,
+&amp;   System.int
+Position
+,
+&amp;   System.String^
+MenuCallback
+,
+&amp;   System.String^
+MenuEnableMethod
+,
+&amp;   System.String^
+HintString
+,
+&amp;   System.Object^
+ImageList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMenuPopupItem</summary><p>ISldWorks::AddMenuPopupItem2</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddMenuPopupItem( 
+&amp;   System.int
+DocType
+,
+&amp;   System.int
+SelType
+,
+&amp;   System.String^
+Item
+,
+&amp;   System.String^
+CallbackFcnAndModule
+,
+&amp;   System.String^
+CustomNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMenuPopupItem2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddMenuPopupItem2( 
+&amp;   System.int
+DocumentType
+,
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+SelectType
+,
+&amp;   System.String^
+PopupItemName
+,
+&amp;   System.String^
+MenuCallback
+,
+&amp;   System.String^
+MenuEnableMethod
+,
+&amp;   System.String^
+HintString
+,
+&amp;   System.String^
+CustomNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMenuPopupItem3</summary><p>Adds a menu item and zero or more submenus to shortcut menus of entities of the specified type in documents of the specified type.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddMenuPopupItem3( 
+&amp;   System.int
+DocumentType
+,
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+SelectType
+,
+&amp;   System.String^
+PopupItemName
+,
+&amp;   System.String^
+MenuCallback
+,
+&amp;   System.String^
+MenuEnableMethod
+,
+&amp;   System.String^
+HintString
+,
+&amp;   System.String^
+CustomNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddMenuPopupItem4</summary><p>Adds a menu item and zero or more submenus to shortcut menus of features of the specified type in documents of the specified type.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddMenuPopupItem4( 
+&amp;   System.int
+DocumentType
+,
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+SelectType
+,
+&amp;   System.String^
+PopupItemName
+,
+&amp;   System.String^
+MenuCallback
+,
+&amp;   System.String^
+MenuEnableMethod
+,
+&amp;   System.String^
+HintString
+,
+&amp;   System.String^
+CustomNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddToolbar</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddToolbar( 
+&amp;   System.String^
+ModuleName
+,
+&amp;   System.String^
+Title
+,
+&amp;   System.int
+SmallBitmapHandle
+,
+&amp;   System.int
+LargeBitmapHandle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddToolbar2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddToolbar2( 
+&amp;   System.String^
+ModuleNameIn
+,
+&amp;   System.String^
+TitleIn
+,
+&amp;   System.int
+SmallBitmapHandleIn
+,
+&amp;   System.int
+LargeBitmapHandleIn
+,
+&amp;   System.int
+MenuPosIn
+,
+&amp;   System.int
+DecTemplateTypeIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddToolbar3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddToolbar3( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+Title
+,
+&amp;   System.int
+SmallBitmapResourceID
+,
+&amp;   System.int
+LargeBitmapResourceID
+,
+&amp;   System.int
+MenuPositionForToolbar
+,
+&amp;   System.int
+DocumentType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddToolbar4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddToolbar4( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+Title
+,
+&amp;   System.String^
+SmallBitmapImage
+,
+&amp;   System.String^
+LargeBitmapImage
+,
+&amp;   System.int
+MenuPositionForToolbar
+,
+&amp;   System.int
+DocumentType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddToolbar5</summary><p>Creates a Windows-style dockable toolbar.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddToolbar5( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+Title
+,
+&amp;   System.Object^
+ImageList
+,
+&amp;   System.int
+MenuPositionForToolbar
+,
+&amp;   System.int
+DocumentType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddToolbarCommand</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddToolbarCommand( 
+&amp;   System.String^
+ModuleName
+,
+&amp;   System.int
+ToolbarId
+,
+&amp;   System.int
+ToolbarIndex
+,
+&amp;   System.String^
+CommandString
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddToolbarCommand2</summary><p>Specifies the application functions to call when a toolbar button is clicked or sets a separator.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddToolbarCommand2( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+ToolbarId
+,
+&amp;   System.int
+ToolbarIndex
+,
+&amp;   System.String^
+ButtonCallback
+,
+&amp;   System.String^
+ButtonEnableMethod
+,
+&amp;   System.String^
+ToolTip
+,
+&amp;   System.String^
+HintString
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AllowFailedFeatureCreation</summary><p>Sets whether to allow the creation of a feature that has rebuild errors.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AllowFailedFeatureCreation( 
+&amp;   System.bool
+YesNo
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ArrangeIcons</summary><p>Arranges the icons in SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ArrangeIcons();</pre></details><details style="margin: 0.5rem 0;"><summary>ArrangeWindows</summary><p>Arranges the open windows in SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ArrangeWindows( 
+&amp;   System.int
+Style
+)</pre></details><details style="margin: 0.5rem 0;"><summary>BlockSkinning</summary><p>Blocks skinning a window, which prevents a window from looking like a SOLIDWORKS window.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool BlockSkinning();</pre></details><details style="margin: 0.5rem 0;"><summary>CallBack</summary><p>Allows an out-of-process executable or a SOLIDWORKS macro to call back a function in a SOLIDWORKS add-in DLL.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int CallBack( 
+&amp;   System.String^
+CallBackFunc
+,
+&amp;   System.int
+DefaultRetVal
+,
+&amp;   System.String^
+CallBackArgs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CheckpointConvertedDocument</summary><p>Saves the specified open document if its version is older than the version of the SOLIDWORKS product being used.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int CheckpointConvertedDocument( 
+&amp;   System.String^
+DocName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CloseAllDocuments</summary><p>Closes all open documents in the SOLIDWORKS session.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CloseAllDocuments( 
+&amp;   System.bool
+IncludeUnsaved
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CloseAndReopen</summary><p>Closes and reopens the specified drawing document without unloading its references from memory.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int CloseAndReopen( 
+&amp;   ModelDoc2^
+Doc
+,
+&amp;   System.int
+Option
+,
+&amp;   [Out] ModelDoc2^
+NewDoc
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CloseAndReopen2</summary><p>Closes and reopens the specified drawing document without unloading its references from memory.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int CloseAndReopen2( 
+&amp;   System.Object^
+Doc
+,
+&amp;   System.int
+Option
+,
+&amp;   [Out] System.Object^
+NewDoc
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CloseDoc</summary><p>Closes the specified document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void CloseDoc( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CloseUserNotification</summary><p>Closes the specified user notification.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void CloseUserNotification( 
+&amp;   System.Object^
+Definition
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Command</summary><p>Opens the specified dialog or file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Command( 
+&amp;   System.int
+Command
+,
+&amp;   System.Object^
+Args
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CopyAppearance</summary><p>Copies the appearance of the specified entity to the clipboard.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CopyAppearance( 
+&amp;   System.Object^
+Object
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CopyDocument</summary><p>Copies a document and optionally updates references to it.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int CopyDocument( 
+&amp;   System.String^
+SourceDoc
+,
+&amp;   System.String^
+DestDoc
+,
+&amp;   System.Object^
+FromChildren
+,
+&amp;   System.Object^
+ToChildren
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateNewWindow</summary><p>Creates a client window containing the active document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void CreateNewWindow();</pre></details><details style="margin: 0.5rem 0;"><summary>CreatePropertyManagerPage</summary><p>Creates a PropertyManager page.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreatePropertyManagerPage( 
+&amp;   System.String^
+Title
+,
+&amp;   System.int
+Options
+,
+&amp;   System.Object^
+Handler
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTaskpaneView</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TaskpaneView^ CreateTaskpaneView( 
+&amp;   System.int%
+Bitmap
+,
+&amp;   System.String^
+ToolTip
+,
+&amp;   System.Object^
+PHandler
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTaskpaneView2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TaskpaneView^ CreateTaskpaneView2( 
+&amp;   System.String^
+Bitmap
+,
+&amp;   System.String^
+ToolTip
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateTaskpaneView3</summary><p>Creates an application-level Task Pane view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">TaskpaneView^ CreateTaskpaneView3( 
+&amp;   System.Object^
+ImageList
+,
+&amp;   System.String^
+ToolTip
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DateCode</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int DateCode();</pre></details><details style="margin: 0.5rem 0;"><summary>DefineAttribute</summary><p>Creates an attribute definition, which is the first step in generating attributes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ DefineAttribute( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DefineMessageBar</summary><p>Called by a SOLIDWORKS add-in, creates a message bar definition object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ DefineMessageBar( 
+&amp;   System.String^
+UniqueName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DefineUserNotification</summary><p>Called by a SOLIDWORKS add-in, creates a user notification definition object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ DefineUserNotification( 
+&amp;   System.String^
+UniqueName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DisplayStatusBar</summary><p>Sets whether to display the status bar.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void DisplayStatusBar( 
+&amp;   System.bool
+OnOff
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DocumentVisible</summary><p>Allows the application to control the display of a document in a window upon creation or retrieval.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void DocumentVisible( 
+&amp;   System.bool
+Visible
+,
+&amp;   System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DownloadFromMySolidWorksSettings</summary><p>Downloads the specified</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int DownloadFromMySolidWorksSettings( 
+&amp;   System.bool
+SystemOptions
+,
+&amp;   System.bool
+FileLocations
+,
+&amp;   System.bool
+Customizations
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DragToolbarButton</summary><p>Copies the specified toolbar button from the specified native SOLIDWORKS toolbar or</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void DragToolbarButton( 
+&amp;   System.int
+SourceToolbar
+,
+&amp;   System.int
+TargetToolbar
+,
+&amp;   System.int
+SourceIndex
+,
+&amp;   System.int
+TargetIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DragToolbarButtonFromCommandID</summary><p>Copies a button to a toolbar using a command ID.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int DragToolbarButtonFromCommandID( 
+&amp;   System.int
+CommandID
+,
+&amp;   System.int
+TargetToolbar
+,
+&amp;   System.int
+TargetIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnablePhotoWorksProgressiveRender</summary><p>Obsolete. Not superseded.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EnablePhotoWorksProgressiveRender( 
+&amp;   System.bool
+BEnable
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnableStereoDisplay</summary><p>Obsolete and not superseded. Functionality no longer implemented.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool EnableStereoDisplay( 
+&amp;   System.bool
+BEnable
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnumDocuments</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumDocuments^ EnumDocuments();</pre></details><details style="margin: 0.5rem 0;"><summary>EnumDocuments2</summary><p>Gets a list of documents currently open in the application.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumDocuments2^ EnumDocuments2();</pre></details><details style="margin: 0.5rem 0;"><summary>ExitApp</summary><p>Shuts down SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ExitApp();</pre></details><details style="margin: 0.5rem 0;"><summary>ExportHoleWizardItem</summary><p>Exports data for the specified Hole Wizard standard.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ExportHoleWizardItem( 
+&amp;   System.String^
+StdToExport
+,
+&amp;   System.String^
+DestinationFolderPath
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ExportToolboxItem</summary><p>Exports data for the specified Toolbox standard.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ExportToolboxItem( 
+&amp;   System.String^
+StdToExport
+,
+&amp;   System.String^
+DestinationFolderPath
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Frame</summary><p>Gets the SOLIDWORKS main frame.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Frame();</pre></details><details style="margin: 0.5rem 0;"><summary>Get3DExperienceState</summary><p>Gets the current state of</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int Get3DExperienceState();</pre></details><details style="margin: 0.5rem 0;"><summary>GetActiveConfigurationName</summary><p>Gets the name of the active configuration in the specified SOLIDWORKS document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetActiveConfigurationName( 
+&amp;   System.String^
+FilePathName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetActiveDisplayPane</summary><p>Gets the active Display Pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetActiveDisplayPane();</pre></details><details style="margin: 0.5rem 0;"><summary>GetAddInObject</summary><p>Gets an add-in object for the specified SOLIDWORKS add-in.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetAddInObject( 
+&amp;   System.String^
+Clsid
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetApplySelectionFilter</summary><p>Gets the current state of the selection filter.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetApplySelectionFilter();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBatchUploadedFilesInfo</summary><p>Gets the files uploaded to 3DEXPERIENCE during a batch process.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetBatchUploadedFilesInfo( 
+&amp;   [Out] System.Object^
+ProcessedFileNames
+,
+&amp;   [Out] System.Object^
+NonProcessedFileNames
+,
+&amp;   [Out] System.Object^
+FailedFileNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBuildNumbers</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetBuildNumbers( 
+&amp;   [Out] System.String^
+BaseVersion
+,
+&amp;   [Out] System.String^
+CurrentVersion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBuildNumbers2</summary><p>Gets the build, major revision, and hot fix numbers of the SOLIDWORKS application.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetBuildNumbers2( 
+&amp;   [Out] System.String^
+BaseVersion
+,
+&amp;   [Out] System.String^
+CurrentVersion
+,
+&amp;   [Out] System.String^
+HotFixes
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetButtonPosition</summary><p>Gets the center coordinates of the specified SOLIDWORKS toolbar button.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetButtonPosition( 
+&amp;   System.int
+PointAt
+,
+&amp;   [Out] System.int
+LocX
+,
+&amp;   [Out] System.int
+LocY
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCollisionDetectionManager</summary><p>Gets the collision detection manager.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCollisionDetectionManager();</pre></details><details style="margin: 0.5rem 0;"><summary>GetColorTable</summary><p>Gets a color table from the SOLIDWORKS application.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetColorTable();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCommandID</summary><p>Gets the SOLIDWORKS command ID for an instance of an add-in's control (e.g., an add-in's toolbar button).</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetCommandID( 
+&amp;   System.String^
+Clsid
+,
+&amp;   System.int
+UserCmdID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCommandManager</summary><p>Gets the CommandManager for the specified add-in.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">CommandManager^ GetCommandManager( 
+&amp;   System.int
+Cookie
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetConfigurationCount</summary><p>Gets the number of configurations in the SOLIDWORKS document, whether the document is opened or closed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetConfigurationCount( 
+&amp;   System.String^
+FilePathName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetConfigurationNames</summary><p>Gets the names of the configuration in this SOLIDWORKS document, whether the document is opened or closed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetConfigurationNames( 
+&amp;   System.String^
+FilePathName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCurrentFileUser</summary><p>Gets the name of the user who has the the specified document open.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetCurrentFileUser( 
+&amp;   System.String^
+FilePathName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCurrentLanguage</summary><p>Gets the current language used by SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetCurrentLanguage();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCurrentLicenseType</summary><p>Gets the type of license for the current SOLIDWORKS session.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetCurrentLicenseType();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCurrentMacroPathFolder</summary><p>Gets the name of the folder where the macro resides.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetCurrentMacroPathFolder();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCurrentMacroPathName</summary><p>Gets the path name for the macro currently running.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetCurrentMacroPathName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCurrentWorkingDirectory</summary><p>Gets the current working directory being used by the SOLIDWORKS application.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetCurrentWorkingDirectory();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDataFolder</summary><p>Gets the data directory name currently used by SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetDataFolder( 
+&amp;   System.bool
+BShowErrorMsg
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDocumentCount</summary><p>Gets the number of open documents in the current SOLIDWORKS session.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDocumentCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDocumentDependencies</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDocumentDependencies( 
+&amp;   System.String^
+Document
+,
+&amp;   System.int
+Traverseflag
+,
+&amp;   System.int
+Searchflag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDocumentDependencies2</summary><p>Gets all of the model dependencies for a document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDocumentDependencies2( 
+&amp;   System.String^
+Document
+,
+&amp;   System.bool
+Traverseflag
+,
+&amp;   System.bool
+Searchflag
+,
+&amp;   System.bool
+AddReadOnlyInfo
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDocumentDependenciesCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetDocumentDependenciesCount( 
+&amp;   System.String^
+Document
+,
+&amp;   System.int
+Traverseflag
+,
+&amp;   System.int
+Searchflag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDocuments</summary><p>Gets the open documents in this SOLIDWORKS session.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDocuments();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDocumentTemplate</summary><p>Gets the name of document template that can be used in</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetDocumentTemplate( 
+&amp;   System.int
+Mode
+,
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetDocumentVisible</summary><p>Gets the visibility of the document to open.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetDocumentVisible( 
+&amp;   System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEnvironment</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEnvironment();</pre></details><details style="margin: 0.5rem 0;"><summary>GetErrorMessages</summary><p>Gets the last 20 messages issued by SOLIDWORKS in the current SOLIDWORKS session.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetErrorMessages( 
+&amp;   [Out] System.Object^
+Msgs
+,
+&amp;   [Out] System.Object^
+MsgIDs
+,
+&amp;   [Out] System.Object^
+MsgTypes
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetExecutablePath</summary><p>Gets the path to the SOLIDWORKS executable,</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetExecutablePath();</pre></details><details style="margin: 0.5rem 0;"><summary>GetExportFileData</summary><p>Gets the data interface for the specified file type to which to export one or more drawing sheets.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetExportFileData( 
+&amp;   System.int
+FileType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFilePLMID</summary><p>Gets the Product Lifecycle Management (PLM) ID of the specified file stored in 3DEXPERIENCE.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetFilePLMID( 
+&amp;   System.String^
+FilePath
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstDocument</summary><p>Gets the document opened first in this SOLIDWORKS session.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstDocument();</pre></details><details style="margin: 0.5rem 0;"><summary>GetGtolFormatData</summary><p>Gets the Gtol format and XML schema versions supported by this version of SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetGtolFormatData( 
+&amp;   [Out] System.int
+GtolFormat
+,
+&amp;   [Out] System.int
+XmlSchemaversion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetGtolFrameXMLSchema</summary><p>Gets the XML schema for Gtol frame symbol XML.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetGtolFrameXMLSchema();</pre></details><details style="margin: 0.5rem 0;"><summary>GetHoleStandardsData</summary><p>Gets the hole standards for the specified hole type.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetHoleStandardsData( 
+&amp;   System.int
+HoleTypeID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetImageSize</summary><p>small, medium, and large image sizes suitable for the current DPI setting of the display device.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetImageSize( 
+&amp;   [Out] System.int
+Small
+,
+&amp;   [Out] System.int
+Medium
+,
+&amp;   [Out] System.int
+Large
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetImportFileData</summary><p>Gets the IGES or DXF/DWG import data for the specified file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetImportFileData( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetInterfaceBrightnessThemeColors</summary><p>Gets the theme and colors of the SOLIDWORKS background.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetInterfaceBrightnessThemeColors( 
+&amp;   [Out] System.Object^
+Colors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLastSaveError</summary><p>Gets the last save error issued by Microsoft in the current session.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetLastSaveError( 
+&amp;   [Out] System.Object^
+FilePath
+,
+&amp;   [Out] System.Object^
+ErrorCode
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLastToolbarID</summary><p>Gets the ID of the last toolbar added to the</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLastToolbarID();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLatestSupportedFileVersion</summary><p>Gets the version number that this instance of SOLIDWORKS reads and writes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetLatestSupportedFileVersion();</pre></details><details style="margin: 0.5rem 0;"><summary>GetLineStyles</summary><p>Gets all of the line styles in the specified file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetLineStyles( 
+&amp;   System.String^
+StyleFile
+,
+&amp;   [Out] System.Object^
+StyleNameList
+,
+&amp;   [Out] System.Object^
+StyleList
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetLocalizedMenuName</summary><p>Gets a localized menu name for the specified menu ID.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetLocalizedMenuName( 
+&amp;   System.int
+MenuId
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMacroMethods</summary><p>Gets the names of the modules in the specified macro.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMacroMethods( 
+&amp;   System.String^
+FilePathName
+,
+&amp;   System.int
+Filter
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMassProperties</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMassProperties( 
+&amp;   System.String^
+FilePathName
+,
+&amp;   System.String^
+ConfigurationName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMassProperties2</summary><p>Gets the mass properties from the specified document for the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMassProperties2( 
+&amp;   System.String^
+FilePathName
+,
+&amp;   System.String^
+ConfigurationName
+,
+&amp;   System.int
+Accuracy
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialDatabaseCount</summary><p>Gets the number of material databases.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetMaterialDatabaseCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialDatabases</summary><p>Gets the names of the material databases.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMaterialDatabases();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialSchemaPathName</summary><p>Gets the path for the XML material schema file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialSchemaPathName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMathUtility</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMathUtility();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMenuStrings</summary><p>Gets the name of the parent menu of the specified menu command.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMenuStrings( 
+&amp;   System.int
+CommandID
+,
+&amp;   System.int
+DocumentType
+,
+&amp;   [Out] System.String^
+ParentMenuName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetModeler</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetModeler();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMouseDragMode</summary><p>Gets whether the specified command-mouse mode is in effect.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetMouseDragMode( 
+&amp;   System.int
+Command
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetOpenDocSpec</summary><p>Gets the specifications to use when opening a model document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetOpenDocSpec( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetOpenDocument</summary><p>Gets the open document with the specified name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc2^ GetOpenDocument( 
+&amp;   System.String^
+DocName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetOpenDocumentByName</summary><p>Gets the open document with the specified name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetOpenDocumentByName( 
+&amp;   System.String^
+DocumentName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetOpenedFileInfo</summary><p>Gets the name of the last model successfully opened by SOLIDWORKS and the options that were in effect when it opened.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetOpenedFileInfo( 
+&amp;   [Out] System.String^
+FileName
+,
+&amp;   [Out] System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetOpenFileName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetOpenFileName( 
+&amp;   System.String^
+DialogTitle
+,
+&amp;   System.String^
+InitialFileName
+,
+&amp;   System.String^
+FileFilter
+,
+&amp;   [Out] System.int
+OpenOptions
+,
+&amp;   [Out] System.String^
+ConfigName
+,
+&amp;   [Out] System.String^
+DisplayName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetOpenFileName2</summary><p>Prompts the user for the name of the file to open.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetOpenFileName2( 
+&amp;   System.String^
+DialogTitle
+,
+&amp;   System.String^
+InitialFileName
+,
+&amp;   System.String^
+FileFilter
+,
+&amp;   [Out] System.int
+OpenOptions
+,
+&amp;   [Out] System.String^
+ConfigName
+,
+&amp;   [Out] System.String^
+DisplayName
+,
+&amp;   [Out] System.String^
+DisplayStateName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPreviewBitmap</summary><p>Gets the preview bitmap (.bmp) for the specified configuration, regardless if the SOLIDWORKS document is open or closed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPreviewBitmap( 
+&amp;   System.String^
+FilePathName
+,
+&amp;   System.String^
+ConfigName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPreviewBitmapFile</summary><p>Gets the specified preview bitmap of a document and saves it as a Windows bitmap file (.bmp) using the specified filename.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetPreviewBitmapFile( 
+&amp;   System.String^
+DocumentPath
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.String^
+BitMapFile
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetProcessID</summary><p>Gets the process ID for the current SOLIDWORKS session.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetProcessID();</pre></details><details style="margin: 0.5rem 0;"><summary>GetRayTraceRenderer</summary><p>Get a ray-trace rendering engine.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetRayTraceRenderer( 
+&amp;   System.int
+RendererType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetRecentFiles</summary><p>Gets a list of the most recently used files.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetRecentFiles();</pre></details><details style="margin: 0.5rem 0;"><summary>GetRoutingSettings</summary><p>Gets routing settings.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">RoutingSettings^ GetRoutingSettings();</pre></details><details style="margin: 0.5rem 0;"><summary>GetRunningCommandInfo</summary><p>Get a command's ID or PropertyManager page's command ID, title, and whether it is active in the user-interface.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void GetRunningCommandInfo( 
+&amp;   [Out] System.int
+CommandID
+,
+&amp;   [Out] System.String^
+PMTitle
+,
+&amp;   [Out] System.bool
+IsUiActive
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSafeArrayUtility</summary><p>Gets the ISafeArrayUtility object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSafeArrayUtility();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSaveTo3DExperienceOptions</summary><p>Initializes save options for a SOLIDWORKS Connected document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSaveTo3DExperienceOptions();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSearchFolders</summary><p>Gets the current folder search path as shown in</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetSearchFolders( 
+&amp;   System.int
+FolderType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectionFilter</summary><p>Gets the current selection filter settings for the specified item type.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetSelectionFilter( 
+&amp;   System.int
+SelType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectionFilters</summary><p>Gets all active selection filters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectionFilters();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSSOFormattedURL</summary><p>Formats the specified URL for single sign-on.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetSSOFormattedURL( 
+&amp;   System.String^
+TargetUrl
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTemplateSizes</summary><p>Gets the sheet properties from a template document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTemplateSizes( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetToolbarDock</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetToolbarDock( 
+&amp;   System.String^
+ModuleIn
+,
+&amp;   System.int
+ToolbarIDIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetToolbarDock2</summary><p>Gets the docking state of the toolbar.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetToolbarDock2( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+ToolbarId
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetToolbarState</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetToolbarState( 
+&amp;   System.String^
+Module
+,
+&amp;   System.int
+ToolbarId
+,
+&amp;   System.int
+ToolbarState
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetToolbarState2</summary><p>Gets the state of the toolbar.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetToolbarState2( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+ToolbarId
+,
+&amp;   System.int
+ToolbarState
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetToolbarVisibility</summary><p>Gets whether this toolbar is visible.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetToolbarVisibility( 
+&amp;   System.int
+Toolbar
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserPreferenceDoubleValue</summary><p>Gets system default user preference values.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double GetUserPreferenceDoubleValue( 
+&amp;   System.int
+UserPreferenceValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserPreferenceIntegerValue</summary><p>Gets system default user preference values.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetUserPreferenceIntegerValue( 
+&amp;   System.int
+UserPreferenceValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserPreferenceStringListValue</summary><p>Gets the name of the DXF mapping file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetUserPreferenceStringListValue( 
+&amp;   System.int
+UserPreference
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserPreferenceStringValue</summary><p>Gets system default user preference values.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetUserPreferenceStringValue( 
+&amp;   System.int
+UserPreference
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserPreferenceToggle</summary><p>Gets document default user preference values.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetUserPreferenceToggle( 
+&amp;   System.int
+UserPreferenceToggle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserProgressBar</summary><p>Gets a progress indicator.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetUserProgressBar( 
+&amp;   [Out] UserProgressBar^
+PProgressBar
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserTypeLibReferenceCount</summary><p>Gets the number of user-specified type library references.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetUserTypeLibReferenceCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUserUnit</summary><p>object of the specified type.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetUserUnit( 
+&amp;   System.int
+UnitType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>HideBubbleTooltip</summary><p>Hides the bubble ToolTip displayed by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void HideBubbleTooltip();</pre></details><details style="margin: 0.5rem 0;"><summary>HideToolbar</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool HideToolbar( 
+&amp;   System.String^
+ModuleName
+,
+&amp;   System.int
+ToolbarId
+)</pre></details><details style="margin: 0.5rem 0;"><summary>HideToolbar2</summary><p>Hides a toolbar created with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool HideToolbar2( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+ToolbarId
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IActivateDoc</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc^ IActivateDoc( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IActivateDoc2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc^ IActivateDoc2( 
+&amp;   System.String^
+Name
+,
+&amp;   System.bool
+Silent
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IActivateDoc3</summary><p>Activates a document that has already been loaded. This file becomes the active document, and this method returns a pointer to that document object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc2^ IActivateDoc3( 
+&amp;   System.String^
+Name
+,
+&amp;   System.bool
+Silent
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICopyDocument</summary><p>Copies a document and optionally updates references to it.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ICopyDocument( 
+&amp;   System.String^
+SourceDoc
+,
+&amp;   System.String^
+DestDoc
+,
+&amp;   System.int
+ChildCount
+,
+&amp;   System.String^%
+FromChildren
+,
+&amp;   System.String^%
+ToChildren
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreatePropertyManagerPage</summary><p>Creates a PropertyManager page.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">PropertyManagerPage2^ ICreatePropertyManagerPage( 
+&amp;   System.String^
+Title
+,
+&amp;   System.int
+Options
+,
+&amp;   System.Object^
+Handler
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDefineAttribute</summary><p>Creates an attribute definition, which is the first step in generating attributes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">AttributeDef^ IDefineAttribute( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IEnableStereoDisplay</summary><p>Obsolete and not superseded. Functionality no longer implemented.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IEnableStereoDisplay( 
+&amp;   System.bool
+BEnable
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetColorTable</summary><p>Gets a color table from the SOLIDWORKS application.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ColorTable^ IGetColorTable();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetConfigurationNames</summary><p>Gets the names of the configuration in this SOLIDWORKS document, whether the document is opened or closed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetConfigurationNames( 
+&amp;   System.String^
+FilePathName
+,
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDocumentDependencies</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDocumentDependencies( 
+&amp;   System.String^
+Document
+,
+&amp;   System.int
+Traverseflag
+,
+&amp;   System.int
+Searchflag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDocumentDependencies2</summary><p>Gets all of the model dependencies for a document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetDocumentDependencies2( 
+&amp;   System.String^
+Document
+,
+&amp;   System.bool
+Traverseflag
+,
+&amp;   System.bool
+Searchflag
+,
+&amp;   System.bool
+AddReadOnlyInfo
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDocumentDependenciesCount2</summary><p>Gets the size of the array needed for a call to</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetDocumentDependenciesCount2( 
+&amp;   System.String^
+Document
+,
+&amp;   System.bool
+Traverseflag
+,
+&amp;   System.bool
+Searchflag
+,
+&amp;   System.bool
+AddReadOnlyInfo
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDocuments</summary><p>Gets the open documents is this SOLIDWORKS session.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc2^ IGetDocuments( 
+&amp;   System.int
+NumDocuments
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEnvironment</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Environment^ IGetEnvironment();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstDocument</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc^ IGetFirstDocument();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstDocument2</summary><p>Gets the document opened first in this SOLIDWORKS session.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc2^ IGetFirstDocument2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMassProperties</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IGetMassProperties( 
+&amp;   System.String^
+FilePathName
+,
+&amp;   System.String^
+ConfigurationName
+,
+&amp;   System.double%
+MPropsData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMassProperties2</summary><p>Gets the mass properties from the specified document for the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IGetMassProperties2( 
+&amp;   System.String^
+FilePathName
+,
+&amp;   System.String^
+ConfigurationName
+,
+&amp;   System.double%
+MPropsData
+,
+&amp;   System.int
+Accuracy
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMaterialDatabases</summary><p>Gets the names of the material databases.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetMaterialDatabases( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMathUtility</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MathUtility^ IGetMathUtility();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetModeler</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Modeler^ IGetModeler();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetOpenDocumentByName</summary><p>Obsolete. Superseded</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc^ IGetOpenDocumentByName( 
+&amp;   System.String^
+DocumentName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetOpenDocumentByName2</summary><p>Gets the open document with the specified name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc2^ IGetOpenDocumentByName2( 
+&amp;   System.String^
+DocumentName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetRayTraceRenderer</summary><p>Get a ray-trace rendering engine.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">RayTraceRenderer^ IGetRayTraceRenderer( 
+&amp;   System.int
+RendererType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectionFilters</summary><p>Gets all active selection filters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetSelectionFilters();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectionFiltersCount</summary><p>Gets the number of active selection filters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetSelectionFiltersCount();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTemplateSizes</summary><p>Gets the sheet properties from a template document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IGetTemplateSizes( 
+&amp;   System.String^
+FileName
+,
+&amp;   [Out] System.int
+PaperSize
+,
+&amp;   [Out] System.double
+Width
+,
+&amp;   [Out] System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetUserTypeLibReferences</summary><p>Gets the specified user-specified type library references.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetUserTypeLibReferences( 
+&amp;   System.int
+NCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetUserUnit</summary><p>object of the specified type.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">UserUnit^ IGetUserUnit( 
+&amp;   System.int
+UnitType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetVersionHistoryCount</summary><p>Gets the size of the array required to hold data returned by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetVersionHistoryCount( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMoveDocument</summary><p>Moves a document and optionally updates references to it.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IMoveDocument( 
+&amp;   System.String^
+SourceDoc
+,
+&amp;   System.String^
+DestDoc
+,
+&amp;   System.int
+ChildCount
+,
+&amp;   System.String^%
+FromChildren
+,
+&amp;   System.String^%
+ToChildren
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ImportHoleWizardItem</summary><p>Imports data for the specified Hole Wizard standard.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ImportHoleWizardItem( 
+&amp;   System.String^
+StdToImport
+,
+&amp;   System.String^
+DestinationFilePath
+,
+&amp;   System.bool
+ReplaceData
+,
+&amp;   System.bool
+ErrorFile
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ImportToolboxItem</summary><p>Imports data for the specified Toolbox standard.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ImportToolboxItem( 
+&amp;   System.String^
+StdToImport
+,
+&amp;   System.String^
+DestinationFilePath
+)</pre></details><details style="margin: 0.5rem 0;"><summary>INewAssembly</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">AssemblyDoc^ INewAssembly();</pre></details><details style="margin: 0.5rem 0;"><summary>INewDocument</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc^ INewDocument( 
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>INewDocument2</summary><p>Creates a new document based on the specified template.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc2^ INewDocument2( 
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>INewDrawing</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DrawingDoc^ INewDrawing( 
+&amp;   System.int
+TemplateToUse
+)</pre></details><details style="margin: 0.5rem 0;"><summary>INewDrawing2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">DrawingDoc^ INewDrawing2( 
+&amp;   System.int
+TemplateToUse
+,
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>INewPart</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">PartDoc^ INewPart();</pre></details><details style="margin: 0.5rem 0;"><summary>InstallQuickTipGuide</summary><p>Implements your add-in's copy of the</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void InstallQuickTipGuide( 
+&amp;   System.Object^
+PInterface
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IOpenDoc</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc^ IOpenDoc( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IOpenDoc2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc^ IOpenDoc2( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Type
+,
+&amp;   System.bool
+ReadOnly
+,
+&amp;   System.bool
+ViewOnly
+,
+&amp;   System.bool
+Silent
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IOpenDoc3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc^ IOpenDoc3( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Type
+,
+&amp;   System.bool
+ReadOnly
+,
+&amp;   System.bool
+ViewOnly
+,
+&amp;   System.bool
+RapidDraft
+,
+&amp;   System.bool
+Silent
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IOpenDoc4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc^ IOpenDoc4( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Type
+,
+&amp;   System.int
+Options
+,
+&amp;   System.String^
+Configuration
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IOpenDoc5</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc2^ IOpenDoc5( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Type
+,
+&amp;   System.int
+Options
+,
+&amp;   System.String^
+Configuration
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IOpenDocSilent</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc^ IOpenDocSilent( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Type
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IRemoveUserTypeLibReferences</summary><p>Removes the user-specified type library references.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IRemoveUserTypeLibReferences( 
+&amp;   System.int
+NCount
+,
+&amp;   System.String^%
+BstrTlbRef
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsBackgroundProcessingCompleted</summary><p>Gets whether SOLIDWORKS has finished background processing a drawing document that requires a lot of CPU time to open.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsBackgroundProcessingCompleted( 
+&amp;   System.String^
+FilePath
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsCommandEnabled</summary><p>Gets whether the specified command is enabled.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsCommandEnabled( 
+&amp;   System.int
+CommandID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetSelectionFilters</summary><p>Sets the status for multiple selection filters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetSelectionFilters( 
+&amp;   System.int
+Count
+,
+&amp;   System.int%
+SelType
+,
+&amp;   System.bool
+State
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetUserTypeLibReferences</summary><p>Sets the user-specified type library references.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetUserTypeLibReferences( 
+&amp;   System.int
+NCount
+,
+&amp;   System.String^%
+BstrTlbRef
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsRapidDraft</summary><p>Gets whether the specified drawing file is in SOLIDWORKS Detached format.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsRapidDraft( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsSame</summary><p>Gets whether the two specified objects are the same object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IsSame( 
+&amp;   System.Object^
+Object1
+,
+&amp;   System.Object^
+Object2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsTaskPaneExpanded</summary><p>Gets whether the Task Pane is expanded.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsTaskPaneExpanded();</pre></details><details style="margin: 0.5rem 0;"><summary>IsTaskPaneVisible</summary><p>Gets whether the Task Pane is visible.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsTaskPaneVisible();</pre></details><details style="margin: 0.5rem 0;"><summary>IVersionHistory</summary><p>Gets a list of strings indicating the versions in which a model was saved.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IVersionHistory( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>LoadAddIn</summary><p>Loads the specified add-in in SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int LoadAddIn( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>LoadAdminSettingsFile</summary><p>SOLIDWORKS Connected</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int LoadAdminSettingsFile( 
+&amp;   System.String^
+FilePath
+)</pre></details><details style="margin: 0.5rem 0;"><summary>LoadFile</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool LoadFile( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>LoadFile2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool LoadFile2( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.String^
+ArgString
+)</pre></details><details style="margin: 0.5rem 0;"><summary>LoadFile3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool LoadFile3( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.String^
+ArgString
+,
+&amp;   System.Object^
+ImportData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>LoadFile4</summary><p>Loads a third-party native CAD file into a new SOLIDWORKS document using 3D Interconnect.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc2^ LoadFile4( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.String^
+ArgString
+,
+&amp;   System.Object^
+ImportData
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MoveDocument</summary><p>Moves a document and optionally updates references to it.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int MoveDocument( 
+&amp;   System.String^
+SourceDoc
+,
+&amp;   System.String^
+DestDoc
+,
+&amp;   System.Object^
+FromChildren
+,
+&amp;   System.Object^
+ToChildren
+,
+&amp;   System.int
+Option
+)</pre></details><details style="margin: 0.5rem 0;"><summary>NewAssembly</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ NewAssembly();</pre></details><details style="margin: 0.5rem 0;"><summary>NewDocument</summary><p>Creates a new document based on the specified template.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ NewDocument( 
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>NewDrawing</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ NewDrawing( 
+&amp;   System.int
+TemplateToUse
+)</pre></details><details style="margin: 0.5rem 0;"><summary>NewDrawing2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ NewDrawing2( 
+&amp;   System.int
+TemplateToUse
+,
+&amp;   System.String^
+TemplateName
+,
+&amp;   System.int
+PaperSize
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>NewPart</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ NewPart();</pre></details><details style="margin: 0.5rem 0;"><summary>OpenDoc</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ OpenDoc( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>OpenDoc2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ OpenDoc2( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Type
+,
+&amp;   System.bool
+ReadOnly
+,
+&amp;   System.bool
+ViewOnly
+,
+&amp;   System.bool
+Silent
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>OpenDoc3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ OpenDoc3( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Type
+,
+&amp;   System.bool
+ReadOnly
+,
+&amp;   System.bool
+ViewOnly
+,
+&amp;   System.bool
+RapidDraft
+,
+&amp;   System.bool
+Silent
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>OpenDoc4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ OpenDoc4( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Type
+,
+&amp;   System.int
+Options
+,
+&amp;   System.String^
+Configuration
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>OpenDoc6</summary><p>Opens an existing document and returns a pointer to the document object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc2^ OpenDoc6( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Type
+,
+&amp;   System.int
+Options
+,
+&amp;   System.String^
+Configuration
+,
+&amp;   [Out] System.int
+Errors
+,
+&amp;   [Out] System.int
+Warnings
+)</pre></details><details style="margin: 0.5rem 0;"><summary>OpenDoc7</summary><p>Opens an existing document and returns a pointer to the document object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">ModelDoc2^ OpenDoc7( 
+&amp;   System.Object^
+Specification
+)</pre></details><details style="margin: 0.5rem 0;"><summary>OpenDocSilent</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ OpenDocSilent( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Type
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PasteAppearance</summary><p>Applies to the specified entity an appearance that has been copied to the clipboard.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool PasteAppearance( 
+&amp;   System.Object^
+Object
+,
+&amp;   System.int
+AppearanceTarget
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PostMessageToApplication</summary><p>Posts a message to the application that invoked this method.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void PostMessageToApplication( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+UserData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PostMessageToApplicationx64</summary><p>Posts a message to the application that invoked this method in 64-bit applications.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void PostMessageToApplicationx64( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.int64
+UserData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PreSelectDwgTemplateSize</summary><p>Establishes which template to use when creating a drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void PreSelectDwgTemplateSize( 
+&amp;   System.int
+TemplateToUse
+,
+&amp;   System.String^
+TemplateName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PresetNewDrawingParameters</summary><p>Presets the drawing template and sheet size parameters to avoid showing the</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool PresetNewDrawingParameters( 
+&amp;   System.String^
+DrawingTemplate
+,
+&amp;   System.bool
+ShowTemplate
+,
+&amp;   System.double
+Width
+,
+&amp;   System.double
+Height
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PreviewDoc</summary><p>Displays a preview of a document to the specified window.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool PreviewDoc( 
+&amp;   System.int%
+HWnd
+,
+&amp;   System.String^
+FullName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>PreviewDocx64</summary><p>Displays a preview of a document to the specified window in 64-bit applications.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool PreviewDocx64( 
+&amp;   System.int64%
+HWnd
+,
+&amp;   System.String^
+FullName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>QuitDoc</summary><p>Closes the specified document without saving changes.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void QuitDoc( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RecordLine</summary><p>Adds a line of code to a VBA macro and the SOLIDWORKS journal file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RecordLine( 
+&amp;   System.String^
+Text
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RecordLineCSharp</summary><p>Adds a line of code to a C# macro and the SOLIDWORKS journal file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RecordLineCSharp( 
+&amp;   System.String^
+StringLine
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RecordLineVBnet</summary><p>Adds a line of code to a VB.NET macro and the SOLIDWORKS journal file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RecordLineVBnet( 
+&amp;   System.String^
+StringLine
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RefreshQuickTipWindow</summary><p>Tells the SOLIDWORKS application that your add-in's state has changed and triggers a query for the current URL page.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RefreshQuickTipWindow();</pre></details><details style="margin: 0.5rem 0;"><summary>RefreshTaskpaneContent</summary><p>Refreshes the view of the Design Library tab in the Task Pane.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RefreshTaskpaneContent();</pre></details><details style="margin: 0.5rem 0;"><summary>RegisterThirdPartyPopupMenu</summary><p>Registers a third-party pop-up (shortcut) menu.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int RegisterThirdPartyPopupMenu();</pre></details><details style="margin: 0.5rem 0;"><summary>RegisterTrackingDefinition</summary><p>Registers a tracking definition.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int RegisterTrackingDefinition( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveCallback</summary><p>Unregisters a general purpose callback handler.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void RemoveCallback( 
+&amp;   System.int
+Cookie
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveFileOpenItem</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveFileOpenItem( 
+&amp;   System.String^
+CallbackFcnAndModule
+,
+&amp;   System.String^
+Description
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveFileOpenItem2</summary><p>Removes a file type from the</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveFileOpenItem2( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+MethodName
+,
+&amp;   System.String^
+Description
+,
+&amp;   System.String^
+Extension
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveFileSaveAsItem</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveFileSaveAsItem( 
+&amp;   System.String^
+CallbackFcnAndModule
+,
+&amp;   System.String^
+Description
+,
+&amp;   System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveFileSaveAsItem2</summary><p>Removes a file type from the</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveFileSaveAsItem2( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.String^
+MethodName
+,
+&amp;   System.String^
+Description
+,
+&amp;   System.String^
+Extension
+,
+&amp;   System.int
+DocumentType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveFromMenu</summary><p>the specified command from all main frame menus or a toolbar or both</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveFromMenu( 
+&amp;   System.int
+CommandID
+,
+&amp;   System.int
+DocumentType
+,
+&amp;   System.int
+Option
+,
+&amp;   System.bool
+RemoveParentMenu
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveFromPopupMenu</summary><p>Removes the specified menu item from one or all specified context-sensitive menus (also called shortcut menus and pop-up menus) for the specified document types.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveFromPopupMenu( 
+&amp;   System.int
+CommandID
+,
+&amp;   System.int
+DocumentType
+,
+&amp;   System.int
+SelectionType
+,
+&amp;   System.bool
+RemoveParentMenu
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveItemFromThirdPartyPopupMenu</summary><p>Removes a menu item and icon from a third-party pop-up (shortcut) menu.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveItemFromThirdPartyPopupMenu( 
+&amp;   System.int
+RegisterId
+,
+&amp;   System.int
+DocType
+,
+&amp;   System.String^
+Item
+,
+&amp;   System.int
+IconIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveMenu</summary><p>Removes a menu item from the specified document frame.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveMenu( 
+&amp;   System.int
+DocType
+,
+&amp;   System.String^
+MenuItemString
+,
+&amp;   System.String^
+CallbackFcnAndModule
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveMenuPopupItem</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveMenuPopupItem( 
+&amp;   System.int
+DocType
+,
+&amp;   System.int
+SelectType
+,
+&amp;   System.String^
+Item
+,
+&amp;   System.String^
+CallbackFcnAndModule
+,
+&amp;   System.String^
+CustomNames
+,
+&amp;   System.int
+Unused
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveMenuPopupItem2</summary><p>Removes an item on a pop-up (shortcut) menu.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveMenuPopupItem2( 
+&amp;   System.int
+DocumentType
+,
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+SelectType
+,
+&amp;   System.String^
+PopupItemName
+,
+&amp;   System.String^
+MenuCallback
+,
+&amp;   System.String^
+MenuEnableMethod
+,
+&amp;   System.String^
+HintString
+,
+&amp;   System.String^
+CustomNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveToolbar</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveToolbar( 
+&amp;   System.String^
+Module
+,
+&amp;   System.int
+ToolbarId
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveToolbar2</summary><p>Removes a toolbar created with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveToolbar2( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+ToolbarId
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveUserMenu</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveUserMenu( 
+&amp;   System.int
+DocType
+,
+&amp;   System.int
+MenuIdIn
+,
+&amp;   System.String^
+ModuleName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveUserTypeLibReferences</summary><p>Removes the user-specified type library references.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveUserTypeLibReferences( 
+&amp;   System.Object^
+VTlbRef
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ReplaceReferencedDocument</summary><p>Replaces a referenced document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReplaceReferencedDocument( 
+&amp;   System.String^
+ReferencingDocument
+,
+&amp;   System.String^
+ReferencedDocument
+,
+&amp;   System.String^
+NewReference
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ResetPresetDrawingParameters</summary><p>Resets SOLIDWORKS back to its default behavior after calling</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ResetPresetDrawingParameters();</pre></details><details style="margin: 0.5rem 0;"><summary>ResetUntitledCount</summary><p>Resets the index of untitled documents.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ResetUntitledCount( 
+&amp;   System.int
+PartValue
+,
+&amp;   System.int
+AssemValue
+,
+&amp;   System.int
+DrawingValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RestoreSettings</summary><p>Restores the specified SOLIDWORKS settings from the specified</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int RestoreSettings( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.bool
+SystemOptions
+,
+&amp;   System.bool
+ToolbarLayout
+,
+&amp;   System.bool
+KeyboardShortcuts
+,
+&amp;   System.bool
+MouseGestures
+,
+&amp;   System.bool
+MenuCustomization
+,
+&amp;   System.bool
+SavedViews
+,
+&amp;   System.bool
+CreateBackup
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ResumeSkinning</summary><p>Resumes skinning windows.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ResumeSkinning();</pre></details><details style="margin: 0.5rem 0;"><summary>RevisionNumber</summary><p>Gets the version number of this SOLIDWORKS installation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ RevisionNumber();</pre></details><details style="margin: 0.5rem 0;"><summary>RunAttachedMacro</summary><p>Runs the specified attached macro, module, and procedure.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RunAttachedMacro( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.String^
+ModuleName
+,
+&amp;   System.String^
+ProcedureName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RunBatchSaveProcess</summary><p>Batch saves files to 3DEXPERIENCE.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RunBatchSaveProcess();</pre></details><details style="margin: 0.5rem 0;"><summary>RunCommand</summary><p>Runs the specified SOLIDWORKS command.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RunCommand( 
+&amp;   System.int
+CommandID
+,
+&amp;   System.String^
+NewTitle
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RunJournalCmd</summary><p>Visual Basic (Declaration)</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RunJournalCmd( 
+&amp;   System.String^
+Cmd
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RunMacro</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RunMacro( 
+&amp;   System.String^
+FilePathName
+,
+&amp;   System.String^
+ModuleName
+,
+&amp;   System.String^
+ProcedureName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RunMacro2</summary><p>Runs a macro from a project file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RunMacro2( 
+&amp;   System.String^
+FilePathName
+,
+&amp;   System.String^
+ModuleName
+,
+&amp;   System.String^
+ProcedureName
+,
+&amp;   System.int
+Options
+,
+&amp;   [Out] System.int
+Error
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SaveSettings</summary><p>Saves the specified SOLIDWORKS settings to the specified</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SaveSettings( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.bool
+SystemOptions
+,
+&amp;   System.int
+ToolbarLayout
+,
+&amp;   System.bool
+KeyboardShortcuts
+,
+&amp;   System.bool
+MouseGestures
+,
+&amp;   System.bool
+MenuCustomization
+,
+&amp;   System.bool
+SavedViews
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SendMsgToUser</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SendMsgToUser( 
+&amp;   System.String^
+Message
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SendMsgToUser2</summary><p>Displays a message box containing a message to the user, who is required to interact with it before continuing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SendMsgToUser2( 
+&amp;   System.String^
+Message
+,
+&amp;   System.int
+Icon
+,
+&amp;   System.int
+Buttons
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetAddinCallbackInfo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetAddinCallbackInfo( 
+&amp;   System.int
+ModuleHandle
+,
+&amp;   System.Object^
+AddinCallbacks
+,
+&amp;   System.int
+Cookie
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetAddinCallbackInfo2</summary><p>Sets add-in callback commands.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetAddinCallbackInfo2( 
+&amp;   System.int64
+ModuleHandle
+,
+&amp;   System.Object^
+AddinCallbacks
+,
+&amp;   System.int
+Cookie
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetApplySelectionFilter</summary><p>Sets the current state of the selection filter.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetApplySelectionFilter( 
+&amp;   System.bool
+State
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCurrentWorkingDirectory</summary><p>Sets the current working directory to be used by SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetCurrentWorkingDirectory( 
+&amp;   System.String^
+CurrentWorkingDirectory
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMissingReferencePathName</summary><p>Sets the missing reference file name. Use with the SOLIDWORKS event</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetMissingReferencePathName( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMouseDragMode</summary><p>Sets the command-mouse mode.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetMouseDragMode( 
+&amp;   System.int
+Command
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMultipleFilenamesPrompt</summary><p>Sets the new filenames to open in response to the ISldWorks</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetMultipleFilenamesPrompt( 
+&amp;   System.Object^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetNewFilename</summary><p>Sets the name of the new SOLIDWORKS file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetNewFilename( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetPromptFilename</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetPromptFilename( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetPromptFilename2</summary><p>Sets the file to open in response to a SOLIDWORKS event.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetPromptFilename2( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.String^
+ConfigName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSearchFolders</summary><p>Sets the current folder search path as shown in</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetSearchFolders( 
+&amp;   System.int
+FolderType
+,
+&amp;   System.String^
+Folders
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSelectionFilter</summary><p>Sets the current selection filter values for the specified item type.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetSelectionFilter( 
+&amp;   System.int
+SelType
+,
+&amp;   System.bool
+State
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSelectionFilters</summary><p>Sets the status for multiple selection filters.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetSelectionFilters( 
+&amp;   System.Object^
+SelType
+,
+&amp;   System.bool
+State
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetThirdPartyPopupMenuState</summary><p>Sets whether to show or hide a third-party popup (shortcut) menu.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetThirdPartyPopupMenuState( 
+&amp;   System.int
+RegisterId
+,
+&amp;   System.bool
+IsActive
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetToolbarDock</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetToolbarDock( 
+&amp;   System.String^
+ModuleIn
+,
+&amp;   System.int
+ToolbarIDIn
+,
+&amp;   System.int
+DocStatePosIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetToolbarDock2</summary><p>Sets the docking state of the toolbar.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetToolbarDock2( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+ToolbarId
+,
+&amp;   System.int
+DockingState
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetToolbarVisibility</summary><p>Sets whether the specified toolbar is visible.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetToolbarVisibility( 
+&amp;   System.int
+Toolbar
+,
+&amp;   System.bool
+Visibility
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetUserPreferenceDoubleValue</summary><p>Sets system default user preference values.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetUserPreferenceDoubleValue( 
+&amp;   System.int
+UserPreferenceValue
+,
+&amp;   System.double
+Value
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetUserPreferenceIntegerValue</summary><p>Sets system default user preference values.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetUserPreferenceIntegerValue( 
+&amp;   System.int
+UserPreferenceValue
+,
+&amp;   System.int
+Value
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetUserPreferenceStringListValue</summary><p>Sets the name of the DXF mapping files.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetUserPreferenceStringListValue( 
+&amp;   System.int
+UserPreference
+,
+&amp;   System.String^
+Value
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetUserPreferenceStringValue</summary><p>Sets system default user preference values.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetUserPreferenceStringValue( 
+&amp;   System.int
+UserPreference
+,
+&amp;   System.String^
+Value
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetUserPreferenceToggle</summary><p>Sets system default user preference values.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetUserPreferenceToggle( 
+&amp;   System.int
+UserPreferenceValue
+,
+&amp;   System.bool
+OnFlag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowBatchSaveTo3DExperienceDlg</summary><p>Opens a dialog to save files in the specified folder to 3DEXPERIENCE.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ShowBatchSaveTo3DExperienceDlg( 
+&amp;   System.String^
+FolderPath
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowBubbleTooltip</summary><p>Displays a bubble ToolTip</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ShowBubbleTooltip( 
+&amp;   System.int
+PointAt
+,
+&amp;   System.String^
+FlashButtonIDs
+,
+&amp;   System.int
+TitleResID
+,
+&amp;   System.String^
+TitleString
+,
+&amp;   System.String^
+MessageString
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowBubbleTooltipAt</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ShowBubbleTooltipAt( 
+&amp;   System.int
+PointX
+,
+&amp;   System.int
+PointY
+,
+&amp;   System.int
+ArrowPos
+,
+&amp;   System.String^
+TitleString
+,
+&amp;   System.String^
+MessageString
+,
+&amp;   System.String^
+UrlLoc
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowBubbleTooltipAt2</summary><p>Displays a bubble ToolTip at the specified location.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ShowBubbleTooltipAt2( 
+&amp;   System.int
+PointX
+,
+&amp;   System.int
+PointY
+,
+&amp;   System.int
+ArrowPos
+,
+&amp;   System.String^
+TitleString
+,
+&amp;   System.String^
+MessageString
+,
+&amp;   System.int
+TitleBitmapID
+,
+&amp;   System.String^
+TitleBitmap
+,
+&amp;   System.String^
+UrlLoc
+,
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+LinkStringID
+,
+&amp;   System.String^
+LinkString
+,
+&amp;   System.String^
+CallBack
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowHelp</summary><p>Displays the specified Help topic.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ShowHelp( 
+&amp;   System.String^
+HelpFile
+,
+&amp;   System.int
+HelpTopic
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowThirdPartyPopupMenu</summary><p>Sets where to show a third-party pop-up (shortcut) menu.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ShowThirdPartyPopupMenu( 
+&amp;   System.int
+RegisterId
+,
+&amp;   System.int
+Posx
+,
+&amp;   System.int
+Posy
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowToolbar</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ShowToolbar( 
+&amp;   System.String^
+ModuleName
+,
+&amp;   System.int
+ToolbarId
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowToolbar2</summary><p>Obsolete. Not superseded.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ShowToolbar2( 
+&amp;   System.int
+Cookie
+,
+&amp;   System.int
+ToolbarId
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowUserNotification</summary><p>Shows the specified user notification for a SOLIDWORKS add-in.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ShowUserNotification( 
+&amp;   System.Object^
+Definition
+,
+&amp;   System.Object^
+Handler
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SolidWorksExplorer</summary><p>Starts SOLIDWORKS Explorer.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SolidWorksExplorer();</pre></details><details style="margin: 0.5rem 0;"><summary>UnInstallQuickTipGuide</summary><p>Uninstalls your add-in's</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void UnInstallQuickTipGuide( 
+&amp;   System.Object^
+PInterface
+)</pre></details><details style="margin: 0.5rem 0;"><summary>UnloadAddIn</summary><p>Unloads the specified add-in from SOLIDWORKS.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int UnloadAddIn( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>UploadToMySolidWorksSettings</summary><p>Uploads the specified SOLIDWORKS Desktop settings to</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int UploadToMySolidWorksSettings( 
+&amp;   System.bool
+SystemOptions
+,
+&amp;   System.bool
+FileLocations
+,
+&amp;   System.bool
+Customizations
+)</pre></details><details style="margin: 0.5rem 0;"><summary>VersionHistory</summary><p>Gets a list of strings indicating the versions in which a model was saved.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ VersionHistory( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ActiveDoc</summary><p>Gets the currently active document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ ActiveDoc {
+   System.Object^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ActivePrinter</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ ActivePrinter {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ApplicationType</summary><p>Gets the type of this SOLIDWORKS application.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int ApplicationType {
+   System.int get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CommandInProgress</summary><p>Improves performance of out-of-process applications by informing SOLIDWORKS that a sequence of API calls will be made by the out-of-process application.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool CommandInProgress {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EnableBackgroundProcessing</summary><p>Gets or sets whether to enable background processing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool EnableBackgroundProcessing {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EnableFileMenu</summary><p>Gets or sets whether to enable file-related menus and toolbars.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool EnableFileMenu {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FrameHeight</summary><p>Get or sets the height of the SOLIDWORKS window.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int FrameHeight {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FrameLeft</summary><p>Gets or sets the left position of the SOLIDWORKS window.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int FrameLeft {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FrameState</summary><p>Gets or sets the window state (minimum, maximum, or normal) for the SOLIDWORKS window.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int FrameState {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FrameTop</summary><p>Gets or sets the top position of the SOLIDWORKS window.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int FrameTop {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>FrameWidth</summary><p>Gets or sets the width of the frame of the SOLIDWORKS window.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int FrameWidth {
+   System.int get();
+   void set ( &amp;   System.int
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IActiveDoc</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property ModelDoc^ IActiveDoc {
+   ModelDoc^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>IActiveDoc2</summary><p>Gets the currently active document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property ModelDoc2^ IActiveDoc2 {
+   ModelDoc2^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>StartupProcessCompleted</summary><p>Gets whether the SOLIDWORKS startup process, including loading all startup add-ins, has completed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool StartupProcessCompleted {
+   System.bool get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>TaskPaneIsPinned</summary><p>Gets or sets whether the SOLIDWORKS Task Pane is pinned.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool TaskPaneIsPinned {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>UserControl</summary><p>Gets and sets whether the user has control over the application.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool UserControl {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>UserControlBackground</summary><p>Gets and sets whether the user has control over the application.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool UserControlBackground {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>UserTypeLibReferences</summary><p>Gets and sets the user-specified type library references.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ UserTypeLibReferences {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Visible</summary><p>Gets and sets the visibility property of the SOLIDWORKS application.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool Visible {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Provides direct and indirect access to all other interfaces exposed in the SOLIDWORKS API. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface ISldWorks </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html">ISldWorks</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface ISldWorks </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class ISldWorks </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~SldWorks.html">SldWorks</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Get_Spline_Points_Example_CPlusPlus_COM.htm">Get Spline Points (C++)</a>
+<br/><a href="Get_Names_of_Creators_of_Features_Examples_CPlusCPlus_COM.htm">Get Names of Creators of Features (C++)</a>
+<br/><a href="Traverse_Bodies_Example_CPlusPlusCLI.htm">Traverse Bodies (C++)</a>
+<br/><a href="Manage_Drawing_Document_Line_Styles_Example_CSharp.htm">Manage Drawing Document Line Styles (C#)</a>
+<br/><a href="Manage_Drawing_Document_Line_Styles_Example_VBNET.htm">Manage Drawing Document Line Styles (VB.NET)</a>
+<br/><a href="Manage_Drawing_Document_Line_Styles_Example_VB.htm">Manage Drawing Document Line Styles (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection"><p>This interface is the highest-level object in the SOLIDWORKS API. This interface provides a general set of functions that allow application-level operations such as create, open, close, and quit documents, arrange icons and windows, change the active document, and create attribute definitions.</p>
+<p>Use CreateObject, GetObject, New, or similar functions to obtain the ISldWorks object from a Dispatch application (Visual Basic or C++ Dispatch). Standalone .exe C++ COM applications can use CoCreateInstance. All of the SOLIDWORKS API add-in wizards automatically create the ISldWorks object for you.</p>
+<p>Events are implemented with delegates in the Microsoft .NET Framework. See the <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks_namespace.html">Overview</a> topic for a list of delegates for this interface.</p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#SldWorks">SldWorks</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html">ISldWorks Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html">IAssemblyDoc Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html">IDrawingDoc Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html">IModelDoc2 Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html">IModelDocExtension Interface</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html">IPartDoc Interface</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

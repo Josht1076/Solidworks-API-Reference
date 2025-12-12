@@ -1,0 +1,404 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>ISelectionMgr Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.ISelectionMgr"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">ISelectionMgr Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : ISelectionMgr Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AddSelectionListObject</summary><p>Adds the specified object to the selection list.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool AddSelectionListObject( 
+&amp;   System.Object^
+Object
+,
+&amp;   System.Object^
+SelectData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddSelectionListObjects</summary><p>Adds the specified objects to the selection list.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddSelectionListObjects( 
+&amp;   System.Object^
+Objects
+,
+&amp;   System.Object^
+SelectData
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ClearSelectionColors</summary><p>Clears all of selection color settings.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ClearSelectionColors();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCallout</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Callout^ CreateCallout();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateCallout2</summary><p>Creates a callout for the selection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Callout^ CreateCallout2( 
+&amp;   System.int
+NumberOfRows
+,
+&amp;   System.Object^
+LpHandler
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSelectData</summary><p>object to use as argument with Select methods.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">SelectData^ CreateSelectData();</pre></details><details style="margin: 0.5rem 0;"><summary>DeSelect</summary><p>ISelectionMgr::DeSelect2</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int DeSelect( 
+&amp;   System.Object^
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeSelect2</summary><p>Deselects the specified entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int DeSelect2( 
+&amp;   System.Object^
+AtIndex
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetPreSelectedObject</summary><p>Gets the preselected object when the preselection notify event is fired.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPreSelectedObject();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectByIdSpecification</summary><p>Gets the selection specification for the specified object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetSelectByIdSpecification( 
+&amp;   System.Object^
+Object
+,
+&amp;   [Out] System.String^
+SelectByString
+,
+&amp;   [Out] System.String^
+ObjectType
+,
+&amp;   [Out] System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObject</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectedObject( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObject2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectedObject2( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObject3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectedObject3( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObject4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectedObject4( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObject5</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectedObject5( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObject6</summary><p>Gets the selected object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectedObject6( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSelectedObjectCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectCount2</summary><p>Gets the number of selected objects.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSelectedObjectCount2( 
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectLoop</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Loop2^ GetSelectedObjectLoop( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectLoop2</summary><p>Gets the loop, if selected, for the selected edge.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Loop2^ GetSelectedObjectLoop2( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectMark</summary><p>Gets the value of the mark for the specified selection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSelectedObjectMark( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectsComponent</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectedObjectsComponent( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectsComponent2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectedObjectsComponent2( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectsComponent3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ GetSelectedObjectsComponent3( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectsComponent4</summary><p>Gets the selected component in an assembly or drawing.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectedObjectsComponent4( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectsDrawingView</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ GetSelectedObjectsDrawingView( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectsDrawingView2</summary><p>Gets the drawing view for the selected object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">View^ GetSelectedObjectsDrawingView2( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectsFace</summary><p>Gets the face of the specified selection if the specified selection is a</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face2^ GetSelectedObjectsFace( 
+&amp;   System.int
+AtIndex
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectType</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSelectedObjectType( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectType2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSelectedObjectType2( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectedObjectType3</summary><p>Gets the type of object selected.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetSelectedObjectType3( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectionPoint</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectionPoint( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectionPoint2</summary><p>Gets the selected point in model space coordinates from the currently selected object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectionPoint2( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectionPointInSketchSpace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectionPointInSketchSpace( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectionPointInSketchSpace2</summary><p>Gets the selection point projected on to the active sketch and returned in sketch space.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSelectionPointInSketchSpace2( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSelectionSpecification</summary><p>Gets the selection specification at the specified index of the current selection list.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetSelectionSpecification( 
+&amp;   System.int
+Index
+,
+&amp;   [Out] System.String^
+SelectByString
+,
+&amp;   [Out] System.String^
+ObjectType
+,
+&amp;   [Out] System.int
+Type
+,
+&amp;   [Out] System.double
+X
+,
+&amp;   [Out] System.double
+Y
+,
+&amp;   [Out] System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeSelect</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IDeSelect( 
+&amp;   System.int
+Count
+,
+&amp;   System.int%
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeSelect2</summary><p>Deselects the specified entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IDeSelect2( 
+&amp;   System.int
+Count
+,
+&amp;   System.int%
+AtIndex
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectedObject</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ IGetSelectedObject( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectedObject2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ IGetSelectedObject2( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectedObject3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ IGetSelectedObject3( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectedObject4</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ IGetSelectedObject4( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectedObjectsComponent</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component^ IGetSelectedObjectsComponent( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectedObjectsComponent2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Component2^ IGetSelectedObjectsComponent2( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectionPoint</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSelectionPoint( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectionPoint2</summary><p>Gets the selected point in model space coordinates from the currently selected object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSelectionPoint2( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectionPointInSketchSpace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSelectionPointInSketchSpace( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSelectionPointInSketchSpace2</summary><p>Gets the selection point projected on to the active sketch and returned in sketch space.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetSelectionPointInSketchSpace2( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsInEditTarget</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsInEditTarget( 
+&amp;   System.int
+AtIndex
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsInEditTarget2</summary><p>Gets whether the selected object is in the edit target.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsInEditTarget2( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ResumeSelectionList</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ResumeSelectionList();</pre></details><details style="margin: 0.5rem 0;"><summary>ResumeSelectionList2</summary><p>Reinstates the previously suspended selection list.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ResumeSelectionList2( 
+&amp;   System.bool
+Append
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCallout</summary><p>Adds a callout to the currently selected object.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetCallout( 
+&amp;   System.int
+Index
+,
+&amp;   Callout^
+PCallout
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSelectedObjectMark</summary><p>Sets the mark value for the specified selection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetSelectedObjectMark( 
+&amp;   System.int
+AtIndex
+,
+&amp;   System.int
+Mark
+,
+&amp;   System.int
+Action
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSelectionPoint</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetSelectionPoint( 
+&amp;   System.int
+AtIndex
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSelectionPoint2</summary><p>Sets the selection point in model space.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetSelectionPoint2( 
+&amp;   System.int
+Index
+,
+&amp;   System.int
+Mark
+,
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.double
+Z
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SuspendSelectionList</summary><p>Suspends the current selection list.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SuspendSelectionList();</pre></details><details style="margin: 0.5rem 0;"><summary>EnableContourSelection</summary><p>Enables and disables contour selection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool EnableContourSelection {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>EnableSelection</summary><p>Enables or disables selection.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool EnableSelection {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>SelectionColor</summary><p>Gets or sets the selection color.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int SelectionColor {
+   System.int get(System.int
+Mark
+);
+   void set (System.int
+Mark
+, System.int
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows you to get information about selected objects, obtain API objects representing the selected item, and  get your selection coordinates interpreted in model or sketch space. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface ISelectionMgr </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html">ISelectionMgr</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface ISelectionMgr </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class ISelectionMgr </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr.html">SelectionMgr</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Create_Imported_Surface_Body_from_Sketch_Example_CSharp.htm">Create Imported Surface Body From Sketch (C#)</a>
+<br/><a href="Access_Assembly_Example_CPlusPlus_COM.htm">Access Assembly (C++)</a>
+<br/><a href="Get_Object_s_Persistent_Reference_ID_Example_CPlusPlus_COM.htm">Get Object's Persistent Reference ID (C++)</a>
+<br/><a href="Get_Spline_Points_Example_CPlusPlus_COM.htm">Get Spline Points (C++)</a>
+<br/><a href="Insert_BOM_Table_Example_VB.htm">Insert BOM Table (VBA)</a>
+<br/><a href="Create_Equation-driven_Curve_Example_VBNET.htm">Create Equation-driven Curve (VB.NET)</a>
+<br/><a href="Create_Equation-driven_Curve_Example_CSharp.htm">Create Equation-driven Curve (C#)</a>
+<br/><a href="Create_Equation-driven_Curve_Example_VB.htm">Create Equation-driven Curve (VBA)</a>
+<br/><a href="Add_Objects_to_Selection_List_Example_VB.htm">Add Objects to Selection List (VBA)</a>
+<br/><a href="Add_Objects_to_Selection_List_Example_VBNET.htm">Add Objects to Selection List (VB.NET)</a>
+<br/><a href="Add_Objects_to_Selection_List_Example_CSharp.htm">Add Objects to Selection List (C#)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectionManager.html">IModelDoc2::SelectionManager</a></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#SelectionMgr">SelectionMgr</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html">ISelectionMgr Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html">ISelectData Interface</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

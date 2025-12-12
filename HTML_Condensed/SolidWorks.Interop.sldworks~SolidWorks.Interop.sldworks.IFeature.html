@@ -1,0 +1,766 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IFeature Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IFeature"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IFeature Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IFeature Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AddComment</summary><p>Adds a comment to this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Comment^ AddComment( 
+&amp;   System.String^
+Text
+)</pre></details><details style="margin: 0.5rem 0;"><summary>AddPropertyExtension</summary><p>Adds a property extension to this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddPropertyExtension( 
+&amp;   System.Object^
+PropertyExtension
+)</pre></details><details style="margin: 0.5rem 0;"><summary>BreakLink</summary><p>Breaks the link to third-party native CAD parts and assemblies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int BreakLink( 
+&amp;   System.bool
+AllComponents
+,
+&amp;   System.bool
+Silent
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeSelect</summary><p>Deselects this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeSelect();</pre></details><details style="margin: 0.5rem 0;"><summary>EnumDisplayDimensions</summary><p>This method returns a</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumDisplayDimensions^ EnumDisplayDimensions();</pre></details><details style="margin: 0.5rem 0;"><summary>GetAffectedFaceCount</summary><p>Gets the number of faces modified by a feature, such as a draft feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetAffectedFaceCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetAffectedFaces</summary><p>Gets the faces modified by a feature, such as a draft feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetAffectedFaces();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBody</summary><p>Obsolete. Superseded</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBody();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBox</summary><p>Gets the bounding box for this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetBox( 
+&amp;   [Out] System.Object^
+BBox
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetChildren</summary><p>Gets the child features belonging to this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetChildren();</pre></details><details style="margin: 0.5rem 0;"><summary>GetCreatedVersion</summary><p>Gets the SOLIDWORKS version number in which the selected feature was created.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetCreatedVersion();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDefinition</summary><p>Gets the feature data object for a feature, such as an advanced mate, extrusion, loft, fillet, chamfer, etc., in order to access the parameters that control the definition of this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDefinition();</pre></details><details style="margin: 0.5rem 0;"><summary>GetDisplayDimension</summary><p>Gets the display dimension object for the specified pattern property.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetDisplayDimension( 
+&amp;   System.int
+Index
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEditStatus</summary><p>Gets whether the feature can currently be edited.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetEditStatus();</pre></details><details style="margin: 0.5rem 0;"><summary>GetErrorCode</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetErrorCode();</pre></details><details style="margin: 0.5rem 0;"><summary>GetErrorCode2</summary><p>Gets the error code for this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetErrorCode2( 
+&amp;   [Out] System.bool
+IsWarning
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetFaceCount</summary><p>Gets the number of faces in this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetFaceCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFaces</summary><p>Gets the faces in this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFaces();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstDisplayDimension</summary><p>Provides access to the dimensions that belong to this feature by returning the first display dimension associated with this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstDisplayDimension();</pre></details><details style="margin: 0.5rem 0;"><summary>GetFirstSubFeature</summary><p>Gets the first sub-feature that belongs to this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetFirstSubFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>GetID</summary><p>Gets the feature ID of this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetID();</pre></details><details style="margin: 0.5rem 0;"><summary>GetImportedFeatureParameters</summary><p>Gets the data object for this 3D Interconnect part or assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetImportedFeatureParameters( 
+&amp;   [Out] System.Object^
+DataObj
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetImportedFileName</summary><p>Gets the file name from an imported feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetImportedFileName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialIdName</summary><p>Gets the material name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialIdName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialPropertyValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMaterialPropertyValues();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialPropertyValues2</summary><p>Gets the material property values for this feature in the specified configurations.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMaterialPropertyValues2( 
+&amp;   System.int
+Config_opt
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialUserName</summary><p>Gets the material name for this feature, which is visible to the user.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialUserName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetModifiedVersion</summary><p>Gets the SOLIDWORKS version number in which this feature was last modified.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetModifiedVersion();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNameForSelection</summary><p>Gets the selected feature's type and name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetNameForSelection( 
+&amp;   [Out] System.String^
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetNextDisplayDimension</summary><p>Gets the next display dimension associated with this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNextDisplayDimension( 
+&amp;   System.Object^
+DispIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetNextFeature</summary><p>Gets the next feature in the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNextFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNextSubFeature</summary><p>Gets the next sub-feature from the owner of this sub-feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNextSubFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>GetOwnerFeature</summary><p>Gets the feature that owns this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ GetOwnerFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>GetParents</summary><p>Gets the parent features for this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetParents();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPropertyExtension</summary><p>Gets the property extension on this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPropertyExtension( 
+&amp;   System.int
+ID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSpecificFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSpecificFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>GetSpecificFeature2</summary><p>Gets the more specific interface to a selected feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSpecificFeature2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTexture</summary><p>Gets the texture applied to this feature in the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Texture^ GetTexture( 
+&amp;   System.String^
+Config_name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTypeName</summary><p>Gets the type of feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetTypeName();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTypeName2</summary><p>Gets the type of feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetTypeName2();</pre></details><details style="margin: 0.5rem 0;"><summary>GetUIState</summary><p>Gets the user-interface state of the current feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool GetUIState( 
+&amp;   System.int
+StateType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetUpdateStamp</summary><p>Gets the current update stamp for this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetUpdateStamp();</pre></details><details style="margin: 0.5rem 0;"><summary>HasFrozenUpdatePending</summary><p>Gets whether this feature has pending freeze updates.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool HasFrozenUpdatePending();</pre></details><details style="margin: 0.5rem 0;"><summary>HasMaterialPropertyValues</summary><p>Gets whether this feature has an appearance.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool HasMaterialPropertyValues();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetAffectedFaces</summary><p>Gets the faces modified by a feature, such as a draft feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face2^ IGetAffectedFaces( 
+&amp;   System.int%
+NCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBody</summary><p>Obsolete. Superseded</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ IGetBody();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBody2</summary><p>Obsolete. Superseded</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IGetBody2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetBox</summary><p>Gets the bounding box for this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IGetBox( 
+&amp;   [Out] System.double
+BBox
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetChildCount</summary><p>Gets the number of child features that belong to this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetChildCount();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetChildren</summary><p>Gets the child features belonging to this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IGetChildren();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetDefinition</summary><p>Gets the feature data object for a feature, such as an extrusion, loft, fillet, chamfer, etc., in order to access the parameters that control the definition of this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ IGetDefinition();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFaces</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face^ IGetFaces( 
+&amp;   [Out] System.int
+FaceCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFaces2</summary><p>Gets the faces in this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Face2^ IGetFaces2( 
+&amp;   [Out] System.int
+FaceCount
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetFirstSubFeature</summary><p>Gets the first sub-feature that belongs to this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IGetFirstSubFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMaterialPropertyValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetMaterialPropertyValues();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetMaterialPropertyValues2</summary><p>Gets the material property values for this feature in the specified configurations.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetMaterialPropertyValues2( 
+&amp;   System.int
+Config_opt
+,
+&amp;   System.int
+Config_count
+,
+&amp;   System.String^%
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetNextFeature</summary><p>Gets the next feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IGetNextFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetNextSubFeature</summary><p>Gets the next sub-feature from the owner of this sub-feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IGetNextSubFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetParentCount</summary><p>Gets the number of parent features for this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetParentCount();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetParents</summary><p>Gets the parent features for this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IGetParents();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSpecificFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ IGetSpecificFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>IIsSuppressed2</summary><p>Gets whether the feature in the specified configurations is suppressed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IIsSuppressed2( 
+&amp;   System.int
+Config_opt
+,
+&amp;   System.int
+Config_count
+,
+&amp;   System.String^%
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IListExternalFileReferences</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IListExternalFileReferences( 
+&amp;   System.int
+NumRefs
+,
+&amp;   [Out] System.String^
+ModelPathName
+,
+&amp;   [Out] System.String^
+CompPathName
+,
+&amp;   [Out] System.String^
+Feature
+,
+&amp;   [Out] System.String^
+DataType
+,
+&amp;   [Out] System.int
+Status
+,
+&amp;   [Out] System.String^
+RefEntity
+,
+&amp;   [Out] System.String^
+FeatComp
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IListExternalFileReferences2</summary><p>Gets the names and statuses of the external references for this feature in a part or assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void IListExternalFileReferences2( 
+&amp;   System.int
+NumRefs
+,
+&amp;   [Out] System.String^
+ModelPathName
+,
+&amp;   [Out] System.String^
+CompPathName
+,
+&amp;   [Out] System.String^
+Feature
+,
+&amp;   [Out] System.String^
+DataType
+,
+&amp;   [Out] System.int
+Status
+,
+&amp;   [Out] System.String^
+RefEntity
+,
+&amp;   [Out] System.String^
+FeatComp
+,
+&amp;   [Out] System.int
+ConfigOption
+,
+&amp;   [Out] System.String^
+ConfigName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IModifyDefinition</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IModifyDefinition( 
+&amp;   System.Object^
+Data
+,
+&amp;   ModelDoc^
+TopDoc
+,
+&amp;   Component^
+Component
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IModifyDefinition2</summary><p>Updates the definition of a feature with the new values in an associated feature data object obtained with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IModifyDefinition2( 
+&amp;   System.Object^
+Data
+,
+&amp;   ModelDoc2^
+TopDoc
+,
+&amp;   Component2^
+Component
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IParameter</summary><p>Gets a pointer to the object for the specified parameter or a pointer to the specified parameter.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Dimension^ IParameter( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IRemoveMaterialProperty2</summary><p>Removes material property values from this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IRemoveMaterialProperty2( 
+&amp;   System.int
+Config_opt
+,
+&amp;   System.int
+Config_count
+,
+&amp;   System.String^%
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsBase</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsBase();</pre></details><details style="margin: 0.5rem 0;"><summary>IsBase2</summary><p>Gets whether this feature is a base feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsBase2();</pre></details><details style="margin: 0.5rem 0;"><summary>IsDimXpertAnnotation</summary><p>Gets whether this feature is a DimXpert annotation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsDimXpertAnnotation();</pre></details><details style="margin: 0.5rem 0;"><summary>IsDimXpertFeature</summary><p>Gets whether this feature is a DimXpert feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsDimXpertFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>ISetBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetBody( 
+&amp;   Body^
+BodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetBody2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetBody2( 
+&amp;   Body^
+BodyIn
+,
+&amp;   System.bool
+ApplyUserIds
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetBody3</summary><p>Replaces the body of the base feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetBody3( 
+&amp;   Body2^
+BodyIn
+,
+&amp;   System.bool
+ApplyUserIds
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetMaterialPropertyValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetMaterialPropertyValues( 
+&amp;   System.double%
+MaterialPropertyValues
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetMaterialPropertyValues2</summary><p>Sets the material property values for this feature in the specified configurations.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ISetMaterialPropertyValues2( 
+&amp;   System.double%
+Material_values
+,
+&amp;   System.int
+Config_opt
+,
+&amp;   System.int
+Config_count
+,
+&amp;   System.String^%
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetSuppression2</summary><p>Sets the suppression state of this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetSuppression2( 
+&amp;   System.int
+SuppressionState
+,
+&amp;   System.int
+Config_opt
+,
+&amp;   System.int
+Config_count
+,
+&amp;   System.String^%
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsFrozen</summary><p>Gets whether this feature is frozen.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsFrozen();</pre></details><details style="margin: 0.5rem 0;"><summary>IsHiddenLock</summary><p>Gets whether this feature is the freeze bar.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsHiddenLock();</pre></details><details style="margin: 0.5rem 0;"><summary>IsRolledBack</summary><p>Gets whether this feature is rolled back.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsRolledBack();</pre></details><details style="margin: 0.5rem 0;"><summary>IsSuppressed</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsSuppressed();</pre></details><details style="margin: 0.5rem 0;"><summary>IsSuppressed2</summary><p>Gets whether the feature in the specified configurations is suppressed.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ IsSuppressed2( 
+&amp;   System.int
+Config_opt
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ListExternalFileReferences</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ListExternalFileReferences( 
+&amp;   [Out] System.Object^
+ModelPathName
+,
+&amp;   [Out] System.Object^
+ComponentPathName
+,
+&amp;   [Out] System.Object^
+Feature
+,
+&amp;   [Out] System.Object^
+DataType
+,
+&amp;   [Out] System.Object^
+Status
+,
+&amp;   [Out] System.Object^
+RefEntity
+,
+&amp;   [Out] System.Object^
+FeatCom
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ListExternalFileReferences2</summary><p>Gets the names and statuses of the external references on the feature in a part or assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ListExternalFileReferences2( 
+&amp;   [Out] System.Object^
+ModelPathName
+,
+&amp;   [Out] System.Object^
+ComponentPathName
+,
+&amp;   [Out] System.Object^
+Feature
+,
+&amp;   [Out] System.Object^
+DataType
+,
+&amp;   [Out] System.Object^
+Status
+,
+&amp;   [Out] System.Object^
+RefEntity
+,
+&amp;   [Out] System.Object^
+FeatCom
+,
+&amp;   [Out] System.int
+ConfigOption
+,
+&amp;   [Out] System.String^
+ConfigName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ListExternalFileReferencesCount</summary><p>Gets the number of external references on the feature in a part or assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ListExternalFileReferencesCount();</pre></details><details style="margin: 0.5rem 0;"><summary>MakeSubFeature</summary><p>Makes a feature become a subfeature of this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool MakeSubFeature( 
+&amp;   Feature^
+SubFeature
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ModifyDefinition</summary><p>Updates the definition of a feature with the new values in an associated feature data object obtained with</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ModifyDefinition( 
+&amp;   System.Object^
+Data
+,
+&amp;   System.Object^
+TopDoc
+,
+&amp;   System.Object^
+Component
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MoveFreezeBarTo</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int MoveFreezeBarTo( 
+&amp;   System.int
+Location
+,
+&amp;   System.bool
+UpdateAllConfigs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>MoveFreezeBarTo2</summary><p>Moves the freeze bar to the specified location in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int MoveFreezeBarTo2( 
+&amp;   System.int
+Location
+,
+&amp;   System.bool
+UpdateAllConfigs
+,
+&amp;   System.bool
+UnlockConfigs
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Parameter</summary><p>Gets a pointer to the object for the specified parameter or a pointer to the specified parameter.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Parameter( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveMaterialProperty</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveMaterialProperty();</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveMaterialProperty2</summary><p>Removes material property values from this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveMaterialProperty2( 
+&amp;   System.int
+Config_opt
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveTexture</summary><p>Removes texture from this feature in either all of the configurations or only the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveTexture( 
+&amp;   System.bool
+BAllConfig
+,
+&amp;   System.String^
+Config_name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveTextureByDisplayState</summary><p>Removes texture from this feature in the specified display state.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveTextureByDisplayState( 
+&amp;   System.String^
+DisplayStateName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ResetPropertyExtension</summary><p>Deletes the property extension for this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ResetPropertyExtension();</pre></details><details style="margin: 0.5rem 0;"><summary>Select</summary><p>olete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Select( 
+&amp;   System.bool
+AppendFlag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Select2</summary><p>Selects and marks this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Select2( 
+&amp;   System.bool
+Append
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SelectByMark</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SelectByMark( 
+&amp;   System.bool
+AppendFlag
+,
+&amp;   System.int
+Mark
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetBodiesToKeep</summary><p>Set the bodies to keep and their configurations for features that create multiple bodies in parts and assemblies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetBodiesToKeep( 
+&amp;   System.bool
+AllBodies
+,
+&amp;   System.Object^
+BodiesToKeep
+,
+&amp;   System.int
+ConfigOption
+,
+&amp;   System.Object^
+ConfigNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetBody( 
+&amp;   System.Object^
+BodyIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetBody2</summary><p>Replaces an imported base feature body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetBody2( 
+&amp;   System.Object^
+BodyIn
+,
+&amp;   System.bool
+ApplyUserIds
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetImportedFeatureParameters</summary><p>Sets the data object for this 3D Interconnect part or assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetImportedFeatureParameters( 
+&amp;   System.Object^
+DataObj
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetImportedFileName</summary><p>Sets the file name of an imported feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetImportedFileName( 
+&amp;   System.String^
+ImpName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialIdName</summary><p>Sets the material name for this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetMaterialIdName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialPropertyValues</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetMaterialPropertyValues( 
+&amp;   System.Object^
+MaterialPropertyValues
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialPropertyValues2</summary><p>Sets the material property values for this feature in the specified configurations.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetMaterialPropertyValues2( 
+&amp;   System.Object^
+Material_values
+,
+&amp;   System.int
+Config_opt
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialUserName</summary><p>Sets the material user name for this feature, which is visible to the user.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetMaterialUserName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSuppression</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetSuppression( 
+&amp;   System.int
+SuppressState
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetSuppression2</summary><p>Sets the suppression state of this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetSuppression2( 
+&amp;   System.int
+SuppressionState
+,
+&amp;   System.int
+Config_opt
+,
+&amp;   System.Object^
+Config_names
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetTexture</summary><p>Applies texture to this feature in either all configurations or only the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetTexture( 
+&amp;   System.bool
+BAllConfig
+,
+&amp;   System.String^
+Config_name
+,
+&amp;   Texture^
+TextureIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetTextureByDisplayState</summary><p>Applies texture to this feature in the specified display state.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetTextureByDisplayState( 
+&amp;   System.String^
+DisplayStateName
+,
+&amp;   Texture^
+TextureIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetUIState</summary><p>Sets the user-interface state of the current feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetUIState( 
+&amp;   System.int
+StateType
+,
+&amp;   System.bool
+Flag
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Update3DInterconnectModel</summary><p>Updates the model for this 3D Interconnect part or assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool Update3DInterconnectModel();</pre></details><details style="margin: 0.5rem 0;"><summary>UpdateExternalFileReferences</summary><p>Updates the external file references on this model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void UpdateExternalFileReferences( 
+&amp;   System.int
+ConfigOption
+,
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.int
+UpdateStatus
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreatedBy</summary><p>Gets the name of the user who created the feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ CreatedBy {
+   System.String^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>CustomPropertyManager</summary><p>Gets the custom property information for weldment and cut-list item features only.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property CustomPropertyManager^ CustomPropertyManager {
+   CustomPropertyManager^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DateCreated</summary><p>Gets the date on which the feature was created.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ DateCreated {
+   System.String^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>DateModified</summary><p>Gets the date on which the feature was last modified.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ DateModified {
+   System.String^ get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Description</summary><p>Gets or sets the description for this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ Description {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>ExcludeFromCutList</summary><p>Gets or sets whether to exclude this feature from the cut list.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool ExcludeFromCutList {
+   System.bool get();
+   void set ( &amp;   System.bool
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Is3DInterconnectFeature</summary><p>Gets whether this is a 3D Interconnect feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool Is3DInterconnectFeature {
+   System.bool get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Is3DInterconnectUpdateAvailable</summary><p>Gets whether an update is available for this 3D Interconnect part or assembly.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.bool Is3DInterconnectUpdateAvailable {
+   System.bool get();
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Name</summary><p>Gets or sets the name of the current feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ Name {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>Visible</summary><p>Gets the visibility state of this feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.int Visible {
+   System.int get();
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Allows access to the feature type, name, parameter data, and the next feature in the FeatureManager design tree. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IFeature </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html">IFeature</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IFeature </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IFeature </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~Feature.html">Feature</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Access_Assembly_Example_CPlusPlus_COM.htm">Access Assembly (C++)</a>
+<br/><a href="Get_Names_of_Creators_of_Features_Examples_CPlusCPlus_COM.htm">Get Names of Creators of Features (C++)</a>
+<br/><a href="Get_Spline_Points_Example_CPlusPlus_COM.htm">Get Spline Points (C++)</a>
+<br/><a href="Traverse_Assembly_at_Component_and_Feature_Level_Example_VB.htm">Traverse Assembly At Component and Feature Levels (VBA)</a>
+<br/><a href="Get_Areas_of_MidSurface_Faces_Example_CSharp.htm">Get Areas of MidSurface Faces (C#)</a>
+<br/><a href="Get_Areas_of_MidSurface_FAces_Example_VBNET.htm">Get Areas of MidSurface Faces (VB.NET)</a>
+<br/><a href="Get_Areas_of_MidSurface_Faces_Example_VB.htm">Get Areas of MidSurface Faces (VBA)</a>
+<br/><a href="Traverse_Assembly_at_Component_and_Feature_Levels_Using_Recursion_Example_VB.htm">Traverse Assembly at Component and Feature Levels Using Recursion (VBA)</a>
+<br/><a href="Traverse_Assembly_at_Component_and_Feature_Levels_Using_Recursion_Example_CSharp.htm">Traverse Assembly at Component and Feature Levels Using Recursion (C#)</a>
+<br/><a href="Traverse_Assembly_at_Component_and_Feature_Levels_Using_Recursion_Example_VBNET.htm">Traverse Assembly at Component and Feature Levels Using Recursion (VB.NET)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetActiveGroundPlane.html">IAssemblyDoc::GetActiveGroundPlane</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html">IAssemblyDoc::CreateMate</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~FeatureByName.html">IAssemblyDoc::FeatureByName</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IFeatureByName.html">IAssemblyDoc::IFeatureByName</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetFeatures.html">IBody2::GetFeatures</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetFeatures.html">IBody2::IGetFeatures</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBodyFolder~GetFeature.html">IBodyFolder::GetFeature</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~GetFeature.html">IBomFeature::GetFeature</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData~EntitiesToMate.html">ICoincidentMateFeatureData::EntitiesToMate</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComment~FeatureOwner.html">IComment::FeatureOwner</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder~GetFeature.html">ICommentFolder::GetFeature</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData~GetTrimToolMember.html">IComplexCornerTreatmentFeatureData::GetTrimToolMember</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~FeatureByName.html">IComponent2::FeatureByName</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~FirstFeature.html">IComponent2::FirstFeature</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStateFeatureProperties.html">IConfiguration::GetDisplayStateFeatureProperties</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoreFeatureData~BoundingSketch.html">ICoreFeatureData::BoundingSketch</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder~GetFeature.html">ICornerManagementFolder::GetFeature</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder~GetStructureSystemFolder.html">ICornerManagementFolder::GetStructureSystemFolder</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerMember~GetUnderlyingMemberFeature.html">ICornerMember::GetUnderlyingMemberFeature</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentFeatureData~GetFeature.html">ICornerTreatmentFeatureData::GetFeature</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentGroupFolder~GetCornerTreatments.html">ICornerTreatmentGroupFolder::GetCornerTreatments</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentGroupFolder~GetFeature.html">ICornerTreatmentGroupFolder::GetFeature</a></p>
+<p><a href="ms-its:swmotionstudyapi.chm::/SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.ICosmosMotionStudyResults~GetPlotFeatures.html">ICosmosMotionStudyResults::GetPlotFeatures</a> and <a href="ms-its:swmotionstudyapi.chm::/SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.ICosmosMotionStudyResults~IGetPlotFeatures.html">ICosmosMotionStudyResults::IGetPlotFeatures</a></p>
+<p><a href="ms-its:swmotionstudyapi.chm::/SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.ICosmosMotionStudyResults~InsertPlotFeature.html">ICosmosMotionStudyResults::InsertPlotFeature</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~PatternFeatureArray.html">ICurveDrivenPatternFeatureData::PatternFeatureArray</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions~GetFacesOrFeaturesToExclude.html">ICutListSortOptions::GetFacesOrFeaturesToExclude</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDerivedPatternFeatureData~IGetSeedComponentArray.html">IDerivedPatternFeatureData::IGetSeedComponentArray</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPatternFeatureData~PatternFeature.html">IDerivedPatternFeatureData::PatternFeature</a> </p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDerivedPatternFeatureData~SeedComponentArray.html">IDerivedPatternFeatureData::SeedComponentArray</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~GetFeatureOwner.html">IDimension::GetFeatureOwner</a></p>
+<p><a href="ms-its:swdimxpertapi.chm::/SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertAnnotation~GetModelFeature.html">IDimXpertAnnotation::GetModelFeature</a></p>
+<p><a href="ms-its:swdimxpertapi.chm::/SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature~GetModelFeature.html">IDimXpertFeature::GetModelFeature</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~FeatureByName.html">IDrawingDoc::FeatureByName</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~IFeatureByName.html">IDrawingDoc::IFeatureByName</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetFeature.html">IFace2::GetFeature</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetFeature.html">IFeature::IGetFeature</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetPatternSeedFeature.html">IFace2::GetPatternSeedFeature</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetPatternSeedFeature.html">IFace2::IGetPatternSeedFeature</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetChildren.html">IFeature::GetChildren</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetChildren.html">IFeature::IGetChildren</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetFirstSubFeature.html">IFeature::GetFirstSubFeature</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetFirstSubFeature.html">IFeature::IGetFirstSubFeature</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetNextFeature.html">IFeature::GetNextFeature</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetNextFeature.html">IFeature::IGetNextFeature</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetNextSubFeature.html">IFeature::GetNextSubFeature</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetNextSubFeature.html">IFeature::IGetNextSubFeature</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetOwnerFeature.html">IFeature::GetOwnerFeature</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetParents.html">IFeature::GetParents</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetParents.html">IFeature::IGetParents</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureFolder~GetFeatures.html">IFeatureFolder::GetFeatures</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureFolder~IGetFeatures.html">IFeatureFolder::IGetFeatures</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AdvancedHole.html">IFeatureManager::AdvancedHole</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~CreateFeature.html">IFeatureManager::CreateFeature</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~CreateFormTool2.html">IFeatureManager::CreateFormTool2</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateCoordinateSystem.html">IFeatureManager::CreateCoordinateSystem</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateCoordinateSystemUsingNumericalValues.html">IFeatureManager::CreateCoordinateSystemUsingNumericalValues</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateSaveBodyFeature.html">IFeatureManager::CreateSaveBodyFeature</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~DraftXpertChange.html">IFeatureManager::DraftXpertChange</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~DraftXpertRemove.html">IFeatureManager::DraftXpertRemove</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~EndVariablePitchHelix.html">IFeatureManager::EndVariablePitchHelix</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureAdvancedTableDrivenPattern.html">IFeatureManager::FeatureAdvancedTableDrivenPattern</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureBossThicken.html">IFeatureManager::FeatureBossThicken</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureChainPattern.html">IFeatureManager::FeatureChainPattern</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureCircularPattern2.html">IFeatureManager::FeatureCircularPattern2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureCut.html">IFeatureManager::FeatureCut</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureCutThicken.html">IFeatureManager::FeatureCutThicken</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureCutThin.html">IFeatureManager::FeatureCutThin</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusion2.html">IFeatureManager::FeatureExtrusion2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusionThin2.html">IFeatureManager::FeatureExtrusionThin2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureFillet.html">IFeatureManager::FeatureFillet</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IFeatureFillet.html">IFeatureManager::IFeatureFillet</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureFillPattern.html">IFeatureManager::FeatureFillPattern</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureFolderLocation.html">IFeatureManager::FeatureFolderLocation</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureLinearPattern2.html">IFeatureManager::FeatureLinearPattern2</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureLocalCurveDrivenPattern.html">IFeatureManager::FeatureLocalCurveDrivenPattern</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureLocalSketchDrivenPattern.html">IFeatureManager::FeatureLocalSketchDrivenPattern</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureRevolve.html">IFeatureManager::FeatureRevolve</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureRevolveCut.html">IFeatureManager::FeatureRevolveCut</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureRevolveThin.html">IFeatureManager::FeatureRevolveThin</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureRevolveThinCut.html">IFeatureManager::FeatureRevolveThinCut</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureSketchDrivenPattern.html">IFeatureManager::FeatureSketchDrivenPattern</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FilletXpertChange.html">IFeatureManager::FilletXpertChange</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FilletXpertRemove.html">IFeatureManager::FilletXpertRemove</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FinishCornerRelief.html">IFeatureManager::FinishCornerRelief</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FinishSMNormalCut.html">IFeatureManager::FinishSMNormalCut</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~GetCornerManagementFolders.html">IFeatureManager::GetCornerManagementFolders</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~GetFeatures.html">IFeatureManager::GetFeatures</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IGetFeatures.html">IFeatureManager::IGetFeatures</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~GetStructureSystemFolders.html">IFeatureManager::GetStructureSystemFolders</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~HoleWizard5.html">IFeatureManager::HoleWizard5</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCenterOfMass.html">IFeatureManager::InsertCenterofMass</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCenterOfMassReferencePoint.html">IFeatureManager::InsertCenterOfMassReferencePoint</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCombineFeature.html">IFeatureManager::InsertCombineFeature</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertCombineFeature.html">IFeatureManager::IInsertCombineFeature</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCosmeticThread2.html">IFeatureManager::InsertCosmeticThread2</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCosmeticWeldBead2.html">IFeatureManager::InsertCosmeticWeldBead2</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCrossBreak.html">IFeatureManager::InsertCrossBreak</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCutBlend.html">IFeatureManager::InsertCutBlend</a></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCutSwept3.html">IFeatureManager::InsertCutSwept3</a> </p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCutSurface.html">IFeatureManager::InsertCutSurface</a></span></span></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertDeleteBody.html">IFeatureManager::InsertDeleteBody</a></p>
+<p><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertDeleteHoleForSurface.html">IFeatureManager::InsertDeleteHoleForSurface</a></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertDerivedPattern.html">IFeatureManager::InsertDerivedPattern</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertDwgOrDxfFile.html">IFeatureManager::InsertDwgOrDxfFile</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertEdgeMerge.html">IFeatureManager::InsertEdgeMerge</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertEndCapFeature.html">IFeatureManager::InsertEndCapFeature</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertEndCapFeature2.html">IFeatureManager::InsertEndCapFeature2</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFeatureChamfer.html">IFeatureManager::InsertFeatureChamfer</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFeatureLock.html">IFeatureManager::InsertFeatureLock</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFeatureTreeFolder2.html">IFeatureManager::InsertFeatureTreeFolder2</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFilletBeadFeature2.html">IFeatureManager::InsertFilletBeadFeature2</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFilletBeadFeature3.html">IFeatureManager::InsertFilletBeadFeature3</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFillSurface2.html">IFeatureManager::InsertFillSurface2</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFlattenSurface.html">IFeatureManager::InsertFlattenSurface</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFlexFeature.html">IFeatureManager::InsertFlexFeature</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFormToolFeature.html">IFeatureManager::InsertFormToolFeature</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFreeform.html">IFeatureManager::InsertFreeform</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertGlobalBoundingBox.html">IFeatureManager::InsertGlobalBoundingBox</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertGroundPlane.html">IFeatureManager::InsertGroundPlane</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertGussetFeature.html">IFeatureManager::InsertGussetFeature</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertGussetFeature2.html">IFeatureManager::InsertGussetFeature2</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertIndent.html">IFeatureManager::InsertIndent</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMacroFeature3.html">IFeatureManager::InsertMacroFeature3</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertMacroFeature3.html">IFeatureManager::IInsertMacroFeature3</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMateReference2.html">IFeatureManager::InsertMateReference2</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMirrorFeature.html">IFeatureManager::InsertMirrorFeature</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoldCoreCavitySolids.html">IFeatureManager::InsertMoldCoreCavitySolids</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoldPartingLine.html">IFeatureManager::InsertMoldPartingLine</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoldPartingSurface.html">IFeatureManager::InsertMoldPartingSurface</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoldShutOffSurface.html">IFeatureManager::InsertMoldShutOffSurface</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoveCopyBody2.html">IFeatureManager::InsertMoveCopyBody2</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoveFace.html">IFeatureManager::InsertMoveFace</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMultiFaceDraft.html">IFeatureManager::InsertMultifaceDraft</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertNetBlend.html">IFeatureManager::InsertNetBlend</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertProtrusionBlend.html">IFeatureManager::InsertProtrusionBlend</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertProtrusionSwept3.html">IFeatureManager::InsertProtrusionSwept3</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertReferencePoint.html">IFeatureManager::InsertReferencePoint</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertReferencePoint.html">IFeatureManager::IInsertReferencePoint</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertRevolvedRefSurface.html">IFeatureManager::InsertRevolvedRefSurface</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertRuledSurfaceFromEdge2.html">IFeatureManager::InsertRuledSurfaceFromEdge2</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertScale.html">IFeatureManager::InsertScale</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetal3dBend.html">IFeatureManager::InsertSheetMetal3dBend</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalBaseFlange2.html">IFeatureManager::InsertSheetMetalBaseFlange2</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalCornerTrim.html">IFeatureManager::InsertSheetMetalCornerTrim</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalEdgeFlange2.html">IFeatureManager::InsertSheetMetalEdgeFlange2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertSheetMetalEdgeFlange2.html">IFeatureManager::IInsertSheetMetalEdgeFlange2</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSheetMetalGussetFeature3.html">IFeatureManager::InsertSheetMetalGussetFeature3</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalHem2.html">IFeatureManager::InsertSheetMetalHem2</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalLoftedBend.html">IFeatureManager::InsertSheetMetalLoftedBend</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalMiterFlange.html">IFeatureManager::InsertSheetMetalMiterFlange</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSplitLineIntersect.html">IFeatureManager::InsertSplitLineIntersect</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertStructuralWeldment2.html">IFeatureManager::InsertStructuralWeldment2</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertStructuralWeldment3.html">IFeatureManager::InsertStructuralWeldment3</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSubFolder.html">IFeatureManager::InsertSubFolder</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSubWeldFolder.html">IFeatureManager::InsertSubWeldFolder</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSubWeldFolder2.html">IFeatureManager::InsertSubWeldFolder2</a> </span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSweepSurface2.html">IFeatureManager::InsertSweepSurface2</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertTableDrivenPattern.html">IFeatureManager::InsertTableDrivenPattern</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertTableDrivenPattern.html">IFeatureManager::IInsertTableDrivenPattern</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertUntrimSurface.html">IFeatureManager::InsertUntrimSurface</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentCutList.html">IFeatureManager::InsertWeldmentCutList</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentCutList2.html">IFeatureManager::InsertWeldmentCutList2</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentFeature.html">IFeatureManager::InsertWeldmentFeature</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentTrimFeature.html">IFeatureManager::InsertWeldmentTrimFeature</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentTrimFeature2.html">IFeatureManager::InsertWeldmentTrimFeature2</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWrapFeature.html">IFeatureManager::InsertWrapFeature</a></span></p>
+<p><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PostIntersect.html">IFeatureManager::PostIntersect</a></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PostSplitBody.html">IFeatureManager::PostSplitBody</a> </span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PostTrimSurface.html">IFeatureManager::PostTrimSurface</a> </span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SetNetBlendCurveData.html">IFeatureManager::SetNetBlendCurveData</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SetNetBlendDirectionData.html">IFeatureManager::SetNetBlendDirectionData</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SimpleHole.html">IFeatureManager::SimpleHole</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureStatistics~Features.html">IFeatureStatistics::Features</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillPatternFeatureData~PatternFeatureArray.html">IFillPatternFeatureData::PatternFeatureArray</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFeatureData~GetAddCornerTrim.html">IFlatPatternFeatureData::GetAddCornerTrim</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFeatureData~GetBreakCorners.html">IFlatPatternFeatureData::GetBreakCorners</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFolder~GetFeature.html">IFlatPatternFolder::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFolder~GetFlatPatterns.html">IFlatPatternFolder::GetFlatPatterns</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFoldsFeatureData~Bends.html">IFoldsFeatureData::Bends</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFoldsFeatureData~IGetBends.html">IFoldsFeatureData::IGetBends</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGeneralTableFeature~GetFeature.html">IGeneralTableFeature::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableFeature~GetFeature.html">IGeneralToleranceTableFeature::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable~GetFeature.html">IHoleTable::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~PatternFeatureArray.html">ILinearPatternFeatureData::PatternFeatureArray</a> </span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCircularPatternFeatureData~IGetSeedComponentArray.html">ILocalCircularPatternFeatureData::IGetSeedComponentArray</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCircularPatternFeatureData~SeedComponentArray.html">ILocalCircularPatternFeatureData::SeedComponentArray</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalLinearPatternFeatureData~IGetSeedComponentArray.html">ILocalLinearPatternFeatureData::IGetSeedComponentArray</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalLinearPatternFeatureData~SeedComponentArray.html">ILocalLinearPatternFeatureData::SeedComponentArray</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~GuideCurves.html">ILoftFeatureData::GuideCurves</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~IGetGuideCurves.html">ILoftFeatureData::IGetGuideCurves</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IGetParents.html">IMacroFeatureData::IGetParents</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~Parents.html">IMacroFeatureData::Parents</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~FeatureByPositionReverse.html">IModelDoc2::FeatureByPositionReverse</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~FirstFeature.html">IModelDoc2::FirstFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertProjectedSketch2.html">IModelDoc2::InsertProjectedSketch2</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IInsertProjectedSketch2.html">IModelDoc2::IInsertProjectedSketch2</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertSketchForEdgeFlange.html">IModelDoc2::InsertSketchForEdgeFlange</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IInsertSketchForEdgeFlange.html">IModelDoc2::IInsertSketchForEdgeFlange</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateStructureSystem.html">IModelDocExtension::CreateStructureSystem</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetLastFeatureAdded.html">IModelDocExtension::GetLastFeatureAdded</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetTemplateSheetMetal.html">IModelDocExtension::GetTemplateSheetMetal</a></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMotionPlotFeatureData~GetXAxis.html">IMotionPlotFeatureData::GetXAxis</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMotionPlotFeatureData~GetYAxis.html">IMotionPlotFeatureData::GetYAxis</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMotionPlotFeatureData~IGetYAxis.html">IMotionPlotFeatureData::IGetYAxis</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~CreateFeatureFromBody3.html">IPartDoc::CreateFeatureFromBody3</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~CreateSurfaceFeatureFromBody.html">IPartDoc::CreateSurfaceFeatureFromBody</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~ICreateSurfaceFeatureFromBody.html">IPartDoc::ICreateSurfaceFeatureFromBody</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~FeatureById.html">IPartDoc::FeatureById</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IFeatureById.html">IPartDoc::IFeatureById</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~FeatureByName.html">IPartDoc::FeatureByName</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IFeatureByName.html">IPartDoc::IFeatureByName</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~FirstFeature.html">IPartDoc::FirstFeature</a> and <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IFirstFeature.html">IPartDoc::IFirstFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~ICreateFeatureFromBody4.html">IPartDoc::ICreateFeatureFromBody4</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~InsertPart.html">IPartDoc::InsertPart</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~MirrorPart2.html">IPartDoc::MirrorPart2</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder~GetFeature.html">IProfileGroupFolder::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder~GetStructureSystemMembers.html">IProfileGroupFolder::GetStructureSystemMembers</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPunchTable~GetFeature.html">IPunchTable::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReplaceFaceFeatureData~IGetReplacementSurfaces.html">IReplaceFaceFeatureData::IGetReplacementSurfaces</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReplaceFaceFeatureData~ReplacementSurfaces.html">IReplaceFaceFeatureData::ReplacementSurfaces</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableFeature~GetFeature.html">IRevisionTableFeature::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html">ISelectionMgr::GetSelectedObject6</a></span></span></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFolder~GetFeature.html">ISheetMetalFolder::GetFeature</a></span></span></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFolder~GetSheetMetals.html">ISheetMetalFolder::GetSheetMetals</a></span></span></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IGetFeatures.html">ISimpleFilletFeatureData2::IGetFeatures</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~Features.html">ISimpleFilletFeatureData2::Features</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulation~GetFeature.html">ISimulation::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetFeature.html">ISketchBlockDefinition::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~PatternFeatureArray.html">ISketchPatternFeatureData::PatternFeatureArray</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPicture~GetFeature.html">ISketchPicture::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder~GetCornerManagementFolder.html">IStructureSystemFolder::GetCornerManagementFolder</a> </span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder~GetFeature.html">IStructureSystemFolder::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData~GetFeature.html">IStructureSystemMemberFeatureData::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~IGetGuideCurves.html">ISweepFeatureData::IGetGuideCurves</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GuideCurves.html">ISweepFeatureData::GuideCurves</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Path.html">ISweepFeatureData::Path</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Profile.html">ISweepFeatureData::Profile</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnchor~GetFeature.html">ITableAnchor::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~PatternFeatureArray.html">ITablePatternFeatureData::PatternFeatureArray</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITitleBlockTableFeature~GetFeature.html">ITitleBlockTableFeature::GetFeature</a></span></span></p>
+<p><span style="MARGIN-BOTTOM: 0px"><span style="MARGIN-BOTTOM: 0px"><a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListFeature~GetFeature.html">IWeldmentCutListFeature::GetFeature</a></span></span></p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#Feature">Feature</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html">IFeature Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>

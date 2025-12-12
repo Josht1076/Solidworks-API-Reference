@@ -1,0 +1,1155 @@
+﻿<html xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="history" name="save"/>
+<meta content="Innovasys Document! X (http://www.innovasys.com)" name="GENERATOR"/>
+<title>IPartDoc Interface</title>
+<link href="stylesheets/dotnet2005.css" rel="stylesheet" type="text/css"/>
+<script src="script/dotnet2005.js" type="text/javascript">
+</script><xml>
+<mshelp:keyword index="F" term="SolidWorks.Interop.sldworks.IPartDoc"></mshelp:keyword>
+<mshelp:attr name="DevLang" value="CSharp"></mshelp:attr>
+<mshelp:attr name="DevLang" value="VB"></mshelp:attr>
+<mshelp:attr name="DevLang" value="JScript"></mshelp:attr>
+<mshelp:attr name="TopicType" value="kbSyntax"></mshelp:attr>
+<mshelp:attr name="LinkGroup" value="Help"></mshelp:attr>
+<mshelp:attr name="Locale" value="kbEnglish"></mshelp:attr>
+<mshelp:attr name="HelpPriority" value="1"></mshelp:attr>
+</xml>
+<script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-enlargeimage.js" type="text/javascript"></script>
+<script src="script/swfobject.js" type="text/javascript"></script>
+<script src="script/hs-common.js" type="text/javascript"></script>
+<script src="script/hs-heading-expandcollapse.js" type="text/javascript"></script>
+<script src="script/hs-tabstrip.js" type="text/javascript"></script>
+</head>
+<body id="dxBody" topmargin="0">
+<form>
+<input class="userDataStyle" id="userDataCache" name="userDataCache" type="hidden"/> <input id="hiddenScrollOffset" name="hiddenScrollOffset" type="hidden"/> <img id="collapseImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="collapseAllImage" src="dotnetimages/collapse.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="expandAllImage" src="dotnetimages/expand.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownImage" src="dotnetimages/drpdown.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="dropDownHoverImage" src="dotnetimages/drpdown_orange.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyImage" src="dotnetimages/copycode.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/> <img id="copyHoverImage" src="dotnetimages/copycodeHighlight.gif" style="DISPLAY: none; WIDTH: 0px; HEIGHT: 0px"/>
+</form>
+<div id="pagetop">
+<table id="pagetoptable1" width="100%">
+<tbody>
+<tr id="pagetoptable1row1">
+<td align="left"><span id="projecttitle">SOLIDWORKS API Help</span></td>
+<td align="right"><span id="feedbacklink"><a href="mailto:apihelp.feedback@3ds.com?subject=Documentation Feedback: SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html">Send comments</a> on this topic.</span></td>
+</tr>
+<tr id="pagetoptable1row2">
+<td align="left" colspan="2"><span id="pagetitle">IPartDoc Interface</span></td>
+</tr>
+<tr id="pagetoptable1row3">
+<td colspan="2"><a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');">
+                    See Also</a>  
+                    <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html">Members</a>   
+                    <a href="#ExampleBookmark" onclick="javascript:openSectionById('exampleSectionHeader');">Example</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" id="pagetoptable2" width="100%">
+<tbody>
+<tr>
+<td><span id="toggleExpandedAll"><img class="toggleAll" id="toggleExpandedAllImage" src="dotnetimages/collapse.gif"/> <label for="toggleExpandedAllImage" id="collapseAllLabel" style="DISPLAY: none">Collapse All</label> <label for="toggleExpandedAllImage" id="expandAllLabel" style="DISPLAY: none">
+                    Expand All</label></span> <span id="languageFilterToolTip" onclick="showBox('dxlanguagemenu',event,document.getElementById('languageFilterImage'))" onfocusin='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseout='document.getElementById("languageFilterImage").src=document.getElementById("dropDownImage").src;' onmouseover='document.getElementById("languageFilterImage").src=document.getElementById("dropDownHoverImage").src;' style="CURSOR: default"><img id="languageFilterImage" src="dotnetimages/drpdown.gif"/> <label for="languageFilterImage" id="showAllLabel" style="DISPLAY: none">
+                    Language Filter: All</label> <label for="languageFilterImage" id="multipleLabel" style="DISPLAY: none">Language Filter: Multiple</label>
+<label for="languageFilterImage" id="VBLabel" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label for="languageFilterImage" id="VBUsageLabel" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label for="languageFilterImage" id="CSLabel" style="display: none;">Language Filter: C#</label>
+<label for="languageFilterImage" id="CPP2005Label" style="display: none;">Language Filter: C++/CLI</label>
+</span></td>
+</tr>
+</tbody>
+</table><table cellpadding="0" cellspacing="0" id="pagetopbreadcrumbs" width="100%"><tr><td>
+<a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+ : IPartDoc Interface</td></tr></table>
+<div class="dxpopupbubble" id="dxlanguagemenu">
+<input id="VBCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBCheckbox">
+Visual Basic (Declaration)
+</label>
+<br/><input id="VBUsageCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox">
+<label class="languageFilter" for="VBUsageCheckbox">
+Visual Basic (Usage)
+</label>
+<br/><input id="CSCheckbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CSCheckbox">
+C#
+</label>
+<br/><input id="CPP2005Checkbox" name="languageFilter" onclick="setLanguage(this)" type="checkbox"/>
+<label class="languageFilter" for="CPP2005Checkbox">
+C++/CLI
+</label>
+</input></input></div>
+</div>
+<div id="pagebody" valign="bottom">
+<a name="topBookmark"></a>
+<div id="mainbody"><h1>Condensed Members (C++/CLI focus)</h1><hr/><h2>Properties</h2><h2>Methods</h2><details style="margin: 0.5rem 0;"><summary>AddPropertyExtension</summary><p>Adds a property extension to this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int AddPropertyExtension( 
+&amp;   System.Object^
+PropertyExtension
+)</pre></details><details style="margin: 0.5rem 0;"><summary>Body</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ Body();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateExplodedView</summary><p>Creates an explode view of this multibody part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool CreateExplodedView();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeatureFromBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateFeatureFromBody( 
+&amp;   System.Object^
+Body
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeatureFromBody2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateFeatureFromBody2( 
+&amp;   System.Object^
+Body
+,
+&amp;   System.bool
+MakeRefSurface
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateFeatureFromBody3</summary><p>Creates a new imported feature from the specified temporary body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateFeatureFromBody3( 
+&amp;   System.Object^
+Body
+,
+&amp;   System.bool
+MakeRefSurface
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>CreateNewBody</summary><p>Creates a new body to use for import sewing operations and returns it to the caller.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateNewBody();</pre></details><details style="margin: 0.5rem 0;"><summary>CreateSurfaceFeatureFromBody</summary><p>Creates a surface feature from a body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ CreateSurfaceFeatureFromBody( 
+&amp;   System.Object^
+Body
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>DeleteEntityName</summary><p>Deletes the name associated with the specified entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool DeleteEntityName( 
+&amp;   System.Object^
+Entity
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EditRebuild</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditRebuild();</pre></details><details style="margin: 0.5rem 0;"><summary>EditRollback</summary><p>Rolls back the part's history to the feature just before the currently selected feature in the FeatureManager design tree.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditRollback();</pre></details><details style="margin: 0.5rem 0;"><summary>EditSuppress</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditSuppress();</pre></details><details style="margin: 0.5rem 0;"><summary>EditUnsuppress</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditUnsuppress();</pre></details><details style="margin: 0.5rem 0;"><summary>EditUnsuppressDependent</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void EditUnsuppressDependent();</pre></details><details style="margin: 0.5rem 0;"><summary>EnumBodies</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies^ EnumBodies( 
+&amp;   System.int
+BodyType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnumBodies2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies2^ EnumBodies2( 
+&amp;   System.int
+BodyType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnumBodies3</summary><p>Enumerates the bodies in this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies2^ EnumBodies3( 
+&amp;   System.int
+BodyType
+,
+&amp;   System.bool
+BVisibleOnly
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnumRelatedBodies</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies^ EnumRelatedBodies();</pre></details><details style="margin: 0.5rem 0;"><summary>EnumRelatedBodies2</summary><p>Creates an enumerated list of bodies.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies2^ EnumRelatedBodies2();</pre></details><details style="margin: 0.5rem 0;"><summary>EnumRelatedSectionedBodies</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies^ EnumRelatedSectionedBodies( 
+&amp;   ModelView^
+ViewIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>EnumRelatedSectionedBodies2</summary><p>Gets an enumeration of the related sectioned bodies in a part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">EnumBodies2^ EnumRelatedSectionedBodies2( 
+&amp;   ModelView^
+ViewIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ExportFlatPatternView</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ExportFlatPatternView( 
+&amp;   System.String^
+FilePath
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ExportToDWG</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ExportToDWG( 
+&amp;   System.String^
+FilePath
+,
+&amp;   System.String^
+ModelName
+,
+&amp;   System.int
+Action
+,
+&amp;   System.bool
+ExportToSingleFile
+,
+&amp;   System.Object^
+Alignment
+,
+&amp;   System.bool
+IsXDirFlipped
+,
+&amp;   System.bool
+IsYDirFlipped
+,
+&amp;   System.int
+SheetMetalOptions
+,
+&amp;   System.Object^
+Views
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ExportToDWG2</summary><p>Saves various aspects of a part (sheet metal, faces, loops, and annotation views) to one or more DXF/DWG files, preserving the specified file name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ExportToDWG2( 
+&amp;   System.String^
+FilePath
+,
+&amp;   System.String^
+ModelName
+,
+&amp;   System.int
+Action
+,
+&amp;   System.bool
+ExportToSingleFile
+,
+&amp;   System.Object^
+Alignment
+,
+&amp;   System.bool
+IsXDirFlipped
+,
+&amp;   System.bool
+IsYDirFlipped
+,
+&amp;   System.int
+SheetMetalOptions
+,
+&amp;   System.Object^
+Views
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureById</summary><p>Gets the feature with the specified ID in the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ FeatureById( 
+&amp;   System.int
+ID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureByName</summary><p>Gets the named feature in the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ FeatureByName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusion</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureExtrusion( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusion2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureExtrusion2( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+Merge
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusion3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureExtrusion3( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+Merge
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusionThin</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureExtrusionThin( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.double
+Thk1
+,
+&amp;   System.double
+Thk2
+,
+&amp;   System.double
+EndThk
+,
+&amp;   System.int
+RevThinDir
+,
+&amp;   System.int
+CapEnds
+,
+&amp;   System.bool
+AddBends
+,
+&amp;   System.double
+BendRad
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusionThin2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureExtrusionThin2( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.double
+Thk1
+,
+&amp;   System.double
+Thk2
+,
+&amp;   System.double
+EndThk
+,
+&amp;   System.int
+RevThinDir
+,
+&amp;   System.int
+CapEnds
+,
+&amp;   System.bool
+AddBends
+,
+&amp;   System.double
+BendRad
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureExtrusionThin3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureExtrusionThin3( 
+&amp;   System.bool
+Sd
+,
+&amp;   System.bool
+Flip
+,
+&amp;   System.bool
+Dir
+,
+&amp;   System.int
+T1
+,
+&amp;   System.int
+T2
+,
+&amp;   System.double
+D1
+,
+&amp;   System.double
+D2
+,
+&amp;   System.bool
+Dchk1
+,
+&amp;   System.bool
+Dchk2
+,
+&amp;   System.bool
+Ddir1
+,
+&amp;   System.bool
+Ddir2
+,
+&amp;   System.double
+Dang1
+,
+&amp;   System.double
+Dang2
+,
+&amp;   System.bool
+OffsetReverse1
+,
+&amp;   System.bool
+OffsetReverse2
+,
+&amp;   System.bool
+TranslateSurface1
+,
+&amp;   System.bool
+TranslateSurface2
+,
+&amp;   System.bool
+Merge
+,
+&amp;   System.double
+Thk1
+,
+&amp;   System.double
+Thk2
+,
+&amp;   System.double
+EndThk
+,
+&amp;   System.int
+RevThinDir
+,
+&amp;   System.int
+CapEnds
+,
+&amp;   System.bool
+AddBends
+,
+&amp;   System.double
+BendRad
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolve</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureRevolve( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolve2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureRevolve2( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+,
+&amp;   System.bool
+Merge
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolveCut</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureRevolveCut( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolveThin</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureRevolveThin( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.int
+ReverseThinDir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolveThin2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureRevolveThin2( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.int
+ReverseThinDir
+,
+&amp;   System.bool
+Merge
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureRevolveThinCut</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureRevolveThinCut( 
+&amp;   System.double
+Angle
+,
+&amp;   System.bool
+ReverseDir
+,
+&amp;   System.double
+Angle2
+,
+&amp;   System.int
+RevType
+,
+&amp;   System.double
+Thickness1
+,
+&amp;   System.double
+Thickness2
+,
+&amp;   System.int
+ReverseThinDir
+)</pre></details><details style="margin: 0.5rem 0;"><summary>FeatureXpert</summary><p>Executes FeatureXpert, powered by SOLIDWORKS Intelligent Feature Technology ( SWIFT), in parts.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void FeatureXpert();</pre></details><details style="margin: 0.5rem 0;"><summary>FirstFeature</summary><p>Gets the first feature in the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ FirstFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>ForceRebuild</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ForceRebuild();</pre></details><details style="margin: 0.5rem 0;"><summary>GetBodies</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBodies( 
+&amp;   System.int
+BodyType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetBodies2</summary><p>Gets the bodies in this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetBodies2( 
+&amp;   System.int
+BodyType
+,
+&amp;   System.bool
+BVisibleOnly
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCorresponding</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCorresponding( 
+&amp;   System.Object^
+InputObject
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetCorrespondingEntity</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetCorrespondingEntity( 
+&amp;   System.Object^
+Entity
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEntityByName</summary><p>Gets an entity (face, edge, vertex) by name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetEntityByName( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+EntityType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetEntityName</summary><p>Gets the name of the specified entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetEntityName( 
+&amp;   System.Object^
+Entity
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetExplodedViewConfigurationName</summary><p>Gets the name of the configuration for the specified explode view of this multibody part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetExplodedViewConfigurationName( 
+&amp;   System.String^
+ExplodedViewName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetExplodedViewCount</summary><p>Gets the number of explode views in the specified configuration of this multibody part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetExplodedViewCount( 
+&amp;   System.String^
+ConfigurationName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetExplodedViewNames</summary><p>Gets the names of all the explode views in the specified configuration of this multibody part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetExplodedViewNames( 
+&amp;   System.String^
+ConfigurationName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMateReferenceEntity</summary><p>Gets the mate reference entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetMateReferenceEntity();</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialPropertyName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialPropertyName( 
+&amp;   [Out] System.String^
+Database
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialPropertyName2</summary><p>Gets the names of the material database and the material for the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ GetMaterialPropertyName2( 
+&amp;   System.String^
+ConfigName
+,
+&amp;   [Out] System.String^
+Database
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetMaterialVisualProperties</summary><p>Gets the material visual properties for this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">MaterialVisualPropertiesData^ GetMaterialVisualProperties();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNamedEntities</summary><p>Gets an array of names of named entities (face, edge, vertex, and so on) in this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetNamedEntities();</pre></details><details style="margin: 0.5rem 0;"><summary>GetNamedEntitiesCount</summary><p>Gets the number of named entities (face, edge, vertex, and so on) in this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetNamedEntitiesCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPartBox</summary><p>Gets the box enclosing the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPartBox( 
+&amp;   System.bool
+NoConversion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetProcessedBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetProcessedBody();</pre></details><details style="margin: 0.5rem 0;"><summary>GetPropertyExtension</summary><p>Gets the specified property extension on this part document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetPropertyExtension( 
+&amp;   System.int
+ID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetRelatedBodies</summary><p>Creates a list of all the related bodies in a part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetRelatedBodies();</pre></details><details style="margin: 0.5rem 0;"><summary>GetRelatedSectionedBodies</summary><p>Gets all of the related sectioned bodies in a part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetRelatedSectionedBodies( 
+&amp;   System.Object^
+ViewIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetSectionedBody</summary><p>Gets the sectioned body seen in the specified drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetSectionedBody( 
+&amp;   System.Object^
+ViewIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessNorms</summary><p>Gets the normal vector for each of the triangles, which make up the shaded picture tessellation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessNorms();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriangleCount</summary><p>Gets the number of triangles that make up the shaded picture tessellation for this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTessTriangleCount();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriangles</summary><p>Gets the triangles that make up the shaded picture tessellation for this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessTriangles( 
+&amp;   System.bool
+NoConversion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriStripEdges</summary><p>Gets the edge ID for each of the edges in the triangles that make up the tessellation for this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessTriStripEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriStripNorms</summary><p>Gets the normal vector for each of the triangles, which make up the shaded picture tessellation for this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessTriStripNorms();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriStrips</summary><p>Gets the vertices that make up the shaded picture tessellation for this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessTriStrips( 
+&amp;   System.bool
+NoConversion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriStripSize</summary><p>Gets the size of the array floats required to contain the data returned when calling</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int GetTessTriStripSize();</pre></details><details style="margin: 0.5rem 0;"><summary>GetTessTriStripTextures</summary><p>Gets the texture coordinate components for each vertex on each triangle strip on each face of this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ GetTessTriStripTextures();</pre></details><details style="margin: 0.5rem 0;"><summary>IBodyObject</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ IBodyObject();</pre></details><details style="margin: 0.5rem 0;"><summary>IBodyObject2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IBodyObject2();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateFeatureFromBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ ICreateFeatureFromBody( 
+&amp;   Body^
+Body
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateFeatureFromBody2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ ICreateFeatureFromBody2( 
+&amp;   Body^
+Body
+,
+&amp;   System.bool
+MakeRefSurface
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateFeatureFromBody3</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ ICreateFeatureFromBody3( 
+&amp;   Body^
+Body
+,
+&amp;   System.bool
+MakeRefSurface
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateFeatureFromBody4</summary><p>Creates a new imported feature from the specified temporary body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ ICreateFeatureFromBody4( 
+&amp;   Body2^
+Body
+,
+&amp;   System.bool
+MakeRefSurface
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateNewBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ ICreateNewBody();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateNewBody2</summary><p>Creates a new body to use for import sewing operations and returns it to the caller.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ ICreateNewBody2();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSurfaceFeatureFromBody</summary><p>Creates a surface feature from a body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ ICreateSurfaceFeatureFromBody();</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSurfaceFeatureFromBodyCount</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ICreateSurfaceFeatureFromBodyCount( 
+&amp;   Body^
+Body
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ICreateSurfaceFeatureFromBodyCount2</summary><p>Gets the number of surface features to create from the body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ICreateSurfaceFeatureFromBodyCount2( 
+&amp;   Body2^
+Body
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IDeleteEntityName</summary><p>Deletes the name associated with the specified entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IDeleteEntityName( 
+&amp;   Entity^
+Entity
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IExportToDWG</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IExportToDWG( 
+&amp;   System.String^
+FilePath
+,
+&amp;   System.String^
+ModelName
+,
+&amp;   System.int
+Action
+,
+&amp;   System.bool
+ExportToSingleFile
+,
+&amp;   System.double%
+Alignment
+,
+&amp;   System.bool
+IsXDirFlipped
+,
+&amp;   System.bool
+IsYDirFlipped
+,
+&amp;   System.int
+SheetMetalOptions
+,
+&amp;   System.int
+ViewsCount
+,
+&amp;   System.String^%
+Views
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IExportToDWG2</summary><p>Saves various aspects of a part (sheet metal, faces, loops, and annotation views) to one or more DXF/DWG files, preserving the specified filename.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IExportToDWG2( 
+&amp;   System.String^
+FilePath
+,
+&amp;   System.String^
+ModelName
+,
+&amp;   System.int
+Action
+,
+&amp;   System.bool
+ExportToSingleFile
+,
+&amp;   System.double%
+Alignment
+,
+&amp;   System.bool
+IsXDirFlipped
+,
+&amp;   System.bool
+IsYDirFlipped
+,
+&amp;   System.int
+SheetMetalOptions
+,
+&amp;   System.int
+ViewsCount
+,
+&amp;   System.String^%
+Views
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IFeatureById</summary><p>Gets the feature with the specified ID in the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IFeatureById( 
+&amp;   System.int
+ID
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IFeatureByName</summary><p>Gets the named feature in the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IFeatureByName( 
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IFirstFeature</summary><p>Gets the first feature in the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ IFirstFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetCorrespondingEntity</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Entity^ IGetCorrespondingEntity( 
+&amp;   Entity^
+PEntity
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEntityByName</summary><p>Gets an entity (face, edge, vertex) by name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Entity^ IGetEntityByName( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+EntityType
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetEntityName</summary><p>Gets the name of the specified entity.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.String^ IGetEntityName( 
+&amp;   Entity^
+Entity
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetNamedEntities</summary><p>Gets an array of names of named entities (face, edge, vertex, and so on) in this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Entity^ IGetNamedEntities( 
+&amp;   System.int
+Count
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetPartBox</summary><p>Gets the box enclosing the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.double IGetPartBox( 
+&amp;   System.bool
+NoConversion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProcessedBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ IGetProcessedBody();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProcessedBody2</summary><p>Pre-processes the geometry of a body so that:</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IGetProcessedBody2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProcessedBodyWithSelFace</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ IGetProcessedBodyWithSelFace();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetProcessedBodyWithSelFace2</summary><p>Gets a processed body.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IGetProcessedBodyWithSelFace2();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSectionedBody</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body^ IGetSectionedBody( 
+&amp;   ModelView^
+ViewIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetSectionedBody2</summary><p>Gets the sectioned body seen in the specified drawing view.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Body2^ IGetSectionedBody2( 
+&amp;   ModelView^
+ViewIn
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessNorms</summary><p>Gets the normal vector for each of the triangles, which make up the shaded picture tessellation.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.float IGetTessNorms();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessTriangles</summary><p>Gets the triangles that make up the shaded picture tessellation for this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.float IGetTessTriangles( 
+&amp;   System.bool
+NoConversion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessTriStripEdges</summary><p>Gets the edge ID for each of the edges in the triangles that make up the tessellation for this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetTessTriStripEdges();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessTriStripEdgeSize</summary><p>Gets the size of the array returned by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int IGetTessTriStripEdgeSize();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessTriStripNorms</summary><p>Gets the normal vector for each of the triangles, which make up the shaded picture tessellation for this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.float IGetTessTriStripNorms();</pre></details><details style="margin: 0.5rem 0;"><summary>IGetTessTriStrips</summary><p>Gets the vertices that make up the shaded picture tessellation for this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.float IGetTessTriStrips( 
+&amp;   System.bool
+NoConversion
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ImportDiagnosis</summary><p>Diagnoses and repairs any gaps or bad faces on imported features.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int ImportDiagnosis( 
+&amp;   System.bool
+CloseAllGaps
+,
+&amp;   System.bool
+RemoveFaces
+,
+&amp;   System.bool
+FixFaces
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ImportDiagnosisGapCloser</summary><p>Allows you to repair a gap by moving the vertices on the edges surrounding the gap to new positions to close the gap on the imported model.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ImportDiagnosisGapCloser( 
+&amp;   System.double
+OldX
+,
+&amp;   System.double
+OldY
+,
+&amp;   System.double
+OldZ
+,
+&amp;   System.double
+NewX
+,
+&amp;   System.double
+NewY
+,
+&amp;   System.double
+NewZ
+,
+&amp;   System.bool
+LastMove
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBasePart</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertBasePart( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBendNotes</summary><p>Inserts bend notes for the specified flat-pattern feature of this sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertBendNotes( 
+&amp;   System.Object^
+FlatPatternFeature
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBends</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertBends( 
+&amp;   System.double
+Radius
+,
+&amp;   System.String^
+UseBendTable
+,
+&amp;   System.double
+UseKfactor
+,
+&amp;   System.double
+UseBendAllowance
+,
+&amp;   System.bool
+UseAutoRelief
+,
+&amp;   System.double
+OffsetRatio
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBends2</summary><p>Creates bends in a thin-feature part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertBends2( 
+&amp;   System.double
+Radius
+,
+&amp;   System.String^
+UseBendTable
+,
+&amp;   System.double
+UseKfactor
+,
+&amp;   System.double
+UseBendAllowance
+,
+&amp;   System.bool
+UseAutoRelief
+,
+&amp;   System.double
+OffsetRatio
+,
+&amp;   System.bool
+DoFlatten
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertBendTable</summary><p>Creates a bend table annotation for the flat pattern of this sheet metal part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertBendTable( 
+&amp;   System.double
+X
+,
+&amp;   System.double
+Y
+,
+&amp;   System.String^
+StartValue
+,
+&amp;   System.String^
+TableTemplate
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertImportedFeature</summary><p>Inserts a third-party native CAD file into this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.Object^ InsertImportedFeature( 
+&amp;   System.String^
+FileName
+,
+&amp;   [Out] System.int
+Errors
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMirrorAll</summary><p>Mirrors the part about a selected planar face.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertMirrorAll();</pre></details><details style="margin: 0.5rem 0;"><summary>InsertMirrorFeature</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool InsertMirrorFeature( 
+&amp;   System.bool
+GeometryPattern
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertPart</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertPart( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.bool
+ImportPlane
+,
+&amp;   System.bool
+ImportAxis
+,
+&amp;   System.bool
+ImportCThread
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertPart2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertPart2( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Options
+)</pre></details><details style="margin: 0.5rem 0;"><summary>InsertPart3</summary><p>Inserts the specified part in the specified configuration into this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ InsertPart3( 
+&amp;   System.String^
+FileName
+,
+&amp;   System.int
+Options
+,
+&amp;   System.String^
+ConfigurationName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ISetEntityName</summary><p>Sets the name of the entity if the entity does not have a name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ISetEntityName( 
+&amp;   Entity^
+Entity
+,
+&amp;   System.String^
+StringValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IsMirrored</summary><p>Gets whether this part is mirrored.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsMirrored();</pre></details><details style="margin: 0.5rem 0;"><summary>IsWeldment</summary><p>Gets whether this part contains a weldment feature.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool IsWeldment();</pre></details><details style="margin: 0.5rem 0;"><summary>MakeSection</summary><p>Saves sketch profiles for use in the wizard.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void MakeSection();</pre></details><details style="margin: 0.5rem 0;"><summary>MirrorFeature</summary><p>Displays a dialog that allows the end-user to mirror a feature about a selected plane or planar face.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void MirrorFeature();</pre></details><details style="margin: 0.5rem 0;"><summary>MirrorPart</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void MirrorPart();</pre></details><details style="margin: 0.5rem 0;"><summary>MirrorPart2</summary><p>Creates a new part document that mirrors this part about a selected reference plane or planar face.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">Feature^ MirrorPart2( 
+&amp;   System.bool
+BreakLink
+,
+&amp;   System.int
+Options
+,
+&amp;   [Out] ModelDoc2^
+ResultPart
+)</pre></details><details style="margin: 0.5rem 0;"><summary>RemoveAllDisplayStates</summary><p>Removes all display states and appearances from this part document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool RemoveAllDisplayStates();</pre></details><details style="margin: 0.5rem 0;"><summary>ReorderFeature</summary><p>Reorders features and their operations.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ReorderFeature( 
+&amp;   System.String^
+FeatureToMove
+,
+&amp;   System.String^
+MoveAfterFeature
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ResetPropertyExtension</summary><p>Clears all values stored in the property extension.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void ResetPropertyExtension();</pre></details><details style="margin: 0.5rem 0;"><summary>SaveToFile</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SaveToFile();</pre></details><details style="margin: 0.5rem 0;"><summary>SaveToFile2</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SaveToFile2( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+Options
+,
+&amp;   [Out] System.int
+Errors
+,
+&amp;   [Out] System.int
+Warnings
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SaveToFile3</summary><p>Saves the selected weldment member, surface body, or solid body to another part document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SaveToFile3( 
+&amp;   System.String^
+Name
+,
+&amp;   System.int
+Options
+,
+&amp;   System.int
+CutListProps
+,
+&amp;   System.bool
+OverrideTemplate
+,
+&amp;   System.String^
+TemplatePath
+,
+&amp;   [Out] System.int
+Errors
+,
+&amp;   [Out] System.int
+Warnings
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetCosmosWorksMaterial</summary><p>Assigns the material to use during analysis to this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetCosmosWorksMaterial( 
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.int
+Type
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetDroppedFileName</summary><p>Sets the filename for a recently dropped file.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetDroppedFileName( 
+&amp;   System.String^
+FileName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetEntityName</summary><p>Sets the name of the entity if the entity does not have a name and the name is unique to the part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool SetEntityName( 
+&amp;   System.Object^
+Entity
+,
+&amp;   System.String^
+StringValue
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetLineColor</summary><p>Sets the color for the lines in the part document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetLineColor( 
+&amp;   System.int
+Color
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetLineStyle</summary><p>Sets the style or font for the lines in the part document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetLineStyle( 
+&amp;   System.String^
+StyleName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetLineWidth</summary><p>Sets the thickness or weight for the lines in the part document.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetLineWidth( 
+&amp;   System.int
+Width
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialPropertyName</summary><p>Obsolete. Superseded by</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetMaterialPropertyName( 
+&amp;   System.String^
+Database
+,
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialPropertyName2</summary><p>Sets the name of the material property for the specified configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">void SetMaterialPropertyName2( 
+&amp;   System.String^
+ConfigName
+,
+&amp;   System.String^
+Database
+,
+&amp;   System.String^
+Name
+)</pre></details><details style="margin: 0.5rem 0;"><summary>SetMaterialVisualProperties</summary><p>Sets the material visual properties for the active configuration and any specified configurations of this part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.int SetMaterialVisualProperties( 
+&amp;   MaterialVisualPropertiesData^
+Properties
+,
+&amp;   System.int
+ConfigOption
+,
+&amp;   System.Object^
+ConfigNames
+)</pre></details><details style="margin: 0.5rem 0;"><summary>ShowExploded</summary><p>Displays the specified explode view for this multibody part.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">System.bool ShowExploded( 
+&amp;   System.bool
+ShowIt
+,
+&amp;   System.String^
+ExplodeViewName
+)</pre></details><details style="margin: 0.5rem 0;"><summary>IMaterialPropertyValues</summary><p>Gets or sets a material's properties in the active configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.double IMaterialPropertyValues {
+   System.double get();
+   void set ( &amp;   System.double
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MaterialIdName</summary><p>Gets or sets the material name.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ MaterialIdName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MaterialPropertyValues</summary><p>Gets or sets a material's properties in the active configuration.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.Object^ MaterialPropertyValues {
+   System.Object^ get();
+   void set ( &amp;   System.Object^
+value
+);
+}</pre></details><details style="margin: 0.5rem 0;"><summary>MaterialUserName</summary><p>Gets or sets the material name. This name is visible to the user.</p><pre style="white-space: pre-wrap; padding: 0.75rem; border: 1px solid #ccc;">property System.String^ MaterialUserName {
+   System.String^ get();
+   void set ( &amp;   System.String^
+value
+);
+}</pre></details>
+<div class="saveHistory" id="allHistory" onload="loadAll()" onsave="saveAll()"></div>
+             Provides access to functions that perform operations on parts in part documents. 
+            <br/>
+<p><b>NOTE:</b> Click the <b>Members</b> link, located near the top of the topic, to see this interface's methods and properties.</p><h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>.NET Syntax</span></h1><div class="section" id="syntaxSection" name="collapseableSection"><div class="LanguageSpecific" id="Syntax_VB"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Declaration)</th><th> </th></tr><tr><td colspan="2"><pre>Public Interface IPartDoc </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_VBUsage"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>Visual Basic (Usage)</th><th><span class="copyCode" onclick="copyCode(this)" onfocusin="changeCopyCodeIcon(this,true)" onfocusout="changeCopyCodeIcon(this,false)" onkeypress="CopyCode_CheckKey(this)" onmouseout="changeCopyCodeIcon(this,false)" onmouseover="changeCopyCodeIcon(this,true)" tabindex="0"><img align="absmiddle" class="copyCodeImage" name="ccImage" src="dotnetimages/copycode.gif"/>Copy Code</span></th></tr><tr><td colspan="2"><pre>Dim instance As <a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html">IPartDoc</a></pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CS"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C#</th><th> </th></tr><tr><td colspan="2"><pre>public interface IPartDoc </pre></td></tr></table></div>
+<div class="LanguageSpecific" id="Syntax_CPP2005"><table cellpadding="0" cellspacing="0" class="syntaxtable" width="100%"><tr><th>C++/CLI</th><th> </th></tr><tr><td colspan="2"><pre>public interface class IPartDoc </pre></td></tr></table></div>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="visualbasic6syntaxToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Visual Basic for Applications (VBA) Syntax</span></h1><div class="section" id="visualbasic6syntaxSection" name="collapseableSection">See <a href="ms-its:sldworksapivb6.chm::/sldworks~PartDoc.html">PartDoc</a>.</div>
+<a name="exampleBookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="exampleToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Example</span></h1><div class="section" id="exampleSection" name="collapseableSection"><a href="Get_Sketches_Example_CPlusPlus_COM.htm">Get Sketches (C++)</a>
+<br/><a href="Traverse_Bodies_Example_CPlusPlusCLI.htm">Traverse Bodies (C++)</a>
+<br/><a href="Create_Imported_Surface_Body_from_Sketch_Example_CSharp.htm">Create Imported Surface Body From Sketch (C#)</a>
+<br/><a href="Get_Differences_Between_Parts_Example_VB.htm">Get Differences Between Parts (VBA)</a>
+<br/><a href="Import_STEP_File_Example_CSharp.htm">Import Step File (C#)</a>
+<br/><a href="Import_STEP_File_Example_VBNET.htm">Import Step File (VB.NET)</a>
+<br/><a href="Import_STEP_File_Example_VB.htm">Import Step File (VBA)</a>
+</div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="remarksToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Remarks</span></h1><div class="section" id="remarksSection" name="collapseableSection"><p>This interface provides functions that allow you to: </p>
+<ul>
+<li>create bodies and features. 
+<li class="kadov-p">
+<p>perform suppress operations.</p>
+<li class="kadov-p">
+<p>obtain part extents and tessellation.</p>
+<li class="kadov-p">
+<p>locate entities by name.</p></li></li></li></li></ul>
+<p>The SOLIDWORKS API also has functions that are common to all document types. For example, determining the file name associated with a document would be a common operation. To expose common document-level functions, the SOLIDWORKS API uses the <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html">IModelDoc2</a> object. </p>
+<p>Events are implemented with delegates in the Microsoft .NET Framework. See the <a href="SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks_namespace.html">Overview</a> topic for a list of delegates for this interface.</p></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="accessorsToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Accessors</span></h1><div class="section" id="accessorsSection" name="collapseableSection"><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~AccessBeltPart.html">IBeltChainFeatureData::AccessBeltPart</a></div>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="swobjectmodelToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>Access Diagram</span></h1><div class="section" id="swobjectmodelSection" name="collapseableSection"><p><a data-build-flags="6203F2EA-8EE3-42D1-BCE6-173894689876" href="SWObjectModel.pdf#PartDoc">PartDoc</a></p>
+<p></p></div>
+<a name="seealsobookmark"></a>
+<h1 class="heading"><span class="expandcollapse" tabindex="0"><img class="toggle" id="seealsoToggle" name="toggleSwitch" src="dotnetimages/collapse.gif"/>See Also</span></h1><div class="section" id="seealsoSection" name="collapseableSection"><h4 class="dxh4"></h4><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html">IPartDoc Members</a>
+<br/><a href="SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html">SolidWorks.Interop.sldworks Namespace</a>
+
+</div>
+</div>
+<div id="pagefooter"></div>
+</div>
+</body>
+</html>
